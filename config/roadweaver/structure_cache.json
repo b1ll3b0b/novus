@@ -1,0 +1,2691 @@
+{
+  "dimensions": [
+    "minecraft:overworld",
+    "minecraft:the_end",
+    "minecraft:the_nether"
+  ],
+  "structures": [
+    {
+      "id": "minecraft:ancient_city",
+      "displayName": "Ancient City",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:bastion_remnant",
+      "displayName": "Bastion Remnant",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "minecraft:buried_treasure",
+      "displayName": "Buried Treasure",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:desert_pyramid",
+      "displayName": "Desert Pyramid",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:end_city",
+      "displayName": "End City",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "minecraft:fortress",
+      "displayName": "Fortress",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "minecraft:igloo",
+      "displayName": "Igloo",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:jungle_pyramid",
+      "displayName": "Jungle Pyramid",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:mansion",
+      "displayName": "Mansion",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:mineshaft",
+      "displayName": "Mineshaft",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:mineshaft_mesa",
+      "displayName": "Mineshaft Mesa",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:monument",
+      "displayName": "Monument",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:nether_fossil",
+      "displayName": "Nether Fossil",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "minecraft:ocean_ruin_cold",
+      "displayName": "Ocean Ruin Cold",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:ocean_ruin_warm",
+      "displayName": "Ocean Ruin Warm",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:pillager_outpost",
+      "displayName": "Pillager Outpost",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:ruined_portal",
+      "displayName": "Ruined Portal",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:ruined_portal_desert",
+      "displayName": "Ruined Portal Desert",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:ruined_portal_jungle",
+      "displayName": "Ruined Portal Jungle",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "displayName": "Ruined Portal Mountain",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:ruined_portal_nether",
+      "displayName": "Ruined Portal Nether",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "minecraft:ruined_portal_ocean",
+      "displayName": "Ruined Portal Ocean",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:ruined_portal_swamp",
+      "displayName": "Ruined Portal Swamp",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:shipwreck",
+      "displayName": "Shipwreck",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:shipwreck_beached",
+      "displayName": "Shipwreck Beached",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:stronghold",
+      "displayName": "Stronghold",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:swamp_hut",
+      "displayName": "Swamp Hut",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:trail_ruins",
+      "displayName": "Trail Ruins",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:village_desert",
+      "displayName": "Village Desert",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:village_plains",
+      "displayName": "Village Plains",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:village_savanna",
+      "displayName": "Village Savanna",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:village_snowy",
+      "displayName": "Village Snowy",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:village_taiga",
+      "displayName": "Village Taiga",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "biomancy:abandoned_lab",
+      "displayName": "Abandoned Lab",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "biomancy:carcass_worm",
+      "displayName": "Carcass Worm",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "biomancy:keter_worm",
+      "displayName": "Keter Worm",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "biomancy:vault",
+      "displayName": "Vault",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:badlands/0",
+      "displayName": "Badlands/0",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:badlands/1",
+      "displayName": "Badlands/1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:badlands/2",
+      "displayName": "Badlands/2",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:cherry_grove/0",
+      "displayName": "Cherry Grove/0",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:cherry_grove/1",
+      "displayName": "Cherry Grove/1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:cherry_grove/2",
+      "displayName": "Cherry Grove/2",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:desert/0",
+      "displayName": "Desert/0",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:desert/1",
+      "displayName": "Desert/1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:ice/0",
+      "displayName": "Ice/0",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:ice/1",
+      "displayName": "Ice/1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:jungle/0",
+      "displayName": "Jungle/0",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:jungle/1",
+      "displayName": "Jungle/1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:jungle/2",
+      "displayName": "Jungle/2",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:mangrove_swamp/0",
+      "displayName": "Mangrove Swamp/0",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:mangrove_swamp/1",
+      "displayName": "Mangrove Swamp/1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:mangrove_swamp/2",
+      "displayName": "Mangrove Swamp/2",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:mountain/0",
+      "displayName": "Mountain/0",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:mountain/1",
+      "displayName": "Mountain/1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:mushroom/0",
+      "displayName": "Mushroom/0",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:mushroom/1",
+      "displayName": "Mushroom/1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:mushroom/2",
+      "displayName": "Mushroom/2",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:plains/0",
+      "displayName": "Plains/0",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:plains/1",
+      "displayName": "Plains/1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:plains/2",
+      "displayName": "Plains/2",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "immersive_gateways:swamp/0",
+      "displayName": "Swamp/0",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:ancient_city_end",
+      "displayName": "Ancient City End",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "repurposed_structures:ancient_city_nether",
+      "displayName": "Ancient City Nether",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:ancient_city_ocean",
+      "displayName": "Ancient City Ocean",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:bastion_underground",
+      "displayName": "Bastion Underground",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:city_nether",
+      "displayName": "City Nether",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:city_overworld",
+      "displayName": "City Overworld",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:fortress_jungle",
+      "displayName": "Fortress Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:igloo_grassy",
+      "displayName": "Igloo Grassy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:igloo_mangrove",
+      "displayName": "Igloo Mangrove",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:igloo_mushroom",
+      "displayName": "Igloo Mushroom",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:igloo_stone",
+      "displayName": "Igloo Stone",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mansion_birch",
+      "displayName": "Mansion Birch",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mansion_desert",
+      "displayName": "Mansion Desert",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mansion_jungle",
+      "displayName": "Mansion Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mansion_mangrove",
+      "displayName": "Mansion Mangrove",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mansion_oak",
+      "displayName": "Mansion Oak",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mansion_savanna",
+      "displayName": "Mansion Savanna",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mansion_snowy",
+      "displayName": "Mansion Snowy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mansion_taiga",
+      "displayName": "Mansion Taiga",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mineshaft_birch",
+      "displayName": "Mineshaft Birch",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mineshaft_crimson",
+      "displayName": "Mineshaft Crimson",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mineshaft_dark_forest",
+      "displayName": "Mineshaft Dark Forest",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mineshaft_desert",
+      "displayName": "Mineshaft Desert",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mineshaft_end",
+      "displayName": "Mineshaft End",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mineshaft_icy",
+      "displayName": "Mineshaft Icy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mineshaft_jungle",
+      "displayName": "Mineshaft Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mineshaft_nether",
+      "displayName": "Mineshaft Nether",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mineshaft_ocean",
+      "displayName": "Mineshaft Ocean",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mineshaft_savanna",
+      "displayName": "Mineshaft Savanna",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mineshaft_stone",
+      "displayName": "Mineshaft Stone",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mineshaft_swamp",
+      "displayName": "Mineshaft Swamp",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mineshaft_taiga",
+      "displayName": "Mineshaft Taiga",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:mineshaft_warped",
+      "displayName": "Mineshaft Warped",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:monument_desert",
+      "displayName": "Monument Desert",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:monument_icy",
+      "displayName": "Monument Icy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:monument_jungle",
+      "displayName": "Monument Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:monument_nether",
+      "displayName": "Monument Nether",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:outpost_badlands",
+      "displayName": "Outpost Badlands",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:outpost_birch",
+      "displayName": "Outpost Birch",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:outpost_crimson",
+      "displayName": "Outpost Crimson",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:outpost_desert",
+      "displayName": "Outpost Desert",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:outpost_end",
+      "displayName": "Outpost End",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "repurposed_structures:outpost_giant_tree_taiga",
+      "displayName": "Outpost Giant Tree Taiga",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:outpost_icy",
+      "displayName": "Outpost Icy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:outpost_jungle",
+      "displayName": "Outpost Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:outpost_mangrove",
+      "displayName": "Outpost Mangrove",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:outpost_nether_brick",
+      "displayName": "Outpost Nether Brick",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:outpost_oak",
+      "displayName": "Outpost Oak",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:outpost_snowy",
+      "displayName": "Outpost Snowy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:outpost_taiga",
+      "displayName": "Outpost Taiga",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:outpost_warped",
+      "displayName": "Outpost Warped",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:pyramid_badlands",
+      "displayName": "Pyramid Badlands",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:pyramid_dark_forest",
+      "displayName": "Pyramid Dark Forest",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:pyramid_end",
+      "displayName": "Pyramid End",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "displayName": "Pyramid Flower Forest",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:pyramid_giant_tree_taiga",
+      "displayName": "Pyramid Giant Tree Taiga",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:pyramid_icy",
+      "displayName": "Pyramid Icy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:pyramid_jungle",
+      "displayName": "Pyramid Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:pyramid_mushroom",
+      "displayName": "Pyramid Mushroom",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:pyramid_nether",
+      "displayName": "Pyramid Nether",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:pyramid_ocean",
+      "displayName": "Pyramid Ocean",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:pyramid_snowy",
+      "displayName": "Pyramid Snowy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:ruined_portal_end",
+      "displayName": "Ruined Portal End",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "repurposed_structures:ruins_land_cold",
+      "displayName": "Ruins Land Cold",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:ruins_land_hot",
+      "displayName": "Ruins Land Hot",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:ruins_land_icy",
+      "displayName": "Ruins Land Icy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:ruins_land_warm",
+      "displayName": "Ruins Land Warm",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:ruins_nether",
+      "displayName": "Ruins Nether",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:shipwreck_crimson",
+      "displayName": "Shipwreck Crimson",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:shipwreck_end",
+      "displayName": "Shipwreck End",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "repurposed_structures:shipwreck_nether_bricks",
+      "displayName": "Shipwreck Nether Bricks",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:shipwreck_warped",
+      "displayName": "Shipwreck Warped",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:stronghold_end",
+      "displayName": "Stronghold End",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "repurposed_structures:stronghold_nether",
+      "displayName": "Stronghold Nether",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:temple_nether_basalt",
+      "displayName": "Temple Nether Basalt",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:temple_nether_crimson",
+      "displayName": "Temple Nether Crimson",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:temple_nether_soul",
+      "displayName": "Temple Nether Soul",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:temple_nether_warped",
+      "displayName": "Temple Nether Warped",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:temple_nether_wasteland",
+      "displayName": "Temple Nether Wasteland",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:temple_ocean",
+      "displayName": "Temple Ocean",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:temple_taiga",
+      "displayName": "Temple Taiga",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:village_badlands",
+      "displayName": "Village Badlands",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "displayName": "Village Bamboo",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:village_birch",
+      "displayName": "Village Birch",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "displayName": "Village Cherry",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:village_crimson",
+      "displayName": "Village Crimson",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:village_dark_forest",
+      "displayName": "Village Dark Forest",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:village_giant_taiga",
+      "displayName": "Village Giant Taiga",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:village_jungle",
+      "displayName": "Village Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:village_mountains",
+      "displayName": "Village Mountains",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:village_mushroom",
+      "displayName": "Village Mushroom",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:village_oak",
+      "displayName": "Village Oak",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:village_ocean",
+      "displayName": "Village Ocean",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:village_swamp",
+      "displayName": "Village Swamp",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:village_warped",
+      "displayName": "Village Warped",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "repurposed_structures:witch_hut_birch",
+      "displayName": "Witch Hut Birch",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:witch_hut_dark_forest",
+      "displayName": "Witch Hut Dark Forest",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:witch_hut_giant_tree_taiga",
+      "displayName": "Witch Hut Giant Tree Taiga",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:witch_hut_mangrove",
+      "displayName": "Witch Hut Mangrove",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:witch_hut_oak",
+      "displayName": "Witch Hut Oak",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "repurposed_structures:witch_hut_taiga",
+      "displayName": "Witch Hut Taiga",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:bridge_bridge_0",
+      "displayName": "Bridge Bridge 0",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:bridge_bridge_1",
+      "displayName": "Bridge Bridge 1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_bench",
+      "displayName": "Roadside Bench",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_campfire",
+      "displayName": "Roadside Campfire",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_campsite_1",
+      "displayName": "Roadside Campsite 1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_campsite_2",
+      "displayName": "Roadside Campsite 2",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_campsite_3",
+      "displayName": "Roadside Campsite 3",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_maid_house",
+      "displayName": "Roadside Maid House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_sakura_coffee_house",
+      "displayName": "Roadside Sakura Coffee House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:spawn_cabin",
+      "displayName": "Spawn Cabin",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:stone_bridge_shiqiao",
+      "displayName": "Stone Bridge Shiqiao",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:wood_bridge_hongshu",
+      "displayName": "Wood Bridge Hongshu",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "roadweaver:wood_bridge_huamu",
+      "displayName": "Wood Bridge Huamu",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "roadweaver:wood_bridge_jinhehuan",
+      "displayName": "Wood Bridge Jinhehuan",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:wood_bridge_shensexiangmu",
+      "displayName": "Wood Bridge Shensexiangmu",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:wood_bridge_yinghuamu",
+      "displayName": "Wood Bridge Yinghuamu",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:wood_bridge_zhuzi",
+      "displayName": "Wood Bridge Zhuzi",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "supplementaries:way_sign",
+      "displayName": "Way Sign",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "tconstruct:blood_island",
+      "displayName": "Blood Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "tconstruct:clay_island",
+      "displayName": "Clay Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "tconstruct:earth_slime_island",
+      "displayName": "Earth Slime Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "tconstruct:end_slime_island",
+      "displayName": "End Slime Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "tconstruct:ocean_skyslime_island",
+      "displayName": "Ocean Skyslime Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "tconstruct:sky_slime_island",
+      "displayName": "Sky Slime Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "tagId": "minecraft:ancient_city",
+      "displayName": "#Ancient City",
+      "structureIds": [
+        "minecraft:ancient_city"
+      ]
+    },
+    {
+      "tagId": "minecraft:bastion_remnant",
+      "displayName": "#Bastion Remnant",
+      "structureIds": [
+        "minecraft:bastion_remnant"
+      ]
+    },
+    {
+      "tagId": "minecraft:cats_spawn_as_black",
+      "displayName": "#Cats Spawn As Black",
+      "structureIds": [
+        "minecraft:swamp_hut",
+        "repurposed_structures:witch_hut_birch",
+        "repurposed_structures:witch_hut_dark_forest",
+        "repurposed_structures:witch_hut_giant_tree_taiga",
+        "repurposed_structures:witch_hut_mangrove",
+        "repurposed_structures:witch_hut_oak",
+        "repurposed_structures:witch_hut_taiga"
+      ]
+    },
+    {
+      "tagId": "minecraft:cats_spawn_in",
+      "displayName": "#Cats Spawn In",
+      "structureIds": [
+        "minecraft:swamp_hut",
+        "repurposed_structures:witch_hut_birch",
+        "repurposed_structures:witch_hut_dark_forest",
+        "repurposed_structures:witch_hut_giant_tree_taiga",
+        "repurposed_structures:witch_hut_mangrove",
+        "repurposed_structures:witch_hut_oak",
+        "repurposed_structures:witch_hut_taiga"
+      ]
+    },
+    {
+      "tagId": "minecraft:desert_pyramid",
+      "displayName": "#Desert Pyramid",
+      "structureIds": [
+        "minecraft:desert_pyramid"
+      ]
+    },
+    {
+      "tagId": "minecraft:dolphin_located",
+      "displayName": "#Dolphin Located",
+      "structureIds": [
+        "minecraft:ocean_ruin_cold",
+        "minecraft:ocean_ruin_warm",
+        "minecraft:shipwreck",
+        "minecraft:shipwreck_beached",
+        "repurposed_structures:pyramid_ocean",
+        "repurposed_structures:temple_ocean",
+        "repurposed_structures:village_ocean"
+      ]
+    },
+    {
+      "tagId": "minecraft:end_city",
+      "displayName": "#End City",
+      "structureIds": [
+        "minecraft:end_city"
+      ]
+    },
+    {
+      "tagId": "minecraft:eye_of_ender_located",
+      "displayName": "#Eye Of Ender Located",
+      "structureIds": [
+        "minecraft:stronghold",
+        "repurposed_structures:stronghold_end",
+        "repurposed_structures:stronghold_nether"
+      ]
+    },
+    {
+      "tagId": "minecraft:fortress",
+      "displayName": "#Fortress",
+      "structureIds": [
+        "minecraft:fortress"
+      ]
+    },
+    {
+      "tagId": "minecraft:igloo",
+      "displayName": "#Igloo",
+      "structureIds": [
+        "minecraft:igloo"
+      ]
+    },
+    {
+      "tagId": "minecraft:jungle_pyramid",
+      "displayName": "#Jungle Pyramid",
+      "structureIds": [
+        "minecraft:jungle_pyramid"
+      ]
+    },
+    {
+      "tagId": "minecraft:mineshaft",
+      "displayName": "#Mineshaft",
+      "structureIds": [
+        "minecraft:mineshaft",
+        "minecraft:mineshaft_mesa",
+        "repurposed_structures:mineshaft_birch",
+        "repurposed_structures:mineshaft_crimson",
+        "repurposed_structures:mineshaft_dark_forest",
+        "repurposed_structures:mineshaft_desert",
+        "repurposed_structures:mineshaft_end",
+        "repurposed_structures:mineshaft_icy",
+        "repurposed_structures:mineshaft_jungle",
+        "repurposed_structures:mineshaft_nether",
+        "repurposed_structures:mineshaft_ocean",
+        "repurposed_structures:mineshaft_savanna",
+        "repurposed_structures:mineshaft_stone",
+        "repurposed_structures:mineshaft_swamp",
+        "repurposed_structures:mineshaft_taiga",
+        "repurposed_structures:mineshaft_warped"
+      ]
+    },
+    {
+      "tagId": "minecraft:ocean_ruin",
+      "displayName": "#Ocean Ruin",
+      "structureIds": [
+        "minecraft:ocean_ruin_cold",
+        "minecraft:ocean_ruin_warm"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_ocean_explorer_maps",
+      "displayName": "#On Ocean Explorer Maps",
+      "structureIds": [
+        "minecraft:monument"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_treasure_maps",
+      "displayName": "#On Treasure Maps",
+      "structureIds": [
+        "minecraft:buried_treasure"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_woodland_explorer_maps",
+      "displayName": "#On Woodland Explorer Maps",
+      "structureIds": [
+        "minecraft:mansion"
+      ]
+    },
+    {
+      "tagId": "minecraft:pillager_outpost",
+      "displayName": "#Pillager Outpost",
+      "structureIds": [
+        "minecraft:pillager_outpost"
+      ]
+    },
+    {
+      "tagId": "minecraft:ruined_portal",
+      "displayName": "#Ruined Portal",
+      "structureIds": [
+        "minecraft:ruined_portal",
+        "minecraft:ruined_portal_desert",
+        "minecraft:ruined_portal_jungle",
+        "minecraft:ruined_portal_mountain",
+        "minecraft:ruined_portal_nether",
+        "minecraft:ruined_portal_ocean",
+        "minecraft:ruined_portal_swamp",
+        "repurposed_structures:ruined_portal_end"
+      ]
+    },
+    {
+      "tagId": "minecraft:shipwreck",
+      "displayName": "#Shipwreck",
+      "structureIds": [
+        "minecraft:shipwreck",
+        "minecraft:shipwreck_beached"
+      ]
+    },
+    {
+      "tagId": "minecraft:swamp_hut",
+      "displayName": "#Swamp Hut",
+      "structureIds": [
+        "minecraft:swamp_hut"
+      ]
+    },
+    {
+      "tagId": "minecraft:village",
+      "displayName": "#Village",
+      "structureIds": [
+        "minecraft:village_desert",
+        "minecraft:village_plains",
+        "minecraft:village_savanna",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga",
+        "repurposed_structures:village_badlands",
+        "repurposed_structures:village_bamboo",
+        "repurposed_structures:village_birch",
+        "repurposed_structures:village_cherry",
+        "repurposed_structures:village_crimson",
+        "repurposed_structures:village_dark_forest",
+        "repurposed_structures:village_giant_taiga",
+        "repurposed_structures:village_jungle",
+        "repurposed_structures:village_mountains",
+        "repurposed_structures:village_mushroom",
+        "repurposed_structures:village_oak",
+        "repurposed_structures:village_ocean",
+        "repurposed_structures:village_swamp",
+        "repurposed_structures:village_warped"
+      ]
+    },
+    {
+      "tagId": "quark:acacia_chest_structures",
+      "displayName": "#Acacia Chest Structures",
+      "structureIds": [
+        "minecraft:village_savanna",
+        "repurposed_structures:mansion_savanna",
+        "repurposed_structures:mineshaft_savanna"
+      ]
+    },
+    {
+      "tagId": "supplementaries:adventure_map_destinations",
+      "displayName": "#Adventure Map Destinations",
+      "structureIds": [
+        "minecraft:bastion_remnant",
+        "minecraft:desert_pyramid",
+        "minecraft:end_city",
+        "minecraft:igloo",
+        "minecraft:jungle_pyramid",
+        "minecraft:mineshaft",
+        "minecraft:mineshaft_mesa",
+        "minecraft:ocean_ruin_cold",
+        "minecraft:ocean_ruin_warm",
+        "minecraft:pillager_outpost",
+        "minecraft:ruined_portal",
+        "minecraft:ruined_portal_desert",
+        "minecraft:ruined_portal_jungle",
+        "minecraft:ruined_portal_mountain",
+        "minecraft:ruined_portal_nether",
+        "minecraft:ruined_portal_ocean",
+        "minecraft:ruined_portal_swamp",
+        "minecraft:shipwreck",
+        "minecraft:shipwreck_beached",
+        "minecraft:swamp_hut",
+        "minecraft:village_desert",
+        "minecraft:village_plains",
+        "minecraft:village_savanna",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga",
+        "repurposed_structures:mineshaft_birch",
+        "repurposed_structures:mineshaft_crimson",
+        "repurposed_structures:mineshaft_dark_forest",
+        "repurposed_structures:mineshaft_desert",
+        "repurposed_structures:mineshaft_end",
+        "repurposed_structures:mineshaft_icy",
+        "repurposed_structures:mineshaft_jungle",
+        "repurposed_structures:mineshaft_nether",
+        "repurposed_structures:mineshaft_ocean",
+        "repurposed_structures:mineshaft_savanna",
+        "repurposed_structures:mineshaft_stone",
+        "repurposed_structures:mineshaft_swamp",
+        "repurposed_structures:mineshaft_taiga",
+        "repurposed_structures:mineshaft_warped",
+        "repurposed_structures:ruined_portal_end",
+        "repurposed_structures:village_badlands",
+        "repurposed_structures:village_bamboo",
+        "repurposed_structures:village_birch",
+        "repurposed_structures:village_cherry",
+        "repurposed_structures:village_crimson",
+        "repurposed_structures:village_dark_forest",
+        "repurposed_structures:village_giant_taiga",
+        "repurposed_structures:village_jungle",
+        "repurposed_structures:village_mountains",
+        "repurposed_structures:village_mushroom",
+        "repurposed_structures:village_oak",
+        "repurposed_structures:village_ocean",
+        "repurposed_structures:village_swamp",
+        "repurposed_structures:village_warped"
+      ]
+    },
+    {
+      "tagId": "quark:ancient_chest_structures",
+      "displayName": "#Ancient Chest Structures",
+      "structureIds": [
+        "minecraft:ancient_city"
+      ]
+    },
+    {
+      "tagId": "quark:azalea_chest_structures",
+      "displayName": "#Azalea Chest Structures",
+      "structureIds": [
+        "repurposed_structures:mineshaft_swamp",
+        "repurposed_structures:village_swamp"
+      ]
+    },
+    {
+      "tagId": "immersive_gateways:badlands",
+      "displayName": "#Badlands",
+      "structureIds": [
+        "immersive_gateways:badlands/0",
+        "immersive_gateways:badlands/1",
+        "immersive_gateways:badlands/2"
+      ]
+    },
+    {
+      "tagId": "quark:birch_chest_structures",
+      "displayName": "#Birch Chest Structures",
+      "structureIds": [
+        "minecraft:desert_pyramid",
+        "minecraft:village_desert",
+        "repurposed_structures:mansion_birch",
+        "repurposed_structures:mansion_desert",
+        "repurposed_structures:mineshaft_birch",
+        "repurposed_structures:mineshaft_desert",
+        "repurposed_structures:monument_desert",
+        "repurposed_structures:outpost_birch",
+        "repurposed_structures:outpost_desert",
+        "repurposed_structures:village_birch",
+        "repurposed_structures:witch_hut_birch"
+      ]
+    },
+    {
+      "tagId": "quark:blossom_chest_structures",
+      "displayName": "#Blossom Chest Structures",
+      "structureIds": [
+        "repurposed_structures:igloo_mushroom",
+        "repurposed_structures:pyramid_flower_forest",
+        "repurposed_structures:pyramid_mushroom",
+        "repurposed_structures:village_mushroom"
+      ]
+    },
+    {
+      "tagId": "immersive_gateways:cherry_grove",
+      "displayName": "#Cherry Grove",
+      "structureIds": [
+        "immersive_gateways:cherry_grove/0",
+        "immersive_gateways:cherry_grove/1",
+        "immersive_gateways:cherry_grove/2"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/ancient_cities",
+      "displayName": "#Collections/ancient Cities",
+      "structureIds": [
+        "repurposed_structures:ancient_city_end",
+        "repurposed_structures:ancient_city_nether",
+        "repurposed_structures:ancient_city_ocean"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/bastions",
+      "displayName": "#Collections/bastions",
+      "structureIds": [
+        "repurposed_structures:bastion_underground"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/cities",
+      "displayName": "#Collections/cities",
+      "structureIds": [
+        "repurposed_structures:city_nether",
+        "repurposed_structures:city_overworld"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/fortresses",
+      "displayName": "#Collections/fortresses",
+      "structureIds": [
+        "repurposed_structures:fortress_jungle"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/igloos",
+      "displayName": "#Collections/igloos",
+      "structureIds": [
+        "repurposed_structures:igloo_grassy",
+        "repurposed_structures:igloo_mangrove",
+        "repurposed_structures:igloo_mushroom",
+        "repurposed_structures:igloo_stone"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/mansions",
+      "displayName": "#Collections/mansions",
+      "structureIds": [
+        "repurposed_structures:mansion_birch",
+        "repurposed_structures:mansion_desert",
+        "repurposed_structures:mansion_jungle",
+        "repurposed_structures:mansion_mangrove",
+        "repurposed_structures:mansion_oak",
+        "repurposed_structures:mansion_savanna",
+        "repurposed_structures:mansion_snowy",
+        "repurposed_structures:mansion_taiga"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/mineshafts",
+      "displayName": "#Collections/mineshafts",
+      "structureIds": [
+        "repurposed_structures:mineshaft_birch",
+        "repurposed_structures:mineshaft_crimson",
+        "repurposed_structures:mineshaft_dark_forest",
+        "repurposed_structures:mineshaft_desert",
+        "repurposed_structures:mineshaft_end",
+        "repurposed_structures:mineshaft_icy",
+        "repurposed_structures:mineshaft_jungle",
+        "repurposed_structures:mineshaft_nether",
+        "repurposed_structures:mineshaft_ocean",
+        "repurposed_structures:mineshaft_savanna",
+        "repurposed_structures:mineshaft_stone",
+        "repurposed_structures:mineshaft_swamp",
+        "repurposed_structures:mineshaft_taiga",
+        "repurposed_structures:mineshaft_warped"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/monuments",
+      "displayName": "#Collections/monuments",
+      "structureIds": [
+        "repurposed_structures:monument_desert",
+        "repurposed_structures:monument_icy",
+        "repurposed_structures:monument_jungle",
+        "repurposed_structures:monument_nether"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/outposts",
+      "displayName": "#Collections/outposts",
+      "structureIds": [
+        "repurposed_structures:outpost_badlands",
+        "repurposed_structures:outpost_birch",
+        "repurposed_structures:outpost_crimson",
+        "repurposed_structures:outpost_desert",
+        "repurposed_structures:outpost_end",
+        "repurposed_structures:outpost_giant_tree_taiga",
+        "repurposed_structures:outpost_icy",
+        "repurposed_structures:outpost_jungle",
+        "repurposed_structures:outpost_mangrove",
+        "repurposed_structures:outpost_nether_brick",
+        "repurposed_structures:outpost_oak",
+        "repurposed_structures:outpost_snowy",
+        "repurposed_structures:outpost_taiga",
+        "repurposed_structures:outpost_warped"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/pyramids",
+      "displayName": "#Collections/pyramids",
+      "structureIds": [
+        "repurposed_structures:pyramid_badlands",
+        "repurposed_structures:pyramid_dark_forest",
+        "repurposed_structures:pyramid_end",
+        "repurposed_structures:pyramid_flower_forest",
+        "repurposed_structures:pyramid_giant_tree_taiga",
+        "repurposed_structures:pyramid_icy",
+        "repurposed_structures:pyramid_jungle",
+        "repurposed_structures:pyramid_mushroom",
+        "repurposed_structures:pyramid_nether",
+        "repurposed_structures:pyramid_ocean",
+        "repurposed_structures:pyramid_snowy"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/ruined_portals",
+      "displayName": "#Collections/ruined Portals",
+      "structureIds": [
+        "repurposed_structures:ruined_portal_end"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/ruins",
+      "displayName": "#Collections/ruins",
+      "structureIds": [
+        "repurposed_structures:ruins_land_cold",
+        "repurposed_structures:ruins_land_hot",
+        "repurposed_structures:ruins_land_icy",
+        "repurposed_structures:ruins_land_warm",
+        "repurposed_structures:ruins_nether"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/shipwrecks",
+      "displayName": "#Collections/shipwrecks",
+      "structureIds": [
+        "repurposed_structures:shipwreck_crimson",
+        "repurposed_structures:shipwreck_end",
+        "repurposed_structures:shipwreck_nether_bricks",
+        "repurposed_structures:shipwreck_warped"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/strongholds",
+      "displayName": "#Collections/strongholds",
+      "structureIds": [
+        "repurposed_structures:stronghold_end",
+        "repurposed_structures:stronghold_nether"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/temples",
+      "displayName": "#Collections/temples",
+      "structureIds": [
+        "repurposed_structures:temple_nether_basalt",
+        "repurposed_structures:temple_nether_crimson",
+        "repurposed_structures:temple_nether_soul",
+        "repurposed_structures:temple_nether_warped",
+        "repurposed_structures:temple_nether_wasteland",
+        "repurposed_structures:temple_ocean",
+        "repurposed_structures:temple_taiga"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/villages",
+      "displayName": "#Collections/villages",
+      "structureIds": [
+        "repurposed_structures:village_badlands",
+        "repurposed_structures:village_bamboo",
+        "repurposed_structures:village_birch",
+        "repurposed_structures:village_cherry",
+        "repurposed_structures:village_crimson",
+        "repurposed_structures:village_dark_forest",
+        "repurposed_structures:village_giant_taiga",
+        "repurposed_structures:village_jungle",
+        "repurposed_structures:village_mountains",
+        "repurposed_structures:village_mushroom",
+        "repurposed_structures:village_oak",
+        "repurposed_structures:village_ocean",
+        "repurposed_structures:village_swamp",
+        "repurposed_structures:village_warped"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:collections/witch_huts",
+      "displayName": "#Collections/witch Huts",
+      "structureIds": [
+        "repurposed_structures:witch_hut_birch",
+        "repurposed_structures:witch_hut_dark_forest",
+        "repurposed_structures:witch_hut_giant_tree_taiga",
+        "repurposed_structures:witch_hut_mangrove",
+        "repurposed_structures:witch_hut_oak",
+        "repurposed_structures:witch_hut_taiga"
+      ]
+    },
+    {
+      "tagId": "biomancy:cradle",
+      "displayName": "#Cradle",
+      "structureIds": [
+        "biomancy:carcass_worm",
+        "biomancy:keter_worm"
+      ]
+    },
+    {
+      "tagId": "quark:crimson_chest_structures",
+      "displayName": "#Crimson Chest Structures",
+      "structureIds": [
+        "minecraft:bastion_remnant",
+        "minecraft:ruined_portal",
+        "minecraft:ruined_portal_desert",
+        "minecraft:ruined_portal_jungle",
+        "minecraft:ruined_portal_mountain",
+        "minecraft:ruined_portal_nether",
+        "minecraft:ruined_portal_ocean",
+        "minecraft:ruined_portal_swamp",
+        "repurposed_structures:mineshaft_crimson",
+        "repurposed_structures:outpost_crimson",
+        "repurposed_structures:ruined_portal_end",
+        "repurposed_structures:shipwreck_crimson",
+        "repurposed_structures:temple_nether_crimson",
+        "repurposed_structures:village_crimson"
+      ]
+    },
+    {
+      "tagId": "quark:dark_oak_chest_structures",
+      "displayName": "#Dark Oak Chest Structures",
+      "structureIds": [
+        "minecraft:mansion",
+        "minecraft:pillager_outpost",
+        "repurposed_structures:bastion_underground",
+        "repurposed_structures:mineshaft_dark_forest",
+        "repurposed_structures:outpost_badlands",
+        "repurposed_structures:pyramid_badlands",
+        "repurposed_structures:pyramid_dark_forest",
+        "repurposed_structures:village_badlands",
+        "repurposed_structures:village_dark_forest",
+        "repurposed_structures:witch_hut_dark_forest"
+      ]
+    },
+    {
+      "tagId": "immersive_gateways:desert",
+      "displayName": "#Desert",
+      "structureIds": [
+        "immersive_gateways:desert/0",
+        "immersive_gateways:desert/1"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/ancient_city_nether",
+      "displayName": "#Explorer Maps/ancient City Nether",
+      "structureIds": [
+        "repurposed_structures:ancient_city_nether"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/bastion_remnant",
+      "displayName": "#Explorer Maps/bastion Remnant",
+      "structureIds": [
+        "minecraft:bastion_remnant"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/bastion_underground",
+      "displayName": "#Explorer Maps/bastion Underground",
+      "structureIds": [
+        "repurposed_structures:bastion_underground"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/city_nether",
+      "displayName": "#Explorer Maps/city Nether",
+      "structureIds": [
+        "repurposed_structures:city_nether"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/end_city",
+      "displayName": "#Explorer Maps/end City",
+      "structureIds": [
+        "minecraft:end_city"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/fortress",
+      "displayName": "#Explorer Maps/fortress",
+      "structureIds": [
+        "repurposed_structures:fortress_jungle"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/mansion",
+      "displayName": "#Explorer Maps/mansion",
+      "structureIds": [
+        "repurposed_structures:mansion_birch",
+        "repurposed_structures:mansion_desert",
+        "repurposed_structures:mansion_jungle",
+        "repurposed_structures:mansion_mangrove",
+        "repurposed_structures:mansion_oak",
+        "repurposed_structures:mansion_savanna",
+        "repurposed_structures:mansion_snowy",
+        "repurposed_structures:mansion_taiga"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/monument",
+      "displayName": "#Explorer Maps/monument",
+      "structureIds": [
+        "repurposed_structures:monument_desert",
+        "repurposed_structures:monument_icy",
+        "repurposed_structures:monument_jungle",
+        "repurposed_structures:monument_nether"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/nether_fortress",
+      "displayName": "#Explorer Maps/nether Fortress",
+      "structureIds": [
+        "minecraft:fortress"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/pyramid_end",
+      "displayName": "#Explorer Maps/pyramid End",
+      "structureIds": [
+        "repurposed_structures:pyramid_end"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/ruins_nether",
+      "displayName": "#Explorer Maps/ruins Nether",
+      "structureIds": [
+        "repurposed_structures:ruins_nether"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/stronghold_end",
+      "displayName": "#Explorer Maps/stronghold End",
+      "structureIds": [
+        "repurposed_structures:stronghold_end"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/stronghold_nether",
+      "displayName": "#Explorer Maps/stronghold Nether",
+      "structureIds": [
+        "repurposed_structures:stronghold_nether"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/unknown_ocean_structure_1",
+      "displayName": "#Explorer Maps/unknown Ocean Structure 1",
+      "structureIds": [
+        "minecraft:monument"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/unknown_ocean_structure_2",
+      "displayName": "#Explorer Maps/unknown Ocean Structure 2",
+      "structureIds": [
+        "minecraft:shipwreck",
+        "minecraft:shipwreck_beached"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/unknown_ocean_structure_3",
+      "displayName": "#Explorer Maps/unknown Ocean Structure 3",
+      "structureIds": [
+        "minecraft:ocean_ruin_cold",
+        "minecraft:ocean_ruin_warm"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/unknown_ocean_structure_4",
+      "displayName": "#Explorer Maps/unknown Ocean Structure 4",
+      "structureIds": [
+        "minecraft:ruined_portal_ocean"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/unknown_ocean_structure_5",
+      "displayName": "#Explorer Maps/unknown Ocean Structure 5",
+      "structureIds": [
+        "repurposed_structures:pyramid_ocean"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/unknown_ocean_structure_6",
+      "displayName": "#Explorer Maps/unknown Ocean Structure 6",
+      "structureIds": [
+        "repurposed_structures:ancient_city_ocean"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:explorer_maps/unknown_ocean_structure_7",
+      "displayName": "#Explorer Maps/unknown Ocean Structure 7",
+      "structureIds": [
+        "repurposed_structures:temple_ocean"
+      ]
+    },
+    {
+      "tagId": "biomancy:giant_worm",
+      "displayName": "#Giant Worm",
+      "structureIds": [
+        "biomancy:keter_worm"
+      ]
+    },
+    {
+      "tagId": "immersive_gateways:ice",
+      "displayName": "#Ice",
+      "structureIds": [
+        "immersive_gateways:ice/0",
+        "immersive_gateways:ice/1"
+      ]
+    },
+    {
+      "tagId": "immersive_gateways:jungle",
+      "displayName": "#Jungle",
+      "structureIds": [
+        "immersive_gateways:jungle/0",
+        "immersive_gateways:jungle/1",
+        "immersive_gateways:jungle/2"
+      ]
+    },
+    {
+      "tagId": "quark:jungle_chest_structures",
+      "displayName": "#Jungle Chest Structures",
+      "structureIds": [
+        "minecraft:jungle_pyramid",
+        "repurposed_structures:fortress_jungle",
+        "repurposed_structures:mansion_jungle",
+        "repurposed_structures:mineshaft_jungle",
+        "repurposed_structures:monument_jungle",
+        "repurposed_structures:outpost_jungle",
+        "repurposed_structures:pyramid_jungle",
+        "repurposed_structures:ruins_land_hot",
+        "repurposed_structures:village_jungle"
+      ]
+    },
+    {
+      "tagId": "biomancy:lab",
+      "displayName": "#Lab",
+      "structureIds": [
+        "biomancy:abandoned_lab"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:larger_locate_search",
+      "displayName": "#Larger Locate Search",
+      "structureIds": [
+        "repurposed_structures:mineshaft_birch",
+        "repurposed_structures:mineshaft_crimson",
+        "repurposed_structures:mineshaft_dark_forest",
+        "repurposed_structures:mineshaft_desert",
+        "repurposed_structures:mineshaft_end",
+        "repurposed_structures:mineshaft_icy",
+        "repurposed_structures:mineshaft_jungle",
+        "repurposed_structures:mineshaft_nether",
+        "repurposed_structures:mineshaft_ocean",
+        "repurposed_structures:mineshaft_savanna",
+        "repurposed_structures:mineshaft_stone",
+        "repurposed_structures:mineshaft_swamp",
+        "repurposed_structures:mineshaft_taiga",
+        "repurposed_structures:mineshaft_warped"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:less_bamboo",
+      "displayName": "#Less Bamboo",
+      "structureIds": [
+        "repurposed_structures:village_bamboo"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:less_jungle_bushes",
+      "displayName": "#Less Jungle Bushes",
+      "structureIds": [
+        "repurposed_structures:outpost_jungle",
+        "repurposed_structures:village_bamboo",
+        "repurposed_structures:village_jungle"
+      ]
+    },
+    {
+      "tagId": "quark:mangrove_chest_structures",
+      "displayName": "#Mangrove Chest Structures",
+      "structureIds": [
+        "repurposed_structures:igloo_mangrove",
+        "repurposed_structures:mansion_mangrove",
+        "repurposed_structures:outpost_mangrove",
+        "repurposed_structures:witch_hut_mangrove"
+      ]
+    },
+    {
+      "tagId": "immersive_gateways:mangrove_swamp",
+      "displayName": "#Mangrove Swamp",
+      "structureIds": [
+        "immersive_gateways:mangrove_swamp/0",
+        "immersive_gateways:mangrove_swamp/1",
+        "immersive_gateways:mangrove_swamp/2"
+      ]
+    },
+    {
+      "tagId": "immersive_gateways:mountain",
+      "displayName": "#Mountain",
+      "structureIds": [
+        "immersive_gateways:mountain/0",
+        "immersive_gateways:mountain/1"
+      ]
+    },
+    {
+      "tagId": "immersive_gateways:mushroom",
+      "displayName": "#Mushroom",
+      "structureIds": [
+        "immersive_gateways:mushroom/0",
+        "immersive_gateways:mushroom/1",
+        "immersive_gateways:mushroom/2"
+      ]
+    },
+    {
+      "tagId": "quark:nether_brick_chest_structures",
+      "displayName": "#Nether Brick Chest Structures",
+      "structureIds": [
+        "minecraft:fortress",
+        "repurposed_structures:ancient_city_nether",
+        "repurposed_structures:city_nether",
+        "repurposed_structures:mineshaft_nether",
+        "repurposed_structures:monument_nether",
+        "repurposed_structures:pyramid_nether",
+        "repurposed_structures:ruins_nether",
+        "repurposed_structures:shipwreck_nether_bricks",
+        "repurposed_structures:stronghold_nether",
+        "repurposed_structures:temple_nether_basalt",
+        "repurposed_structures:temple_nether_wasteland"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:no_basalt",
+      "displayName": "#No Basalt",
+      "structureIds": [
+        "repurposed_structures:ancient_city_nether",
+        "repurposed_structures:mineshaft_crimson",
+        "repurposed_structures:mineshaft_nether",
+        "repurposed_structures:mineshaft_warped",
+        "repurposed_structures:outpost_nether_brick",
+        "repurposed_structures:ruins_nether",
+        "repurposed_structures:shipwreck_nether_bricks",
+        "repurposed_structures:temple_nether_basalt",
+        "repurposed_structures:village_crimson",
+        "repurposed_structures:village_warped"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:no_jungle_vines",
+      "displayName": "#No Jungle Vines",
+      "structureIds": [
+        "repurposed_structures:fortress_jungle"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:no_lakes",
+      "displayName": "#No Lakes",
+      "structureIds": [
+        "repurposed_structures:bastion_underground",
+        "repurposed_structures:mansion_birch",
+        "repurposed_structures:mansion_desert",
+        "repurposed_structures:mansion_jungle",
+        "repurposed_structures:mansion_mangrove",
+        "repurposed_structures:mansion_oak",
+        "repurposed_structures:mansion_savanna",
+        "repurposed_structures:mansion_snowy",
+        "repurposed_structures:mansion_taiga",
+        "repurposed_structures:village_badlands",
+        "repurposed_structures:village_bamboo",
+        "repurposed_structures:village_birch",
+        "repurposed_structures:village_cherry",
+        "repurposed_structures:village_crimson",
+        "repurposed_structures:village_dark_forest",
+        "repurposed_structures:village_giant_taiga",
+        "repurposed_structures:village_jungle",
+        "repurposed_structures:village_mountains",
+        "repurposed_structures:village_mushroom",
+        "repurposed_structures:village_oak",
+        "repurposed_structures:village_ocean",
+        "repurposed_structures:village_swamp",
+        "repurposed_structures:village_warped",
+        "repurposed_structures:witch_hut_birch",
+        "repurposed_structures:witch_hut_dark_forest",
+        "repurposed_structures:witch_hut_giant_tree_taiga",
+        "repurposed_structures:witch_hut_mangrove",
+        "repurposed_structures:witch_hut_oak",
+        "repurposed_structures:witch_hut_taiga"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:no_lavafalls",
+      "displayName": "#No Lavafalls",
+      "structureIds": [
+        "repurposed_structures:bastion_underground",
+        "repurposed_structures:mineshaft_icy"
+      ]
+    },
+    {
+      "tagId": "pneumaticcraft:no_oil_lakes",
+      "displayName": "#No Oil Lakes",
+      "structureIds": [
+        "repurposed_structures:bastion_underground",
+        "repurposed_structures:mansion_birch",
+        "repurposed_structures:mansion_desert",
+        "repurposed_structures:mansion_jungle",
+        "repurposed_structures:mansion_mangrove",
+        "repurposed_structures:mansion_oak",
+        "repurposed_structures:mansion_savanna",
+        "repurposed_structures:mansion_snowy",
+        "repurposed_structures:mansion_taiga",
+        "repurposed_structures:village_badlands",
+        "repurposed_structures:village_bamboo",
+        "repurposed_structures:village_birch",
+        "repurposed_structures:village_cherry",
+        "repurposed_structures:village_crimson",
+        "repurposed_structures:village_dark_forest",
+        "repurposed_structures:village_giant_taiga",
+        "repurposed_structures:village_jungle",
+        "repurposed_structures:village_mountains",
+        "repurposed_structures:village_mushroom",
+        "repurposed_structures:village_oak",
+        "repurposed_structures:village_ocean",
+        "repurposed_structures:village_swamp",
+        "repurposed_structures:village_warped",
+        "repurposed_structures:witch_hut_birch",
+        "repurposed_structures:witch_hut_dark_forest",
+        "repurposed_structures:witch_hut_giant_tree_taiga",
+        "repurposed_structures:witch_hut_mangrove",
+        "repurposed_structures:witch_hut_oak",
+        "repurposed_structures:witch_hut_taiga"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:no_waterfalls",
+      "displayName": "#No Waterfalls",
+      "structureIds": [
+        "repurposed_structures:mansion_snowy",
+        "repurposed_structures:outpost_snowy",
+        "repurposed_structures:pyramid_snowy"
+      ]
+    },
+    {
+      "tagId": "quark:oak_chest_structures",
+      "displayName": "#Oak Chest Structures",
+      "structureIds": [
+        "minecraft:stronghold",
+        "minecraft:village_plains",
+        "repurposed_structures:city_overworld",
+        "repurposed_structures:igloo_grassy",
+        "repurposed_structures:mansion_oak",
+        "repurposed_structures:outpost_oak",
+        "repurposed_structures:ruins_land_cold",
+        "repurposed_structures:ruins_land_warm",
+        "repurposed_structures:village_oak",
+        "repurposed_structures:witch_hut_oak"
+      ]
+    },
+    {
+      "tagId": "immersive_gateways:plains",
+      "displayName": "#Plains",
+      "structureIds": [
+        "immersive_gateways:plains/0",
+        "immersive_gateways:plains/1",
+        "immersive_gateways:plains/2"
+      ]
+    },
+    {
+      "tagId": "immersive_gateways:portal",
+      "displayName": "#Portal",
+      "structureIds": [
+        "immersive_gateways:badlands/0",
+        "immersive_gateways:badlands/1",
+        "immersive_gateways:badlands/2",
+        "immersive_gateways:cherry_grove/0",
+        "immersive_gateways:cherry_grove/1",
+        "immersive_gateways:cherry_grove/2",
+        "immersive_gateways:desert/0",
+        "immersive_gateways:desert/1",
+        "immersive_gateways:ice/0",
+        "immersive_gateways:ice/1",
+        "immersive_gateways:jungle/0",
+        "immersive_gateways:jungle/1",
+        "immersive_gateways:jungle/2",
+        "immersive_gateways:mangrove_swamp/0",
+        "immersive_gateways:mangrove_swamp/1",
+        "immersive_gateways:mangrove_swamp/2",
+        "immersive_gateways:mountain/0",
+        "immersive_gateways:mountain/1",
+        "immersive_gateways:mushroom/0",
+        "immersive_gateways:mushroom/1",
+        "immersive_gateways:mushroom/2",
+        "immersive_gateways:plains/0",
+        "immersive_gateways:plains/1",
+        "immersive_gateways:plains/2",
+        "immersive_gateways:swamp/0"
+      ]
+    },
+    {
+      "tagId": "quark:prismarine_chest_structures",
+      "displayName": "#Prismarine Chest Structures",
+      "structureIds": [
+        "minecraft:monument",
+        "minecraft:ocean_ruin_cold",
+        "minecraft:ocean_ruin_warm",
+        "repurposed_structures:ancient_city_ocean",
+        "repurposed_structures:mineshaft_ocean",
+        "repurposed_structures:pyramid_ocean",
+        "repurposed_structures:temple_ocean"
+      ]
+    },
+    {
+      "tagId": "quark:purpur_chest_structures",
+      "displayName": "#Purpur Chest Structures",
+      "structureIds": [
+        "minecraft:end_city",
+        "repurposed_structures:ancient_city_end",
+        "repurposed_structures:mineshaft_end",
+        "repurposed_structures:pyramid_end",
+        "repurposed_structures:ruined_portal_end",
+        "repurposed_structures:shipwreck_end",
+        "repurposed_structures:stronghold_end"
+      ]
+    },
+    {
+      "tagId": "biomancy:small_worm",
+      "displayName": "#Small Worm",
+      "structureIds": [
+        "biomancy:carcass_worm"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:smarter_snow_placing",
+      "displayName": "#Smarter Snow Placing",
+      "structureIds": [
+        "repurposed_structures:outpost_snowy",
+        "repurposed_structures:pyramid_snowy",
+        "repurposed_structures:ruins_land_icy"
+      ]
+    },
+    {
+      "tagId": "quark:soul_bead_target",
+      "displayName": "#Soul Bead Target",
+      "structureIds": [
+        "minecraft:fortress"
+      ]
+    },
+    {
+      "tagId": "repurposed_structures:spawn_black_cats",
+      "displayName": "#Spawn Black Cats",
+      "structureIds": [
+        "repurposed_structures:witch_hut_birch",
+        "repurposed_structures:witch_hut_dark_forest",
+        "repurposed_structures:witch_hut_giant_tree_taiga",
+        "repurposed_structures:witch_hut_mangrove",
+        "repurposed_structures:witch_hut_oak",
+        "repurposed_structures:witch_hut_taiga"
+      ]
+    },
+    {
+      "tagId": "quark:spruce_chest_structures",
+      "displayName": "#Spruce Chest Structures",
+      "structureIds": [
+        "minecraft:igloo",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga",
+        "repurposed_structures:igloo_stone",
+        "repurposed_structures:mansion_snowy",
+        "repurposed_structures:mansion_taiga",
+        "repurposed_structures:mineshaft_icy",
+        "repurposed_structures:mineshaft_stone",
+        "repurposed_structures:mineshaft_taiga",
+        "repurposed_structures:monument_icy",
+        "repurposed_structures:outpost_giant_tree_taiga",
+        "repurposed_structures:outpost_icy",
+        "repurposed_structures:outpost_snowy",
+        "repurposed_structures:outpost_taiga",
+        "repurposed_structures:pyramid_giant_tree_taiga",
+        "repurposed_structures:pyramid_icy",
+        "repurposed_structures:pyramid_snowy",
+        "repurposed_structures:ruins_land_icy",
+        "repurposed_structures:temple_taiga",
+        "repurposed_structures:village_giant_taiga",
+        "repurposed_structures:village_mountains",
+        "repurposed_structures:village_ocean",
+        "repurposed_structures:witch_hut_giant_tree_taiga",
+        "repurposed_structures:witch_hut_taiga"
+      ]
+    },
+    {
+      "tagId": "immersive_gateways:swamp",
+      "displayName": "#Swamp",
+      "structureIds": [
+        "immersive_gateways:swamp/0"
+      ]
+    },
+    {
+      "tagId": "biomancy:vault",
+      "displayName": "#Vault",
+      "structureIds": [
+        "biomancy:vault"
+      ]
+    },
+    {
+      "tagId": "quark:warped_chest_structures",
+      "displayName": "#Warped Chest Structures",
+      "structureIds": [
+        "repurposed_structures:mineshaft_warped",
+        "repurposed_structures:outpost_warped",
+        "repurposed_structures:shipwreck_warped",
+        "repurposed_structures:temple_nether_soul",
+        "repurposed_structures:temple_nether_warped",
+        "repurposed_structures:village_warped"
+      ]
+    },
+    {
+      "tagId": "supplementaries:way_sign_destinations",
+      "displayName": "#Way Sign Destinations",
+      "structureIds": [
+        "minecraft:village_desert",
+        "minecraft:village_plains",
+        "minecraft:village_savanna",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga",
+        "repurposed_structures:village_badlands",
+        "repurposed_structures:village_bamboo",
+        "repurposed_structures:village_birch",
+        "repurposed_structures:village_cherry",
+        "repurposed_structures:village_crimson",
+        "repurposed_structures:village_dark_forest",
+        "repurposed_structures:village_giant_taiga",
+        "repurposed_structures:village_jungle",
+        "repurposed_structures:village_mountains",
+        "repurposed_structures:village_mushroom",
+        "repurposed_structures:village_oak",
+        "repurposed_structures:village_ocean",
+        "repurposed_structures:village_swamp",
+        "repurposed_structures:village_warped"
+      ]
+    }
+  ]
+}

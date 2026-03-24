@@ -1,0 +1,8 @@
+
+#.
+#The Client Config of TGears
+[client]
+	#.
+	#Whether to enable goggle overlay for TiC's blocks
+	enableGoggleOverlay = true
+

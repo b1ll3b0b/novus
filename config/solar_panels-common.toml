@@ -1,0 +1,116 @@
+#Whether the solar panel should always generate energy even when covered or during night time.
+# (Default: false)
+always_generate = false
+#The default color of the solar panel.
+# (Default: blue)
+#Allowed Values: WHITE, ORANGE, MAGENTA, LIGHT_BLUE, YELLOW, LIME, PINK, GRAY, LIGHT_GRAY, CYAN, PURPLE, BLUE, BROWN, GREEN, RED, BLACK
+default_color = "BLUE"
+#The initial FE/t energy generation rate of the solar panel.
+# (Default: 20)
+#Range: > 0
+initial_generation_rate = 20
+#The initial FE/t max energy transfer rate of the solar panel.
+# (Default: 40)
+#Range: > 0
+initial_transfer_rate = 40
+#The initial FE energy capacity of the solar panel.
+# (Default: 10000)
+#Range: > 0
+initial_capacity = 10000
+#The maximum FE/t energy generation rate that the solar panel can be upgraded to.
+# (Default: 2147483647)
+#Range: > 0
+max_generation_rate = 2147483647
+#The maximum FE/t max energy transfer rate that the solar panel can be upgraded to.
+# (Default: 2147483647)
+#Range: > 0
+max_transfer_rate = 2147483647
+#The maximum FE energy capacity that the solar panel can be upgraded to.
+# (Default: 2147483647)
+#Range: > 0
+max_capacity = 2147483647
+
+[tier1]
+	#The item that represents the upgrade.
+	# (Default: gold_ingot)
+	upgrade_item = "minecraft:gold_ingot"
+	#How much FE/t to increase the solar panel's energy generation rate by when the upgrade is applied.
+	# (Default: 20)
+	#Range: > 0
+	gen_increase = 20
+	#How much FE/t to increase the solar panel's max energy transfer rate by when the upgrade is applied.
+	# (Default: 40)
+	#Range: > 0
+	transfer_increase = 40
+	#How much FE to increase the solar panel's capacity by when the upgrade is applied.
+	# (Default: 10000)
+	#Range: > 0
+	capacity_increase = 10000
+	#RGB Color of the upgrade tooltip.
+	# (Default: 16766720)
+	#Range: 0 ~ 16777215
+	tooltip_color = 16766720
+
+[tier2]
+	#The item that represents the upgrade.
+	# (Default: diamond)
+	upgrade_item = "minecraft:diamond"
+	#How much FE/t to increase the solar panel's energy generation rate by when the upgrade is applied.
+	# (Default: 200)
+	#Range: > 0
+	gen_increase = 200
+	#How much FE/t to increase the solar panel's max energy transfer rate by when the upgrade is applied.
+	# (Default: 400)
+	#Range: > 0
+	transfer_increase = 400
+	#How much FE to increase the solar panel's capacity by when the upgrade is applied.
+	# (Default: 100000)
+	#Range: > 0
+	capacity_increase = 100000
+	#RGB Color of the upgrade tooltip.
+	# (Default: 55255)
+	#Range: 0 ~ 16777215
+	color = 55255
+
+[tier3]
+	#The item that represents the upgrade.
+	# (Default: netherite_ingot)
+	upgrade_item = "minecraft:netherite_ingot"
+	#How much FE/t to increase the solar panel's energy generation rate by when the upgrade is applied.
+	# (Default: 1000)
+	#Range: > 0
+	gen_increase = 1000
+	#How much FE/t to increase the solar panel's max energy transfer rate by when the upgrade is applied.
+	# (Default: 2000)
+	#Range: > 0
+	transfer_increase = 2000
+	#How much FE to increase the solar panel's capacity by when the upgrade is applied.
+	# (Default: 1000000)
+	#Range: > 0
+	capacity_increase = 1000000
+	#RGB Color of the upgrade tooltip.
+	# (Default: 3288385)
+	#Range: 0 ~ 16777215
+	color = 3288385
+
+[tier4]
+	#The item that represents the upgrade.
+	# (Default: nether_star)
+	upgrade_item = "minecraft:nether_star"
+	#How much FE/t to increase the solar panel's energy generation rate by when the upgrade is applied.
+	# (Default: 10000)
+	#Range: > 0
+	gen_increase = 10000
+	#How much FE/t to increase the solar panel's max energy transfer rate by when the upgrade is applied.
+	# (Default: 20000)
+	#Range: > 0
+	transfer_increase = 20000
+	#How much FE to increase the solar panel's capacity by when the upgrade is applied.
+	# (Default: 100000000)
+	#Range: > 0
+	capacity_increase = 100000000
+	#RGB Color of the upgrade tooltip.
+	# (Default: 14142935)
+	#Range: 0 ~ 16777215
+	color = 14142935
+
