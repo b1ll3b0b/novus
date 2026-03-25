@@ -14,7 +14,12 @@ public function getNewBlockState(liquidPos as BlockPos, level as Level, newState
     }
 
     var blockBelow = level.getBlockState(liquidPos.below());
-    if (blockBelow == <blockstate:minecraft:sandstone>) {
+    if (blockBelow == <blockstate:minecraft:sandstone>
+        || blockBelow == <blockstate:minecraft:cut_sandstone>
+        || blockBelow == <blockstate:minecraft:chiseled_sandstone>
+        || blockBelow == <blockstate:minecraft:red_sandstone>
+        || blockBelow == <blockstate:minecraft:cut_red_sandstone>
+        || blockBelow == <blockstate:minecraft:chiseled_red_sandstone>) {
         return <block:minecraft:tuff>.getDefaultState();
     } 
 
