@@ -663,7 +663,7 @@
 		"Enable Amethyst Sound" = true
 
 	[tweaks.more_villagers]
-		"Ocean Villager" = true
+		"Ocean Villager" = false
 		"Beach Villager" = true
 
 	[tweaks.no_durability_on_cosmetics]
