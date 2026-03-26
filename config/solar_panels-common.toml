@@ -8,7 +8,7 @@ default_color = "BLUE"
 #The initial FE/t energy generation rate of the solar panel.
 # (Default: 20)
 #Range: > 0
-initial_generation_rate = 20
+initial_generation_rate = 40
 #The initial FE/t max energy transfer rate of the solar panel.
 # (Default: 40)
 #Range: > 0
@@ -54,7 +54,7 @@ max_capacity = 2147483647
 [tier2]
 	#The item that represents the upgrade.
 	# (Default: diamond)
-	upgrade_item = "minecraft:diamond"
+	upgrade_item = "create:electron_tube"
 	#How much FE/t to increase the solar panel's energy generation rate by when the upgrade is applied.
 	# (Default: 200)
 	#Range: > 0
@@ -75,19 +75,19 @@ max_capacity = 2147483647
 [tier3]
 	#The item that represents the upgrade.
 	# (Default: netherite_ingot)
-	upgrade_item = "minecraft:netherite_ingot"
+	upgrade_item = "minecraft:barrier"
 	#How much FE/t to increase the solar panel's energy generation rate by when the upgrade is applied.
 	# (Default: 1000)
 	#Range: > 0
-	gen_increase = 1000
+	gen_increase = 1
 	#How much FE/t to increase the solar panel's max energy transfer rate by when the upgrade is applied.
 	# (Default: 2000)
 	#Range: > 0
-	transfer_increase = 2000
+	transfer_increase = 1
 	#How much FE to increase the solar panel's capacity by when the upgrade is applied.
 	# (Default: 1000000)
 	#Range: > 0
-	capacity_increase = 1000000
+	capacity_increase = 1
 	#RGB Color of the upgrade tooltip.
 	# (Default: 3288385)
 	#Range: 0 ~ 16777215
@@ -96,19 +96,19 @@ max_capacity = 2147483647
 [tier4]
 	#The item that represents the upgrade.
 	# (Default: nether_star)
-	upgrade_item = "minecraft:nether_star"
+	upgrade_item = "minecraft:barrier"
 	#How much FE/t to increase the solar panel's energy generation rate by when the upgrade is applied.
 	# (Default: 10000)
 	#Range: > 0
-	gen_increase = 10000
+	gen_increase = 1
 	#How much FE/t to increase the solar panel's max energy transfer rate by when the upgrade is applied.
 	# (Default: 20000)
 	#Range: > 0
-	transfer_increase = 20000
+	transfer_increase = 1
 	#How much FE to increase the solar panel's capacity by when the upgrade is applied.
 	# (Default: 100000000)
 	#Range: > 0
-	capacity_increase = 100000000
+	capacity_increase = 1
 	#RGB Color of the upgrade tooltip.
 	# (Default: 14142935)
 	#Range: 0 ~ 16777215
