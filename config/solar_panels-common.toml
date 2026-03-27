@@ -33,11 +33,11 @@ max_capacity = 2147483647
 [tier1]
 	#The item that represents the upgrade.
 	# (Default: gold_ingot)
-	upgrade_item = "minecraft:gold_ingot"
+	upgrade_item = "create:electron_tube"
 	#How much FE/t to increase the solar panel's energy generation rate by when the upgrade is applied.
 	# (Default: 20)
 	#Range: > 0
-	gen_increase = 20
+	gen_increase = 40
 	#How much FE/t to increase the solar panel's max energy transfer rate by when the upgrade is applied.
 	# (Default: 40)
 	#Range: > 0
@@ -54,11 +54,11 @@ max_capacity = 2147483647
 [tier2]
 	#The item that represents the upgrade.
 	# (Default: diamond)
-	upgrade_item = "create:electron_tube"
+	upgrade_item = "create:refined_radiance"
 	#How much FE/t to increase the solar panel's energy generation rate by when the upgrade is applied.
 	# (Default: 200)
 	#Range: > 0
-	gen_increase = 200
+	gen_increase = 80
 	#How much FE/t to increase the solar panel's max energy transfer rate by when the upgrade is applied.
 	# (Default: 400)
 	#Range: > 0
