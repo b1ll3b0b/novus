@@ -8,7 +8,7 @@
 // Daylight Detector is thematic — it already "detects sunlight".
 ServerEvents.recipes(event => {
 
-    event.remove({ id: 'solar_panels:solar_panel' })
+    event.remove({ output: 'solar_panels:solar_panel' })
 
     event.shaped(
         'solar_panels:solar_panel',
