@@ -55,9 +55,6 @@
     "soil": true,
     "crop_block": true
   },
-  "solar_panels": {
-    "solar_panel": true
-  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
@@ -70,6 +67,9 @@
     "exact_block": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "hammerlib": {
+    "root": true
   },
   "exposure": {
     "lightroom": true,
