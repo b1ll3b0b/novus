@@ -12,7 +12,7 @@ migrateCopycatsOnInitialize = true
 	kinetic_bridge = true
 	fluid_vessel = true
 	cross_connector = true
-	item_silo = true
+	item_silo = false
 	inverted_clutch = true
 	empty_fan_catalyst = true
 	parallel_gearbox = true
@@ -58,7 +58,7 @@ migrateCopycatsOnInitialize = true
 	logistics = true
 	#.
 	#All copycats (Install Create: Copycats+ to upgrade)
-	copycats = true
+	copycats = false
 	#.
 	#All building palette blocks
 	palette = true
