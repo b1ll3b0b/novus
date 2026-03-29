@@ -1822,7 +1822,7 @@
 
 [oddities]
 	Backpack = true
-	Crate = true
+	Crate = false
 	Magnets = true
 	"Matrix Enchanting" = true
 	Pipes = true
