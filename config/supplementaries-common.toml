@@ -67,7 +67,7 @@
 		shuffle_containers = true
 
 	[redstone.pulley_block]
-		enabled = true
+		enabled = false
 		#Chance for a new mineshaft elevator piece to spawn
 		#Range: 0.0 ~ 1.0
 		mineshaft_elevator = 0.035
