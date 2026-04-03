@@ -1,0 +1,17 @@
+filename = 'Ceramics-1.20.1-1.8.0.jar'
+name = 'Ceramics'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.8.0'
+
+[download]
+hash = '1af87934a17c9e50f64c3ba3f9766a6582da4c6a24028ff26d27560c32f6477e922f68203ad27607792e493b117ffe779e4fd16708ac63f1e8af4c99ac7a4b0f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MtA86qNV/versions/LI5YJqEb/Ceramics-1.20.1-1.8.0.jar'
+
+[update.modrinth]
+mod-id = 'MtA86qNV'
+version = 'LI5YJqEb'

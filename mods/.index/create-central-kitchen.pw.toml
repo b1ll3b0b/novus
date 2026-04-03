@@ -1,0 +1,17 @@
+filename = 'create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar'
+name = 'Create: Central Kitchen'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.3b'
+
+[download]
+hash = '0578fdcfc9e8f5f3717e2dab468fadca35480e6a2c6a701b43004c57ea1ff0d979c790148d68b6c9233c4c697e9e972d82e7ffd22d11db514b69d23b06f80bbc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/btq68HMO/versions/b6J7xYnJ/create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar'
+
+[update.modrinth]
+mod-id = 'btq68HMO'
+version = 'b6J7xYnJ'

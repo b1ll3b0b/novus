@@ -1,0 +1,17 @@
+filename = 'moreburners-1.20.1-0.3.5.jar'
+name = 'More Create Burners'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.3.5'
+
+[download]
+hash = '1590c7c57606e1461022b616f782b981d156065ea2e8b846781c39d040d80e669f024ad0768f726664a03ed03460a3627c0eeaa16e4eef8165885e8abe3b58d5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mhvWcWRc/versions/RDnw3kwU/moreburners-1.20.1-0.3.5.jar'
+
+[update.modrinth]
+mod-id = 'mhvWcWRc'
+version = 'RDnw3kwU'

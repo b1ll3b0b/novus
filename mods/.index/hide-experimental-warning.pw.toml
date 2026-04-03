@@ -1,0 +1,17 @@
+filename = 'hideexperimentalwarning-1.20.1-1.2.jar'
+name = 'Hide Experimental Warning'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-1.2-fabric+forge+neo'
+
+[download]
+hash = 'd18013a57005c5ef902f656f76237edf5b92e00880b241ed22f6327a19bece3bc0ecbaa6038fc19b6559a9436d73e4bfe378d8b7b463e8676e140c48bbb715a9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Rm4OOdHd/versions/hJuIowdr/hideexperimentalwarning-1.20.1-1.2.jar'
+
+[update.modrinth]
+mod-id = 'Rm4OOdHd'
+version = 'hJuIowdr'

@@ -1,0 +1,17 @@
+filename = 'compatdelight-1.0.1.1.jar'
+name = 'Compat Delight'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1.1'
+
+[download]
+hash = 'c5bc798a347a2ffd227b6c52c6bff6a2a717190b4c0266d0897c047e5b81c68fd73a95264bb0c1bb9babdd189f8ea5799957a19c22800fa01cbb56da35055e68'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iNJJU8Ib/versions/akFeLxqb/compatdelight-1.0.1.1.jar'
+
+[update.modrinth]
+mod-id = 'iNJJU8Ib'
+version = 'akFeLxqb'

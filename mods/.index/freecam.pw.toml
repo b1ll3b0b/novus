@@ -1,0 +1,17 @@
+filename = 'freecam-forge-1.2.1+1.20.jar'
+name = 'Freecam'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20', '1.20.1', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.1+mc1.20.1'
+
+[download]
+hash = '14d5194c02d6281094efdc857e608b412cdb84ffbf94a06401c8509daa74914273e18224f05d9fe9bcea23fa70d5350c6edaf8bf657e58787f08a4553169c0d2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XeEZ3fK2/versions/bvoDmWip/freecam-forge-1.2.1%2B1.20.jar'
+
+[update.modrinth]
+mod-id = 'XeEZ3fK2'
+version = 'bvoDmWip'

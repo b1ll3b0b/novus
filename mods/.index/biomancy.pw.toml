@@ -1,0 +1,17 @@
+filename = 'biomancy-neoforge-1.20.1-2.9.8.1-alpha.0.jar'
+name = 'Biomancy'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = 'Biomancy 2.9.8.1-alpha.0'
+
+[download]
+hash = '1bd1a270f9c974296ff4000fabe117eafd3fa6f2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7417643
+project-id = 492939

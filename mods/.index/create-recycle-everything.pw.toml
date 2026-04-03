@@ -1,0 +1,17 @@
+filename = 'create_recycle_1.0.2_forge_1.20.1.jar'
+name = 'Create Recycle Everything'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_recycle_1.0.2_forge_1.20.1.jar'
+
+[download]
+hash = 'e388ad4db938eaeddcaac49b49d5997794a3cfc8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4714469
+project-id = 872577

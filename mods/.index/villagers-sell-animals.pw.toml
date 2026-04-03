@@ -1,0 +1,17 @@
+filename = "nocube's_villagers_sell_animals_1.2.1_forge_1.20.1.jar"
+name = "Villagers Sell Animals [NoCube's Mods]"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "nocube's_villagers_sell_animals_1.2.1_forge_1.20.1.jar"
+
+[download]
+hash = '394818a1f121d51c7db0e11fd6992db734d09871'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4711140
+project-id = 664014

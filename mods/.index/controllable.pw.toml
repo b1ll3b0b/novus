@@ -1,0 +1,17 @@
+filename = 'controllable-forge-1.20.1-0.21.8.jar'
+name = 'Controllable'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Controllable 0.21.8'
+
+[download]
+hash = '279ee0a69b46149dafc108b26713377a6efce1b9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7411282
+project-id = 317269
