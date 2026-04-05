@@ -63,7 +63,7 @@ potionRingsAlpha = 1.0
 NPCsHavePotionRings = true
 
 [humanoids.frostyBreath]
-displayType = "DEFAULT"
+displayType = "THIRD_PERSON_ONLY"
 alpha = 0.5
 waitTime = 60
 seasons = "DEFAULT"

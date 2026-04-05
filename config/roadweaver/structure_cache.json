@@ -1718,6 +1718,19 @@
       ]
     },
     {
+      "tagId": "amendments:add_potion_cauldron",
+      "displayName": "#Add Potion Cauldron",
+      "structureIds": [
+        "minecraft:swamp_hut",
+        "repurposed_structures:witch_hut_birch",
+        "repurposed_structures:witch_hut_dark_forest",
+        "repurposed_structures:witch_hut_giant_tree_taiga",
+        "repurposed_structures:witch_hut_mangrove",
+        "repurposed_structures:witch_hut_oak",
+        "repurposed_structures:witch_hut_taiga"
+      ]
+    },
+    {
       "tagId": "supplementaries:adventure_map_destinations",
       "displayName": "#Adventure Map Destinations",
       "structureIds": [
