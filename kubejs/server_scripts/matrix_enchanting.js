@@ -4,24 +4,25 @@
 // as a mid/late game upgrade.
 //
 // Layout:
-//   AAA  — Amethyst Shards (top)
-//   QEQ  — Quartz / Enchanting Table / Quartz (middle)
-//   OOO  — Crying Obsidian (bottom)
+//   RQR  — Redstone / Quartz / Redstone
+//   QEQ  — Quartz / Enchanting Table / Quartz
+//   ODO  — Crying Obsidian / Diamond / Crying Obsidian
 
 ServerEvents.recipes(event => {
 
     event.shaped(
         'quark:matrix_enchanter',
         [
-            'AAA',
+            'RQR',
             'QEQ',
-            'OOO'
+            'ODO'
         ],
         {
-            A: 'minecraft:amethyst_shard',
+            R: 'minecraft:redstone',
             Q: 'minecraft:quartz',
             E: 'minecraft:enchanting_table',
-            O: 'minecraft:crying_obsidian'
+            O: 'minecraft:crying_obsidian',
+            D: 'minecraft:diamond'
         }
     ).id('novus:matrix_enchanting_table')
 
