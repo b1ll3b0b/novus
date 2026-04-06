@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
@@ -518,33 +518,33 @@
 	"Compasses Work Everywhere" = true
 	"Coral On Cactus" = true
 	"Diamond Repair" = true
-	"Double Door Opening" = true
+	"Double Door Opening" = false
 	"Dragon Scales" = true
 	"Dyeable Item Frames" = true
-	Emotes = true
+	Emotes = false
 	"Enhanced Ladders" = true
 	"Glass Shard" = true
 	"Gold Tools Have Fortune" = true
-	"Grab Chickens" = true
+	"Grab Chickens" = false
 	"Hoe Harvesting" = false
 	"Horses Swim" = true
 	"Improved Sponges" = true
-	"Lock Rotation" = true
+	"Lock Rotation" = false
 	"Magma Keeps Concrete Powder" = true
 	"Map Washing" = true
 	"More Banner Layers" = true
 	"More Note Block Sounds" = true
 	"More Villagers" = true
 	"No Durability On Cosmetics" = true
-	"Pat The Dogs" = true
+	"Pat The Dogs" = false
 	"Petals On Water" = true
 	"Pig Litters" = true
-	"Poison Potato Usage" = false
+	"Poison Potato Usage" = true
 	"Reacharound Placing" = false
 	"Renewable Spore Blossoms" = true
-	"Replace Scaffolding" = true
-	"Safer Creatures" = true
-	"Shulker Packing" = true
+	"Replace Scaffolding" = false
+	"Safer Creatures" = false
+	"Shulker Packing" = false
 	"Simple Harvest" = false
 	"Slabs To Blocks" = true
 	"Slimes To Magma Cubes" = true
