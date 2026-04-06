@@ -127,7 +127,7 @@
 	"Nether Brick Fence Gate" = true
 	"Rainbow Lamps" = true
 	"Raw Metal Bricks" = true
-	Rope = true
+	Rope = false
 	"Shear Vines" = true
 	Shingles = true
 	"Soul Sandstone" = true
@@ -347,8 +347,8 @@
 	"Endermosh Music Disc" = true
 	"Parrot Eggs" = true
 	"Pathfinder Maps" = true
-	Pickarang = true
-	"Seed Pouch" = true
+	Pickarang = false
+	"Seed Pouch" = false
 	"Skull Pikes" = true
 	"Slime In A Bucket" = true
 	"Torch Arrow" = true
@@ -1348,12 +1348,12 @@
 
 [mobs]
 	Crabs = true
-	Forgotten = true
-	Foxhound = true
-	Shiba = true
+	Forgotten = false
+	Foxhound = false
+	Shiba = false
 	Stonelings = true
 	Toretoise = true
-	Wraith = true
+	Wraith = false
 
 	[mobs.crabs]
 		"Enable Brewing" = true
