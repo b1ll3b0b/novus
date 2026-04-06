@@ -562,9 +562,9 @@
 
 	[tweaks.dispenser_tweaks]
 		#Allows dispensers to use axes on blocks to strip logs and scrape off copper oxidation and wax
-		axe_strip = true
+		axe_strip = false
 		#Enables shooting ender pearls with dispensers
-		shoot_ender_pearls = true
+		shoot_ender_pearls = false
 		#Enables extracting bundles items with dispensers
 		extract_from_bundles = true
 
@@ -649,13 +649,13 @@
 
 	[tweaks.noteblocks_scare]
 		#Noteblocks with a zombie head will scare off villagers
-		enabled = true
+		enabled = false
 
 	[tweaks.bad_luck_tweaks]
 		#Hit a void cat, get the unluck
 		cat_unluck = true
 		#If you have unluck you are more likely to get hit by a lighting
-		lightning_unluck = true
+		lightning_unluck = false
 
 	[tweaks.item_lore]
 		#Adds a recipe to add 'lore' strings to an item by combining it with a named nametag
