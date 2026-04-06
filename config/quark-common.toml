@@ -539,7 +539,7 @@
 	"Pat The Dogs" = true
 	"Petals On Water" = true
 	"Pig Litters" = true
-	"Poison Potato Usage" = true
+	"Poison Potato Usage" = false
 	"Reacharound Placing" = false
 	"Renewable Spore Blossoms" = true
 	"Replace Scaffolding" = true
@@ -1821,12 +1821,12 @@
 		"Reroll Even If Not Out Of Stock" = false
 
 [oddities]
-	Backpack = true
+	Backpack = false
 	Crate = false
-	Magnets = true
+	Magnets = false
 	"Matrix Enchanting" = true
 	Pipes = true
-	"Tiny Potato" = true
+	"Tiny Potato" = false
 	"Totem Of Holding" = true
 
 	[oddities.backpack]
