@@ -2,7 +2,7 @@
 [pickpocketing]
 	# If enabled, allows players to access the backpack of another player by interacting with the visible backpack on their back.
 	# Valid values: true, false
-	enabledPickpocketing = true
+	enabledPickpocketing = false
 	# The maximum reach distance of a player to interact with another player's backpack.
 	# Valid range: 0 to 4 (inclusive)
 	maxReachDistance = 2.0
@@ -19,7 +19,7 @@
 	spawnWithBackpackChance = 2
 	# If enabled, allows wandering traders to equip backpacks
 	# Valid values: true, false
-	enableBackpack = true
+	enableBackpack = false
 
 	[wanderingTrader.pickpocketingChallenge]
 		# The maximum distance a Wandering Trader can detect a player. The longer the distance, the more difficult the challenge to pickpocket their backpack.

@@ -768,7 +768,7 @@
 [world]
 	"Ancient Wood" = true
 	"Azalea Wood" = true
-	"Big Stone Clusters" = true
+	"Big Stone Clusters" = false
 	"Blossom Trees" = true
 	"Chorus Vegetation" = true
 	Corundum = true
@@ -777,7 +777,7 @@
 	"Glimmering Weald" = true
 	"Monster Box" = true
 	"Nether Obsidian Spikes" = true
-	"New Stone Types" = true
+	"New Stone Types" = false
 	"No More Lava Pockets" = true
 	Permafrost = true
 	"Spiral Spires" = true
