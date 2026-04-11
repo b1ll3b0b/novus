@@ -3,9 +3,6 @@
   "maxDistance": 8096,
   "onlyPlayersCanTeleport": true,
   "colors": {
-    "minecraft:cold_ocean": 5801146,
-    "minecraft:windswept_hills": 8827553,
-    "minecraft:snowy_slopes": 16055295,
     "minecraft:badlands": 12217644,
     "minecraft:deep_lukewarm_ocean": 5150412,
     "minecraft:flower_forest": 15892389,
@@ -71,7 +68,10 @@
     "minecraft:desert": 16247203,
     "minecraft:mangrove_swamp": 3116870,
     "minecraft:pale_garden": 15925201,
-    "minecraft:stony_shore": 9146262
+    "minecraft:stony_shore": 9146262,
+    "minecraft:cold_ocean": 5801146,
+    "minecraft:windswept_hills": 8827553,
+    "minecraft:snowy_slopes": 16055295
   },
   "version": 0,
   "name": "immersive_gateways"
