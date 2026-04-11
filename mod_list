@@ -19,7 +19,7 @@
   [✔] chefsdelight-1.0.4-forge-1.20.1
   [✔] Chunky-1.3.146
   [✔] cloth-config-11.1.136-forge
-  [✔] collective-1.20.1-8.13
+  [✔] collective-1.20.1-8.17
   [✔] comforts-forge-6.4.0+1.20.1
   [✔] compatdelight-1.0.1.1
   [✔] configured-forge-1.20.1-2.2.3
@@ -56,7 +56,7 @@
   [✔] entity_model_features_1.20.1-forge-3.0.17
   [✔] entity_sound_features_1.20.4-forge-0.7.1
   [✔] entity_texture_features_1.20.1-forge-7.0.13
-  [✔] entityculling-forge-1.10.0-mc1.20.1
+  [✔] entityculling-forge-1.10.1-mc1.20.1
   [✔] everycomp-1.20-2.9.19-forge
   [✔] ExplorersCompass-1.20.1-1.4.0-forge
   [✔] exposure_polaroid-forge-1.20.1-1.1.3
@@ -101,7 +101,7 @@
   [✔] mcw-mcwwindows-2.4.2-mc1.20.1forge
   [✔] mcw-roofs-2.3.2-mc1.20.1forge
   [✔] mcw-trapdoors-1.1.5-mc1.20.1forge
-  [✔] modernfix-forge-5.26.2+mc1.20.1
+  [✔] modernfix-forge-5.27.3+mc1.20.1
   [✔] moonlight-1.20-2.16.28-forge
   [✔] moreburners-1.20.1-0.3.5
   [✔] morered-1.20.1-4.0.0.4
