@@ -270,38 +270,6 @@
       ]
     },
     {
-      "id": "biomancy:abandoned_lab",
-      "displayName": "Abandoned Lab",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "biomancy:carcass_worm",
-      "displayName": "Carcass Worm",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "biomancy:keter_worm",
-      "displayName": "Keter Worm",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "biomancy:vault",
-      "displayName": "Vault",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
       "id": "immersive_gateways:badlands/0",
       "displayName": "Badlands/0",
       "isVanilla": false,
@@ -2054,14 +2022,6 @@
       ]
     },
     {
-      "tagId": "biomancy:cradle",
-      "displayName": "#Cradle",
-      "structureIds": [
-        "biomancy:carcass_worm",
-        "biomancy:keter_worm"
-      ]
-    },
-    {
       "tagId": "quark:crimson_chest_structures",
       "displayName": "#Crimson Chest Structures",
       "structureIds": [
@@ -2258,13 +2218,6 @@
       ]
     },
     {
-      "tagId": "biomancy:giant_worm",
-      "displayName": "#Giant Worm",
-      "structureIds": [
-        "biomancy:keter_worm"
-      ]
-    },
-    {
       "tagId": "immersive_gateways:ice",
       "displayName": "#Ice",
       "structureIds": [
@@ -2294,13 +2247,6 @@
         "repurposed_structures:pyramid_jungle",
         "repurposed_structures:ruins_land_hot",
         "repurposed_structures:village_jungle"
-      ]
-    },
-    {
-      "tagId": "biomancy:lab",
-      "displayName": "#Lab",
-      "structureIds": [
-        "biomancy:abandoned_lab"
       ]
     },
     {
@@ -2585,13 +2531,6 @@
       ]
     },
     {
-      "tagId": "biomancy:small_worm",
-      "displayName": "#Small Worm",
-      "structureIds": [
-        "biomancy:carcass_worm"
-      ]
-    },
-    {
       "tagId": "repurposed_structures:smarter_snow_placing",
       "displayName": "#Smarter Snow Placing",
       "structureIds": [
@@ -2654,13 +2593,6 @@
       "displayName": "#Swamp",
       "structureIds": [
         "immersive_gateways:swamp/0"
-      ]
-    },
-    {
-      "tagId": "biomancy:vault",
-      "displayName": "#Vault",
-      "structureIds": [
-        "biomancy:vault"
       ]
     },
     {

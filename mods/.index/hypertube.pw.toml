@@ -1,0 +1,21 @@
+filename = 'create_hypertube-0.4.0-FORGE.jar'
+name = 'Create: Hypertubes'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.4.0'
+
+[download]
+hash = '67e200c36bd0f8571089c99f489af6987e40e6b6c912c7b4b7830f605943cd25b6d727f707c7dbcd91faea30ee67385b635e3a61dd6f813460e68f5b49c0ff40'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ATDdrG1y/versions/ngA99IQz/create_hypertube-0.4.0-FORGE.jar'
+
+[update.modrinth]
+mod-id = 'ATDdrG1y'
+version = 'ngA99IQz'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
