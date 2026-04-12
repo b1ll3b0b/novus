@@ -1,2 +1,15 @@
 kubejs/client_scripts/example.js
 kubejs/startup_scripts/example.js
+
+
+controllable_natives
+emi.json
+
+backups
+crash-reports
+local
+logs
+saves
+usercache.json
+usernamecache.json
+.mixin.out
