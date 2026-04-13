@@ -1,0 +1,12 @@
+{
+  "block.awning.bounce": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:block.wool.place",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  }
+}

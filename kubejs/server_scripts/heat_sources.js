@@ -5,10 +5,6 @@
 
 ServerEvents.recipes(event => {
 
-    // Dwarven Burner — requires embers:mechanical_core + forge:plates/dawnstone,
-    // neither of which have production routes in this pack
-    event.remove({ id: 'moreburners:ember_burner' })
-
     // CreateAddition seed oil compacting — redundant with diesel generators plant oil.
     // Both register under forge:plantoil. Keep diesel generators as the sole source.
     event.remove({ id: 'createaddition:compacting/seed_oil' })
