@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "create:item_application",
+  "ingredients": [
+    { "item": "minecraft:barrier" },
+    { "item": "minecraft:barrier" }
+  ],
+  "results": [
+    { "item": "minecraft:barrier" }
+  ]
+}
