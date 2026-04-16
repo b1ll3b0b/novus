@@ -1,4 +1,5 @@
 config/lighty.config
+config/chunky/tasks/*
 emi.json
 
 backups
