@@ -1555,7 +1555,7 @@
 	"Auto Walk Keybind" = true
 	"Back Button Keybind" = true
 	"Buckets Show Inhabitants" = true
-	Camera = true
+	Camera = false
 	"Chest Searching" = true
 	"Elytra Indicator" = true
 	"Greener Grass" = false
