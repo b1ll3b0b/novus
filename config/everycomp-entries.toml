@@ -56,6 +56,9 @@
 			chocolate_cake = true
 			honey_cake = true
 
+		[types.cake.farmersrespite]
+			coffee_cake = true
+
 #Disables specific entries
 [entries]
 

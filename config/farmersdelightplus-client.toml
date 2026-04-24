@@ -1,0 +1,8 @@
+
+#Client settings
+[client]
+	#Should salmon change its texture by secret name tag?
+	salmonHoneyNameTag = true
+	#Should meal and drink tooltips display which effects they provide?
+	foodEffectTooltip = true
+

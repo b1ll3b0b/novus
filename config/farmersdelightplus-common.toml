@@ -1,0 +1,15 @@
+
+#Game settings
+[common]
+	#Should the Butcher has some of this mod's new trades?
+	butcherFDPTrades = true
+	#Should the Wandering Trader has some of this mod's new trades?
+	wanderingTraderFDPTrades = true
+	#Should frogspawn be picked up using a bowl? (It can always be obtained with Silk Touch)
+	enableFrogspawnBowlPickingUp = true
+	#Should pancakes be picked up using a bowl?
+	enablePancakeBowlPickingUp = true
+	#Should pancakes only be cooked in a skillet?
+	#If true, cooking pancakes on a campfire or stove will be denied.
+	cookPancakesOnlyInSkillet = true
+
