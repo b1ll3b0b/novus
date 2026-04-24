@@ -1,17 +1,21 @@
-filename = 'dummmmmmy-1.20-2.0.9.jar'
-name = 'MmmMmmMmmMmm'
+filename = 'dummmmmmy-1.20-2.0.12-forge.jar'
+name = 'MmmMmmMmmmmm'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.20-2.0.9'
+x-prismlauncher-version-number = '1.20-2.0.12-forge'
 
 [download]
-hash = '43d86873c4463f483daaacba7c3d4df419c95c78327ad248ae0c18ff3439a6d07f0f6386421b043b231b4e57f52699ae56d95a7346ac174f98726ef690c5c48b'
+hash = '3ad3237a847cdbfc93df1eb0eaa75552e9a1aca871e04106948317ee930b04e6e1d84fb776f3d21bd17ceb5bf033833562bf7294c7579a4e6f5abbf86f1aa32f'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Adega8YN/versions/zAahRq2q/dummmmmmy-1.20-2.0.9.jar'
+url = 'https://cdn.modrinth.com/data/Adega8YN/versions/c1HMqDvI/dummmmmmy-1.20-2.0.12-forge.jar'
 
 [update.modrinth]
 mod-id = 'Adega8YN'
-version = 'zAahRq2q'
+version = 'c1HMqDvI'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'twkfQtEc'
+type = 'REQUIRED'
