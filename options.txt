@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight"]
+resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -135,7 +135,7 @@ key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.ftbchunks.map:key.keyboard.m
-key_key.ftbchunks.toggle_minimap:key.keyboard.j
+key_key.ftbchunks.toggle_minimap:key.keyboard.unknown
 key_key.ftbchunks.claim_manager:key.keyboard.unknown
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus

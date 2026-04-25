@@ -81,9 +81,9 @@ heartBeatingWaitTime = 3
 [dustClouds]
 scale = 2.0
 alpha = 1.0
-preventWhenRaining = false
+preventWhenRaining = true
 flyIntoWall = true
-lessViewBlocking = false
+lessViewBlocking = true
 playerFell = true
 mobFell = true
 landMaceAttack = true
