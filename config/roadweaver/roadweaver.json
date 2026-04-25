@@ -21,22 +21,22 @@
     "dynamicPlanEnabled": true,
     "dynamicPlanRadiusChunks": 256,
     "dynamicPlanStrideChunks": 128,
-    "planningAlgorithm": "RNG"
+    "planningAlgorithm": "DELAUNAY"
   },
   "pathfindingCost": {
     "orthoStepCost": 1.0,
     "diagStepCost": 1.414,
-    "elevationWeight": 80,
+    "elevationWeight": 120,
     "biomeWeight": 2,
-    "stabilityWeight": 15,
-    "waterDepthWeight": 80,
-    "nearWaterCost": 80,
-    "waterProximityCost": 20,
+    "stabilityWeight": 30,
+    "waterDepthWeight": 120,
+    "nearWaterCost": 120,
+    "waterProximityCost": 50,
     "heuristicWeight": 15.0,
     "deviationWeight": 0.5,
     "aStarStep": 8,
     "aStarMaxSteps": 20000,
-    "hierarchicalPathfindingEnabled": false,
+    "hierarchicalPathfindingEnabled": true,
     "pathfindingAlgorithm": "POTENTIAL_FIELD",
     "accurateSamplingDivisor": 0,
     "samplingPrecision": "NORMAL"
@@ -59,7 +59,7 @@
     "slopeLimitEnabled": true
   },
   "bridge": {
-    "enabled": true,
+    "enabled": false,
     "deckClearance": 2,
     "maxLengthBlocks": 100,
     "useBuoysInstead": false,
