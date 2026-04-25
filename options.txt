@@ -42,20 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:[
-"vanilla",
-"mod_resources",
-"Moonlight Mods Dynamic Assets",
-"builtin/agricraft_resourcepacks_botania",
-"builtin/agricraft_resourcepacks_farmersdelight",
-"file/FreshAnimations_v1.10.4.zip",
-"file/§bAzu\u0027s Enhanced Zombie Variants FA v0.1.zip",
-"file/FA+Spiders-v2.1.zip",
-"file/FA+Quivers-v2.2.zip",
-"file/FA+Player-v1.0.zip",
-"file/FA+Emissive-v1.5.zip",
-"mod/subtle_effects:resourcepacks/biome_color_water_particles"
-]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","file/FreshAnimations_v1.10.4.zip","file/§bAzu\u0027s Enhanced Zombie Variants FA v0.1.zip","file/FA+Spiders-v2.1.zip","file/FA+Quivers-v2.2.zip","file/FA+Player-v1.0.zip","file/FA+Emissive-v1.5.zip","mod/subtle_effects:resourcepacks/biome_color_water_particles"]
 incompatibleResourcePacks:["file/§bAzu\u0027s Enhanced Zombie Variants FA v0.1.zip"]
 lastServer:
 lang:en_us

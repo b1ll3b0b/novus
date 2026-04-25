@@ -1,0 +1,10 @@
+{
+  "type": "moonlight:add_loot_table",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/skeleton"
+    }
+  ],
+  "loot_table": "novus:inject/quiver_drop"
+}

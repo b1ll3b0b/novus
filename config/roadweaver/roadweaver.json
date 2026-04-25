@@ -62,7 +62,7 @@
     "enabled": true,
     "deckClearance": 2,
     "maxLengthBlocks": 100,
-    "useBuoysInstead": true,
+    "useBuoysInstead": false,
     "useBuoysWhenSkipped": false,
     "buoyIntervalBlocks": 32,
     "pierInterval": 6,
