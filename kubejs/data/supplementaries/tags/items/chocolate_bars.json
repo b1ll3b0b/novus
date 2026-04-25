@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "compatdelight:milk_chocolate_bar", "required": false }
+  ]
+}

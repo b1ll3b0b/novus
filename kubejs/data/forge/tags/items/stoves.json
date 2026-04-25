@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "farmersdelight:stove",
+    { "id": "nethersdelight:blackstone_stove", "required": false }
+  ]
+}
