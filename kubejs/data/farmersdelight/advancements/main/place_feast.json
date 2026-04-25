@@ -1,0 +1,60 @@
+{
+  "parent": "farmersdelight:main/eat_nourishing_food",
+  "criteria": {
+    "honey_glazed_ham": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "farmersdelight:honey_glazed_ham_block"
+      }
+    },
+    "rice_roll_medley": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "farmersdelight:rice_roll_medley_block"
+      }
+    },
+    "roast_chicken": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "farmersdelight:roast_chicken_block"
+      }
+    },
+    "shepherds_pie": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "farmersdelight:shepherds_pie_block"
+      }
+    },
+    "stuffed_pumpkin": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "farmersdelight:stuffed_pumpkin_block"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "farmersdelight.advancement.place_feast.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:roast_chicken_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "farmersdelight.advancement.place_feast"
+    }
+  },
+  "requirements": [
+    [
+      "roast_chicken",
+      "stuffed_pumpkin",
+      "honey_glazed_ham",
+      "shepherds_pie",
+      "rice_roll_medley"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
