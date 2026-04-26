@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","file/VanillaTweaks_VariationWorldgen.zip","file/VanillaTweaks_ClearerWater.zip","file/VanillaTweaks_Utilities.zip","file/VanillaTweaks_3D_Amethyst.zip","mod/subtle_effects:resourcepacks/biome_color_water_particles","FreshAnimations_v1.10.4.zip","AL\u0027s Zombies Revamped+FA 1.3.zip","FA+Spiders-v2.1.zip","FA+Quivers-v2.2.zip","FA+Emissive-v1.5.zip","FA+Player-v1.0.zip","PA-FA-Compat-v1.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","file/VanillaTweaks_ClearerWater.zip","file/VanillaTweaks_Utilities.zip","file/VanillaTweaks_3D_Amethyst.zip","file/VanillaTweaks_VariationWorldgen.zip","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/Novus_QuarkCorundum_3DCluster_hybrid.zip","FreshAnimations_v1.10.4.zip","AL\u0027s Zombies Revamped+FA 1.3.zip","FA+Spiders-v2.1.zip","FA+Quivers-v2.2.zip","FA+Emissive-v1.5.zip","FA+Player-v1.0.zip","PA-FA-Compat-v1.zip"]
 incompatibleResourcePacks:["AL\u0027s Zombies Revamped+FA 1.3.zip","PA-FA-Compat-v1.zip"]
 lastServer:
 lang:en_us
