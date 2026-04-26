@@ -1,0 +1,6 @@
+
+[general]
+	#PlayerAnimator animation ids that should NOT be considered active.
+	#Example: "mymod:idle"
+	animation_blacklist = []
+

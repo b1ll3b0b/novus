@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","file/FreshAnimations_v1.10.4.zip","file/§bAzu\u0027s Enhanced Zombie Variants FA v0.1.zip","file/FA+Spiders-v2.1.zip","file/FA+Quivers-v2.2.zip","file/FA+Emissive-v1.5.zip","mod/subtle_effects:resourcepacks/biome_color_water_particles"]
-incompatibleResourcePacks:["file/§bAzu\u0027s Enhanced Zombie Variants FA v0.1.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","file/FreshAnimations_v1.10.4.zip","file/§bAzu\u0027s Enhanced Zombie Variants FA v0.1.zip","file/FA+Spiders-v2.1.zip","file/FA+Quivers-v2.2.zip","file/FA+Emissive-v1.5.zip","file/FA+Player-v1.0.zip","file/PA-FA-Compat-v1.zip","mod/subtle_effects:resourcepacks/biome_color_water_particles"]
+incompatibleResourcePacks:["file/§bAzu\u0027s Enhanced Zombie Variants FA v0.1.zip","file/PA-FA-Compat-v1.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -130,6 +130,8 @@ key_key.lighty.toggle:key.keyboard.f8
 key_key.jetpack.toggle_active.description:key.keyboard.g
 key_key.jetpack.toggle_hover.description:key.keyboard.h
 key_key.toms_storage.open_terminal:key.keyboard.b
+key_keybinds.bettercombat.feint:key.keyboard.unknown
+key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.ponder.ponder:key.keyboard.w
 key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
