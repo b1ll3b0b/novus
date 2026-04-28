@@ -8,7 +8,7 @@
   //Amount of experience taken or given to the enchanted basin per interaction. (Default: 50)
   "exp_amount": 50,
   //Enable explosion potential of the alchemist workstation. (Default: true)
-  "can_explode": true,
+  "can_explode": false,
   //Chance of the alchemist workstation NOT exploding (1 in ?). Must be greater than 0! (Default: 3)
   "explosion_chance": 3,
   //Weight of the house in the village structure pool. Higher values increase the chance of generating.
