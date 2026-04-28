@@ -39,11 +39,16 @@
 
 ServerEvents.entityLootTables(event => {
 
-    // Regular Skeleton — 7%, light arrows
+    // Regular Skeleton — 7% base, light arrows, Looting-scaled
+    // chance(L) = 0.07 + 0.02 * L  →  L0 7%, L1 9%, L2 11%, L3 13%
     event.modifyEntity('minecraft:skeleton', table => {
         table.addPool(pool => {
             pool.rolls = 1
-            pool.addCondition({ condition: 'minecraft:random_chance', chance: 0.07 })
+            pool.addCondition({
+                condition: 'minecraft:random_chance_with_looting',
+                chance: 0.07,
+                looting_multiplier: 0.02
+            })
             pool.addCondition({ condition: 'minecraft:killed_by_player' })
             pool.addItem('supplementaries:quiver').addFunction({
                 function: 'supplementaries:random_arrows',
@@ -53,11 +58,16 @@ ServerEvents.entityLootTables(event => {
         })
     })
 
-    // Stray — 15%, mansion-tier arrows
+    // Stray — 15% base, mansion-tier arrows, steeper Looting scaling (rarer mob)
+    // chance(L) = 0.15 + 0.04 * L  →  L0 15%, L1 19%, L2 23%, L3 27%
     event.modifyEntity('minecraft:stray', table => {
         table.addPool(pool => {
             pool.rolls = 1
-            pool.addCondition({ condition: 'minecraft:random_chance', chance: 0.15 })
+            pool.addCondition({
+                condition: 'minecraft:random_chance_with_looting',
+                chance: 0.15,
+                looting_multiplier: 0.04
+            })
             pool.addCondition({ condition: 'minecraft:killed_by_player' })
             pool.addItem('supplementaries:quiver').addFunction({
                 function: 'supplementaries:random_arrows',
