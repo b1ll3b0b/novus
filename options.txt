@@ -78,7 +78,7 @@ hideMatchedNames:true
 joinedFirstServer:false
 hideBundleTutorial:false
 syncChunkWrites:false
-showAutosaveIndicator:true
+showAutosaveIndicator:false
 allowServerListing:true
 onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
