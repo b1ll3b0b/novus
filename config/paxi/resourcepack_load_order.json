@@ -1,11 +1,14 @@
 {
-  "loadOrder": [
-    "FreshAnimations_v1.10.4.zip",
-    "AL's Zombies Revamped+FA 1.3.zip",
-    "FA+Spiders-v2.1.zip",
-    "FA+Quivers-v2.2.zip",
-    "FA+Emissive-v1.5.zip",
-    "FA+Player-v1.0.zip",
-    "PA-FA-Compat-v1.zip"
+	"loadOrder": [
+ 	 	"VanillaTweaks_3D_Amethyst.zip",
+ 	 	"Novus_TConstruct_GeodeCrystal_3D.zip",
+ 	 	"Novus_QuarkCorundum_3DCluster_hybrid.zip",
+		"FreshAnimations_v1.10.4.zip",
+		"AL's Zombies Revamped+FA 1.3.zip",
+		"FA+Spiders-v2.1.zip",
+		"FA+Quivers-v2.2.zip",
+		"FA+Emissive-v1.5.zip",
+		"FA+Player-v1.0.zip",
+		"PA-FA-Compat-v1.zip"
   ]
 }
