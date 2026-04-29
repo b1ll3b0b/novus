@@ -1,20 +1,20 @@
-filename = 'SubtleEffects-forge-1.20.1-1.14.2.jar'
+filename = 'SubtleEffects-forge-1.20.1-1.14.3.jar'
 name = 'Subtle Effects'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.14.2'
+x-prismlauncher-version-number = '1.14.3'
 
 [download]
-hash = '94f1d6d5e70cc8706436113f2d38b52d590e631cbb19146861f0197fd14502831673298234bd31ba93080cf4946aabf0ec3178c42192f9b3e11aeadfb935b3b8'
+hash = 'cfc7bc452d8e2292e5825106b5454b2abb3d1771b3cb62accbc51849c66ea0d47b99ada1acb3426d190c372ffea05dfa06633e9bdead7ed661abafd8cf675992'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/4q8UOK1d/versions/sjtu4cDX/SubtleEffects-forge-1.20.1-1.14.2.jar'
+url = 'https://cdn.modrinth.com/data/4q8UOK1d/versions/41iwVxX9/SubtleEffects-forge-1.20.1-1.14.3.jar'
 
 [update.modrinth]
 mod-id = '4q8UOK1d'
-version = 'sjtu4cDX'
+version = '41iwVxX9'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'hYykXjDp'
