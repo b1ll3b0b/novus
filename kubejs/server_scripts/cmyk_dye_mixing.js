@@ -17,8 +17,6 @@
 // "primary" in vanilla and have no mixing recipes; lime comes from
 // green+white). So this is purely additive: the existing vanilla paths
 // still work alongside these.
-//
-// Drop into kubejs/server_scripts/
 
 ServerEvents.recipes(event => {
     // Two-ingredient mixes

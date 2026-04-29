@@ -1,7 +1,9 @@
-// Matrix Enchanting Table — upgrade recipe
-// Automatically Convert is disabled in quark-common.toml so the vanilla
-// enchanting table is no longer auto-converted. Players craft this explicitly
-// as a mid/late game upgrade.
+// Matrix Enchanting Table — explicit upgrade recipe
+//
+// Quark's "automatically convert" behavior is disabled in quark-common.toml,
+// so the vanilla enchanting table is no longer silently swapped. Players
+// instead craft the Matrix Enchanter explicitly as a mid/late-game upgrade
+// using this recipe.
 //
 // Layout:
 //   RQR  — Redstone / Quartz / Redstone

@@ -13,25 +13,28 @@
 //   `ServerEvents.entityLootTables` doesn't trigger ForgeHooks.modifyLoot, so no
 //   recursion path exists. See PATCHES.md for the full incident.
 //
-// Drop economy (post-tuning, 2026-04-25):
-//   Skeleton — 7% chance, killed_by_player only, arrows 3–10.
-//     Common mob, frequent drops, lighter arrow population so quivers don't flood
-//     inventory with arrows. Roughly 1 quiver per 14 skeleton kills (50% chance
-//     within 10 kills).
+// Drop economy (base rates at Looting 0; per-pool comments below have the
+// full Looting curve):
 //
-//   Stray  — 15% chance, killed_by_player only, arrows 4–18 (mansion-tier).
-//     Rarer biome (icy), tougher progression mob; bigger reward justifies the kill.
-//     Roughly 1 quiver per 7 stray kills.
+//   Skeleton — 7% base + 2%/Looting, killed_by_player only, arrows 3–10.
+//     Common mob, frequent drops, lighter arrow population so quivers don't
+//     flood inventory with arrows. Roughly 1 quiver per 14 skeleton kills at
+//     L0 (50% chance within 10 kills).
 //
-//   Both conditions: random_chance + killed_by_player. The killed_by_player
-//   condition prevents creeper-killed-skeleton or auto-mob-farms from yielding
-//   quivers — drops are reserved for player-driven combat.
+//   Stray  — 15% base + 4%/Looting, killed_by_player only, arrows 4–18
+//   (mansion-tier).
+//     Rarer biome (icy), tougher progression mob; bigger reward justifies the
+//     kill. Roughly 1 quiver per 7 stray kills at L0.
+//
+//   Both pools use `random_chance_with_looting` + `killed_by_player`. The
+//   killed_by_player gate prevents creeper-killed-skeletons and auto-mob-farms
+//   from yielding quivers — drops are reserved for player-driven combat.
 //
 // Reference rates for context:
 //   Supplementaries' default native spawn-equip on Hard difficulty produces
 //   roughly 1 quiver per 800 skeleton kills in realistic play (chunks aged
 //   ~1–2 hours), or 1 per 400 at peak local-difficulty conditions. Our 7%
-//   is ~30–60× that rate, justified because:
+//   base is ~30–60× that rate, justified because:
 //     (a) we plan a crafting recipe for empty quivers (primary acquisition path)
 //     (b) the kill drop is a "shortcut to a pre-loaded quiver," not the only
 //         way to obtain one — so it competes with "craft empty + fill manually"

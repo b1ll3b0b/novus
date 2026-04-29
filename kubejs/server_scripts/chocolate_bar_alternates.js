@@ -1,18 +1,25 @@
 // Chocolate-bar alternates for cocoa-based recipes +
 // compatdelight conversions from hardcoded milk_chocolate_bar to tag.
 //
-// Part 1 — ADDITIONS (bean recipes stay, bar alternates added):
-//   - farmersdelight:chocolate_pie
-//   - farmersdelightplus:chocolate_glazed_chicken
-//   - farmersdelightplus:chocolate_pancake
-// Conversion rule: 1 chocolate bar (forge:bars/chocolate) = 2 cocoa beans.
+// Part 1 — ADDITIONS (vanilla bean recipes stay, bar-based alternates added):
+//   - novus:chocolate_pie_from_bar             -> farmersdelight:chocolate_pie
+//   - novus:chocolate_glazed_chicken_from_bar  -> farmersdelightplus:chocolate_glazed_chicken
+//   - novus:chocolate_pancake_from_bar         -> farmersdelightplus:chocolate_pancake
+// Conversion rule: 1 chocolate bar (forge:bars/chocolate) ≈ 2 cocoa beans.
 //
 // Part 2 — REPLACEMENTS (originals removed, tag-based versions added):
-//   - compatdelight:chocolate_caramel
-//   - compatdelight:chocolate_filled_marshmallow
+//   - compatdelight:sweetdelight/chocolate_caramel
+//       -> novus:chocolate_caramel_from_bar
+//   - compatdelight:sweetdelight/chocolate_filled_marshmallow
+//       -> novus:chocolate_filled_marshmallow_from_bar
+//   Both replacements preserve the original forge:item_exists +
+//   compatdelight:compat_enabled (key: sweet_delight) Forge conditions, so the
+//   recipes drop out gracefully if Sweet Delight integration is disabled.
 //
 // Tag membership is set in kubejs/data/forge/tags/items/bars/chocolate.json.
-// Dark chocolate is intentionally NOT in that tag (its own lane).
+// Dark chocolate (compatdelight:dark_chocolate_bar) and blazing chocolate
+// (tgears:bar_of_blazing_chocolate) are intentionally NOT in that tag — they
+// stay in their own lanes. See memory/project_novus_chocolate_tiering.md.
 
 ServerEvents.recipes(event => {
 
