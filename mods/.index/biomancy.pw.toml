@@ -12,9 +12,11 @@ hash-format = 'sha512'
 mode = 'url'
 url = 'https://cdn.modrinth.com/data/uAAuyU4M/versions/R9G57ESj/biomancy-forge-1.20.1-2.8.19.0.jar'
 
-[update.modrinth]
-mod-id = 'uAAuyU4M'
-version = 'R9G57ESj'
+# Pinned to 2.8.19.0 — do not auto-update (2026-05-01)
+# To unpin: restore the [update.modrinth] block:
+#   [update.modrinth]
+#   mod-id = 'uAAuyU4M'
+#   version = 'R9G57ESj'
 
 [[x-prismlauncher-dependencies]]
 addonId = '8BmcQJ2H'

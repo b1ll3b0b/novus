@@ -1,0 +1,48 @@
+{
+  "profession": "villagersplus:horticulturist",
+  "trades": {
+    "novice": [
+      {
+        "type": "villagersplus:buy_item",
+        "buy": {
+          "item": "supplementaries:flax_seeds",
+          "count": 2
+        },
+        "reward": {
+          "item": "emerald",
+          "count": 1
+        },
+        "max_uses": 12,
+        "villager_experience": 1
+      }
+    ],
+    "journeyman": [
+      {
+        "type": "villagersplus:sell_item",
+        "sell": {
+          "item": "supplementaries:planter",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "emerald",
+          "count": 6
+        },
+        "max_uses": 12,
+        "villager_experience": 4
+      },
+      {
+        "type": "villagersplus:sell_item",
+        "sell": {
+          "item": "supplementaries:flower_box",
+          "count": 2
+        },
+        "priceIn": {
+          "item": "emerald",
+          "count": 6
+        },
+        "max_uses": 12,
+        "villager_experience": 4
+      }
+    ]
+  }
+}

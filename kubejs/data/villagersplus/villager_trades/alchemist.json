@@ -1,0 +1,54 @@
+{
+  "profession": "villagersplus:alchemist",
+  "trades": {
+    "novice": [
+      {
+        "type": "villagersplus:buy_item",
+        "buy": {
+          "item": "supplementaries:ash",
+          "count": 2
+        },
+        "reward": {
+          "item": "emerald",
+          "count": 1
+        },
+        "max_uses": 8,
+        "villager_experience": 1
+      }
+    ],
+    "apprentice": [
+      {
+        "type": "villagersplus:sell_item",
+        "sell": {
+          "item": "supplementaries:bomb",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "emerald",
+          "count": 6
+        },
+        "max_uses": 8,
+        "villager_experience": 5
+      }
+    ],
+    "master": [
+      {
+        "type": "villagersplus:process_item",
+        "sell": {
+          "item": "supplementaries:bomb_blue",
+          "count": 1
+        },
+        "convertible": {
+          "item": "supplementaries:bomb",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "emerald",
+          "count": 48
+        },
+        "max_uses": 4,
+        "villager_experience": 1
+      }
+    ]
+  }
+}

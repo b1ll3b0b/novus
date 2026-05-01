@@ -1,0 +1,20 @@
+{
+  "profession": "villagersplus:oceanographer",
+  "trades": {
+    "apprentice": [
+      {
+        "type": "villagersplus:sell_item",
+        "sell": {
+          "item": "supplementaries:jar",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "emerald",
+          "count": 6
+        },
+        "max_uses": 8,
+        "villager_experience": 4
+      }
+    ]
+  }
+}

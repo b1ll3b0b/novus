@@ -87,9 +87,9 @@ lessViewBlocking = true
 playerFell = true
 mobFell = true
 landMaceAttack = true
-playerRunning = true
+playerRunning = false
 mobRunning = true
-playerRunningRequiresSpeed = false
+playerRunningRequiresSpeed = true
 
 [burning]
 smokeType = "DEFAULT"
