@@ -1,0 +1,144 @@
+{
+  "entity.guardian.ambient": {
+    "sounds": [
+      {"name": "entity/guardian/ambient1", "volume": 0.005},
+      {"name": "entity/guardian/ambient2", "volume": 0.005},
+      {"name": "entity/guardian/ambient3", "volume": 0.005},
+      {"name": "entity/guardian/ambient4", "volume": 0.005}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.guardian.ambient"
+  },
+  "entity.guardian.ambient_land": {
+    "sounds": [
+      {"name": "entity/guardian/land_idle1", "volume": 0.05},
+      {"name": "entity/guardian/land_idle2", "volume": 0.05},
+      {"name": "entity/guardian/land_idle3", "volume": 0.05},
+      {"name": "entity/guardian/land_idle4", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.guardian.ambient_land"
+  },
+  "entity.guardian.attack": {
+    "sounds": [
+      {"name": "entity/guardian/attack_loop", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.guardian.attack"
+  },
+  "entity.guardian.death": {
+    "sounds": [
+      {"name": "entity/guardian/guardian_death", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.guardian.death"
+  },
+  "entity.guardian.death_land": {
+    "sounds": [
+      {"name": "entity/guardian/land_death", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.guardian.death"
+  },
+  "entity.guardian.flop": {
+    "sounds": [
+      {"name": "entity/guardian/flop1", "volume": 0.05},
+      {"name": "entity/guardian/flop2", "volume": 0.05},
+      {"name": "entity/guardian/flop3", "volume": 0.05},
+      {"name": "entity/guardian/flop4", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.guardian.flop"
+  },
+  "entity.guardian.hurt": {
+    "sounds": [
+      {"name": "entity/guardian/guardian_hit1", "volume": 0.05},
+      {"name": "entity/guardian/guardian_hit2", "volume": 0.05},
+      {"name": "entity/guardian/guardian_hit3", "volume": 0.05},
+      {"name": "entity/guardian/guardian_hit4", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.guardian.hurt"
+  },
+  "entity.guardian.hurt_land": {
+    "sounds": [
+      {"name": "entity/guardian/land_hit1", "volume": 0.05},
+      {"name": "entity/guardian/land_hit2", "volume": 0.05},
+      {"name": "entity/guardian/land_hit3", "volume": 0.05},
+      {"name": "entity/guardian/land_hit4", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.guardian.hurt"
+  },
+  "entity.elder_guardian.ambient": {
+    "sounds": [
+      {"name": "entity/guardian/elder_idle1", "volume": 0.05},
+      {"name": "entity/guardian/elder_idle2", "volume": 0.05},
+      {"name": "entity/guardian/elder_idle3", "volume": 0.05},
+      {"name": "entity/guardian/elder_idle4", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.elder_guardian.ambient"
+  },
+  "entity.elder_guardian.ambient_land": {
+    "sounds": [
+      {"name": "entity/guardian/land_idle1", "volume": 0.05},
+      {"name": "entity/guardian/land_idle2", "volume": 0.05},
+      {"name": "entity/guardian/land_idle3", "volume": 0.05},
+      {"name": "entity/guardian/land_idle4", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.elder_guardian.ambient_land"
+  },
+  "entity.elder_guardian.curse": {
+    "sounds": [
+      {"name": "entity/guardian/curse", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.elder_guardian.curse"
+  },
+  "entity.elder_guardian.death": {
+    "sounds": [
+      {"name": "entity/guardian/elder_death", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.elder_guardian.death"
+  },
+  "entity.elder_guardian.death_land": {
+    "sounds": [
+      {"name": "entity/guardian/land_death", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.elder_guardian.death"
+  },
+  "entity.elder_guardian.flop": {
+    "sounds": [
+      {"name": "entity/guardian/flop1", "volume": 0.05},
+      {"name": "entity/guardian/flop2", "volume": 0.05},
+      {"name": "entity/guardian/flop3", "volume": 0.05},
+      {"name": "entity/guardian/flop4", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.elder_guardian.flop"
+  },
+  "entity.elder_guardian.hurt": {
+    "sounds": [
+      {"name": "entity/guardian/elder_hit1", "volume": 0.05},
+      {"name": "entity/guardian/elder_hit2", "volume": 0.05},
+      {"name": "entity/guardian/elder_hit3", "volume": 0.05},
+      {"name": "entity/guardian/elder_hit4", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.elder_guardian.hurt"
+  },
+  "entity.elder_guardian.hurt_land": {
+    "sounds": [
+      {"name": "entity/guardian/land_hit1", "volume": 0.05},
+      {"name": "entity/guardian/land_hit2", "volume": 0.05},
+      {"name": "entity/guardian/land_hit3", "volume": 0.05},
+      {"name": "entity/guardian/land_hit4", "volume": 0.05}
+    ],
+    "replace": true,
+    "subtitle": "subtitles.entity.elder_guardian.hurt"
+  }
+}
