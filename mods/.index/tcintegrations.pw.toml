@@ -1,0 +1,125 @@
+filename = 'TCIntegrations-1.20.1-2.0.25.19.jar'
+name = "Tinkers' Integrations and Tweaks"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-2.0.25.19'
+
+[download]
+hash = '82b7786138fd7311ad9bd303d3ef065047cf3ede8f066f15a17fc0e27dbba290d8aa917bd9989ee51a00b57710727d8306c120ca979e42778867c720edac045b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jNa5P8yc/versions/X3bGRXCj/TCIntegrations-1.20.1-2.0.25.19.jar'
+
+[update.modrinth]
+mod-id = 'jNa5P8yc'
+version = 'X3bGRXCj'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AwiAYDUq'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fnAffV0n'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Vl1uNAuy'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Cg6Uc79H'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'cqzqfZKX'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'VpmCsizY'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Ce6I4WUE'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'TKB6INcv'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'pfjLUfGv'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '3ufwT9JF'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oDobngty'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'e1uJfPiY'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tIm2nV03'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '2cMuAZAp'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'xSfkjdDu'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'rxIIYO6c'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'uE1WpIAk'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tPLE214j'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Ejfl5qDL'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'aY8vAgyv'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LVnvHVBp'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'KRi6s8j8'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'DvvYZ4Cd'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'sUbuUC7R'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'RdiVEh3O'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7tl2Pt3c'
+type = 'OPTIONAL'
