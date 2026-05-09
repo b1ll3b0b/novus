@@ -56,7 +56,7 @@
 				meteor_shower_chance = 10
 				#Chance of a shooting star appearing each 1000 ticks
 				#Range: 0 ~ 100
-				shooting_star_chance = 10
+				shooting_star_chance = 3
 				#Uses the Vanilla Moon texture for rendering
 				vanilla_moon = false
 				#Specifies Sol X offset
@@ -94,7 +94,7 @@
 				meteor_shower_chance = 10
 				#Chance of a shooting star appearing each 1000 ticks
 				#Range: 0 ~ 100
-				shooting_star_chance = 10
+				shooting_star_chance = 3
 
 	["Stellar View Client Config"."End Config"]
 
@@ -112,7 +112,7 @@
 				meteor_shower_chance = 10
 				#Chance of a shooting star appearing each 1000 ticks
 				#Range: 0 ~ 100
-				shooting_star_chance = 10
+				shooting_star_chance = 3
 
 	["Stellar View Client Config"."Twilight Forest Config"]
 
@@ -128,7 +128,7 @@
 				meteor_shower_chance = 10
 				#Chance of a shooting star appearing each 1000 ticks
 				#Range: 0 ~ 100
-				shooting_star_chance = 10
+				shooting_star_chance = 3
 
 	["Stellar View Client Config"."Aether Config"]
 
@@ -144,5 +144,5 @@
 				meteor_shower_chance = 10
 				#Chance of a shooting star appearing each 1000 ticks
 				#Range: 0 ~ 100
-				shooting_star_chance = 10
+				shooting_star_chance = 3
 

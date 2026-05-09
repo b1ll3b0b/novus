@@ -43,7 +43,7 @@
   "roadAppearance": {
     "roadsEnabled": true,
     "allowArtificial": true,
-    "allowNatural": true,
+    "allowNatural": false,
     "placeWaypoints": false,
     "spawnCabinEnabled": true,
     "averagingRadius": 1,
