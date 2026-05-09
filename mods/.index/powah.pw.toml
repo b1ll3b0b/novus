@@ -1,0 +1,25 @@
+filename = 'Powah-5.0.11.jar'
+name = 'Powah!'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.0.11-forge'
+
+[download]
+hash = 'c9cf605e5598cfeda4392fe546f5cd541be8ac6fc02525cc23b0780aff7b8c40bb6a6fa572c70aea94428e7f69ff7cf64a1abded03e311c20c150d2f6c30fe6f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KZO4S4DO/versions/xDOvxyqP/Powah-5.0.11.jar'
+
+[update.modrinth]
+mod-id = 'KZO4S4DO'
+version = 'xDOvxyqP'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'

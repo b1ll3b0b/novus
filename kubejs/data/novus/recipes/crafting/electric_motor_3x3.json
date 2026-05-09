@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SRS",
+    "CBC",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "createaddition:copper_spool"
+    },
+    "R": {
+      "tag": "forge:rods/iron"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    },
+    "B": {
+      "item": "create:brass_block"
+    }
+  },
+  "result": {
+    "item": "createaddition:electric_motor"
+  }
+}

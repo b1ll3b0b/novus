@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "SSS",
+    "RCR",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "createaddition:electrum_sheet"
+    },
+    "R": {
+      "item": "createaddition:electrum_rod"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    }
+  },
+  "result": {
+    "item": "powah:energy_discharger_hardened"
+  }
+}

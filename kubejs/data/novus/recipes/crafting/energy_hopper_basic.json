@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SPS",
+    "PCP",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/brass"
+    },
+    "P": {
+      "item": "createaddition:gold_spool"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    }
+  },
+  "result": {
+    "item": "powah:energy_hopper_basic"
+  }
+}

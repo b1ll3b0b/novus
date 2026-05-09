@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSW",
+    "SCS",
+    "WSW"
+  ],
+  "key": {
+    "W": {
+      "item": "createaddition:gold_wire"
+    },
+    "S": {
+      "tag": "forge:plates/brass"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    }
+  },
+  "result": {
+    "item": "powah:battery_basic"
+  }
+}

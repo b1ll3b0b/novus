@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "SSS",
+    "RCR",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/iron"
+    },
+    "R": {
+      "tag": "forge:rods/iron"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    }
+  },
+  "result": {
+    "item": "powah:energy_discharger_starter"
+  }
+}

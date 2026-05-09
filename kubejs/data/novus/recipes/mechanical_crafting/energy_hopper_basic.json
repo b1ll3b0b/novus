@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "SSS",
+    "PCP",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/brass"
+    },
+    "P": {
+      "item": "createaddition:gold_spool"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    }
+  },
+  "result": {
+    "item": "powah:energy_hopper_basic"
+  }
+}

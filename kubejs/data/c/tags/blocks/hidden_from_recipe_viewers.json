@@ -118,10 +118,6 @@
       "required": false
     },
     {
-      "id": "powah:energy_cable_hardened",
-      "required": false
-    },
-    {
       "id": "powah:energy_cable_niotic",
       "required": false
     },
@@ -142,10 +138,6 @@
       "required": false
     },
     {
-      "id": "powah:energy_cell_hardened",
-      "required": false
-    },
-    {
       "id": "powah:energy_cell_niotic",
       "required": false
     },
@@ -162,10 +154,6 @@
       "required": false
     },
     {
-      "id": "powah:energy_discharger_hardened",
-      "required": false
-    },
-    {
       "id": "powah:energy_discharger_niotic",
       "required": false
     },
@@ -179,10 +167,6 @@
     },
     {
       "id": "powah:energy_hopper_blazing",
-      "required": false
-    },
-    {
-      "id": "powah:energy_hopper_hardened",
       "required": false
     },
     {
@@ -319,10 +303,6 @@
     },
     {
       "id": "powah:solar_panel_blazing",
-      "required": false
-    },
-    {
-      "id": "powah:solar_panel_hardened",
       "required": false
     },
     {

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSW",
+    "SCS",
+    "WSW"
+  ],
+  "key": {
+    "W": {
+      "item": "createaddition:electrum_wire"
+    },
+    "S": {
+      "item": "createaddition:electrum_sheet"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    }
+  },
+  "result": {
+    "item": "powah:battery_hardened"
+  }
+}

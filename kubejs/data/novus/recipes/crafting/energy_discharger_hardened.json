@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SRS",
+    "RCR",
+    "SRS"
+  ],
+  "key": {
+    "S": {
+      "item": "createaddition:electrum_sheet"
+    },
+    "R": {
+      "item": "createaddition:electrum_rod"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    }
+  },
+  "result": {
+    "item": "powah:energy_discharger_hardened"
+  }
+}

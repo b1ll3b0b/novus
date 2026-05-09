@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "SSS",
+    "PCP",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "createaddition:electrum_sheet"
+    },
+    "P": {
+      "item": "createaddition:electrum_spool"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    }
+  },
+  "result": {
+    "item": "powah:energy_hopper_hardened"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSW",
+    "SCS",
+    "WSW"
+  ],
+  "key": {
+    "W": {
+      "item": "createaddition:copper_wire"
+    },
+    "S": {
+      "tag": "forge:plates/iron"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    }
+  },
+  "result": {
+    "item": "powah:battery_starter"
+  }
+}

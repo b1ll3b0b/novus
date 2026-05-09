@@ -1,0 +1,13 @@
+{
+  "type": "createaddition:charging",
+  "input": {
+    "item": "minecraft:snowball",
+    "count": 1
+  },
+  "result": {
+    "item": "powah:charged_snowball",
+    "count": 1
+  },
+  "energy": 500000,
+  "maxChargeRate": 2000
+}

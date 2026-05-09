@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "GGG",
+    "SCS",
+    "SDS"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "S": {
+      "tag": "forge:plates/brass"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    },
+    "D": {
+      "item": "minecraft:daylight_detector"
+    }
+  },
+  "result": {
+    "item": "powah:solar_panel_basic"
+  }
+}

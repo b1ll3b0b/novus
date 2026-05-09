@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SRS",
+    "RCR",
+    "SRS"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/iron"
+    },
+    "R": {
+      "tag": "forge:rods/iron"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    }
+  },
+  "result": {
+    "item": "powah:energy_discharger_starter"
+  }
+}

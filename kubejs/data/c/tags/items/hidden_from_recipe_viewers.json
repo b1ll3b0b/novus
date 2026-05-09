@@ -6,26 +6,6 @@
       "required": false
     },
     {
-      "id": "powah:battery_blazing",
-      "required": false
-    },
-    {
-      "id": "powah:battery_hardened",
-      "required": false
-    },
-    {
-      "id": "powah:battery_niotic",
-      "required": false
-    },
-    {
-      "id": "powah:battery_nitro",
-      "required": false
-    },
-    {
-      "id": "powah:battery_spirited",
-      "required": false
-    },
-    {
       "id": "powah:binding_card",
       "required": false
     },
@@ -226,10 +206,6 @@
       "required": false
     },
     {
-      "id": "powah:energy_cable_hardened",
-      "required": false
-    },
-    {
       "id": "powah:energy_cable_niotic",
       "required": false
     },
@@ -250,10 +226,6 @@
       "required": false
     },
     {
-      "id": "powah:energy_cell_hardened",
-      "required": false
-    },
-    {
       "id": "powah:energy_cell_niotic",
       "required": false
     },
@@ -270,10 +242,6 @@
       "required": false
     },
     {
-      "id": "powah:energy_discharger_hardened",
-      "required": false
-    },
-    {
       "id": "powah:energy_discharger_niotic",
       "required": false
     },
@@ -287,10 +255,6 @@
     },
     {
       "id": "powah:energy_hopper_blazing",
-      "required": false
-    },
-    {
-      "id": "powah:energy_hopper_hardened",
       "required": false
     },
     {
@@ -374,6 +338,10 @@
       "required": false
     },
     {
+      "id": "powah:photoelectric_pane",
+      "required": false
+    },
+    {
       "id": "powah:player_aerial_pearl",
       "required": false
     },
@@ -435,10 +403,6 @@
     },
     {
       "id": "powah:solar_panel_blazing",
-      "required": false
-    },
-    {
-      "id": "powah:solar_panel_hardened",
       "required": false
     },
     {

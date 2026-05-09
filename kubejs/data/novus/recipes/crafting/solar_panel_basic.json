@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "SCS",
+    "WDW"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "S": {
+      "tag": "forge:plates/brass"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    },
+    "W": {
+      "item": "createaddition:gold_wire"
+    },
+    "D": {
+      "item": "minecraft:daylight_detector"
+    }
+  },
+  "result": {
+    "item": "powah:solar_panel_basic"
+  }
+}
