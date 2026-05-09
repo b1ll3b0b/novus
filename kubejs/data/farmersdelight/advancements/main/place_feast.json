@@ -4,31 +4,56 @@
     "honey_glazed_ham": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "farmersdelight:honey_glazed_ham_block"
+        "location": [
+          {
+            "block": "farmersdelight:honey_glazed_ham_block",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
       }
     },
     "rice_roll_medley": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "farmersdelight:rice_roll_medley_block"
+        "location": [
+          {
+            "block": "farmersdelight:rice_roll_medley_block",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
       }
     },
     "roast_chicken": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "farmersdelight:roast_chicken_block"
+        "location": [
+          {
+            "block": "farmersdelight:roast_chicken_block",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
       }
     },
     "shepherds_pie": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "farmersdelight:shepherds_pie_block"
+        "location": [
+          {
+            "block": "farmersdelight:shepherds_pie_block",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
       }
     },
     "stuffed_pumpkin": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "farmersdelight:stuffed_pumpkin_block"
+        "location": [
+          {
+            "block": "farmersdelight:stuffed_pumpkin_block",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
       }
     }
   },

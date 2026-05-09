@@ -4,7 +4,9 @@
   "bookData": {
     "dynamictrees:guide": {
       "viewedEntries": [
-        "dynamictrees:mechanics/dirt_bucket"
+        "dynamictrees:mechanics/dirt_bucket",
+        "dynamictrees:trees/nether_fungi",
+        "dynamictrees:trees/cacti"
       ],
       "bookmarks": [],
       "completedManualQuests": []

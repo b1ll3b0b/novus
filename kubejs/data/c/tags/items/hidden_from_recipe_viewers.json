@@ -1,0 +1,525 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "powah:aerial_pearl",
+      "required": false
+    },
+    {
+      "id": "powah:battery_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:battery_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:battery_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:battery_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:battery_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:binding_card",
+      "required": false
+    },
+    {
+      "id": "powah:binding_card_dim",
+      "required": false
+    },
+    {
+      "id": "powah:blank_card",
+      "required": false
+    },
+    {
+      "id": "powah:blazing_crystal_block",
+      "required": false
+    },
+    {
+      "id": "powah:capacitor_basic",
+      "required": false
+    },
+    {
+      "id": "powah:capacitor_basic_large",
+      "required": false
+    },
+    {
+      "id": "powah:capacitor_basic_tiny",
+      "required": false
+    },
+    {
+      "id": "powah:capacitor_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:capacitor_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:capacitor_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:capacitor_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:capacitor_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:crystal_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:crystal_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:crystal_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:crystal_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:deepslate_uraninite_ore",
+      "required": false
+    },
+    {
+      "id": "powah:deepslate_uraninite_ore_dense",
+      "required": false
+    },
+    {
+      "id": "powah:deepslate_uraninite_ore_poor",
+      "required": false
+    },
+    {
+      "id": "powah:dielectric_casing",
+      "required": false
+    },
+    {
+      "id": "powah:dielectric_paste",
+      "required": false
+    },
+    {
+      "id": "powah:dielectric_rod",
+      "required": false
+    },
+    {
+      "id": "powah:dielectric_rod_horizontal",
+      "required": false
+    },
+    {
+      "id": "powah:dry_ice",
+      "required": false
+    },
+    {
+      "id": "powah:ender_cell_basic",
+      "required": false
+    },
+    {
+      "id": "powah:ender_cell_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:ender_cell_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:ender_cell_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:ender_cell_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:ender_cell_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:ender_cell_starter",
+      "required": false
+    },
+    {
+      "id": "powah:ender_core",
+      "required": false
+    },
+    {
+      "id": "powah:ender_gate_basic",
+      "required": false
+    },
+    {
+      "id": "powah:ender_gate_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:ender_gate_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:ender_gate_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:ender_gate_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:ender_gate_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:ender_gate_starter",
+      "required": false
+    },
+    {
+      "id": "powah:energised_steel",
+      "required": false
+    },
+    {
+      "id": "powah:energized_steel_block",
+      "required": false
+    },
+    {
+      "id": "powah:energizing_orb",
+      "required": false
+    },
+    {
+      "id": "powah:energizing_rod_basic",
+      "required": false
+    },
+    {
+      "id": "powah:energizing_rod_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:energizing_rod_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:energizing_rod_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:energizing_rod_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:energizing_rod_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:energizing_rod_starter",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cable_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cable_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cable_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cable_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cable_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cell_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cell_creative",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cell_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cell_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cell_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cell_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:energy_discharger_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:energy_discharger_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:energy_discharger_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:energy_discharger_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:energy_discharger_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:energy_hopper_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:energy_hopper_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:energy_hopper_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:energy_hopper_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:energy_hopper_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:furnator_basic",
+      "required": false
+    },
+    {
+      "id": "powah:furnator_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:furnator_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:furnator_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:furnator_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:furnator_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:furnator_starter",
+      "required": false
+    },
+    {
+      "id": "powah:lens_of_ender",
+      "required": false
+    },
+    {
+      "id": "powah:magmator_basic",
+      "required": false
+    },
+    {
+      "id": "powah:magmator_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:magmator_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:magmator_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:magmator_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:magmator_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:magmator_starter",
+      "required": false
+    },
+    {
+      "id": "powah:niotic_crystal_block",
+      "required": false
+    },
+    {
+      "id": "powah:nitro_crystal_block",
+      "required": false
+    },
+    {
+      "id": "powah:player_aerial_pearl",
+      "required": false
+    },
+    {
+      "id": "powah:player_transmitter_basic",
+      "required": false
+    },
+    {
+      "id": "powah:player_transmitter_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:player_transmitter_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:player_transmitter_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:player_transmitter_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:player_transmitter_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:player_transmitter_starter",
+      "required": false
+    },
+    {
+      "id": "powah:reactor_basic",
+      "required": false
+    },
+    {
+      "id": "powah:reactor_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:reactor_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:reactor_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:reactor_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:reactor_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:reactor_starter",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:spirited_crystal_block",
+      "required": false
+    },
+    {
+      "id": "powah:steel_energized",
+      "required": false
+    },
+    {
+      "id": "powah:thermo_generator_basic",
+      "required": false
+    },
+    {
+      "id": "powah:thermo_generator_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:thermo_generator_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:thermo_generator_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:thermo_generator_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:thermo_generator_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:thermo_generator_starter",
+      "required": false
+    },
+    {
+      "id": "powah:thermoelectric_plate",
+      "required": false
+    },
+    {
+      "id": "powah:uraninite",
+      "required": false
+    },
+    {
+      "id": "powah:uraninite_block",
+      "required": false
+    },
+    {
+      "id": "powah:uraninite_ore",
+      "required": false
+    },
+    {
+      "id": "powah:uraninite_ore_dense",
+      "required": false
+    },
+    {
+      "id": "powah:uraninite_ore_poor",
+      "required": false
+    },
+    {
+      "id": "powah:uraninite_raw",
+      "required": false
+    },
+    {
+      "id": "powah:wrench",
+      "required": false
+    }
+  ]
+}

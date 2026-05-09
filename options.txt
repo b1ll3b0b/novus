@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -132,6 +132,8 @@ key_key.toms_storage.open_terminal:key.keyboard.b
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.ponder.ponder:key.keyboard.w
+key_placebo.toggleTrails:key.keyboard.keypad.9
+key_placebo.toggleWings:key.keyboard.keypad.8
 key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
 key_key.ftbteams.open_gui:key.keyboard.unknown
@@ -156,6 +158,7 @@ key_petrolpark.key.tube.add_control_point_after:key.keyboard.equal
 key_petrolpark.key.tube.add_control_point_before:key.keyboard.minus
 key_petrolpark.key.tube.cancel:key.keyboard.x
 key_key.configured.open_mod_list:key.keyboard.unknown
+key_key.toastcontrol.clear:key.keyboard.j
 key_key.tconstruct.helmet_interact:key.keyboard.z
 key_key.tconstruct.leggings_interact:key.keyboard.i
 key_key.jade.config:key.keyboard.keypad.0
@@ -219,3 +222,4 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
+fullscreenResolution:1920x1080@60:24

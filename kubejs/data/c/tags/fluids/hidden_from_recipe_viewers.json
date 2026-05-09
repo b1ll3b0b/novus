@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "tcintegrations:molten_calorite",                  "required": false },
+    { "id": "tcintegrations:flowing_molten_calorite",          "required": false },
+    { "id": "tcintegrations:molten_desh",                      "required": false },
+    { "id": "tcintegrations:flowing_molten_desh",              "required": false },
+    { "id": "tcintegrations:molten_ostrum",                    "required": false },
+    { "id": "tcintegrations:flowing_molten_ostrum",            "required": false },
+    { "id": "tcintegrations:molten_cloggrum",                  "required": false },
+    { "id": "tcintegrations:flowing_molten_cloggrum",          "required": false },
+    { "id": "tcintegrations:molten_froststeel",                "required": false },
+    { "id": "tcintegrations:flowing_molten_froststeel",        "required": false },
+    { "id": "tcintegrations:molten_forgotten_metal",           "required": false },
+    { "id": "tcintegrations:flowing_molten_forgotten_metal",   "required": false },
+    { "id": "tcintegrations:molten_dragonsteel_fire",          "required": false },
+    { "id": "tcintegrations:flowing_molten_dragonsteel_fire",  "required": false },
+    { "id": "tcintegrations:molten_dragonsteel_ice",           "required": false },
+    { "id": "tcintegrations:flowing_molten_dragonsteel_ice",   "required": false },
+    { "id": "tcintegrations:molten_dragonsteel_lightning",     "required": false },
+    { "id": "tcintegrations:flowing_molten_dragonsteel_lightning", "required": false },
+    { "id": "tcintegrations:molten_neptunium",                 "required": false },
+    { "id": "tcintegrations:flowing_molten_neptunium",         "required": false },
+    { "id": "tcintegrations:molten_soul_stained_steel",        "required": false },
+    { "id": "tcintegrations:flowing_molten_soul_stained_steel","required": false },
+    { "id": "tcintegrations:molten_source_gem",                "required": false },
+    { "id": "tcintegrations:flowing_molten_source_gem",        "required": false }
+  ]
+}
