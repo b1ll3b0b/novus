@@ -21,12 +21,12 @@
     "dynamicPlanEnabled": true,
     "dynamicPlanRadiusChunks": 256,
     "dynamicPlanStrideChunks": 128,
-    "planningAlgorithm": "DELAUNAY"
+    "planningAlgorithm": "SNAP_BRANCH"
   },
   "pathfindingCost": {
     "orthoStepCost": 1.0,
     "diagStepCost": 1.414,
-    "elevationWeight": 120,
+    "elevationWeight": 80,
     "biomeWeight": 2,
     "stabilityWeight": 30,
     "waterDepthWeight": 120,
@@ -34,12 +34,11 @@
     "waterProximityCost": 50,
     "heuristicWeight": 15.0,
     "deviationWeight": 0.5,
-    "aStarStep": 8,
-    "aStarMaxSteps": 20000,
-    "hierarchicalPathfindingEnabled": true,
-    "pathfindingAlgorithm": "POTENTIAL_FIELD",
-    "accurateSamplingDivisor": 0,
-    "samplingPrecision": "NORMAL"
+    "aStarStep": 6,
+    "aStarMaxSteps": 200000,
+    "pathfindingAlgorithm": "GRADIENT_DESCENT",
+    "quantizedSamplingChunkRadius": 1,
+    "samplingPrecision": "PRECISE"
   },
   "roadAppearance": {
     "roadsEnabled": true,
@@ -47,7 +46,7 @@
     "allowNatural": true,
     "placeWaypoints": false,
     "spawnCabinEnabled": true,
-    "averagingRadius": 8,
+    "averagingRadius": 1,
     "roadWidth": 3,
     "roadSignsEnabled": true,
     "lampInterval": 32,
@@ -55,11 +54,11 @@
     "tunnelEnabled": false,
     "tunnelClearHeight": 5,
     "preventTreesOnRoad": true,
-    "maxSlopeStepPerTwoSegments": 1,
-    "slopeLimitEnabled": true
+    "maxSlopeStepPerTwoSegments": 2,
+    "slopeLimitEnabled": false
   },
   "bridge": {
-    "enabled": false,
+    "enabled": true,
     "deckClearance": 2,
     "maxLengthBlocks": 100,
     "useBuoysInstead": false,

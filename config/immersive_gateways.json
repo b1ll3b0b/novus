@@ -1,6 +1,6 @@
 {
-  "minDistance": 1024,
-  "maxDistance": 8096,
+  "minDistance": 4096,
+  "maxDistance": 12288,
   "onlyPlayersCanTeleport": true,
   "colors": {
     "minecraft:badlands": 12217644,
