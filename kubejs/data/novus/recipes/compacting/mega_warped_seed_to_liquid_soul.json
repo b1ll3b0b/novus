@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "dynamictrees:mega_warped_seed"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tconstruct:liquid_soul",
+      "amount": 500
+    }
+  ]
+}

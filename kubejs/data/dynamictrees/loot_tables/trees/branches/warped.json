@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:block",
+  "type": "dynamictrees:branches",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -70,7 +70,38 @@
               "function": "minecraft:limit_count",
               "limit": {
                 "min": 0,
-                "max": 3
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dynamictrees:mega_warped_seed",
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ],
+          "functions": [
+            {
+              "function": "dynamictrees:multiply_logs_count"
+            },
+            {
+              "function": "dynamictrees:multiply_count",
+              "multiplier": 0.34
+            },
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 0,
+                "max": 1
               }
             }
           ]

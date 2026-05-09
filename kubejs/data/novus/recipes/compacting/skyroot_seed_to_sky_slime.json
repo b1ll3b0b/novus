@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "dttconstruct:skyroot_seed"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tconstruct:sky_slime",
+      "amount": 250
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "biomancy:toxin_gland"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tconstruct:venom",
+      "amount": 250
+    }
+  ]
+}

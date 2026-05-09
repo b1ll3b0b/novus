@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "dttconstruct:enderbark_seed"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tconstruct:ender_slime",
+      "amount": 250
+    }
+  ]
+}

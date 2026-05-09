@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "dynamictrees:mega_spruce_seed"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createdieselgenerators:plant_oil",
+      "amount": 500
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "dttconstruct:greenheart_seed"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tconstruct:earth_slime",
+      "amount": 250
+    }
+  ]
+}

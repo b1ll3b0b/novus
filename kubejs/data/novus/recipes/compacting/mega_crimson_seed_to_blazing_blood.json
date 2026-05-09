@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "dynamictrees:mega_crimson_seed"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tconstruct:blazing_blood",
+      "amount": 500
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "dttconstruct:bloodshroom_seed"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tconstruct:ichor",
+      "amount": 250
+    }
+  ]
+}

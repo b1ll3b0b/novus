@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "dtquark:glow_shroom_seed"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "supplementaries:lumisene",
+      "amount": 100
+    }
+  ]
+}
