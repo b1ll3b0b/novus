@@ -1,6 +1,11 @@
 {
 	"loadOrder": [
  	 	"VanillaTweaks_3D_Amethyst.zip",
+ 	 	"VanillaTweaks_DiscRedstone.zip",
+ 	 	"Novus_DiscRedstone_CreateConnected.zip",
+ 	 	"Novus_DiscRedstone_Quark.zip",
+ 	 	"Novus_DiscRedstone_Supplementaries.zip",
+ 	 	"Novus_DiscRedstone_Vista.zip",
  	 	"Novus_TConstruct_GeodeCrystal_3D.zip",
  	 	"Novus_QuarkCorundum_3DCluster_hybrid.zip",
 		"FreshAnimations_v1.10.4.zip",
