@@ -68,9 +68,6 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "hammerlib": {
-    "root": true
-  },
   "exposure": {
     "lightroom": true,
     "photograph_frame": true
@@ -95,6 +92,12 @@
   },
   "petrolpark": {
     "contamination": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "balm": {
+    "jade": true
   },
   "storagedrawers": {
     "display.stacklimit": true,
