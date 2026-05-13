@@ -1,0 +1,15 @@
+{
+  "entity": "minecraft:wither_skeleton",
+  "equip": {
+    "chance": 0.05,
+    "fluid": "tconstruct:swasher/wither_skeleton",
+    "materials": [
+      { "type": "tconstruct:fixed", "material": "tconstruct:steel" },
+      { "type": "tconstruct:fixed", "material": "tconstruct:steel" },
+      { "type": "tconstruct:fixed", "material": "tconstruct:necrotic_bone" }
+    ],
+    "priority": 100,
+    "slot": "mainhand",
+    "tool": "tconstruct:swasher"
+  }
+}

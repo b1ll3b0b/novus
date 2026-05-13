@@ -1,0 +1,21 @@
+{
+  "entity": "minecraft:drowned",
+  "equip": {
+    "chance": 0.05,
+    "fluid": "tconstruct:swasher/drowned",
+    "match": {
+      "type": "mantle:set",
+      "items": [
+        "minecraft:air"
+      ]
+    },
+    "materials": [
+      { "type": "tconstruct:fixed", "material": "tcintegrations:brass" },
+      { "type": "tconstruct:fixed", "material": "tcintegrations:brass" },
+      { "type": "tconstruct:fixed", "material": "tconstruct:treated_wood" }
+    ],
+    "priority": 100,
+    "slot": "mainhand",
+    "tool": "tconstruct:swasher"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "entity": [
+    "minecraft:zombie_villager",
+    "minecraft:vindicator"
+  ],
+  "equip": {
+    "chance": 0.05,
+    "materials": [
+      { "type": "tconstruct:fixed", "material": "tconstruct:iron" },
+      { "type": "tconstruct:fixed", "material": "tconstruct:wood" },
+      { "type": "tconstruct:fixed", "material": "tconstruct:string" }
+    ],
+    "priority": 100,
+    "slot": "mainhand",
+    "tool": "tconstruct:war_pick"
+  }
+}
