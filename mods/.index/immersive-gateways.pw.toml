@@ -1,17 +1,18 @@
-filename = 'immersive_gateways-forge-0.0.4+1.20.1.jar'
+filename = 'immersive_gateways-forge-0.0.5+1.20.1.jar'
 name = 'Immersive Gateways'
 side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '0.0.4+1.20.1'
+x-prismlauncher-version-number = '0.0.5+1.20.1'
 
 [download]
-hash = '86036dc31b7ea02e5d5bcf111797d4c99a905c6e93746e6be6e9da07934b2c6f06c3e227375346598a3a02a14a6e6d9cbcf23d3a578c31b47e8937cc0dc268ea'
+hash = '9ca3415aae9300c37ddcc30af0b4ea3520e947193113408766dfc07a9ce906891bf4a285deaaf73ba4b839d6386c43b1e1971e19ab01d10378a7f7409cb76060'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/3hZmBMYA/versions/EdD3govH/immersive_gateways-forge-0.0.4%2B1.20.1.jar'
+url = 'https://cdn.modrinth.com/data/3hZmBMYA/versions/gr7YcldW/immersive_gateways-forge-0.0.5%2B1.20.1.jar'
 
 [update.modrinth]
 mod-id = '3hZmBMYA'
-version = 'EdD3govH'
+version = 'gr7YcldW'
