@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tcintegrations:oxygen_bubble_effect",
+      "required": false
+    }
+  ]
+}

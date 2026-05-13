@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "SRS",
-    "CBC",
+    "ABA",
     "SCS"
   ],
   "key": {
@@ -12,11 +12,14 @@
     "R": {
       "tag": "forge:rods/iron"
     },
-    "C": {
-      "item": "createaddition:capacitor"
+    "A": {
+      "item": "create:andesite_alloy"
     },
     "B": {
       "item": "create:brass_block"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
     }
   },
   "result": {

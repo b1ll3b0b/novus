@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PBP",
+    "BEB",
+    "PBP"
+  ],
+  "key": {
+    "P": {
+      "item": "createdeco:industrial_iron_sheet_metal"
+    },
+    "B": {
+      "item": "createdeco:industrial_iron_bars"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "minecraft:spawner"
+  }
+}

@@ -1,29 +1,317 @@
 {
   "replace": false,
   "values": [
-    { "id": "tcintegrations:molten_calorite",                  "required": false },
-    { "id": "tcintegrations:flowing_molten_calorite",          "required": false },
-    { "id": "tcintegrations:molten_desh",                      "required": false },
-    { "id": "tcintegrations:flowing_molten_desh",              "required": false },
-    { "id": "tcintegrations:molten_ostrum",                    "required": false },
-    { "id": "tcintegrations:flowing_molten_ostrum",            "required": false },
-    { "id": "tcintegrations:molten_cloggrum",                  "required": false },
-    { "id": "tcintegrations:flowing_molten_cloggrum",          "required": false },
-    { "id": "tcintegrations:molten_froststeel",                "required": false },
-    { "id": "tcintegrations:flowing_molten_froststeel",        "required": false },
-    { "id": "tcintegrations:molten_forgotten_metal",           "required": false },
-    { "id": "tcintegrations:flowing_molten_forgotten_metal",   "required": false },
-    { "id": "tcintegrations:molten_dragonsteel_fire",          "required": false },
-    { "id": "tcintegrations:flowing_molten_dragonsteel_fire",  "required": false },
-    { "id": "tcintegrations:molten_dragonsteel_ice",           "required": false },
-    { "id": "tcintegrations:flowing_molten_dragonsteel_ice",   "required": false },
-    { "id": "tcintegrations:molten_dragonsteel_lightning",     "required": false },
-    { "id": "tcintegrations:flowing_molten_dragonsteel_lightning", "required": false },
-    { "id": "tcintegrations:molten_neptunium",                 "required": false },
-    { "id": "tcintegrations:flowing_molten_neptunium",         "required": false },
-    { "id": "tcintegrations:molten_soul_stained_steel",        "required": false },
-    { "id": "tcintegrations:flowing_molten_soul_stained_steel","required": false },
-    { "id": "tcintegrations:molten_source_gem",                "required": false },
-    { "id": "tcintegrations:flowing_molten_source_gem",        "required": false }
+    {
+      "id": "tcintegrations:flowing_molten_calorite",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:flowing_molten_cloggrum",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:flowing_molten_desh",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:flowing_molten_dragonsteel_fire",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:flowing_molten_dragonsteel_ice",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:flowing_molten_dragonsteel_lightning",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:flowing_molten_forgotten_metal",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:flowing_molten_froststeel",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:flowing_molten_neptunium",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:flowing_molten_ostrum",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:flowing_molten_soul_stained_steel",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:flowing_molten_source_gem",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_calorite",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_cloggrum",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_desh",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_dragonsteel_fire",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_dragonsteel_ice",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_dragonsteel_lightning",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_flowing_pendorite",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_flowing_pendorite_alloy",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_forgotten_metal",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_froststeel",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_neptunium",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_ostrum",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_pendorite",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_pendorite_alloy",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_soul_stained_steel",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_source_gem",
+      "required": false
+    },
+    {
+      "id": "tconstruct:fiery_liquid",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_fiery_liquid",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_aluminum",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_bendalloy",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_cadmium",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_chromium",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_constantan",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_duralumin",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_enderium",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_invar",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_knightslime",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_lead",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_lumium",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_nickel",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_nicrosil",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_osmium",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_pewter",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_platinum",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_refined_glowstone",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_refined_obsidian",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_signalum",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_silver",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_steeleaf",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_tin",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_tungsten",
+      "required": false
+    },
+    {
+      "id": "tconstruct:flowing_molten_uranium",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_aluminum",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_bendalloy",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_cadmium",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_chromium",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_constantan",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_duralumin",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_enderium",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_invar",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_knightslime",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_lead",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_lumium",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_nickel",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_nicrosil",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_osmium",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_pewter",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_platinum",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_refined_glowstone",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_refined_obsidian",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_signalum",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_silver",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_steeleaf",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_tin",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_tungsten",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_uranium",
+      "required": false
+    }
   ]
 }

@@ -2,6 +2,30 @@
   "replace": false,
   "values": [
     {
+      "id": "compatdelight:moss_knife",
+      "required": false
+    },
+    {
+      "id": "compatdelight:sculk_vein_knife",
+      "required": false
+    },
+    {
+      "id": "create:crushed_raw_platinum",
+      "required": false
+    },
+    {
+      "id": "create:crushed_raw_tin",
+      "required": false
+    },
+    {
+      "id": "create_jetpack:jetpack_placeable",
+      "required": false
+    },
+    {
+      "id": "create_jetpack:netherite_jetpack_placeable",
+      "required": false
+    },
+    {
       "id": "powah:aerial_pearl",
       "required": false
     },
@@ -483,6 +507,174 @@
     },
     {
       "id": "powah:wrench",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_calorite_bucket",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_cloggrum_bucket",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_desh_bucket",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_dragonsteel_fire_bucket",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_dragonsteel_ice_bucket",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_dragonsteel_lightning_bucket",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_forgotten_metal_bucket",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_froststeel_bucket",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_neptunium_bucket",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_ostrum_bucket",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_pendorite_alloy_bucket",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_pendorite_bucket",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_soul_stained_steel_bucket",
+      "required": false
+    },
+    {
+      "id": "tcintegrations:molten_source_gem_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:fiery_liquid_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:knightslime_block",
+      "required": false
+    },
+    {
+      "id": "tconstruct:knightslime_ingot",
+      "required": false
+    },
+    {
+      "id": "tconstruct:knightslime_nugget",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_aluminum_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_bendalloy_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_cadmium_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_chromium_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_constantan_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_duralumin_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_enderium_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_invar_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_knightslime_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_lead_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_lumium_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_nickel_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_nicrosil_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_osmium_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_pewter_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_platinum_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_refined_glowstone_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_refined_obsidian_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_signalum_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_silver_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_steeleaf_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_tin_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_tungsten_bucket",
+      "required": false
+    },
+    {
+      "id": "tconstruct:molten_uranium_bucket",
       "required": false
     }
   ]
