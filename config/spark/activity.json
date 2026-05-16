@@ -1,0 +1,67 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "z0nb1",
+      "uniqueId": "4c738f06-4c5f-4bcd-b373-3dd41d31ec06"
+    },
+    "time": 1778944841117,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pf9TJHQpCJ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "z0nb1",
+      "uniqueId": "4c738f06-4c5f-4bcd-b373-3dd41d31ec06"
+    },
+    "time": 1778943490258,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/m02Cjd3kny"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "z0nb1",
+      "uniqueId": "4c738f06-4c5f-4bcd-b373-3dd41d31ec06"
+    },
+    "time": 1778943420129,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/P7Wk8fudeu"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "z0nb1",
+      "uniqueId": "4c738f06-4c5f-4bcd-b373-3dd41d31ec06"
+    },
+    "time": 1778733375510,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/2rGTiTQF05"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "z0nb1",
+      "uniqueId": "4c738f06-4c5f-4bcd-b373-3dd41d31ec06"
+    },
+    "time": 1778733244341,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/S28pfK3ntP"
+    }
+  }
+]

@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -35,14 +35,14 @@ renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:2
-particles:0
+particles:1
 maxFps:120
-graphicsMode:1
+graphicsMode:0
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
-renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","VanillaTweaks_3D_Amethyst.zip","Novus_TConstruct_GeodeCrystal_3D.zip","Novus_QuarkCorundum_3DCluster_hybrid.zip","FreshAnimations_v1.10.4.zip","AL+Azu_Zombies.zip","FA+Spiders-v2.1.zip","FA+Quivers-v2.2.zip","FA+Emissive-v1.5.zip","FA+Player-v1.0.zip","PA-FA-Compat-v1.zip"]
+renderClouds:"false"
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/VanillaTweaks_GroovyLevers.zip","file/VanillaTweaks_CompassLodestone.zip","VanillaTweaks_3D_Amethyst.zip","VanillaTweaks_DiscRedstone.zip","Novus_DiscRedstone_CreateConnected.zip","Novus_DiscRedstone_Quark.zip","Novus_DiscRedstone_Supplementaries.zip","Novus_DiscRedstone_Vista.zip","Novus_TConstruct_GeodeCrystal_3D.zip","Novus_QuarkCorundum_3DCluster_hybrid.zip","FreshAnimations_v1.10.4.zip","AL+Azu_Zombies.zip","FA+Spiders-v2.1.zip","FA+Quivers-v2.2.zip","FA+Emissive-v1.5.zip","FA+Player-v1.0.zip","PA-FA-Compat-v1.zip"]
 incompatibleResourcePacks:["PA-FA-Compat-v1.zip"]
 lastServer:
 lang:en_us
@@ -129,6 +129,7 @@ key_key.lighty.toggle:key.keyboard.f8
 key_key.jetpack.toggle_active.description:key.keyboard.g
 key_key.jetpack.toggle_hover.description:key.keyboard.h
 key_key.toms_storage.open_terminal:key.keyboard.b
+key_auroras.key.reload_aurora_configs:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.ponder.ponder:key.keyboard.w
@@ -148,6 +149,7 @@ key_key.biomancy.item_default:key.keyboard.v
 key_key.backpack:key.keyboard.b
 key_key.backpacked.open_management:key.keyboard.v
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
+key_rainbows.key.reload_rainbow_configs:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_create.keyinfo.rotate_menu:key.keyboard.unknown
@@ -158,6 +160,7 @@ key_petrolpark.key.tube.add_control_point_after:key.keyboard.equal
 key_petrolpark.key.tube.add_control_point_before:key.keyboard.minus
 key_petrolpark.key.tube.cancel:key.keyboard.x
 key_key.configured.open_mod_list:key.keyboard.unknown
+key_simpleclouds.key.openGenPreviewer:key.keyboard.f12
 key_key.toastcontrol.clear:key.keyboard.j
 key_key.tconstruct.helmet_interact:key.keyboard.z
 key_key.tconstruct.leggings_interact:key.keyboard.i
@@ -204,7 +207,6 @@ key_key.freecam.toggle:key.keyboard.f4
 key_key.freecam.playerControl:key.keyboard.unknown
 key_key.freecam.tripodReset:key.keyboard.unknown
 key_key.freecam.configGui:key.keyboard.unknown
-key_key.roadweaver.open_map:key.keyboard.h
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
