@@ -2,8 +2,8 @@
 //
 // Replaces the two unconditional seed pools (previously in every branch
 // loot table, now stripped) with a per-block radius gate:
-//   radius 1 or 2 -> drop 1 species-appropriate seed
-//   radius 3+     -> drop nothing
+//   radius 1   -> drop 1 species-appropriate seed
+//   radius 2-8 -> drop nothing
 //
 // IMPORTANT BEHAVIORAL NOTE: DT's chop cascade silently clears connected
 // branches via Level.setBlock(AIR), which does NOT fire Forge's BreakEvent.
@@ -37,7 +37,7 @@ BlockEvents.broken(event => {
   const rStr = block.properties.get('radius');
   if (rStr === null || rStr === undefined) return;
   const radius = parseInt(rStr);
-  if (radius !== 1 && radius !== 2) return;
+  if (radius !== 1) return;
 
   // Map <namespace>:<species>_branch -> <namespace>:<species>_seed
   const seedId = id.replace(/_branch$/, '_seed');

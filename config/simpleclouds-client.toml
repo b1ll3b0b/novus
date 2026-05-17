@@ -92,7 +92,7 @@ showVivecraftNotice = true
 	levelOfDetail = "LOW"
 	#Culls cloud chunks not visible to the player. Generally should not be disabled, but can fix visual issues when looking around fast with higher frames per mesh generation values.
 	#Default: true
-	frustumCulling = true
+	frustumCulling = false
 	#Toggles lightning flashes that can be seen in storm fog. Disabling can lead to potential performance gains when lightning spawns.
 	#Default: true
 	stormFogLightningFlashes = true
