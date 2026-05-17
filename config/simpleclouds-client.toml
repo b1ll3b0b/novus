@@ -8,7 +8,7 @@ showCloudPreviewerInfoPopup = true
 #Specifies the movement speed of the clouds.
 #Default: 1.0
 #Range: 0.1 ~ 32.0
-clientSideSpeedModifier = 0.25
+clientSideSpeedModifier = 1.0
 #Specifies the render Y offset for the clouds.
 #Default: 128
 #Range: 0 ~ 2048

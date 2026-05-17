@@ -12,9 +12,13 @@ hash-format = 'sha512'
 mode = 'url'
 url = 'https://cdn.modrinth.com/data/4Al4H3t9/versions/4sU68ll4/Forge-Version-sereneseasonsplus-1.20.1-4.2.4.jar'
 
-[update.modrinth]
-mod-id = '4Al4H3t9'
-version = '4sU68ll4'
+# Pinned to Forge-1.20.1-4.2.4 — do not auto-update (2026-05-16)
+# Pin reason: user-requested. SS+ is an addon to SereneSeasons and version drift
+# can introduce season-mechanic changes that affect in-progress worlds.
+# To unpin: restore the [update.modrinth] block:
+#   [update.modrinth]
+#   mod-id = '4Al4H3t9'
+#   version = '4sU68ll4'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'tPLE214j'

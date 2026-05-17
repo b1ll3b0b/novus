@@ -36,46 +36,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "dynamictrees:seed_item",
-          "conditions": [
-            {
-              "condition": "minecraft:survives_explosion"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "dynamictrees:seed_item",
-          "conditions": [
-            {
-              "condition": "minecraft:survives_explosion"
-            }
-          ],
-          "functions": [
-            {
-              "function": "dynamictrees:multiply_logs_count"
-            },
-            {
-              "function": "minecraft:limit_count",
-              "limit": {
-                "min": 0,
-                "max": 3
-              }
-            }
-          ]
-        }
-      ]
     }
   ],
   "random_sequence": "dynamictrees:trees/branches/acacia"

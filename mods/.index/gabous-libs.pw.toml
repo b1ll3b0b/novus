@@ -1,0 +1,21 @@
+filename = 'gaboulibs-forge-1.7.1.jar'
+name = "Gabou's Libs - New logo LIZZARRDD"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Forge-1.7.1'
+
+[download]
+hash = '6012de7e30090f56f9819641f5af42a35130f5e4c9a0d05671af5e3c21be6a12893b3209036517cb7563a6c6917bccfd0ee8744fd8bd250072ece3e885a75168'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/N8aGZtvj/versions/z1s0a0Ue/gaboulibs-forge-1.7.1.jar'
+
+[update.modrinth]
+mod-id = 'N8aGZtvj'
+version = 'z1s0a0Ue'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
