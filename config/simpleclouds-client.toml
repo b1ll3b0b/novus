@@ -48,7 +48,7 @@ showVivecraftNotice = true
 	customRainSounds = false
 	#Specifies if custom rain rendering should be used. Automatically disabled when using Pretty/Particle Rain.
 	#Default: true
-	renderCustomRain = true
+	renderCustomRain = false
 
 #Visual
 [visual]

@@ -1,0 +1,31 @@
+filename = 'antique-atlas-3.1.2+1.20.jar'
+name = 'Antique Atlas 4'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.1.2+1.20'
+
+[download]
+hash = 'c48f97b9e6bc6b9154283a11d2ada1951f9d57ab4aa881b9de4ba26fbe3ec6ea12fb6c25fec667ab2c64320824e72073d984406161a49bba37d2b84acb81192f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Y5Ve4Ui4/versions/yIV6zMoy/antique-atlas-3.1.2%2B1.20.jar'
+
+[update.modrinth]
+mod-id = 'Y5Ve4Ui4'
+version = 'yIV6zMoy'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tNmWwdI2'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+version = 'P7uGFii0'
+
+[[x-prismlauncher-dependencies]]
+addonId = '4KjqhPc9'
+type = 'REQUIRED'
+version = 'ykwbsgaV'
