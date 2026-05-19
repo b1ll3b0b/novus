@@ -1,6 +1,9 @@
 config/lighty.config
 config/chunky/tasks/*
+data/surveyor/*
+
 emi.json
+patchouli_data.json
 
 backups
 crash-reports

@@ -1,0 +1,31 @@
+{
+  "name": "Days, Nights & Weather",
+  "icon": "minecraft:clock",
+  "category": "patchouli:2_hearth_season",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Beyond the four seasons, three further systems shape the sky.",
+      "title": "Days, Nights & Weather"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The Seasonal Day & Night.$()$(br2)Day and night are no longer equal length. $(italic)BetterDays$() + SereneSeasons+Plus drive day-length from the current season. Expect long lazy summer evenings, brisk autumn twilights, and winter nights that genuinely feel long. Don't trust your internal clock \u2014 sleep when the bed lets you."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Storms, Rain & Snow.$()$(br2)Weather frequency is tied to season. Summer storms are common; winter has none. In winter, snow accumulates in column-layers up to three blocks deep \u2014 shovel early or build paths, or your routes through the cold will close behind you."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Rain has a sound now.$() $(italic)ParticleRain$() rebuilds the look and sound of weather. Rain is rendered as particle drops, not a moving texture, with proper audio.",
+      "title": "Particle Rain"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Auroras, Rainbows, Volumetric Clouds.$() $(italic)Auroras$() appear in cold biomes at night. $(italic)Rainbows$() follow some rainstorms. $(italic)Simple Clouds$() gives genuine volumetric clouds with its own localized weather under different cloud types.",
+      "title": "Sky"
+    }
+  ]
+}

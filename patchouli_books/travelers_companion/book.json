@@ -1,0 +1,17 @@
+{
+  "name": "Traveler's Companion",
+  "landing_text": "$(bold)Welcome to Novus.$()$(p)A short survival manual for the first few hours, with notes on the systems that have changed. Read $(italic)Of First Days$() in order; skim the rest as you need it.",
+  "book_texture": "patchouli:textures/gui/book_brown.png",
+  "model": "patchouli:book_brown",
+  "creative_tab": "tools",
+  "use_blocky_font": false,
+  "i18n": false,
+  "show_progress": false,
+  "show_toasts": false,
+  "version": 3,
+  "subtitle": "A Survival Guide for New Players",
+  "advancements_tab": false,
+  "macros": {
+    "$(novus)": "$(#2A5F3A)"
+  }
+}

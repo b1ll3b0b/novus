@@ -1,0 +1,44 @@
+{
+  "name": "The First Day",
+  "icon": "minecraft:wooden_pickaxe",
+  "category": "patchouli:1_first_days",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Novus respects an older Minecraft custom: the first day is short, the first night is long. Before dusk, see to these five friends in turn.",
+      "title": "The First Day"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)1. Wood, then bench, then tools.$() Unchanged from vanilla. Punch a tree, craft planks, craft sticks, craft a wooden pickaxe.$(br2)$(bold)2. Stone, coal, torches.$() Coal first, iron second. The night is no quieter than the one you remember."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)3. A loaf and a bowl.$() The hunger arc is forgiving but persistent. $(italic)Farmer's Delight$() adds early cooking \u2014 the cooking pot can be built day one if you have iron. Wild edibles (carrots, beetroots, cabbage, onions, berries) spawn liberally; grab what you see."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)4. A sleeping bag \u2014 or, better, a bed.$() $(italic)Comforts$() adds sleeping bags that work in any biome but do not reset spawn. A bed remains the canonical Sunday-morning reset point.$(br2)$(bold)5. A backpack, when you can.$() $(italic)Backpacked$() adds a worn backpack curio with extra rows \u2014 slot it in your back curio and forget about it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Carry a knife.$() FD's $(italic)Knife$() (any tier) does two things you'll want constantly: butchers raw food into more pieces, and harvests wild plants like cabbage and tomato vines cleanly. Cheap to craft \u2014 1 stick + 1 iron in a vertical pair.",
+      "title": "Knife"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Carry rope.$() $(italic)Supplementaries Rope$() is the canonical rope item in Novus. Use it to climb cliffs by placing and shift-clicking, and as a trellis for tomato vines (they climb rope tagged as rope).",
+      "title": "Rope"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Heads up \u2014 DT seeds vs. saplings.$()$(br2)Some trees you chop will drop $(italic)Dynamic Tree seeds$() (e.g. dynamictrees:oak_seed) instead of vanilla saplings. Plant them like saplings \u2014 they'll grow into real animated trees over days, with full branch geometry. Vanilla saplings still work normally. Full conversion details in $(l:2_hearth_season/trees)Trees & Catalysts$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)First-Night Kit$() \u2014 a goal, not a guarantee:$(br)$(li)Wooden pickaxe + axe + sword$(li)Knife (iron tier ideal)$(li)8 torches, 1 stack of dirt or stone$(li)1 cooked meat OR 2 bread OR 1 bowl of any soup$(li)Bed if you have wool, else sleeping bag (Comforts)",
+      "title": "First-Night Kit"
+    }
+  ]
+}

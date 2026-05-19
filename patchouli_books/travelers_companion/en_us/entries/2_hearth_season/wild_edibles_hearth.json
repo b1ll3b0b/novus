@@ -1,0 +1,32 @@
+{
+  "name": "Wild Edibles & Hearth",
+  "icon": "farmersdelight:cooking_pot",
+  "category": "patchouli:2_hearth_season",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Before you plant a row, the world has already seeded itself with food. $(italic)Farmer's Delight$() scatters wild crops across every plausible biome \u2014 gather as you travel.",
+      "title": "Wild Edibles"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)What grows wild:$()$(br)$(li)Wild Cabbage \u2014 plains & forests, rare$(li)Sea Beet (wild beetroot) \u2014 near beaches$(li)Wild Potato \u2014 cool biomes$(li)Wild Carrot \u2014 broadly across temperate$(li)Wild Onion \u2014 open meadows$(li)Tomato Vines \u2014 climbing on supports$(li)Wild Rice \u2014 swamp & marsh$(li)Brown / Red Mushroom Colonies \u2014 mushroom-field biomes$(li)Berry bushes \u2014 taiga"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The cooking surfaces$() \u2014 three pieces, all early.$(br2)$(bold)Stove$() \u2014 Lit by any flame; place atop fire/lava. Cooks raw food $(italic)while you walk$(). Pancakes and pies bake here.$(br2)$(bold)Cooking Pot$() \u2014 Place on a heat source. Up to six ingredients via the GUI; produces stews and meals.$(br2)$(bold)Skillet$() \u2014 Sears single items quickly. Doubles as a thrown weapon when held.",
+      "title": "Stove, Pot & Skillet"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Knife & Cutting Board:$()$(br2)A Knife in the hotbar processes raw food into prepared pieces (beef \u2192 meat strips, cabbage \u2192 cabbage leaves). A wall-mounted Cutting Board does the same automatically: place a tool on it, right-click with an item, the tool processes the item. A Dispenser pointed at a Cutting Board operates it for you.",
+      "title": "Knife & Cutting Board"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Vanilla soups have effects now.$() $(italic)Farmer's Delight$() buffs the vanilla soup line with minor effects via the $(italic)vanillaSoupExtraEffects$() config (enabled). Notably:$(br)$(li)$(italic)Rabbit Stew$() \u2192 Jump Boost$(li)$(italic)Mushroom Stew$() \u2192 minor effect$(li)$(italic)Beetroot Soup$() \u2192 minor effect$(br2)Don't reflexively cook them away as second-rate food \u2014 they're now real utility.",
+      "title": "Soup Effects"
+    }
+  ]
+}

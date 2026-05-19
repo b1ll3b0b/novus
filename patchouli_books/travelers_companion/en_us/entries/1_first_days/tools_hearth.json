@@ -1,0 +1,27 @@
+{
+  "name": "Tools & Hearth",
+  "icon": "farmersdelight:cooking_pot",
+  "category": "patchouli:1_first_days",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Vanilla tools work as they always have. What waits one tier ahead is $(italic)Tinkers' Construct$() \u2014 the chosen tool-tiering system in Novus, generally a day-three or later concern.",
+      "title": "Tools & Hearth"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Tinkers' tools, in brief:$()$(br)$(li)Build a Part Builder + Tool Forge first (eventually a Smeltery)$(li)Tools made from Tinkers parts can be repaired and modified \u2014 they need not be thrown away when worn$(li)Six in-game Tinkers' books cover the rest \u2014 Materials and You, Puny Smelting, Mighty Smelting, Tinkers' Gadgetry, Encyclopedia of Tinkering, Fantastic Foundry"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Hunger & saturation:$()$(br2)$(italic)AppleSkin$() shows exactly how much hunger and saturation each food restores. Eat well-cooked foods and you'll rarely see hunger drop below half.",
+      "title": "AppleSkin"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The hearth starts at the cooking pot.$() $(italic)Farmer's Delight's$() Cooking Pot is the earliest step into the food chain. Lit campfires count as heat sources, so you don't need iron tools to begin. See $(l:2_hearth_season/wild_edibles_hearth)Wild Edibles & Hearth$() for the full stove/pot/skillet setup.",
+      "title": "Cooking Pot"
+    }
+  ]
+}

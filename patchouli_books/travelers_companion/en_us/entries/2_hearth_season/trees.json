@@ -1,0 +1,33 @@
+{
+  "name": "Trees & Catalysts",
+  "icon": "minecraft:oak_sapling",
+  "category": "patchouli:2_hearth_season",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Dynamic Trees$() adds a parallel item to every vanilla sapling: the $(bold)Seed$(). Seeds grow into real living trees, animated branch-by-branch over many days. Vanilla saplings still place and grow as before.$(br2)Conversion between the two systems is one shapeless crafting recipe.",
+      "title": "Trees & Catalysts"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Crafting schema$() (works both directions):$(br2)$(italic)Seed$()  +  $(italic)Catalyst$()  \u2192  $(italic)Sapling$()$(br)$(italic)Sapling$()  +  $(italic)Catalyst$()  \u2192  $(italic)Seed$()$(br2)Place both items anywhere in a crafting grid. No shape, no special bench.",
+      "title": "Crafting Schema"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Catalyst by tree type:$()$(br)$(li)$(bold)Dirt$() \u2014 vanilla overworld trees, Quark blossoms, Tinkers' slime trees (greenheart, enderbark, skyroot)$(li)$(bold)Netherrack$() \u2014 Crimson + Warped fungi, Tinkers' Bloodshroom$(li)$(bold)Mycelium$() \u2014 DT+ brown / red mushroom trees$(li)$(bold)Red Sand / Sand / Gravel$() \u2014 DT+ cacti (Saguaro / Pillar / Pipe; one-way only \u2014 cactus \u2192 seed)",
+      "title": "Catalyst List"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Three shortcuts without a catalyst:$()$(br2)$(li)$(bold)1 Apple \u2192 Apple-Oak Seed.$() Then Apple-Oak Seed + Dirt \u2192 Oak Sapling.$(li)$(bold)3 Cocoa Beans \u2192 Cocoa Seed$() (\"Cocoa Pod\"). Then Cocoa Seed + Dirt \u2192 Jungle Sapling.$(li)$(bold)1 Ancient Fruit \u2192 Ancient (Ashen) Seed.$() Reverse and dirt-conversion as in the table.",
+      "title": "Fruit Shortcuts"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Felling a living tree:$() A dynamic tree falls in one motion. Cut the lowest branch and the entire trunk and canopy collapse together. Any axe works; a Tinkers' axe with the right modifiers does it fast.",
+      "title": "Felling"
+    }
+  ]
+}

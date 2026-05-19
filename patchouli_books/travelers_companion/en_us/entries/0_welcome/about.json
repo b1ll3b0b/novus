@@ -1,0 +1,17 @@
+{
+  "name": "About this Guide",
+  "icon": "minecraft:bookshelf",
+  "category": "patchouli:0_welcome",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Novus$() is a world where the basics feel familiar \u2014 gather, cook, build, survive \u2014 but a handful of systems diverge in ways that are easy to miss.$(br2)This guide is a short survival manual for the first few hours, with explanations of the changed systems woven in where they matter.",
+      "title": "About this Guide"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)How to use it:$()$(br)$(li)Read $(italic)Of First Days$() in order \u2014 it's everything you need on day one.$(li)$(italic)Hearth & Season$() is cooking and the year, both relevant by day two or three.$(li)Skim links as they come up.$(br2)The in-game books each mod ships do the deeper reference work; this guide just gets you started."
+    }
+  ]
+}

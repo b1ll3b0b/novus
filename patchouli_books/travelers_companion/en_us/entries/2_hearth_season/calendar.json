@@ -1,0 +1,40 @@
+{
+  "name": "The Year & Its Seasons",
+  "icon": "sereneseasons:calendar",
+  "category": "patchouli:2_hearth_season",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The seasonal year in Novus is $(bold)96 days$() \u2014 four seasons of three sub-seasons each, eight days per sub-season. New worlds begin in $(italic)Early Spring$().",
+      "title": "The Calendar"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "novus:textures/gui/season_wheel.png"
+      ],
+      "border": false,
+      "title": "The Wheel of the Year",
+      "text": "Twelve sub-seasons, each with its own color. The wheel turns clockwise from Early Spring at the top."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The four seasons, in brief:$()$(br2)$(italic)Spring$() \u2014 generous to a beginning farmer. All overworld crops grow, Dynamic Trees grow fastest, rain is common.$(br2)$(italic)Summer$() \u2014 long days, frequent thunder. All fruit-bearing crops thrive. Snow and ice MELT in the open."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Autumn$() \u2014 the gathering season. Most crops still bear; slow down by Late Autumn. Time to lay in stews for winter.$(br2)$(italic)Winter$() \u2014 real winter. Temperature drops by \u22120.8 everywhere; snow falls in places that wouldn't normally see it. NO thunderstorms. Open-air crops crawl at ~10% speed."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Two ways to keep crops growing in winter:$()$(br2)$(li)$(bold)Underground$() \u2014 any plot at or below Y=48 is treated as in-season year-round$(li)$(bold)Under glass$() \u2014 any block tagged as glass (vanilla, stained, framed, modded) anywhere in the 16 blocks directly above a crop tells the season system that crop is in-season. A glass-roofed greenhouse works perfectly.",
+      "title": "Winter Farming"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Seasons pause when the game closes.$() Time and the year only advance while the game is actively running. Closing to title or quitting freezes everything where it is \u2014 including season progression. This is intentional.",
+      "title": "Seasons Pause"
+    }
+  ]
+}

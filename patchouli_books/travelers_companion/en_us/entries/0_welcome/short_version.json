@@ -1,0 +1,25 @@
+{
+  "name": "The Short Version",
+  "icon": "minecraft:writable_book",
+  "category": "patchouli:0_welcome",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "If you read nothing else before you spawn, read these three.",
+      "title": "The Short Version"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)1. The year now turns.$()$(br2)Twelve sub-seasons pass over Novus \u2014 three to a season, eight days each, for a 96-day year. Crops grow slowly out of season unless they're under glass or below Y=48. The day itself stretches and shortens with the season. Closing the game pauses the year along with everything else.$(br2)See $(l:1_first_days/first_day)The First Day$() and $(l:2_hearth_season/calendar)The Year & Its Seasons$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)2. Trees grow over time.$()$(br2)$(italic)Dynamic Trees$() adds a $(italic)Seed$() item parallel to vanilla saplings. Seeds grow into real living trees over many days. Vanilla saplings still place as before; convert between the two systems with a thematic catalyst.$(br2)See $(l:2_hearth_season/trees)Trees & Catalysts$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)3. The food chain is deeper.$()$(br2)$(italic)Farmer's Delight$() adds a stove, cooking pot, knife, and wide meal variety. Wild edibles spawn throughout the world. FD also buffs vanilla soups with minor effects (Rabbit Stew now grants Jump Boost, etc.).$(br2)See $(l:2_hearth_season/wild_edibles_hearth)Wild Edibles & Hearth$()."
+    }
+  ]
+}
