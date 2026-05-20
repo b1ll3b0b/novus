@@ -133,10 +133,14 @@ key_auroras.key.reload_aurora_configs:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.ponder.ponder:key.keyboard.w
+key_key.valkyrienskies.ship_down:key.keyboard.v
+key_key.valkyrienskies.ship_cruise:key.keyboard.c
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
+key_key.vs_clockwork.aeronaut_goggles_toggle:key.keyboard.g
+key_key.vs_clockwork.debug_lightning_toggle:key.keyboard.l
 key_key.biomancy.item_default:key.keyboard.v
 key_key.backpack:key.keyboard.b
 key_key.backpacked.open_management:key.keyboard.v
