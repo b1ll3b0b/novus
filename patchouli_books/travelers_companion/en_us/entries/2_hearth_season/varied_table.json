@@ -1,0 +1,32 @@
+{
+  "name": "A Varied Table",
+  "icon": "minecraft:cake",
+  "category": "patchouli:2_hearth_season",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Spice of Life: Classic$() adds one quiet rule to every meal: eat the same food too often and it begins to feed you less. Eat with variety and every plate stays worth the bite.$(br2)Nothing in the game announces this \u2014 so it earns a page of its own.",
+      "title": "A Varied Table"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)How it works.$()$(br2)Novus keeps a short record of your recent meals. Each time a food turns up again in that record, the nutrition it restores is cut another step \u2014 roughly $(bold)100% \u2192 90% \u2192 75% \u2192 50%$(), and then down toward nothing.$(br2)You never have to do this arithmetic yourself. Every food's tooltip shows its $(bold)current value$() \u2014 glance at it before you rely on a meal."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)A worn-out food feeds you nothing at all.$()$(br2)Not a sliver, not half a shank \u2014 zero. Lean on one crop hard enough and it simply stops nourishing you.$(br2)The remedy is time and variety: as a food falls out of your recent-meals record, its value climbs back. Rotate three or four staples and none of them ever bottoms out.",
+      "title": "Let It Rest"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Stocking a varied larder.$() $(italic)Farmer's Delight$() is the natural answer \u2014 its stews, pies, and prepared meals give you a wide rotation for little effort. See $(l:2_hearth_season/wild_edibles_hearth)Wild Edibles & Hearth$().$(br2)Two conveniences come with the system: a $(bold)Wicker Basket$() that carries an assortment of foods together, and a $(bold)Food History Book$() listing what you've eaten lately.",
+      "title": "Stocking the Larder"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)One reliable exception.$()$(br2)$(italic)Dried Kelp$() is exempt \u2014 it never decays, no matter how much of it you eat. It is the plain, endless fallback for the days when nothing fresh is at hand. Worth keeping a stack against lean times.",
+      "title": "The Exception"
+    }
+  ]
+}

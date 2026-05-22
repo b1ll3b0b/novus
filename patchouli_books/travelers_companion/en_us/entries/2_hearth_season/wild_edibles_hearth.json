@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Before you plant a row, the world has already seeded itself with food. $(italic)Farmer's Delight$() scatters wild crops across every plausible biome \u2014 gather as you travel.",
+      "text": "Before you plant a row, the world has already seeded itself with food. $(italic)Farmer's Delight$() scatters wild crops across every plausible biome \u2014 gather as you travel, and gather $(italic)widely$(): in Novus a varied diet feeds you better than a full one. See $(l:2_hearth_season/varied_table)A Varied Table$().",
       "title": "Wild Edibles"
     },
     {

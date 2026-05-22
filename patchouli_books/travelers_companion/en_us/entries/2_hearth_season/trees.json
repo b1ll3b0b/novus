@@ -2,7 +2,7 @@
   "name": "Trees & Catalysts",
   "icon": "minecraft:oak_sapling",
   "category": "patchouli:2_hearth_season",
-  "sortnum": 3,
+  "sortnum": 4,
   "pages": [
     {
       "type": "patchouli:text",

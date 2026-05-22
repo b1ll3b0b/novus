@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -124,6 +124,9 @@ key_key.exposure.camera_controls:key.keyboard.unknown
 key_key.botania_corporea_request:key.keyboard.c
 key_key.curios.open.desc:key.keyboard.g
 key_key.createarmory.reload_key:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.r
+key_iris.keybind.toggleShaders:key.keyboard.k
+key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_key.lighty.enable:key.keyboard.f7
 key_key.lighty.toggle:key.keyboard.f8
 key_key.jetpack.toggle_active.description:key.keyboard.g

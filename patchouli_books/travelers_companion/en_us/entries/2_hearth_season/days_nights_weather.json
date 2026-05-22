@@ -2,7 +2,7 @@
   "name": "Days, Nights & Weather",
   "icon": "minecraft:clock",
   "category": "patchouli:2_hearth_season",
-  "sortnum": 2,
+  "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",
