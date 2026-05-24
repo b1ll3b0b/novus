@@ -34,7 +34,7 @@ gamma:0.5
 renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
-guiScale:2
+guiScale:4
 particles:1
 maxFps:120
 graphicsMode:1
@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","mod/subtle_effects:resourcepacks/biome_color_water_particles","fabric","VanillaTweaks_GroovyLevers.zip","VanillaTweaks_CompassLodestone.zip","VanillaTweaks_Age25Kelp.zip","VanillaTweaks_VisualNoteblock.zip","VanillaTweaks_DiscRedstone.zip","Novus_DiscRedstone_CreateConnected.zip","Novus_DiscRedstone_Quark.zip","Novus_DiscRedstone_Supplementaries.zip","Novus_DiscRedstone_VSClockwork.zip","Novus3D_Brewing_v0.2.zip","Novus3D_Crops_v1.3.zip","Novus3D_Rails_v0.1.zip","Novus3D_Amethyst_v0.1.zip","Novus3D_Quark_CorundumCluster.zip","Novus3D_TConstruct_GeodeCrystal.zip","Novus3D_Vines_v0.1.zip","Novus3D_Doors_v1.0.zip","Novus3D_Ladders_v1.0.zip","Novus3D_Objects_v0.1.zip","VanillaTweaks_3D_Dripstone.zip","VanillaTweaks_3D_RedstoneDust.zip","Novus_BotaniaImprovedFlowers_v0.3.zip","BetterStainedGlass.zip","FreshAnimations_v1.10.4.zip","AL+Azu_Zombies.zip","FA+Spiders-v2.2.zip","FA+Quivers-v2.2.zip","FA+Emissive-v1.6.zip","FA+Player-v1.0.zip","PA-FA-Compat-v1.zip","Novus_AtlasMarkers_v1.1.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","mod/subtle_effects:resourcepacks/biome_color_water_particles","fabric","VanillaTweaks_GroovyLevers.zip","VanillaTweaks_CompassLodestone.zip","VanillaTweaks_Age25Kelp.zip","VanillaTweaks_VisualNoteblock.zip","VanillaTweaks_DiscRedstone.zip","Novus_DiscRedstone_CreateConnected.zip","Novus_DiscRedstone_Quark.zip","Novus_DiscRedstone_Supplementaries.zip","Novus_DiscRedstone_VSClockwork.zip","Novus3D_Brewing_v0.2.zip","Novus3D_Crops_v1.3.zip","Novus3D_Rails_v0.1.zip","Novus3D_Amethyst_v0.1.zip","Novus3D_Quark_CorundumCluster.zip","Novus3D_TConstruct_GeodeCrystal.zip","Novus3D_Vines_v0.1.zip","Novus3D_Doors_v1.0.zip","Novus3D_Ladders_v1.0.zip","Novus3D_Objects_v0.1.zip","Novus3D_Stations_v0.4.zip","Novus3D_QuarkFurnaces_v0.2.zip","VanillaTweaks_3D_Dripstone.zip","VanillaTweaks_3D_RedstoneDust.zip","Novus_BotaniaImprovedFlowers_v0.3.zip","BetterStainedGlass.zip","Novus_AtlasMarkers_v1.1.zip","FreshAnimations_v1.10.4.zip","AL+Azu_Zombies.zip","FA+Spiders-v2.2.zip","FA+Quivers-v2.2.zip","FA+Emissive-v1.6.zip","FA+Player-v1.0.zip","PA-FA-Compat-v1.zip"]
 incompatibleResourcePacks:["PA-FA-Compat-v1.zip"]
 lastServer:
 lang:en_us
@@ -224,4 +224,3 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
-fullscreenResolution:1920x1080@60:24
