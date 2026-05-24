@@ -12,7 +12,18 @@
   "entityPhysicsModPatchOverrides": {},
   "entityVanillaHologramOverrides": {},
   "modelsNamesDisabled": [
-    "magma_cube"
+    "magma_cube",
+    "cod",
+    "salmon",
+    "puffer_fish_small",
+    "puffer_fish_medium",
+    "puffer_fish_big",
+    "axolotl",
+    "tadpole",
+    "tropical_fish_a",
+    "tropical_fish_b",
+    "tropical_fish_pattern_a",
+    "tropical_fish_pattern_b"
   ],
   "allowEBEModConfigModify": true,
   "animationLODDistance": 20,
