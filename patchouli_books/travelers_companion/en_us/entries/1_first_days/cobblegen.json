@@ -1,0 +1,55 @@
+{
+  "name": "Cobblestone Generators",
+  "icon": "minecraft:cobblestone",
+  "category": "patchouli:1_first_days",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A cobblestone generator is the old reliable: bring flowing water and flowing lava together with one empty block between them, and stone forms in the gap \u2014 ready to mine, again and again. Vanilla taught you this.$(br2)Novus keeps it exactly so, then adds one rule: the block $(bold)underneath$() decides what you get.",
+      "title": "Cobblestone Generators"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Basic Generator",
+      "multiblock": {
+        "pattern": [
+          [
+            "SW0LS"
+          ],
+          [
+            "SSBSS"
+          ]
+        ],
+        "mapping": {
+          "S": "minecraft:stone",
+          "W": "minecraft:water",
+          "L": "minecraft:lava",
+          "0": "minecraft:cobblestone",
+          "B": "minecraft:dirt"
+        }
+      },
+      "text": "Water and lava meet over the gap; cobblestone forms where they touch. The block one space below that gap is what the generator reads."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The block below.$() Whenever lava and water create a block, Novus checks the block one space $(bold)beneath$() the spot where it forms. That single block is the whole rule.$(br2)Set the right block there and the same generator hands you something better than cobblestone \u2014 no extra cost, no machinery.",
+      "title": "The Block Below"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Two substrates work at any height$() \u2014 so these can sit on the surface:$(br2)$(li)$(bold)Diorite$() (plain or polished) below \u2192 the generator yields $(bold)Andesite$()$(li)$(bold)Sandstone$() \u2014 plain, cut, chiselled, and the red variants \u2014 below \u2192 it yields $(bold)Tuff$()$(br2)Both are a deliberate head start for $(italic)Create$(): andesite and tuff are the bedrock of its early recipes.",
+      "title": "Andesite & Tuff"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The third rule needs depth.$() $(bold)Below Y=1$() \u2014 true deepslate country \u2014 a generator standing on ordinary stone or cobblestone converts over:$(br2)$(li)stone becomes $(bold)Deepslate$()$(li)cobblestone becomes $(bold)Cobbled Deepslate$()$(br2)At Y=1 or above, plain stone and cobble below simply give you ordinary cobblestone.",
+      "title": "Deepslate Depth"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)In short \u2014 the block below the gap:$()$(br)$(li)$(bold)Diorite$() \u2192 Andesite (any height)$(li)$(bold)Sandstone$() \u2192 Tuff (any height)$(li)$(bold)Stone or cobble, below Y=1$() \u2192 Deepslate / Cobbled Deepslate$(li)$(bold)Anything else$() \u2192 ordinary cobblestone$(br2)All of this is overworld-only. In the Nether and the End a generator behaves exactly as in vanilla.",
+      "title": "In Short"
+    }
+  ]
+}

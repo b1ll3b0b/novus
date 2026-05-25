@@ -1,0 +1,23 @@
+{
+  "name": "Keeping a World Safe",
+  "icon": "minecraft:nether_star",
+  "category": "patchouli:3_beyond_world",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Before you ever load in, Novus gives you a way to guard a world against a careless click. On the $(bold)Select World$() screen, $(italic)Cherished Worlds$() adds a small star to every world in the list.",
+      "title": "Keeping a World Safe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Click the star$() to favourite a world. A favourited world is pinned to the top of the list, and \u2014 the part that matters \u2014 its $(bold)Delete$() button is locked. You cannot delete a favourited world by accident; the game simply will not let you until you un-favourite it.",
+      "title": "The Star"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Favourite your main world the moment you make it.$()$(br2)The world list fills up fast once you spin up a test world or two, and Delete sits close to Play. A pinned, delete-locked world at the top of the list is the cheapest insurance in the pack \u2014 one click, done.",
+      "title": "Do It Early"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Rest & the Long Night",
+  "icon": "comforts:sleeping_bag_red",
+  "category": "patchouli:1_first_days",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Three things let you rest in Novus, and they are not interchangeable. A $(bold)bed$() is the one that matters most \u2014 it is still the only thing that moves your spawn point. $(italic)Comforts$() adds two companions for resting on the move: the $(bold)sleeping bag$() and the $(bold)hammock$().",
+      "title": "Rest & the Long Night"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)A bed$() behaves exactly as you remember: sleep through the night, wake at dawn, and set your spawn where it stands. It is the canonical reset point \u2014 the place the world returns you to.$(br2)Keep one at your main base and sleep in it once, so the world knows where home is. Vanilla rules still hold: never place a bed in the Nether or the End.",
+      "title": "The Bed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)A sleeping bag$() is the traveller's bed. Place it and you climb in at once \u2014 no second click. It skips the night like a bed, works in any biome, and $(bold)leaves your spawn point untouched$(). It never wears out, either: break it after waking and carry it to the next camp.$(br2)One limit \u2014 a sleeping bag can only be used at $(bold)night$(). It is crafted from wool; check EMI for the recipe.",
+      "title": "Sleeping Bags"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)A hammock$() is the mirror image. It can only be used by $(bold)day$(), and it sleeps you through to nightfall. If you keep odd hours \u2014 mining through the daylight, working the surface after dark \u2014 a hammock is how you turn the clock around.$(br2)Like the sleeping bag, it never touches your spawn point.",
+      "title": "Hammocks"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Both count against phantoms.$() Resting in a sleeping bag or a hammock resets the restless-nights counter and stops phantoms from spawning, exactly as a full night's sleep in a bed would.$(br2)A short hammock nap in broad daylight is enough to keep the sky clear \u2014 you are never forced into a bed just to be rid of them.",
+      "title": "Phantoms"
+    }
+  ]
+}

@@ -28,6 +28,16 @@
       "type": "patchouli:text",
       "text": "$(bold)Felling a living tree:$() A dynamic tree falls in one motion. Cut the lowest branch and the entire trunk and canopy collapse together. Any axe works; a Tinkers' axe with the right modifiers does it fast.",
       "title": "Felling"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)What a felled tree gives.$() Striking that first branch drops nothing on its own \u2014 but the instant the tree collapses, every leaf block in the canopy is destroyed at once, and each one rolls its own chance at a seed.$(br2)Fell a whole tree and you gather all of its wood in a single motion $(italic)and$() a scatter of seeds from the falling leaves. It is by far the richest harvest \u2014 a Fortune axe and a favourable season both raise the seed chance.",
+      "title": "A Felled Tree's Yield"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Seeds without felling.$() If you want a seed or two but not the whole tree, look at how $(bold)thick$() each branch is. The thinnest outer branches \u2014 the twig-slim ones at the very edge of the canopy \u2014 drop exactly $(bold)one seed$() of that tree's species, every time, guaranteed.$(br2)Thicker branches and the trunk drop none. Snapping a few outer twigs is the steady, predictable way to keep seeds coming without taking anything down.",
+      "title": "Seeds by Hand"
     }
   ]
 }

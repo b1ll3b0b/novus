@@ -19,7 +19,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(bold)4. A sleeping bag \u2014 or, better, a bed.$() $(italic)Comforts$() adds sleeping bags that work in any biome but do not reset spawn. A bed remains the canonical Sunday-morning reset point.$(br2)$(bold)5. A backpack, when you can.$() $(italic)Backpacked$() adds a worn backpack curio with extra rows \u2014 slot it in your back curio and forget about it."
+      "text": "$(bold)4. A sleeping bag \u2014 or, better, a bed.$() $(italic)Comforts$() adds sleeping bags that work in any biome but do not reset spawn. A bed remains the canonical Sunday-morning reset point. See $(l:1_first_days/sleeping)Rest & the Long Night$().$(br2)$(bold)5. A backpack, when you can.$() $(italic)Backpacked$() adds a worn backpack curio with extra rows \u2014 slot it in your back curio and forget about it."
     },
     {
       "type": "patchouli:text",

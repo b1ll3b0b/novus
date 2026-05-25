@@ -1,0 +1,23 @@
+{
+  "name": "Pre-Generating the World",
+  "icon": "minecraft:filled_map",
+  "category": "patchouli:3_beyond_world",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Normally the world builds itself a chunk at a time, as you walk into fresh ground. In a pack this large, generating new terrain is the single heaviest thing the game does \u2014 it is where most frontier stutter comes from.$(br2)$(italic)Chunky$() lets you do that work in advance.",
+      "title": "Pre-Generating the World"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Chunky runs from the chat console.$() The four commands you need:$(br)$(li)$(italic)/chunky radius <blocks>$() \u2014 how far out to build from the centre$(li)$(italic)/chunky start$() \u2014 begin generating$(li)$(italic)/chunky pause$() \u2014 stop for now$(li)$(italic)/chunky continue$() \u2014 pick up where you left off$(br2)Unless you set one, the centre is wherever you are standing.",
+      "title": "The Commands"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)While it runs.$() Pre-generation is meant to be heavy \u2014 the game will run warm and a large radius takes time. You can keep playing meanwhile.$(br2)One thing to know: Chunky does $(bold)not$() resume on its own. Closing the game stops the task, and you must run $(italic)/chunky continue$() yourself next session. For a new world, a few hundred blocks around spawn is plenty.",
+      "title": "While It Runs"
+    }
+  ]
+}
