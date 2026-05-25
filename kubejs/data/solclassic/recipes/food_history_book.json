@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:book" },
+    { "tag": "forge:crops" }
+  ],
+  "result": {
+    "item": "solclassic:food_history_book",
+    "count": 1
+  }
+}

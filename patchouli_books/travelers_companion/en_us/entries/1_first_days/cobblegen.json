@@ -23,7 +23,7 @@
         ],
         "mapping": {
           "S": "minecraft:stone",
-          "W": "minecraft:stone_brick_stairs[facing=east,waterlogged=true]",
+          "W": "minecraft:stone_brick_stairs[facing=south,waterlogged=true]",
           "L": "minecraft:lava",
           "0": "minecraft:cobblestone",
           "B": "minecraft:dirt"
@@ -55,7 +55,7 @@
         ],
         "mapping": {
           "S": "minecraft:stone",
-          "W": "minecraft:stone_brick_stairs[facing=east,waterlogged=true]",
+          "W": "minecraft:stone_brick_stairs[facing=south,waterlogged=true]",
           "L": "minecraft:lava",
           "0": "minecraft:andesite",
           "B": "minecraft:diorite"
@@ -77,7 +77,7 @@
         ],
         "mapping": {
           "S": "minecraft:stone",
-          "W": "minecraft:stone_brick_stairs[facing=east,waterlogged=true]",
+          "W": "minecraft:stone_brick_stairs[facing=south,waterlogged=true]",
           "L": "minecraft:lava",
           "0": "minecraft:tuff",
           "B": "minecraft:sandstone"

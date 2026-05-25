@@ -1,0 +1,13 @@
+{
+  "name": "Fantastic Foundry",
+  "icon": "tconstruct:fantastic_foundry",
+  "category": "patchouli:4_catalog",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Tinkers' Construct$() \u2014 smelting carried into the Nether. The scorched $(italic)Foundry$(), its blocks and fluids, and the alloys that need a hotter world than the overworld can give.$(br2)$(bold)To craft:$() a $(italic)Book$() + $(italic)Nether Grout$().",
+      "title": "Fantastic Foundry"
+    }
+  ]
+}

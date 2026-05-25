@@ -1,0 +1,13 @@
+{
+  "name": "Materials and You",
+  "icon": "tconstruct:materials_and_you",
+  "category": "patchouli:4_catalog",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Tinkers' Construct$() \u2014 the first of its six books, and the one to open first. It teaches the Tinker Station: tools built from parts, parts that carry their material's traits, and why a Tinkers' tool need never be thrown away.$(br2)$(bold)To craft:$() a $(italic)Book$() + a $(italic)Pattern$().",
+      "title": "Materials and You"
+    }
+  ]
+}

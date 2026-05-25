@@ -1,0 +1,13 @@
+{
+  "name": "Food History Book",
+  "icon": "solclassic:food_history_book",
+  "category": "patchouli:4_catalog",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Spice of Life: Classic$() \u2014 not a guide so much as a mirror. Right-click it and it shows the foods you've eaten lately \u2014 the very list that decides how well each one still feeds you. Read it alongside $(l:2_hearth_season/varied_table)A Varied Table$().$(br2)$(bold)To craft:$() a $(italic)Book$() + any $(italic)crop$() \u2014 wheat, a carrot, a cabbage, whatever the field gave you.",
+      "title": "Food History Book"
+    }
+  ]
+}

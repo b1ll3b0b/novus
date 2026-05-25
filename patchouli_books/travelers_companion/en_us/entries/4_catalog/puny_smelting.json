@@ -1,0 +1,13 @@
+{
+  "name": "Puny Smelting",
+  "icon": "tconstruct:puny_smelting",
+  "category": "patchouli:4_catalog",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Tinkers' Construct$() \u2014 the step past the Tinker Station. The basic $(italic)Smeltery$(): melting ore and metal, casting parts, the first alloys. Build it and your yield from every ore climbs.$(br2)$(bold)To craft:$() a $(italic)Book$() + $(italic)Grout$().",
+      "title": "Puny Smelting"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Traveler's Companion",
+  "icon": "patchouli:guide_book{\"patchouli:book\":\"patchouli:travelers_companion\"}",
+  "category": "patchouli:4_catalog",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The book in your hands. $(italic)Novus's$() own survival manual \u2014 the systems that have changed, the first few days, the things worth knowing before you spawn. You already carry it; this page is here only so the shelf is complete.$(br2)$(bold)To craft:$() a $(italic)Book$() + a $(italic)Stick$(), shapeless.",
+      "title": "Traveler's Companion"
+    }
+  ]
+}

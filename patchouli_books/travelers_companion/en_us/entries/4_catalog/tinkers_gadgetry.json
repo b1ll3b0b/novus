@@ -1,0 +1,13 @@
+{
+  "name": "Tinkers' Gadgetry",
+  "icon": "tconstruct:tinkers_gadgetry",
+  "category": "patchouli:4_catalog",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Tinkers' Construct$() \u2014 set a little aside from the smelting books. Slime-tier gadgets and the odder tools: the slimeskull, the slimesling, the playful corner of the mod.$(br2)$(bold)To craft:$() a $(italic)Book$() + a $(italic)Sky Slimeball$().",
+      "title": "Tinkers' Gadgetry"
+    }
+  ]
+}

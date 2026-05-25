@@ -1,0 +1,13 @@
+{
+  "name": "Encyclopedia of Tinkering",
+  "icon": "tconstruct:encyclopedia",
+  "category": "patchouli:4_catalog",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Tinkers' Construct$() \u2014 not a chapter but the index. Every material, modifier and mechanic the mod owns, gathered into one volume; the book to keep once the other five are read.$(br2)$(bold)To obtain:$() $(italic)cast$() it \u2014 a $(italic)Book$() on a Casting Table, molten gold poured over.",
+      "title": "Encyclopedia of Tinkering"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Lexica Botania",
+  "icon": "botania:lexicon",
+  "category": "patchouli:4_catalog",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Botania$() \u2014 the master guide to the flower-magic mod: every petal, every thread of mana, every device. Botania expects you to read it, and almost nothing else explains the mod.$(br2)$(bold)To craft:$() a $(italic)Book$() + any $(italic)flower$(). $(italic)Novus swaps the usual sapling for a flower so the recipe doesn't clash with Dynamic Trees.$()",
+      "title": "Lexica Botania"
+    }
+  ]
+}

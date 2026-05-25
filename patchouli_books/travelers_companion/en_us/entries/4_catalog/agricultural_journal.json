@@ -1,0 +1,13 @@
+{
+  "name": "Agricultural Journal",
+  "icon": "agricraft:journal",
+  "category": "patchouli:4_catalog",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)AgriCraft$() \u2014 less a manual than a logbook. It records the crops you've inspected and the mutations you've turned up, and explains crop-stick breeding as you go. This is where to learn AgriCraft; the Companion otherwise leaves the mod to its own pages.$(br2)$(bold)To craft:$() a $(italic)Writable Book$() + any $(italic)seed$().",
+      "title": "Agricultural Journal"
+    }
+  ]
+}
