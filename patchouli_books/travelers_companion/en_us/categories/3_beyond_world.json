@@ -1,6 +1,6 @@
 {
   "name": "Beyond the World",
-  "description": "Two features that live outside the world itself \u2014 protecting a world on the select screen, and pre-generating its terrain.",
+  "description": "Three quiet utilities for a long game \u2014 guarding a world on the select screen, pre-generating its terrain, and reading the light around you.",
   "icon": "minecraft:map",
   "sortnum": 3
 }

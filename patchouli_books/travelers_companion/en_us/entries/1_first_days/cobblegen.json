@@ -23,7 +23,7 @@
         ],
         "mapping": {
           "S": "minecraft:stone",
-          "W": "minecraft:water",
+          "W": "minecraft:stone_brick_stairs[facing=east,waterlogged=true]",
           "L": "minecraft:lava",
           "0": "minecraft:cobblestone",
           "B": "minecraft:dirt"
@@ -40,6 +40,50 @@
       "type": "patchouli:text",
       "text": "$(bold)Two substrates work at any height$() \u2014 so these can sit on the surface:$(br2)$(li)$(bold)Diorite$() (plain or polished) below \u2192 the generator yields $(bold)Andesite$()$(li)$(bold)Sandstone$() \u2014 plain, cut, chiselled, and the red variants \u2014 below \u2192 it yields $(bold)Tuff$()$(br2)Both are a deliberate head start for $(italic)Create$(): andesite and tuff are the bedrock of its early recipes.",
       "title": "Andesite & Tuff"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Andesite Generator",
+      "multiblock": {
+        "pattern": [
+          [
+            "SW0LS"
+          ],
+          [
+            "SSBSS"
+          ]
+        ],
+        "mapping": {
+          "S": "minecraft:stone",
+          "W": "minecraft:stone_brick_stairs[facing=east,waterlogged=true]",
+          "L": "minecraft:lava",
+          "0": "minecraft:andesite",
+          "B": "minecraft:diorite"
+        }
+      },
+      "text": "Set $(bold)diorite$() one block below the gap and the same setup yields $(bold)andesite$() in place of cobblestone \u2014 at any height, surface included."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Tuff Generator",
+      "multiblock": {
+        "pattern": [
+          [
+            "SW0LS"
+          ],
+          [
+            "SSBSS"
+          ]
+        ],
+        "mapping": {
+          "S": "minecraft:stone",
+          "W": "minecraft:stone_brick_stairs[facing=east,waterlogged=true]",
+          "L": "minecraft:lava",
+          "0": "minecraft:tuff",
+          "B": "minecraft:sandstone"
+        }
+      },
+      "text": "Swap the block below for $(bold)sandstone$() and the generator yields $(bold)tuff$(). Any sandstone variant counts \u2014 plain, cut, chiselled, or red \u2014 and height does not matter."
     },
     {
       "type": "patchouli:text",

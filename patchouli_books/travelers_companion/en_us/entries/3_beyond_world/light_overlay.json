@@ -1,0 +1,28 @@
+{
+  "name": "Reading the Light",
+  "icon": "minecraft:torch",
+  "category": "patchouli:3_beyond_world",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Every hostile mob in Novus needs darkness to spawn \u2014 but darkness is invisible until something crawls out of it. $(italic)Lighty$() makes it visible. Switch on its overlay and every block within reach is marked by whether a monster could appear there.$(br2)It is the fastest way to light a cave properly, mob-proof a base, or find the one gap in a wall of torches.",
+      "title": "Reading the Light"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Lighty answers to two keys.$()$(br)$(li)$(bold)F8$() \u2014 $(italic)Toggle Light Overlay.$() Switches the overlay on and off. This is the one you'll reach for constantly.$(li)$(bold)F7$() \u2014 $(italic)Open Light Overlay Menu.$() Opens Lighty's own screen: the mode switcher and the overlay settings.$(br2)Keep the overlay off while you build, then tap F8 whenever you want to check your lighting.",
+      "title": "The Two Keys"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The colours tell you when a mob can spawn.$()$(br)$(li)$(bold)Green$() \u2014 safe. There is enough light here that nothing will spawn.$(li)$(bold)Orange$() \u2014 dark enough to spawn, but open to the sky. Safe by day; dangerous once night falls.$(li)$(bold)Red$() \u2014 dark from block light $(italic)and$() sky alike. Caves and sealed rooms read red, and a mob can spawn there at any hour.$(br2)Light a space until the red and orange are gone, and it stays clear.",
+      "title": "Green, Orange, Red"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Three ways to draw the overlay$(), chosen from the F7 menu:$(br)$(li)$(bold)Carpet$() \u2014 a flat coloured sheet laid over the floor. The Novus default.$(li)$(bold)Number$() \u2014 two figures on each block: block light above, sky light below.$(li)$(bold)Cross$() \u2014 a plain marker on every unsafe block.$(br2)The same menu sets the overlay's reach, in chunks, and its brightness \u2014 handy when shaders wash it out.",
+      "title": "The Three Modes"
+    }
+  ]
+}
