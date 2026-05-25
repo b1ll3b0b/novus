@@ -1,0 +1,16 @@
+{
+  "entity": [
+    "minecraft:skeleton",
+    "minecraft:stray"
+  ],
+  "equip": {
+    "chance": 0.05,
+    "materials": [
+      { "type": "tconstruct:fixed", "material": "tconstruct:rock" },
+      { "type": "tconstruct:fixed", "material": "tconstruct:wood" }
+    ],
+    "priority": 100,
+    "slot": "mainhand",
+    "tool": "tinkers_things:blockram"
+  }
+}
