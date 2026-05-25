@@ -168,12 +168,6 @@ StartupEvents.postInit(event => {
                 }
                 var fallbackMilli = $FluidTribute.of(fallbackItemTribute, TANKARD_AMOUNT)
 
-                // Diagnostic: dump the fallback values per drink, registration-time only.
-                console.log(`[cradle_fluid_tributes] ${id}: fallback per-mB ` +
-                    `biomass=${fallbackMilli.biomass()}, lifeEnergy=${fallbackMilli.lifeEnergy()}, ` +
-                    `success=${fallbackMilli.successModifier()}, disease=${fallbackMilli.diseaseModifier()}, ` +
-                    `hostile=${fallbackMilli.hostileModifier()}, anomaly=${fallbackMilli.anomalyModifier()}`)
-
                 // Stage 2 — runtime-lazy, tag-aware tribute. addEffect queries
                 // ModMobEffectTags.isCradleXxxSource(effect), which requires the user's
                 // overlay tags (kubejs/data/biomancy/tags/mob_effect/cradle/*) to be
@@ -210,13 +204,6 @@ StartupEvents.postInit(event => {
                                 return cachedMilli
                             }
                             cachedMilli = $FluidTribute.of(built, TANKARD_AMOUNT)
-                            // One-time per-drink diagnostic: log the upgraded tribute so we
-                            // can see whether the overlay is producing real values. Cache
-                            // is set above this line so a future log call can't re-fire.
-                            console.log(`[cradle_fluid_tributes] ${id}: runtime per-mB ` +
-                                `biomass=${cachedMilli.biomass()}, lifeEnergy=${cachedMilli.lifeEnergy()}, ` +
-                                `success=${cachedMilli.successModifier()}, disease=${cachedMilli.diseaseModifier()}, ` +
-                                `hostile=${cachedMilli.hostileModifier()}, anomaly=${cachedMilli.anomalyModifier()}`)
                             return cachedMilli
                         } catch (e) {
                             console.warn(`[cradle_fluid_tributes] runtime build failed for ${id}, using fallback: ${e}`)

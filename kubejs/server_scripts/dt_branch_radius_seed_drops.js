@@ -25,15 +25,21 @@ const DT_NAMESPACES = new Set([
 
 BlockEvents.broken(event => {
   const block = event.block;
-  const id = block.id;
+  // block.id (getId()) returns a java.lang.String. Coerce to a JS string
+  // primitive -- a Java String never matches inside a JS Set (.has() uses
+  // SameValueZero / identity), so DT_NAMESPACES.has() silently fails
+  // without this. Also keeps endsWith()/substring() returning JS types.
+  const id = '' + block.id;
   if (!id.endsWith('_branch')) return;
   const colon = id.indexOf(':');
   if (colon < 0) return;
   const ns = id.substring(0, colon);
   if (!DT_NAMESPACES.has(ns)) return;
 
-  // Read radius blockstate. Some DT branch variants may not expose 'radius'
-  // (e.g. dynamictreesplus mushroom branches); bail safely if absent.
+  // Read radius blockstate. block.properties.get(name) returns the value
+  // as a String here (e.g. "1"), so parse it directly. Some DT branch
+  // variants may not expose 'radius' (dynamictreesplus mushroom branches);
+  // bail safely if absent.
   const rStr = block.properties.get('radius');
   if (rStr === null || rStr === undefined) return;
   const radius = parseInt(rStr);

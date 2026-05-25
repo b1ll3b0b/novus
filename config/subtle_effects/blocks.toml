@@ -1,15 +1,11 @@
 # Don't change this! Version used to track needed updates.
 version = 0
-redstoneBlockDust = true
-redstoneBlockDustDensity = "DEFAULT"
-redstoneDustEmittingBlocks = [
-    "minecraft:redstone_block"
-]
-glowstoneBlockDust = true
-glowstoneBlockDustDensity = "DEFAULT"
-glowstoneDustEmittingBlocks = [
-    "minecraft:glowstone"
-]
+redstoneBlockDust = false
+redstoneBlockDustDensity = "MINIMAL"
+redstoneDustEmittingBlocks = [  ]
+glowstoneBlockDust = false
+glowstoneBlockDustDensity = "MINIMAL"
+glowstoneDustEmittingBlocks = [  ]
 netherOnlyGlowstoneBlockDust = false
 beehivesHaveSleepingZs = true
 torchflowerSmoke = "DEFAULT"

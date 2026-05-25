@@ -676,6 +676,14 @@
     {
       "id": "tconstruct:molten_uranium_bucket",
       "required": false
+    },
+    {
+      "id": "vs_clockwork:debug_lightning_arcer",
+      "required": false
+    },
+    {
+      "id": "vs_clockwork:solver",
+      "required": false
     }
   ]
 }

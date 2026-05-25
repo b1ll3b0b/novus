@@ -364,6 +364,14 @@
     {
       "id": "powah:uraninite_ore_poor",
       "required": false
+    },
+    {
+      "id": "vs_clockwork:debug_lightning_arcer",
+      "required": false
+    },
+    {
+      "id": "vs_clockwork:solver",
+      "required": false
     }
   ]
 }
