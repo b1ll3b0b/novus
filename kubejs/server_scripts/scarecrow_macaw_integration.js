@@ -19,6 +19,11 @@
 //      ST scarecrow. Purple maps to primitive_scarecrow (ST has no "purple"
 //      scarecrow -- primitive occupies that slot, exactly as ST's own
 //      primitive_scarecrow recolor recipe uses forge:dyes/purple).
+//   5. Add a soap "strip" recipe: any ST scarecrow + supplementaries:soap ->
+//      Macaw's scarecrow. Replicates Supplementaries' soap de-dye pattern (a
+//      plain shapeless recipe, e.g. their sticky_piston + soap -> piston); the
+//      soap is consumed. This is the reverse of step 4 -- it pulls a functional
+//      ST scarecrow back to the undyed decorative base.
 //
 // ST's 16 native recolor recipes (#scarecrowsterritory:primitive_scarecrows +
 // dye) are intentionally LEFT IN PLACE -- once you own one functional ST
@@ -29,6 +34,7 @@
 // Net flow:  pumpkin + hay + 3 rods -> Macaw scarecrow (decorative)
 //            Macaw scarecrow + dye  -> functional ST scarecrow (any colour)
 //            ST scarecrow + dye     -> recolor (ST's own recipes, unchanged)
+//            ST scarecrow + soap    -> Macaw scarecrow (strip dye, soap used up)
 
 ServerEvents.recipes(event => {
 
@@ -83,5 +89,17 @@ ServerEvents.recipes(event => {
             ]
         ).id('novus:scarecrow_' + dye + '_from_macaw')
     })
+
+    // --- 5: soap strips any ST scarecrow back to Macaw's scarecrow ---------
+    // One tag-based recipe covers all 16 ST scarecrows (the primitive_scarecrows
+    // tag holds every one, primitive included). Soap is a normal ingredient ->
+    // consumed, matching Supplementaries' own soap recipes.
+    event.shapeless(
+        'mcwholidays:scarecrow',
+        [
+            '#scarecrowsterritory:primitive_scarecrows',
+            'supplementaries:soap'
+        ]
+    ).id('novus:scarecrow_stripped_with_soap')
 
 })
