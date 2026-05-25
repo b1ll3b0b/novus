@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -121,6 +121,8 @@ key_key.hotbar.9:key.keyboard.9
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.modernfix.config:key.keyboard.unknown
 key_key.exposure.camera_controls:key.keyboard.unknown
+key_key.shetiphiancore.tool.next:key.keyboard.page.up
+key_key.shetiphiancore.tool.previous:key.keyboard.page.down
 key_key.botania_corporea_request:key.keyboard.c
 key_key.curios.open.desc:key.keyboard.g
 key_key.createarmory.reload_key:key.keyboard.unknown
@@ -203,6 +205,8 @@ key_quark.keybind.narrator_readout:key.keyboard.unknown
 key_quark.keybind.narrator_full_readout:key.keyboard.unknown
 key_quark.keybind.variant_selector:key.keyboard.r
 key_supplementaries.keybind.quiver:key.keyboard.v
+key_key.enderchests.open.bag:key.keyboard.unknown
+key_key.enderchests.open.pouch:key.keyboard.unknown
 key_key.freecam.toggle:key.keyboard.f4
 key_key.freecam.playerControl:key.keyboard.unknown
 key_key.freecam.tripodReset:key.keyboard.unknown

@@ -1,0 +1,18 @@
+filename = 'shetiphiancore-forge-1.20.1-1.5.jar'
+name = 'ShetiPhianCore'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-1.5'
+
+[download]
+hash = '6ac36f471bf2d39581a5a0ac104ab748f74dec3e8a90aa63e04d7355819bce28f830723098f1678cd5be02d338851e742403ecd6b61b75d7281e2eddeb5f92d7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oX7uP2kS/versions/fNkc0v2k/shetiphiancore-forge-1.20.1-1.5.jar'
+
+[update.modrinth]
+mod-id = 'oX7uP2kS'
+version = 'fNkc0v2k'

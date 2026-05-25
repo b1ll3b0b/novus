@@ -1,0 +1,25 @@
+filename = 'scarecrowsterritory-1.1.11d-forge-mc1.20.4.jar'
+name = "Scarecrows' Territory"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.11d-forge-mc1.20.4'
+
+[download]
+hash = 'bfb752952916bc250f221e87fb9f51e23f744d8772248b90ce491d0e2184bab838468f725f048b5580f0b1c683b738967c9d22d2a652b67ca84e431884e39af3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1RaTTUPz/versions/CYdp5NDb/scarecrowsterritory-1.1.11d-forge-mc1.20.4.jar'
+
+[update.modrinth]
+mod-id = '1RaTTUPz'
+version = 'CYdp5NDb'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LN9BxssP'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'rOUBggPv'
+type = 'REQUIRED'

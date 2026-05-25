@@ -1,4 +1,7 @@
 {
+  "enderchests": {
+    "hud": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -55,9 +58,6 @@
     "soil": true,
     "crop_block": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -68,12 +68,11 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
-  "supplementaries": {
-    "hat_stand": true
+  "endertanks": {
+    "hud.basic": true,
+    "hud": true,
+    "hud.status": true,
+    "hud.contents": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -82,6 +81,24 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "dynamictrees": {
     "rooty_water": true,
@@ -95,9 +112,6 @@
   },
   "waystones": {
     "waystone": true
-  },
-  "balm": {
-    "jade": true
   },
   "storagedrawers": {
     "display.stacklimit": true,
