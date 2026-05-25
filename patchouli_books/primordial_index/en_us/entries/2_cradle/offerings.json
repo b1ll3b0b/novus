@@ -1,0 +1,31 @@
+{
+  "name": "A Table of Offerings",
+  "icon": "minecraft:rabbit_foot",
+  "category": "patchouli:2_cradle",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A reading of notable tributes. Values shift the six hungers from $(l:2_cradle/six_hungers)Tributes & the Six Hungers$(); the recipe viewer and biomancy's own tags hold the full list.",
+      "title": "A Table of Offerings"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Toward a clean, calm spawn:$()$(br)$(li)$(flesh)Rabbit's Foot$() \u2014 +1000 Success in one item. The hidden lucky charm; stockpile it.$(li)$(flesh)Totem of Undying$() \u2014 2500 Life Energy, big Success, deep negative Hostility. The \"superior sacrifice\".$(li)$(flesh)Golden Apple$() / $(flesh)Enchanted Golden Apple$() \u2014 strong negative Hostility.$(li)$(flesh)Cleansing Serum$() \u2014 the disease purge: large negative Disease."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Toward fuel and bulk:$()$(br)$(li)$(flesh)Raw meat$() (any) \u2014 biomass and a little Success. The staple feed.$(li)$(flesh)Healing Additive$() / $(flesh)Rejuvenation Serum$() / $(flesh)Absorption Stimulant$() \u2014 clean Life Energy.$(li)$(flesh)Nether Star$() \u2014 15,000 Life Energy, but +100 Disease and +100 Hostility with it. Vast fuel for an ugly outcome."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Toward corruption \u2014 feed on purpose only:$()$(br)$(li)$(flesh)Primordial Core$() \u2014 +100 Anomaly in one item; the fast track to Primordial blobs (also +50 Disease).$(li)$(flesh)Frenzy Serum$() \u2014 +1000 Hostility; a deliberate Hungry-spawn switch.$(li)$(flesh)Toxin Gland$() / $(flesh)Rotten Flesh$() \u2014 Disease feeders.$(li)$(flesh)Ender Pearl$() \u2014 pushes both Hostility and Anomaly up.",
+      "title": "The Dark Offerings"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Watch the surprises.$() $(flesh)Cake$() adds Disease despite seeming wholesome. $(flesh)Withered Marrow$() is a strict downgrade on plain Marrow. And drinks count \u2014 milk, honey and the pack's teas all carry tributes through their effects. When in doubt, feed one and listen for the Cradle's approval.",
+      "title": "A Caution"
+    }
+  ]
+}

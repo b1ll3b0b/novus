@@ -1,0 +1,22 @@
+{
+  "name": "The Primordial Index",
+  "icon": "biomancy:guide_book",
+  "category": "patchouli:0_foreword",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Biomancy$() is the craft of working with living tissue \u2014 harvesting it, feeding it, shaping it into tools, machines, and creatures that are themselves alive.$(br2)The mod meant to ship a guide of its own, an in-game book called the $(flesh)Primordial Index$(). That book was never finished. The item still exists in Novus, but it opens nothing.",
+      "title": "The Primordial Index"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "This is that index, completed \u2014 rebuilt as a proper guide so the craft is no longer something you piece together from the recipe viewer alone.$(br2)Read $(l:1_harvest/flesh_plunderer)The Harvest$() and $(l:2_cradle/core)The Primordial Cradle$() in order; everything past that point depends on them. The later chapters can be skimmed as you reach for each system."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)A note on tone.$() Biomancy is body-horror by design \u2014 the blocks bleed, the machines have teeth, the chests bite strangers. Nothing here is broken; it is meant to unsettle. If a thing looks alive, treat it as alive.",
+      "title": "On the Craft"
+    }
+  ]
+}

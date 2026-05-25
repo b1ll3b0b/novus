@@ -1,0 +1,23 @@
+{
+  "name": "The Decomposer",
+  "icon": "biomancy:decomposer",
+  "category": "patchouli:3_machines",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Where the Digester turns matter into fuel, the $(flesh)Decomposer$() turns matter into $(italic)parts$(). It breaks items down into the raw biomancy components \u2014 flesh bits, bone fragments, fibres, bile \u2014 that the Bio-Forge spends.",
+      "title": "The Decomposer"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomancy:decomposer",
+      "text": "A Living Flesh core, a $(italic)Bile Gland$(), raw meat and two fangs at a bench \u2014 or, far cheaper, grown in the Bio-Forge from flesh bits, bone fragments, fibres and mineral fragments."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Why it matters.$() The $(l:1_harvest/flesh_plunderer)harvest$() gets you started, but hunting does not scale. The Decomposer does: feed it bulk material and it returns a steady stream of the fibres and fragments the Forge needs, with no mob in sight.$(br2)Its outputs are ranged \u2014 a given input may yield zero to several of a part \u2014 so think of it in averages, and run it on a stockpile.",
+      "title": "The Workhorse"
+    }
+  ]
+}

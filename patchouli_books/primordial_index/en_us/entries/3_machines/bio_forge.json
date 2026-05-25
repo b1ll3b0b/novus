@@ -1,0 +1,28 @@
+{
+  "name": "The Bio-Forge",
+  "icon": "biomancy:bio_forge",
+  "category": "patchouli:3_machines",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(flesh)Bio-Forge$() is the workbench of the craft \u2014 the machine that grows every other machine, tool, weapon, and flesh block. If biomancy has a centre, this is it.",
+      "title": "The Bio-Forge"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomancy:bio_forge",
+      "text": "Two $(italic)claws$() over a frame of raw meat, a $(italic)slime ball$() for binding, and a $(italic)Living Flesh$() core. Built at an ordinary crafting bench \u2014 the one biomancy machine that does not need a Bio-Forge to make."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Using it.$() Open the Bio-Forge and you will find its catalogue sorted into tabs \u2014 $(italic)Machines, Tools, Components, Blocks, Misc$(). Pick a result, supply the listed biomancy parts, and the Forge grows it.$(br2)Each recipe also has a $(flesh)Nutrient cost$(). Small items cost a single unit; the $(l:5_arms/weapons)living weapons$() and $(l:5_arms/acolyte)Acolyte Armor$() cost 250 apiece. Keep the Forge's Nutrient reserve fed.",
+      "title": "The Catalogue"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)What it makes.$() Nearly everything. The other three machines, all flesh building blocks, membranes, the storage and utility blocks, every weapon and armour piece, the Bio-Injector and Essence Extractor \u2014 all are grown here. The recipe viewer lists each with its part cost.",
+      "title": "Its Reach"
+    }
+  ]
+}

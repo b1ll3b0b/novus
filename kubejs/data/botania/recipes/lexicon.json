@@ -1,0 +1,16 @@
+{
+  "__comment": "Novus override of Botania's data/botania/recipes/lexicon.json. The stock recipe is shapeless { #minecraft:saplings + minecraft:book }, which collides with Dynamic Trees' sapling-based crafting. Swapped #minecraft:saplings -> #minecraft:flowers, which transitively covers all vanilla flowers plus every Botania flower (Botania extends #minecraft:small_flowers / #minecraft:tall_flowers, both contained in #minecraft:flowers). Same recipe id (botania:lexicon), so this replaces the original.",
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "tag": "minecraft:flowers"
+    },
+    {
+      "item": "minecraft:book"
+    }
+  ],
+  "result": {
+    "item": "botania:lexicon"
+  }
+}

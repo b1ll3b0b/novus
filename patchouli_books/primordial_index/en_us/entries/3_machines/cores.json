@@ -1,0 +1,23 @@
+{
+  "name": "Every Machine Has a Heart",
+  "icon": "biomancy:living_flesh",
+  "category": "patchouli:3_machines",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Biomancy's machines are not built from iron and redstone. They are grown \u2014 and like anything grown, each needs a living core and a steady diet.",
+      "title": "Every Machine Has a Heart"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The core.$() Every machine carries one $(l:2_cradle/living_flesh)Living Flesh$() at its centre. That is what makes it a machine and not a pile of meat. Plan your Living Flesh supply around how many machines you intend to grow.$(br2)$(bold)The diet.$() Once running, the machines spend $(l:3_machines/nutrients)Nutrients$() as fuel. A machine with an empty Nutrient reserve simply stops \u2014 it will tell you, $(italic)\"Not enough Nutrients.\"$()",
+      "title": "Core & Diet"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The build order.$() The $(l:3_machines/bio_forge)Bio-Forge$() comes first \u2014 it is built at a vanilla bench and unlocks the rest. The $(l:3_machines/decomposer)Decomposer$() can also be bench-crafted, but the $(l:3_machines/digester)Digester$() and $(l:3_machines/bio_lab)Bio-Lab$() exist $(italic)only$() as Bio-Forge recipes \u2014 so the Forge is genuinely the gate to the rest of the craft.",
+      "title": "Where to Start"
+    }
+  ]
+}

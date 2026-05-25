@@ -1,0 +1,23 @@
+{
+  "name": "Essence & the Extractor",
+  "icon": "biomancy:extractor",
+  "category": "patchouli:5_arms",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(flesh)Essence Extractor$() draws a creature's $(flesh)Essence$() \u2014 a sample of what it $(italic)is$() \u2014 without killing it. That sample is what lets biomancy build things keyed to a specific kind of mob.",
+      "title": "Essence & the Extractor"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "biomancy:extractor",
+      "text": "The $(flesh)Essence Extractor$() is grown in the Bio-Forge. Used on a mob it yields that mob's Essence; used on yourself it extracts your own. Unique creatures yield a marked $(italic)Unique$() Essence that carries their individual genetic sequence."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)What Essence is for.$() Its chief use is the keyed $(l:6_flesh/membranes)Biometric Membrane$() \u2014 a membrane tuned to let only one species (or one unique individual) pass. Extract the Essence, combine it with a blank Biometric Membrane, and you have a gate that knows its guest.",
+      "title": "Keying the World"
+    }
+  ]
+}

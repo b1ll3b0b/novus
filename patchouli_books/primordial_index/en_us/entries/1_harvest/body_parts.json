@@ -1,0 +1,31 @@
+{
+  "name": "Spoils of the Body",
+  "icon": "biomancy:mob_marrow",
+  "category": "patchouli:1_harvest",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "What the Despoil table yields, and what each part is for. Drops are weighted \u2014 common mobs give common parts.",
+      "title": "Spoils of the Body"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Fibres & tissue:$()$(br)$(li)$(flesh)Sinew$() \u2014 elastic fibre tissue; the bread-and-butter drop.$(li)$(flesh)Tough Fibers$() / $(flesh)Elastic Fibers$() \u2014 the two refined fibre grades the machines spend.$(li)$(flesh)Flesh Bits$() \u2014 loose organic matter; a near-universal crafting filler."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Hard parts:$()$(br)$(li)$(flesh)Sharp Fang$() / $(flesh)Sharp Claw$() \u2014 cutting parts; needed for the Bio-Forge and Cradle, and for several weapons.$(li)$(flesh)Bone Marrow$() \u2014 rich in hormones and minerals. $(flesh)Withered Bone Marrow$() is its undead form.$(li)$(flesh)Bone Fragments$() / $(flesh)Mineral Fragment$() / $(flesh)Gem Fragments$() \u2014 the mineral side of the harvest."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Glands & fluids:$()$(br)$(li)$(flesh)Bile Gland$() \u2014 generic gland; decomposes into Bile.$(li)$(flesh)Toxin Gland$() / $(flesh)Volatile Gland$() \u2014 specialised glands. The Cradle reads these as $(italic)disease$(): see $(l:2_cradle/offerings)A Table of Offerings$().$(li)$(flesh)Bioluminescent Goo$() \u2014 light-bearing tissue, for lanterns.",
+      "title": "Glands"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Most of these can also be made without hunting at all \u2014 the $(l:3_machines/decomposer)Decomposer$() breaks bulk organic matter down into fibres and fragments once you have it running. The harvest is how you $(italic)start$(); the machines are how you scale.",
+      "title": "The Other Source"
+    }
+  ]
+}

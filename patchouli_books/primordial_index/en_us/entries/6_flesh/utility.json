@@ -1,0 +1,28 @@
+{
+  "name": "Fleshborne Utility",
+  "icon": "biomancy:fleshkin_chest",
+  "category": "patchouli:6_flesh",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Beyond walls and light, biomancy grows a handful of living utility blocks \u2014 storage and automation with appetites and loyalties of their own.",
+      "title": "Fleshborne Utility"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "biomancy:fleshkin_chest",
+      "text": "The $(flesh)Fleshkin Chest$() is a storage chest that knows its owner. It opens for you and bites at anyone else who tries \u2014 living security, grown rather than locked. Its owner is recorded when it is placed."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)More living blocks:$()$(br)$(li)$(flesh)Storage Sac$() \u2014 a grown storage block, biomancy's take on the barrel.$(li)$(flesh)Maw Hopper$() \u2014 a mouth that swallows items like a hopper.$(li)$(flesh)Tongue$() \u2014 a reaching block that pulls in items or creatures.$(li)$(flesh)Chrysalis$() \u2014 a grown cocoon; biomancy's incubator, forged with eggs and fibres.",
+      "title": "Mouths & Sacs"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Vial Holder & Organic Vials.$() Serums and fluids store in $(flesh)Organic Vials$(); a wall-mounted $(flesh)Vial Holder$() keeps them to hand beside a Bio-Lab. Small comforts for a flesh-built workshop.",
+      "title": "Vials"
+    }
+  ]
+}

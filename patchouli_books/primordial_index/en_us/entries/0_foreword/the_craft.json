@@ -1,0 +1,22 @@
+{
+  "name": "The Shape of the Craft",
+  "icon": "biomancy:living_flesh",
+  "category": "patchouli:0_foreword",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Biomancy is a loop, not a tech tree. Everything circles one substance \u2014 $(flesh)Living Flesh$() \u2014 and once you can make that reliably, the rest opens at once.",
+      "title": "The Shape of the Craft"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The loop, in five turns:$()$(br)$(li)$(bold)Harvest$() organic parts from the mobs you already kill.$(li)Craft a $(bold)Primordial Core$() from common meat, then raise a $(bold)Primordial Cradle$().$(li)$(bold)Feed$() the Cradle. It births $(bold)Flesh Blobs$().$(li)$(bold)Kill$() the blobs for $(bold)Living Flesh$() \u2014 the brain of every machine.$(li)$(bold)Build$() the machines. They process your harvest back into parts, fuel, and serums \u2014 which feed the Cradle again."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Two resources thread through all of it:$()$(br2)$(flesh)Living Flesh$() is the core component \u2014 no machine, weapon, or piece of armor is built without one.$(br2)$(flesh)Nutrients$() are the fuel. Every machine runs on a Nutrient reserve, and so do the living weapons. You make Nutrients by feeding food to a $(l:3_machines/digester)Digester$().",
+      "title": "The Two Threads"
+    }
+  ]
+}

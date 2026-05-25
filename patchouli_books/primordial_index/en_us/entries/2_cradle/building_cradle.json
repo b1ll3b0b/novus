@@ -1,0 +1,23 @@
+{
+  "name": "Raising the Cradle",
+  "icon": "biomancy:primordial_cradle",
+  "category": "patchouli:2_cradle",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(flesh)Primordial Cradle$() is a bowl of living flesh that you feed. In return it summons \"primordial messengers\" \u2014 Flesh Blobs \u2014 and through them gives you the Living Flesh the rest of the craft depends on.",
+      "title": "Raising the Cradle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomancy:primordial_cradle",
+      "text": "A Primordial Core cupped in raw meat, with a $(italic)fang$() at each upper corner. Place the finished Cradle on the ground with open space above it \u2014 it needs room to birth what it makes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)How you feed it.$() Right-click the Cradle with an item to offer it as a $(flesh)tribute$(). The Cradle eats, makes a noise of approval or disgust, and adjusts its inner state. Drop fluids in as well \u2014 buckets and the pack's drink fluids count. When it has eaten enough, it births.$(br2)What it births \u2014 calm or hungry, ordinary or primordial, clean or diseased \u2014 is decided entirely by what you fed it. That is the subject of the next four pages.",
+      "title": "Feeding It"
+    }
+  ]
+}

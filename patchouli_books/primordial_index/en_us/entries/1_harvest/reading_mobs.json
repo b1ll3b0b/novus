@@ -1,0 +1,22 @@
+{
+  "name": "A Reading of Mobs",
+  "icon": "minecraft:zombie_head",
+  "category": "patchouli:1_harvest",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Not every mob gives the same spoils. Biomancy's Despoil tables follow the body \u2014 what an animal $(italic)is$() decides what it sheds.",
+      "title": "A Reading of Mobs"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Rough guide by kind:$()$(br)$(li)$(bold)Predators$() (wolves, big cats, dropbears) \u2014 fangs and claws.$(li)$(bold)Herbivores$() (cows, sheep, horses) \u2014 sinew and elastic fibres.$(li)$(bold)Omnivores$() \u2014 mixed parts, often glands.$(li)$(bold)Undead$() \u2014 marrow and withered marrow rather than living tissue.$(li)$(bold)Arthropods$() \u2014 toxin and volatile glands more often.$(li)$(bold)Constructs & the arcane$() \u2014 little or nothing; there is no body to take."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Coverage in Novus.$() Biomancy ships full Despoil tables for most of the vanilla roster and a good share of the modded one, but the pack contains creatures it never anticipated \u2014 those simply roll nothing. A dry kill is not a bug; it is a mob biomancy has no reading for.$(br2)If you want the exact pools, the recipe viewer shows each mob's Despoil table the same way it shows ordinary loot.",
+      "title": "What's Covered"
+    }
+  ]
+}

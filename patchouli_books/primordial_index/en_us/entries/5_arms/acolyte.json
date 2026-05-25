@@ -1,0 +1,23 @@
+{
+  "name": "Acolyte Armor",
+  "icon": "biomancy:acolyte_armor_chestplate",
+  "category": "patchouli:5_arms",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(flesh)Acolyte Armor$() is biomancy's armour set \u2014 four pieces of grown flesh and mineral, fitted to the body of someone who works the craft.",
+      "title": "Acolyte Armor"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "biomancy:acolyte_armor_chestplate",
+      "text": "Each piece \u2014 $(flesh)Helmet, Chestplate, Leggings, Boots$() \u2014 is grown in the $(l:3_machines/bio_forge)Bio-Forge$() around a Living Flesh core, and each costs a substantial 250 Nutrients to forge. The set comes alive: like the living weapons, it carries its own Nutrient reserve."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)A living set.$() Because Acolyte gear is grown rather than smithed, it is repaired and sustained the biomancy way \u2014 through Nutrients \u2014 rather than at an anvil. Budget the harvest accordingly: a full set is a real investment of Living Flesh and fuel.",
+      "title": "Upkeep"
+    }
+  ]
+}

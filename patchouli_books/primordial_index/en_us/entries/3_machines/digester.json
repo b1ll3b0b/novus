@@ -1,0 +1,23 @@
+{
+  "name": "The Digester",
+  "icon": "biomancy:digester",
+  "category": "patchouli:3_machines",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(flesh)Digester$() is biomancy's stomach. Feed it food or organic matter and it renders the lot down into $(l:3_machines/nutrients)Nutrient Paste$() \u2014 the fuel everything else burns.",
+      "title": "The Digester"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "biomancy:digester",
+      "text": "The $(flesh)Digester$() is grown only in the $(l:3_machines/bio_forge)Bio-Forge$() \u2014 there is no bench recipe. It takes a Living Flesh core, flesh bits, bone fragments, elastic fibres and $(italic)Bile$(). The recipe viewer shows the exact part cost."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)What to feed it.$() Almost anything edible or organic \u2014 crops, meat, scraps, even oddments from other mods carry digesting values. Each input lists a Nutrient yield and a processing time in the recipe viewer.$(br2)$(bold)A standing tip:$() route a farm's overflow, or a mob farm's drops, straight into the Digester. Nutrients are cheap to make in bulk and you will always want more.",
+      "title": "Its Diet"
+    }
+  ]
+}

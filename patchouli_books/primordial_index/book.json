@@ -1,0 +1,17 @@
+{
+  "name": "Primordial Index",
+  "landing_text": "$(bold)A guide to the flesh-craft.$()$(p)Biomancy left its own index unfinished; this is that book, completed. Read $(italic)The Harvest$() and $(italic)The Primordial Cradle$() first \u2014 the rest of the craft grows from them.",
+  "book_texture": "patchouli:textures/gui/book_red.png",
+  "model": "patchouli:book_red",
+  "creative_tab": "tools",
+  "use_blocky_font": false,
+  "i18n": false,
+  "show_progress": false,
+  "show_toasts": false,
+  "version": 1,
+  "subtitle": "A Complete Guide to Biomancy",
+  "advancements_tab": false,
+  "macros": {
+    "$(flesh)": "$(#A33B4C)"
+  }
+}

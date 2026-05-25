@@ -1,0 +1,23 @@
+{
+  "name": "The Primordial Core",
+  "icon": "biomancy:primordial_core",
+  "category": "patchouli:2_cradle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Everything in biomancy past the harvest begins with one ominous lump of flesh: the $(flesh)Primordial Core$(). It is the seed of the Cradle, and you can make one the day you have a furnace and a few cuts of meat.",
+      "title": "The Primordial Core"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomancy:primordial_core",
+      "text": "Raw meat at the four corners, a $(italic)bone$() on each side, and an $(italic)ender pearl$() at the heart. No biomancy parts required \u2014 this is the one recipe that bootstraps the whole craft."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Looking at it makes you uneasy$() \u2014 the tooltip is not joking. The Core does two things: it is the heart of the $(l:2_cradle/building_cradle)Primordial Cradle$(), and it is itself the single strongest $(italic)anomaly$() tribute the Cradle can be fed. Make at least two: one to build with, one to feed.",
+      "title": "Two Uses"
+    }
+  ]
+}

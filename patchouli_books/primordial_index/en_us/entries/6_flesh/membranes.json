@@ -1,0 +1,27 @@
+{
+  "name": "Membranes & Gates",
+  "icon": "biomancy:biometric_membrane",
+  "category": "patchouli:6_flesh",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(flesh)Membranes$() are biomancy's selective walls \u2014 blocks that look solid (or glassy) but let $(italic)some$() things through and stop others. They are how you build a base that sorts its own traffic.",
+      "title": "Membranes & Gates"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Permeable membranes$() pass creatures by life-stage or kind:$(br)$(li)$(flesh)Baby-Permeable$() \u2014 only babies pass.$(li)$(flesh)Adult-Permeable$() \u2014 only adults pass.$(li)$(flesh)Undead-Permeable$() \u2014 only the undead pass.$(li)$(flesh)Primal Membrane$() \u2014 keyed to biomancy's own primordial creatures.$(li)$(flesh)Impermeable Membrane$() \u2014 a flesh wall nothing passes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The Biometric Membrane$() is the precise one. Keyed with a creature's $(l:5_arms/essence)Essence$(), it passes only that species \u2014 or, with a Unique Essence, only that one individual. An $(flesh)inverted$() membrane does the opposite: it stops the keyed creature and passes all others.$(br2)Each membrane also comes as a thinner $(flesh)pane$(), and panes and full blocks craft back and forth freely.",
+      "title": "The Biometric Membrane"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The Modular Larynx$() is a stranger gate \u2014 a block that speaks. Placed on soul sand or soil it cries a death sound; on magma, a hurt sound; on anything else, an ambient one. A mob-scaring noisemaker, set by what you stand it on.",
+      "title": "The Modular Larynx"
+    }
+  ]
+}

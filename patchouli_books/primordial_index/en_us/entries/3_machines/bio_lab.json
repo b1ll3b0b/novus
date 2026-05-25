@@ -1,0 +1,23 @@
+{
+  "name": "The Bio-Lab",
+  "icon": "biomancy:bio_lab",
+  "category": "patchouli:3_machines",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(flesh)Bio-Lab$() is biomancy's brewing stand \u2014 the machine that compounds $(l:4_serums/serum_list)serums$() and the chemical $(l:4_serums/compounds)compounds$() they are built from.",
+      "title": "The Bio-Lab"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "biomancy:bio_lab",
+      "text": "The $(flesh)Bio-Lab$() is grown only in the $(l:3_machines/bio_forge)Bio-Forge$() \u2014 there is no bench recipe. It takes a Living Flesh core with flesh bits, bone fragments, tough fibres and exotic dust."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)How it brews.$() A Bio-Lab recipe takes a set of $(italic)ingredients$(), a $(italic)reactant$() that drives the reaction, a $(italic)Nutrient cost$() and a processing time, and yields a serum or compound.$(br2)It is the gateway to the whole of $(l:4_serums/compounds)Serums & Compounds$() \u2014 the next chapter \u2014 and through serums it loops back to feed the Cradle.",
+      "title": "The Reaction"
+    }
+  ]
+}

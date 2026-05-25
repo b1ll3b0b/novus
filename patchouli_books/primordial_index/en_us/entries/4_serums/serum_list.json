@@ -1,0 +1,27 @@
+{
+  "name": "The Serums",
+  "icon": "biomancy:cleansing_serum",
+  "category": "patchouli:4_serums",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(flesh)Serums$() are biomancy's potions \u2014 but they act on bodies, not on stats, and they are delivered by needle, not by drink. Each is brewed in the $(l:3_machines/bio_lab)Bio-Lab$().",
+      "title": "The Serums"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Growth & age:$()$(br)$(li)$(flesh)Aging Serum$() \u2014 advances a creature toward adulthood.$(li)$(flesh)Rejuvenation Serum$() \u2014 turns the clock back toward youth.$(li)$(flesh)Enlargement Serum$() / $(flesh)Shrinking Serum$() \u2014 change a creature's size.$(li)$(flesh)Breeding Stimulant$() \u2014 readies an animal to breed.$(li)$(flesh)Absorption Stimulant$() \u2014 grants absorption health."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Restoration & states:$()$(br)$(li)$(flesh)Cleansing Serum$() \u2014 purges effects; also the Cradle's $(l:2_cradle/offerings)disease purge$().$(li)$(flesh)Insomnia Cure$() \u2014 settles the restless.$(li)$(flesh)Frenzy Serum$() \u2014 drives a creature to violence; also the Cradle's Hostility switch.",
+      "title": "More Serums"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Serums feed the Cradle.$() Several serums carry strong tribute values \u2014 Rejuvenation and Absorption give clean Life Energy, Cleansing strips Disease, Frenzy dumps Hostility. The chemistry chapter and the Cradle chapter are two halves of one loop.",
+      "title": "The Loop Closes"
+    }
+  ]
+}

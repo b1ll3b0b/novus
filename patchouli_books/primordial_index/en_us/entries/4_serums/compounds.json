@@ -1,0 +1,22 @@
+{
+  "name": "The Compound Ladder",
+  "icon": "biomancy:organic_compound",
+  "category": "patchouli:4_serums",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Serums are not brewed from nothing. They are built up a ladder of $(flesh)compounds$() \u2014 increasingly refined chemical bases, each made in the $(l:3_machines/bio_lab)Bio-Lab$() from the one below.",
+      "title": "The Compound Ladder"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The ladder:$()$(br)$(li)$(flesh)Organic Compound$() \u2014 the base; refined from common organic matter.$(li)$(flesh)Unstable Compound$() \u2014 volatile; also the route to gunpowder.$(li)$(flesh)Exotic Compound$() \u2014 the reactant behind the stronger serums.$(li)$(flesh)Genetic Compound$() \u2014 carries genetic information; the basis of the breeding and growth serums."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Additives.$() Alongside the compounds the Lab makes $(flesh)Healing Additive$() and $(flesh)Decaying Additive$() \u2014 modifiers folded into a brew to push a serum toward restoration or toward decay. The recipe viewer shows which serum wants which.",
+      "title": "Additives"
+    }
+  ]
+}

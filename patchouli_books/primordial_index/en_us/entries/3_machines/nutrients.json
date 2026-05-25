@@ -1,0 +1,27 @@
+{
+  "name": "Nutrients, the Fuel",
+  "icon": "biomancy:nutrient_paste",
+  "category": "patchouli:3_machines",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Every living machine runs on $(flesh)Nutrients$() \u2014 and so do the living weapons. Nutrients are biomancy's universal fuel, and they come in three forms of rising convenience.",
+      "title": "Nutrients, the Fuel"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The three forms:$()$(br)$(li)$(flesh)Nutrients$() \u2014 hard energy-rich pellets; the raw form.$(li)$(flesh)Nutrient Paste$() \u2014 pellets moistened with Biotic Matter into a yellowish paste. The form machines drink most readily.$(li)$(flesh)Nutrient Bar$() \u2014 paste compressed into a bar; compact storage. Crafts back to paste freely."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "biomancy:nutrient_paste",
+      "text": "$(flesh)Nutrient Paste$() is the form you will handle most. Load it into a machine's fuel slot, or into a living weapon, to top up its Nutrient reserve. It is the diet of the entire mechanical side of biomancy."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Where it comes from.$() Nutrients are produced by the $(l:3_machines/digester)Digester$(), which renders food and organic matter down into them. A Digester running on your kitchen scraps will fuel a whole base of machines \u2014 see the next page.",
+      "title": "The Source"
+    }
+  ]
+}

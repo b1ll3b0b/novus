@@ -1,0 +1,28 @@
+{
+  "name": "Creatures of Flesh",
+  "icon": "biomancy:flesh_cow_spawn_egg",
+  "category": "patchouli:6_flesh",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Cradle's blobs are not biomancy's only creatures. The craft also produces $(flesh)flesh livestock$() \u2014 and the blobs themselves come in more shapes than the Cradle's calm corner.",
+      "title": "Creatures of Flesh"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The blobs.$() Beyond the plain Flesh Blob there are $(flesh)Hungry$(), $(flesh)Primordial$(), $(flesh)Primordial Hungry$() and a $(flesh)Legacy$() variant \u2014 see $(l:2_cradle/the_spawn)What the Cradle Births$(). All of them can be $(l:1_harvest/flesh_plunderer)despoiled$() for their own loot.",
+      "title": "The Blob Family"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Flesh livestock.$() Biomancy raises grown counterparts of the farm animals \u2014 the $(flesh)Flesh Cow$(), $(flesh)Flesh Sheep$(), $(flesh)Flesh Pig$() and $(flesh)Flesh Chicken$() \u2014 alongside the unusual $(flesh)Chroma Sheep$() and $(flesh)Thick Fur Sheep$(). They are the biomancer's herd: livestock that is itself a product of the craft.",
+      "title": "The Herd"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "And there the index closes. From a sickle and a cut of meat to a base of breathing walls and a herd of grown cattle \u2014 the whole of it loops through the $(l:2_cradle/building_cradle)Cradle$() and the $(l:2_cradle/living_flesh)Living Flesh$() it gives. Tend those, and biomancy tends itself.",
+      "title": "The Index Closes"
+    }
+  ]
+}

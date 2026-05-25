@@ -1,0 +1,23 @@
+{
+  "name": "Living Flesh",
+  "icon": "biomancy:living_flesh",
+  "category": "patchouli:2_cradle",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Cradle does not hand you Living Flesh. It hands you a blob \u2014 and you must kill the blob to take it. Biomancy names the advancement for this plainly: $(italic)Betrayal of Life$().",
+      "title": "Living Flesh"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "biomancy:living_flesh",
+      "text": "$(flesh)Living Flesh$() \u2014 \"It's alive! Unfortunately, it looks too dumb to be the brain of a mob. You should turn it into a construct instead.\"$(br2)This is the core component of biomancy. Every machine, every living weapon, every membrane has one at its heart. Once you can produce it on demand, the craft is fully open to you."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Where it comes from.$() Killing a Flesh Blob rolls a chance at Living Flesh, and larger blobs roll better. A calm blob lets you do this safely and repeatedly: feed the Cradle, kill the blob, repeat.$(br2)This is why the $(l:2_cradle/six_hungers)plain path$() matters \u2014 a steady supply of calm, large blobs is a steady supply of Living Flesh, and that is the engine of everything ahead.",
+      "title": "The Harvest of Blobs"
+    }
+  ]
+}

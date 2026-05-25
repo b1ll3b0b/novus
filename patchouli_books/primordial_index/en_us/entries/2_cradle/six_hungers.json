@@ -1,0 +1,27 @@
+{
+  "name": "Tributes & the Six Hungers",
+  "icon": "biomancy:creator_mix",
+  "category": "patchouli:2_cradle",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Cradle does not simply count food. Every tribute you offer adjusts $(bold)six$() hidden accumulators, and the spawn it eventually produces is read off all six at once.",
+      "title": "The Six Hungers"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The six:$()$(br)$(li)$(flesh)Biomass$() \u2014 a capped fuel pool (max 127).$(li)$(flesh)Life Energy$() \u2014 the primary fuel; required to spawn anything, drained each attempt.$(li)$(flesh)Success$() \u2014 skews the roll toward a clean, calm outcome.$(li)$(flesh)Disease$() \u2014 paints tumours onto the spawned blob.$(li)$(flesh)Hostility$() \u2014 pushes toward the Hungry, attacking variant.$(li)$(flesh)Anomaly$() \u2014 pushes toward the Primordial tier."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)How to think about them.$() Life Energy is the tank \u2014 keep it full or nothing happens. $(flesh)Hostility$() and $(flesh)Anomaly$() are two independent dials that decide $(italic)which$() of four blobs you get. $(flesh)Disease$() is a severity overlay on whatever you get. $(flesh)Success$() is the counterweight you push the other way to keep things calm and clean.",
+      "title": "Reading the Six"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The plain path.$() For ordinary Living Flesh, you want high Success, low Disease, low Hostility, low Anomaly, and enough Life Energy to spawn. Feed raw meat for biomass, lean on the favourable offerings in $(l:2_cradle/offerings)A Table of Offerings$(), and purge Disease with Cleansing Serum when it climbs.",
+      "title": "The Plain Path"
+    }
+  ]
+}

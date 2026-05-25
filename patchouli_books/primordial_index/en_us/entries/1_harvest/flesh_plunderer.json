@@ -1,0 +1,33 @@
+{
+  "name": "The Flesh Plunderer",
+  "icon": "biomancy:despoil_sickle",
+  "category": "patchouli:1_harvest",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Every mob in the world carries a second loot table \u2014 its $(flesh)Despoil$() drops: sinew, fangs, glands, marrow, the raw matter of biomancy. An ordinary kill turns one out now and again, the way a butchered animal yields the odd unexpected cut \u2014 but only now and again, a scrap here and there, never a yield you could plan a craft around.$(br2)To harvest in $(italic)earnest$(), you make the Despoil roll land every time.",
+      "title": "The Flesh Plunderer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)And you most likely already can.$() In Novus the $(flesh)Despoil$() enchantment is baked into $(bold)every knife$() \u2014 the bio-knife, every tier of Farmer's Delight knife, every Tinkers' and modded knife the pack adds. A knife is a full despoil tool the moment it is made: nothing to enchant, nothing to equip.$(br2)A knife already earns its place in your kit \u2014 for butchering meat and cutting wild plants. That same blade quietly guarantees the Despoil roll on everything it kills. For most players the harvest is simply $(italic)on$() from the first day.",
+      "title": "The Knife in Your Hand"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "biomancy:despoil_sickle",
+      "text": "The $(flesh)Flesh Plunderer$() is the $(italic)dedicated$() despoil tool. Held in $(bold)either hand$() \u2014 main or off \u2014 it guarantees the Despoil roll on every kill, just as a knife's baked enchantment does; it need not land the blow.$(br2)Since knives already carry Despoil, the Plunderer is rarely necessary \u2014 but it is there if you want a despoiler you are not also cutting cabbages with. It is brittle, and pillaging wears it fast: treat it as a consumable."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Despoil as an enchantment.$() It is an ordinary enchantment in its own right \u2014 the same one the knives carry. Put it on a sword or an axe and that weapon's kills roll the full Despoil table too.$(br2)Useful if your main weapon is not a knife and you would rather not carry the Plunderer: enchant it once, and your everyday weapon does the harvesting for you.",
+      "title": "Despoil, the Enchantment"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Why it matters.$() The Despoil drops are the entire input side of biomancy. Fangs and claws build your first $(l:3_machines/bio_forge)Bio-Forge$(); glands and marrow are read by the $(l:2_cradle/six_hungers)Cradle$(); fibres and fragments are what the machines spend. No harvest, no craft \u2014 so it is a quiet mercy that a knife covers it without your ever thinking about it.",
+      "title": "The Point of It"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "The Flesh Palette",
+  "icon": "biomancy:flesh",
+  "category": "patchouli:6_flesh",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Biomancy is also a building set \u2014 an entire palette of flesh, bone and chitin to build in. Most of it is grown in the $(l:3_machines/bio_forge)Bio-Forge$(); the worked variants are then cut and crafted as ordinary blocks.",
+      "title": "The Flesh Palette"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The families:$()$(br)$(li)$(bold)Flesh$() \u2014 the base block, with packed, fibrous and tubular variants, plus a pillar and a chiselled and an ornamental form.$(li)$(bold)Primal Flesh$() \u2014 a tougher grade: smooth, porous, and the worked stairs/slabs/walls of each.$(li)$(bold)Malignant Flesh$() \u2014 diseased-looking block, with veins that creep across surfaces."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Worked like stone.$() Each family has the full set of slabs, stairs and walls, and the worked forms cut at a stonecutter just as their mineral cousins do. $(flesh)Flesh doors$(), an $(flesh)iris-door$(), fences, a gate, a ladder and spikes round the palette out \u2014 enough to build a base that is unmistakably $(italic)alive$().",
+      "title": "A Living Build"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Light from flesh.$() $(flesh)Bio-Lanterns$() (blue and yellow), the $(flesh)Bloom-Lantern$() and $(flesh)Bloomlight$() are biomancy's light blocks, grown from Bioluminescent Goo. The $(flesh)Tendon Chain$() hangs them.",
+      "title": "Lights"
+    }
+  ]
+}

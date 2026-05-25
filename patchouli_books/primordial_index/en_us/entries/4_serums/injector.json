@@ -1,0 +1,28 @@
+{
+  "name": "The Bio-Injector",
+  "icon": "biomancy:injector",
+  "category": "patchouli:4_serums",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A serum is useless in the vial. The $(flesh)Bio-Injector$() is the razor-needled device that puts it into a body \u2014 a mob's, or your own.",
+      "title": "The Bio-Injector"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "biomancy:injector",
+      "text": "The $(flesh)Bio-Injector$() loads a serum and drives it home with a needle. Use it on a mob to inject that mob; use the self-inject action to dose yourself. The needle itself does a little damage on the jab \u2014 unless you enchant that away."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Two enchantments suit it:$()$(br)$(li)$(flesh)Piercing$() \u2014 raises the chance to push the needle through armour.$(li)$(flesh)Anesthetic Touch$() \u2014 nullifies the needle's damage entirely. Pair it with Piercing for a clean, painless injection every time.",
+      "title": "Enchanting the Needle"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)What it is for.$() Aging and Breeding serums turn the Injector into a livestock tool. Enlargement and Shrinking are for spectacle and for fitting creatures through your $(l:6_flesh/membranes)membranes$(). Cleansing and Absorption, self-injected, are survival kit. The needle is how the whole chemistry chapter reaches the world.",
+      "title": "In Practice"
+    }
+  ]
+}

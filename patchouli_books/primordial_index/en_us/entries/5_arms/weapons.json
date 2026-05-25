@@ -1,0 +1,24 @@
+{
+  "name": "Weapons of Flesh",
+  "icon": "biomancy:ravenous_claws",
+  "category": "patchouli:5_arms",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Biomancy's weapons are alive. They are grown in the $(l:3_machines/bio_forge)Bio-Forge$(), they carry a Nutrient reserve, and the strongest of them must be fed to keep their edge.",
+      "title": "Weapons of Flesh"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "biomancy:caustic_gunblade",
+      "title": "The Caustic Gunblade",
+      "text": "A blade and a gun in one grown weapon \u2014 melee in the hand, a caustic projectile at range. It is a costly forge (around 250 Nutrients, and it arrives pre-loaded with a reserve) and it spends Nutrients as it fires. The recipe viewer shows its fire rate, accuracy and ammo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Ravenous Claws$() \u2014 worn claws that turn your own strikes into a flurry, a close-quarters answer built from the fangs and claws of your harvest.$(br2)$(bold)The Thorn$() \u2014 biomancy's shield, a living guard that punishes what strikes it.$(br2)All three are grown weapons: keep their Nutrient reserves topped from your $(l:3_machines/digester)Digester$().",
+      "title": "Claws & Shield"
+    }
+  ]
+}

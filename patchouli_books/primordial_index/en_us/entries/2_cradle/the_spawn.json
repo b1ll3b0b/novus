@@ -1,0 +1,28 @@
+{
+  "name": "What the Cradle Births",
+  "icon": "biomancy:flesh_blob_spawn_egg",
+  "category": "patchouli:2_cradle",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "When the Cradle has fuel enough, it summons. Hostility and Anomaly form a two-by-two: every spawn lands in one of four corners, with Disease layered on top as tumours.",
+      "title": "What the Cradle Births"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "biomancy:flesh_blob",
+      "name": "The Flesh Blob",
+      "text": "The calm, ordinary corner \u2014 a harmless $(flesh)Flesh Blob$(). It will not attack you. This is the corner you want: calm blobs are the safe, repeatable source of Living Flesh."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The four corners:$()$(br)$(li)$(bold)Calm + ordinary$() \u2014 a plain Flesh Blob. The goal.$(li)$(bold)Hungry + ordinary$() \u2014 a $(flesh)Hungry Flesh Blob$(): an active attacker with buffed damage.$(li)$(bold)Calm + primordial$() \u2014 a $(flesh)Primordial Flesh Blob$(): tougher, its own attribute curve, some damage immunities.$(li)$(bold)Hungry + primordial$() \u2014 both at once. Dangerous; spawn one only on purpose."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Size and disease.$() Blobs spawn at a range of sizes \u2014 bigger blobs carry more, and drop more when killed. Disease shows as tumours growing on the body; heavily diseased blobs are ugly but not necessarily stronger. A clean, large, calm blob is the ideal harvest.",
+      "title": "Size & Tumours"
+    }
+  ]
+}
