@@ -1,7 +1,7 @@
 {
   "name": "Primordial Index",
   "icon": "patchouli:guide_book{\"patchouli:book\":\"patchouli:primordial_index\"}",
-  "category": "patchouli:4_catalog",
+  "category": "patchouli:7_catalog",
   "sortnum": 9,
   "pages": [
     {

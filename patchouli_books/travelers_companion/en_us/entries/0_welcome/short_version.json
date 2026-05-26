@@ -11,7 +11,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(bold)1. The year now turns.$()$(br2)Twelve sub-seasons pass over Novus \u2014 three to a season, eight days each, for a 96-day year. Crops grow slowly out of season unless they're under glass or below Y=48. The day itself stretches and shortens with the season. Closing the game pauses the year along with everything else.$(br2)See $(l:1_first_days/first_day)The First Day$() and $(l:2_hearth_season/calendar)The Year & Its Seasons$()."
+      "text": "$(bold)1. The year now turns.$()$(br2)Twelve sub-seasons pass over Novus \u2014 three to a season, eight days each, for a 96-day year. Crops grow slowly out of season unless they're under glass or below Y=48. The day itself stretches and shortens with the season. Closing the game pauses the year along with everything else.$(br2)See $(l:1_first_days/first_day)The First Day$() and $(l:2_hearth_season/calendar)The Year$()."
     },
     {
       "type": "patchouli:text",
@@ -19,7 +19,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(bold)3. The food chain is deeper.$()$(br2)$(italic)Farmer's Delight$() adds a stove, cooking pot, knife, and wide meal variety. Wild edibles spawn throughout the world. FD also buffs vanilla soups with minor effects (Rabbit Stew now grants Jump Boost, etc.).$(br2)See $(l:2_hearth_season/wild_edibles_hearth)Wild Edibles & Hearth$()."
+      "text": "$(bold)3. The food chain is deeper.$()$(br2)$(italic)Farmer's Delight$() adds a stove, cooking pot, knife, and wide meal variety. Wild edibles spawn throughout the world. FD also buffs vanilla soups with minor effects (Rabbit Stew now grants Jump Boost, etc.).$(br2)See $(l:2_hearth_season/wild_edibles_hearth)Wild Edibles$()."
     }
   ]
 }

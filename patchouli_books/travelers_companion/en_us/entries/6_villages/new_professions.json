@@ -1,0 +1,43 @@
+{
+  "name": "Professions",
+  "icon": "minecraft:villager_spawn_egg",
+  "category": "patchouli:6_villages",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Novus has twenty villager professions \u2014 thirteen of them vanilla, seven added by mods, all of them claimed the same way: an unemployed villager picks the nearest unowned workstation and the trade begins.$(br2)What follows groups them by the room of the village they belong in, not by the mod they came from. Workstation block in italics; trade specialty after.",
+      "title": "Professions"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The Homestead$() \u2014 the field, the barn, the kitchen, the garden.$(br)$(li)$(bold)Farmer$() ($(italic)Composter$()) \u2014 bread, pies, golden carrots; buys raw crops$(li)$(bold)Fisherman$() ($(italic)Barrel$()) \u2014 cooked fish, enchanted rods, campfires$(li)$(bold)Butcher$() ($(italic)Smoker$()) \u2014 cooked meat, sweet berries, dried kelp$(li)$(bold)Shepherd$() ($(italic)Loom$()) \u2014 wool, dyes, paintings, beds$(li)$(bold)Cook$() ($(italic)Cooking Pot$()) \u2014 broths and simple stews$(li)$(bold)Chef$() ($(italic)Stove$() / $(italic)Skillet$()) \u2014 pies, glazed dishes, harder FD recipes$(li)$(bold)Horticulturist$() ($(italic)Flower Tub$()) \u2014 seeds, saplings, flowers, dyes",
+      "title": "The Homestead"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)A note on the Shepherd.$() Higher-tier Shepherds in Novus will also sell you $(italic)live farm animals$() \u2014 chickens, pigs, cows, sheep, the occasional rabbit. The remedy if you spawn in a biome with no fauna; lethal to your emeralds if you let the trade list run.$(br2)Other professions occasionally sell animals too, but the Shepherd is the reliable one.",
+      "title": "Sold by the Shepherd"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The Workshop$() \u2014 metal, stone, leather, wood.$(br)$(li)$(bold)Armorer$() ($(italic)Blast Furnace$()) \u2014 iron and chain armor, enchanted iron pieces$(li)$(bold)Toolsmith$() ($(italic)Smithing Table$()) \u2014 iron tools, enchanted diamond tools, bells$(li)$(bold)Weaponsmith$() ($(italic)Grindstone$()) \u2014 iron axes and swords, enchanted diamond ones$(li)$(bold)Mason$() ($(italic)Stonecutter$()) \u2014 stone variants, terracotta, glazed terracotta; also $(italic)Ash Bricks$()$(li)$(bold)Carpenter$() ($(italic)Saw$()) \u2014 axes (every tier), boats, hanging signs, armor stands, logs, pistons$(li)$(bold)Fletcher$() ($(italic)Fletching Table$()) \u2014 bows, crossbows, tipped arrows$(li)$(bold)Leatherworker$() ($(italic)Cauldron$()) \u2014 leather armor, leather horse armor, saddles",
+      "title": "The Workshop"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The Hall$() \u2014 paper, potions, prayers, charts.$(br)$(li)$(bold)Librarian$() ($(italic)Lectern$()) \u2014 enchanted books, name tags, paper, lanterns, clocks$(li)$(bold)Cleric$() ($(italic)Brewing Stand$()) \u2014 potions, ender pearls, redstone, glowstone, lapis, bottle o' enchanting$(li)$(bold)Cartographer$() ($(italic)Cartography Table$()) \u2014 maps and banner patterns; also $(italic)Adventurer Maps$(), $(italic)Antique Ink$(), $(italic)Pathfinder's Quills$()$(li)$(bold)Alchemist$() ($(italic)Alchemist Table$()) \u2014 potions, brewing reagents (blaze powder, ghast tears)$(li)$(bold)Occultist$() ($(italic)Enchanted Basin$()) \u2014 enchanted books at higher tiers, XP-bearing trinkets$(li)$(bold)Oceanographer$() ($(italic)Aquarium$()) \u2014 nautilus shells, prismarine, fish, coral, treasure maps",
+      "title": "The Hall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The Nitwit.$() One villager skin you'll see often and never trade with: the $(italic)Nitwit$(), green-robed, profession-less. He claims no workstation, holds no trades, and rolls fresh into the role whenever the village runs short on jobs \u2014 there's no curing him.$(br2)Treat him as set-dressing. Or, if you have the room and the patience, breed past him to bring the population back up.",
+      "title": "The Nitwit"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Looking up the trades.$() Hold the recipe viewer's key and search a profession name. $(italic)Just Enough Professions$() answers with the workstation block and the complete trade list at every tier \u2014 vanilla professions and the seven modded ones alike.$(br2)There is no other clean way to read the new professions' trade tables in-game.",
+      "title": "Looking Up Trades"
+    }
+  ]
+}

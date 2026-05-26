@@ -1,0 +1,33 @@
+{
+  "name": "Clay",
+  "icon": "ceramics:clay_helmet",
+  "category": "patchouli:5_builders_hand",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Ceramics$() is KnightMiner's quiet companion mod. It takes the clay block \u2014 barely used in vanilla \u2014 and gives it three early-game uses worth knowing about: a brittle bucket that carries molten metals, a full set of brittle armour, and a clay-and-water plumbing system you can have working by day three.",
+      "title": "Clay"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The Clay Bucket.$() Shape unfired clay into a bucket and fire it; you have a $(italic)Clay Bucket$() that can carry any liquid a vanilla bucket can carry \u2014 water, milk, honey, lava, $(italic)and$() most molten metals from the Tinkers' Smeltery.$(br2)The catch is heat. Hot fluids slowly $(bold)crack$() the bucket. A clay bucket carrying lava or molten iron is one of the first things you make in a Tinkers'-flavoured game, and one of the first things you replace once you have a real iron bucket.",
+      "title": "The Clay Bucket"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)When the bucket cracks.$() A cracked clay bucket still holds fluid, but it leaks heat into you: stand still while holding one full of lava and you take fire ticks. Empty it and re-fire it (drop it in a furnace) and the cracks heal. Or carry two and rotate them.$(br2)This is the only way to move lava long-distance before iron \u2014 and the only way to move Tinkers' molten metals before steel.",
+      "title": "When It Cracks"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Clay Armour.$() A full set in fired clay \u2014 helmet, chestplate, leggings, boots. Cheap to craft (eight unfired clay each, then smelt), brittle to wear (low durability), and trivial to repair (more clay).$(br2)It is a real stopgap, not a real defence. Wear it on the first or second night if you have clay but no leather; replace it the moment you have iron. The armour values sit roughly between leather and gold.",
+      "title": "Clay Armour"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Clay plumbing.$() Three blocks, all early-game cheap, all made from clay and a wooden plate:$(br)$(li)$(bold)Clay Cistern$() \u2014 holds a single fluid in vertical layers; stack several and they share what's poured in.$(li)$(bold)Clay Channel$() \u2014 pipes fluid sideways. Connect a row to carry water, lava, milk, anything.$(li)$(bold)Clay Faucet$() \u2014 pours downward. Place beneath a cistern; a redstone pulse drains one layer.$(br2)No iron required. Fluid logistics on day three.",
+      "title": "Plumbing"
+    }
+  ]
+}

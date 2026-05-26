@@ -1,0 +1,28 @@
+{
+  "name": "Doors & Windows",
+  "icon": "mcwdoors:oak_nether_door",
+  "category": "patchouli:5_builders_hand",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Openings \u2014 the doors, the windows, and the things that dress them. $(italic)Macaw's Doors$(), $(italic)Macaw's Trapdoors$(), $(italic)Macaw's Windows$(), and $(italic)Another Furniture$()'s curtains and shutters all gather here.",
+      "title": "Doors & Windows"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Doors and trapdoors.$() Roughly thirty new $(bold)door$() styles \u2014 barn doors that split horizontally, Dutch doors with an upper latch, glass-paned doors, jail doors of iron bars, paper-screen and shoji doors, ornate carved ones. Trapdoors in the same scale on the floor.$(br2)Mechanically all are vanilla doors: the same hinges, the same logic. Stack a Macaw's trapdoor under a Macaw's door for a coherent style.",
+      "title": "Doors & Trapdoors"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Windows.$() Window frames in every wood; mosaic stained-glass windows in every dye; mullioned panels; sills and sashes. Build them into walls for instant light and character.$(br2)$(italic)Two kinds of shutters exist in the pack$(): Macaw's shutters that operate independently of the window itself, and $(italic)Another Furniture$()'s wooden shutters in every wood (they swing on a hinge). Pick whichever style fits the build.",
+      "title": "Windows"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Curtains.$() $(italic)Another Furniture$() \u2014 dyed cloth curtains, sized for a 1\u00d72 window. Right-click to draw them open or closed. The simplest way to make a window feel inhabited.",
+      "title": "Curtains"
+    }
+  ]
+}

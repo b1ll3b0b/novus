@@ -1,0 +1,48 @@
+{
+  "name": "Trading",
+  "icon": "minecraft:emerald",
+  "category": "patchouli:6_villages",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Vanilla trading is older than most players remember. Five tiers, dozens of trades, a reputation that is both kind and unforgiving. This is a refresher \u2014 the rules are unchanged in Novus.",
+      "title": "Trading"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)How a villager picks a job.$() An unemployed villager will claim the nearest unowned $(bold)workstation$() block within a day or two of standing near it. Place a $(italic)Lectern$() and the wanderer becomes a Librarian; a $(italic)Smithing Table$() makes a Toolsmith; a $(italic)Brewing Stand$() a Cleric; a $(italic)Fletching Table$() a Fletcher; a $(italic)Loom$() a Shepherd; a $(italic)Composter$() a Farmer.$(br2)Break the workstation before they trade and they'll switch professions. Trade with them once and they're locked in.",
+      "title": "Workstations"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Five trade tiers.$() Each villager levels through $(bold)Novice \u2192 Apprentice \u2192 Journeyman \u2192 Expert \u2192 Master$() as you trade with them. Each tier unlocks new trades and improves the rates of existing ones. A Master Librarian sells enchanted books for as little as a single emerald.$(br2)The tier is shown by the colour of the badge on the villager's belt: stone, iron, gold, emerald, diamond.",
+      "title": "Five Tiers"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Reputation.$() Each village remembers how you've treated its people. Trading raises reputation; hitting a villager lowers it. Bad reputation raises prices on every trade in the village; very bad reputation will get the Iron Golem to attack you.$(br2)Reputation slowly recovers over many in-game days, but the surer fix is the next page.",
+      "title": "Reputation"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Zombification and cure.$() At Normal or Hard difficulty, a villager killed by a zombie may $(italic)turn$() instead of dying \u2014 into a Zombie Villager. Splash them with a $(bold)Potion of Weakness$(), then hand them a $(bold)Golden Apple$(); they'll shake for five minutes, then revert.$(br2)$(bold)A cured villager remembers.$() Their trades, $(italic)all$() of them, drop to a fraction of normal price \u2014 and the discount is permanent. Building a base near a zombie-prone biome can be lucrative if you keep weakness potions on hand.",
+      "title": "Zombification & Cure"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Raids and Hero of the Village.$() Kill a $(italic)Pillager Captain$() (the one with the banner above its head) and you'll gain $(bold)Bad Omen$(). Walk into any village with Bad Omen active and a $(italic)Raid$() begins \u2014 waves of pillagers, vindicators, evokers, and ravagers descend on the town.$(br2)Defend the village to the last wave and you'll be granted $(bold)Hero of the Village$() for forty in-game minutes: every villager in the world drops their prices for the duration. A planned raid, with iron golems and walls in place, is one of the richest events in the game.",
+      "title": "Raids"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Three Quark tweaks worth knowing.$()$(br2)$(li)$(bold)Zombification on Normal.$() Vanilla only zombifies villagers on Hard difficulty. Quark turns it on for $(italic)Normal$() too \u2014 meaning your discount-curing economy works without playing on Hard.$(li)$(bold)Villagers Follow Emeralds.$() Hold a $(bold)block$() of emerald (not the gem) and villagers will follow you like animals follow wheat. The only convenient way to relocate a villager without a minecart.$(li)$(bold)Rerolling Rework.$() Re-claiming a workstation no longer guarantees a fresh trade list \u2014 there's a cooldown. Locking in good trades early matters more than it did.",
+      "title": "Quark Tweaks"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)New trades for old professions.$() $(italic)Supplementaries$() adds quiet new trades to several vanilla professions \u2014 none flashy, all useful.$(br)$(li)$(bold)Cartographer$() \u2014 sells the $(italic)Adventurer Map$() (random nearby structure, treasure-map style) and $(italic)Antique Ink$() (for sepia signs and globes).$(li)$(bold)Mason$() \u2014 sells $(italic)Ash Bricks$(), a brick variant.$(li)$(bold)Farmer$() \u2014 sells $(italic)Flax Seeds$(), the start of the flax line for ropes and bandages.$(br2)$(italic)Quark$() also sells $(bold)Pathfinder's Quills$() through Cartographers \u2014 a one-use item that, when held, points you at the nearest specified biome. Several biome variants are sold; the Mushroom Fields quill in particular is the easiest way to find that biome at all.",
+      "title": "Modded Trades"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Roofs & Stairs",
+  "icon": "mcwroofs:bricks_attic_roof",
+  "category": "patchouli:5_builders_hand",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The skeleton of a building: the pitched roof above, the stairs within, the bridges between, and the awnings that overhang the door. From $(italic)Macaw's Roofs$(), $(italic)Macaw's Stairs$(), $(italic)Macaw's Bridges$(), and $(italic)Another Furniture$().",
+      "title": "Roofs & Stairs"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Pitched roofs.$() Proper $(italic)pitched$() roofs in every vanilla material \u2014 brick, slate, stone, terracotta, wood \u2014 with edge pieces, corner pieces, internal intersections, attic windows, and rain gutters. The day you place your first one is the day your buildings stop looking like cobblestone wedges.$(br2)Slope steepness comes in three pitches: shallow, standard, and steep.",
+      "title": "Roofs"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Stairs, handrails, balconies.$() Proper $(bold)handrails$() and banisters that attach to vanilla and modded stairs alike \u2014 place a stair, then place a railing on either side, and it follows the slope. $(bold)Balconies$() overhang walls without supports, the way real balconies do.",
+      "title": "Stairs"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Awnings.$() $(italic)Another Furniture$() striped-fabric awnings in 16 dyed colours, sized to span a doorway. Hung above a Macaw's door, they soften the entrance the way a real shop's canopy does.",
+      "title": "Awnings"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Bridges.$() Rope bridges that sway between cliffs; plank bridges with railings; stone bridges that arch over rivers; japanese arched bridges for the garden. Each comes with matching support posts, railings, and end caps. A river in Novus no longer needs a dirt-causeway crossing.",
+      "title": "Bridges"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Paths & Lights",
+  "icon": "mcwlights:bell_lantern",
+  "category": "patchouli:5_builders_hand",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The finishing trim \u2014 the ground underfoot, the fences along the road, the lamps in the room, the flowers on the sill, the seasonal flourishes. Drawn from $(italic)Macaw's Paths$(), $(italic)Macaw's Fences and Walls$(), $(italic)Macaw's Lights$(), $(italic)Macaw's Holidays$(), and $(italic)Another Furniture$().",
+      "title": "Paths & Lights"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Paths and pavings.$() Paved paths in every stone \u2014 flagstone, basket-weave, herringbone, diamond, clover, running-bond, honeycomb. Each comes as a full block, a slab, a stair, and a $(italic)path$() variant (one-pixel lower, walkable). Lay a town's roads in five materials without ever placing dirt.",
+      "title": "Paths"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Fences and walls.$() Stockade, picket, pyramid, slatted vertical/horizontal \u2014 every Macaw's fence style comes with a matching gate. Walls in pillar, decorative, and rough-stone variants. A garden looks like a garden again.",
+      "title": "Fences & Walls"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Lights.$() Paper lamps in sixteen dyed colours; ceiling lights in every dye; tiki torches in every wood; copper candle holders and chandeliers; chain lanterns and bell lanterns; classic street lamps for the village square. $(italic)Another Furniture$() adds dyed table $(bold)lamps$() in every colour for the same indoor purpose.$(br2)Every piece is a light source. Most read sixteen blocks of light, the same as a torch.",
+      "title": "Lights"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Flower boxes.$() $(italic)Another Furniture$() \u2014 a windowsill planter sized to a half-block; place any flower in it and the flower shows in the model. Tucks under a Macaw's window better than a flower-pot on the floor.",
+      "title": "Flower Boxes"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Holiday trimmings.$() $(italic)Macaw's Holidays$() \u2014 250+ Christmas decorations and 80+ Halloween decorations. Wreaths, garlands, light strings, stockings, ornaments, carved pumpkins, gravestones, candy bowls. Pleasantly forgettable for most of the year; pull them out for two short windows and the world transforms.",
+      "title": "Holidays"
+    }
+  ]
+}

@@ -11,7 +11,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(bold)How to use it:$()$(br)$(li)Read $(italic)Of First Days$() in order \u2014 it's everything you need on day one.$(li)$(italic)Hearth & Season$() is cooking and the year, both relevant by day two or three.$(li)$(italic)Beyond the World$() gathers a few things that live outside the world itself \u2014 read it whenever.$(li)Skim links as they come up.$(br2)The in-game books each mod ships do the deeper reference work; this guide just gets you started."
+      "text": "$(bold)How to use it:$()$(br)$(li)Read $(italic)Of First Days$() in order \u2014 it's everything you need on day one.$(li)$(italic)Hearth & Season$() is cooking and the year, both relevant by day two or three.$(li)$(italic)Beyond the World$() gathers a few quiet utilities \u2014 favouriting worlds, pre-generation, reading the light.$(li)$(italic)Wayfaring$(), $(italic)Builder's Hand$(), and $(italic)Of Villages$() cover the rest \u2014 maps, decorative blocks, and the people who live in the world.$(li)$(italic)The Library$() lists every other in-game guide book.$(br2)The in-game books each mod ships do the deeper reference work; this guide just gets you started."
     }
   ]
 }

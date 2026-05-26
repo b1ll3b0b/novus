@@ -1,0 +1,28 @@
+{
+  "name": "Furnishings",
+  "icon": "another_furniture:oak_chair",
+  "category": "patchouli:5_builders_hand",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Novus draws its indoor furniture from a small constellation of mods \u2014 most of all $(italic)Another Furniture$(), with quiet additions from elsewhere. The chairs sit, the tables join, the drawers store. Vanilla blocks plus what follows give you a furnished room.",
+      "title": "Furnishings"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Seats that sit.$() Five sittable pieces in every overworld wood: $(bold)Chair$(), $(bold)Bench$(), $(bold)Sofa$() (dyed, multi-seat), $(bold)Stool$(), and $(bold)Tall Stool$() (for the kitchen counter).$(br2)Right-click to climb on. Shift to climb off. A sofa or bench will seat several players at once.",
+      "title": "Seats"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Tables.$() One table per wood; place two adjacent and they join into a single communal slab. Continue along a wall and the table runs the whole length, with shaped corners where it turns.",
+      "title": "Tables"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Storage.$()$(br)$(li)$(bold)Drawer$() \u2014 a chest at half the height. Same nine-row UI; no head-banging when stacked beneath shelves.$(li)$(bold)Shelf$() \u2014 a 1\u00d71 display block. Right-click with an item and it appears in the model. Three slots.$(br2)Vanilla chests and barrels still work as ever; drawers and shelves are for the rooms where they would feel oversized.",
+      "title": "Storage"
+    }
+  ]
+}

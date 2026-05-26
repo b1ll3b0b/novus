@@ -1,0 +1,38 @@
+{
+  "name": "Village Kinds",
+  "icon": "minecraft:oak_door",
+  "category": "patchouli:6_villages",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Vanilla Minecraft seeds villages in five biomes: $(bold)Plains$(), $(bold)Desert$(), $(bold)Savanna$(), $(bold)Taiga$(), and $(bold)Snowy$(). Each one has its own architecture, palette, and crops.$(br2)Novus adds many more.",
+      "title": "The Vanilla Five"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Repurposed Structures$() generates village variants in roughly $(bold)twenty$() additional biomes: cherry grove, bamboo jungle, birch forest, dark forest, jungle, badlands, oak forest, giant taiga, mountains, mushroom fields, swamp, and even the $(italic)ocean$() \u2014 built on stilts above the waves.$(br2)Each variant uses the local wood and local stone, so a jungle village looks jungle, a mountain village looks alpine.",
+      "title": "Repurposed Villages"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Villages in the Nether.$() Repurposed Structures adds $(bold)Crimson$() and $(bold)Warped$() villages too \u2014 piglin-built towns in the crimson and warped forest biomes. Their trades skew toward netherrack and soul-soil materials; their roofs are nether-brick.$(br2)Treat them carefully \u2014 they generate small numbers of hostile piglins as inhabitants.",
+      "title": "Nether Villages"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Finding a village.$() Hold an $(italic)Explorer's Compass$() and right-click \u2014 a menu appears listing every structure type in the world. Pick $(italic)Village$() (or any specific variant), and the compass points the bearing and shows the distance. The compass costs nothing to use and has no cooldown; carry one always.",
+      "title": "Explorer's Compass"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Waystones in villages.$() Many vanilla and modded village types generate a $(bold)Waystone$() \u2014 a tall standing stone, usually near the centre. Right-click any waystone to bind it; once bound, you can teleport to it from any other waystone, or from a Warp Plate / Warp Stone.$(br2)$(italic)A bound village waystone is the cheapest fast-travel network in the game$() \u2014 every village you find is a future shortcut home.",
+      "title": "Waystones"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Quark's More Villagers.$() Vanilla gives villagers five biome-skins: plains, desert, savanna, taiga, snowy. $(italic)Quark$() adds two more \u2014 $(bold)Ocean$() and $(bold)Beach$() \u2014 so the villagers who live in coastal and ocean-village builds look the part. Same trades, new faces.",
+      "title": "More Villagers"
+    }
+  ]
+}

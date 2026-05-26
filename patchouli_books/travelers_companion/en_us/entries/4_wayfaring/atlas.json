@@ -1,0 +1,33 @@
+{
+  "name": "Antique Atlas",
+  "icon": "minecraft:filled_map",
+  "category": "patchouli:4_wayfaring",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Antique Atlas$() is the map Novus expects you to carry. Hand-drawn biome tiles fill themselves in around you as you walk \u2014 rivers, coastlines, the structures and deaths that mark a long game \u2014 and the whole sheet opens at the press of a key.$(br2)It is not a minimap. It opens to a full-screen view, then folds shut. Use it when you stop walking.",
+      "title": "The Antique Atlas"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Press $(italic)M$() to open.$()$(br2)You do not need to craft or carry anything. The atlas is bound to your $(bold)player$(), not to an item \u2014 the M key opens the map wherever you are, and what you've discovered is remembered with the world. Press M again to close.$(br2)Scrollwheel zooms; click-and-drag pans; the small pin in the corner snaps the view back to you. Tiles uncover themselves as you walk near them; areas you haven't explored stay blank.",
+      "title": "Press M"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Structure markers.$() Discover a village, mansion, ocean monument, stronghold, ancient city, slime island, or any of a dozen $(italic)Repurposed Structures$() additions, and a small hand-drawn icon appears at its centre. Novus ships custom marker art for every structure in the pack \u2014 including villages of every kind, the immersive-gateway portals, and the Supplementaries galleon.",
+      "title": "Markers"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Custom marks and graves.$() Click the pin in the corner of the open atlas to drop a labelled marker anywhere \u2014 \"home\", \"diamond cave\", whatever you need. Markers can be deleted from the same menu.$(br2)When you die, the atlas notes the place with one of its own euphemisms: $(italic)Wasted$(), $(italic)Wrecked$(), $(italic)Bricked$(), $(italic)Got Lost$(). Day-numbered and unlabelled by location. Your trail of misfortunes, kept honestly.",
+      "title": "Marks & Graves"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)A physical copy, if you want one.$()$(br2)Old habit, or a wish for a separate map per dimension or base \u2014 either is reason enough. Take a $(italic)Book$() to an $(italic)Anvil$() and rename it $(bold)Antique Atlas$(), exactly so. The book becomes an atlas item; carry it for one level of XP.$(br2)Held atlases keep their own marker sets, separate from the keybind-opened map. They are optional in Novus, not the main path.",
+      "title": "A Physical Copy"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Helpful Hands",
+  "icon": "tradingpost:trading_post",
+  "category": "patchouli:6_villages",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Three blocks and one mob that make the trading economy less tedious. Two work directly with villagers; the third with piglins; the fourth wanders the world on its own.",
+      "title": "Helpful Hands"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The Trading Post.$() Place a $(italic)Trading Post$() block in the centre of your village. Right-click to open a unified GUI listing every nearby villager's trades \u2014 searchable by item, sortable by price. Click a trade and it executes against the villager who owns it; no more chasing the Librarian from his lectern to the gate and back again.$(br2)It is the single greatest quality-of-life improvement to vanilla trading.",
+      "title": "Trading Post"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The Bartering Station.$() Place near piglins (overworld piglins from a converted zombified piglin will do; nether piglins in their native habitat work best). Drop $(bold)gold ingots$() in the input slot, and the piglins barter at the station rather than at you. Items pile up in the output slot.$(br2)The patient, no-running-around answer to gold-to-loot conversion.",
+      "title": "Bartering Station"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Goblin Traders.$() $(italic)Goblin Traders$() are wandering green mobs that spawn rarely in caves and at the surface. Right-click one to trade \u2014 and their goods are $(italic)strange$(): potions of $(bold)Haste$(), $(bold)Absorption$(), and $(bold)Dolphin's Grace$() that exist nowhere else in the game, plus tools, redstone, food, and the occasional rarity.$(br2)The $(bold)Vein Goblin Trader$() spawns deeper underground, below Y=128, and deals in even stranger goods. A goblin will not despawn if named.",
+      "title": "Goblin Traders"
+    }
+  ]
+}

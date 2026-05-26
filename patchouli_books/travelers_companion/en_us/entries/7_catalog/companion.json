@@ -1,7 +1,7 @@
 {
   "name": "Traveler's Companion",
   "icon": "patchouli:guide_book{\"patchouli:book\":\"patchouli:travelers_companion\"}",
-  "category": "patchouli:4_catalog",
+  "category": "patchouli:7_catalog",
   "sortnum": 0,
   "pages": [
     {

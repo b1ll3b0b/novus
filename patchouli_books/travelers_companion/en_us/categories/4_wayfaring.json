@@ -1,0 +1,6 @@
+{
+  "name": "Wayfaring & Maps",
+  "description": "Two quiet helpers for finding your way \u2014 a map that draws itself, and a piece of chalk that remembers where you've been.",
+  "icon": "minecraft:filled_map",
+  "sortnum": 4
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Wanderers",
+  "icon": "minecraft:emerald_block",
+  "category": "patchouli:6_villages",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Once every twenty in-game minutes or so, a $(italic)Wandering Trader$() may appear near you \u2014 a blue-cloaked villager-cousin, hood up, leading two trader llamas on tethers. He spawns, sets up shop wherever he stops, and despawns about a day later.$(br2)He is the only honest source of several otherwise rare items, and the rare gift the world hands you for nothing.",
+      "title": "Wanderers"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)What he sells (vanilla).$() His stock rotates each spawn. Common items include $(italic)saplings$() of biomes you haven't reached, $(italic)flowers$() from far away, $(italic)coral$() and $(italic)sea pickles$(), $(italic)red sand$(), $(italic)blue ice$(), $(italic)glow ink sacs$(), $(italic)pointed dripstone$(), and the occasional $(italic)slime ball$().$(br2)For a player who's spawned in a flat plains and seen no other biome yet, a wandering trader is a small library of seeds and saplings.",
+      "title": "Vanilla Stock"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)What Novus adds to his stock.$()$(br)$(li)$(italic)Supplementaries$() \u2014 the trader may carry $(bold)Flax Seeds$(), a $(bold)Globe$(), or a $(bold)Sepia Globe$() (the antique-ink variant). The globes are rare and decorative \u2014 a single one is worth catching him for.$(li)$(italic)Quark$() \u2014 he also stocks $(bold)Pathfinder's Quills$() (assorted biomes) alongside the Cartographer.$(br2)If he has a globe in stock, buy it. They almost never appear in any other trade.",
+      "title": "Pack Additions"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Catching one without killing.$()$(br2)The trader despawns on his own \u2014 but the $(bold)llamas$() are yours if you take them. Lead them off with another lead and they'll follow you home. Their colours are tied to the trader's outfit; their inventories carry chests like ordinary llamas.$(br2)$(italic)Killing the trader is an option$() \u2014 drops his lead and any held items \u2014 but Bad Omen does not apply to him, and the village reputation system does not see his death. There is no penalty besides the wasted trades.",
+      "title": "The Llamas"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The Red Merchant.$() $(italic)Supplementaries$() adds a $(bold)second$() wanderer \u2014 the $(italic)Red Merchant$(), a crimson-cloaked counterpart to the blue Wandering Trader. He appears in the Nether and at certain overworld hot biomes, and his entire stock is $(italic)explosive$().$(br2)He sells $(bold)TNT$(), regular bombs, $(italic)blue$() and $(italic)spiky$() bomb variants, cannons, cannonballs, fireworks and rockets, firework stars, gunpowder, copper lanterns and rope arrows.$(br2)The pyromaniac's wandering trader \u2014 and the most reliable source of cannons in the pack.",
+      "title": "The Red Merchant"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Chalk Marks",
+  "icon": "chalk:white_chalk",
+  "category": "patchouli:4_wayfaring",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Chalk$() is the small mod that makes a long cave bearable. A piece of chalk in your off-hand, a right-click on a block face, and a coloured mark appears there \u2014 flat against the surface, the block underneath untouched.$(br2)It is a way to leave $(italic)signs to yourself$() that cost nothing to place and nothing to remove.",
+      "title": "Chalk Marks"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Sixteen colours.$() One chalk for each dye colour \u2014 black, red, green, brown, blue, purple, cyan, light gray, gray, pink, lime, yellow, light blue, magenta, orange, white. Use them as you like: red for a wrong turn, green for the way home, white for a marked vein.$(br2)Marks face the block face you clicked. They don't block movement, don't emit light, and don't change the block they sit on. A skeleton walking past will see nothing.",
+      "title": "Sixteen Colours"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)To craft a chalk.$() Place $(italic)Calcite$() + a $(italic)Dye$() of the colour you want in any crafting grid. One calcite, one dye, one chalk \u2014 shapeless. Chalks last forever; you'll never need a second.",
+      "title": "Crafting Chalk"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The Chalk Box.$() Carrying sixteen chalks in the hotbar is unwise. The $(italic)Chalk Box$() collects them: a small pouch crafted from $(bold)8 Paper$() around $(bold)1 Slimeball$(). Right-click it in the inventory to open; drop chalks inside, click one to make it active.$(br2)Hold the box and right-click on a block \u2014 the active chalk draws as if you held it directly. One slot, every colour.",
+      "title": "The Chalk Box"
+    }
+  ]
+}

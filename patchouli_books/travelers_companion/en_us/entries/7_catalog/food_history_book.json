@@ -1,7 +1,7 @@
 {
   "name": "Food History Book",
   "icon": "solclassic:food_history_book",
-  "category": "patchouli:4_catalog",
+  "category": "patchouli:7_catalog",
   "sortnum": 10,
   "pages": [
     {

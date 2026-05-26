@@ -20,7 +20,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(bold)Stocking a varied larder.$() $(italic)Farmer's Delight$() is the natural answer \u2014 its stews, pies, and prepared meals give you a wide rotation for little effort. See $(l:2_hearth_season/wild_edibles_hearth)Wild Edibles & Hearth$().$(br2)Two conveniences come with the system: a $(bold)Wicker Basket$() that carries an assortment of foods together, and a $(bold)Food History Book$() listing what you've eaten lately.",
+      "text": "$(bold)Stocking a varied larder.$() $(italic)Farmer's Delight$() is the natural answer \u2014 its stews, pies, and prepared meals give you a wide rotation for little effort. See $(l:2_hearth_season/wild_edibles_hearth)Wild Edibles$().$(br2)Two conveniences come with the system: a $(bold)Wicker Basket$() that carries an assortment of foods together, and a $(bold)Food History Book$() listing what you've eaten lately.",
       "title": "Stocking the Larder"
     },
     {

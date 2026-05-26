@@ -20,7 +20,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(bold)The hearth starts at the cooking pot.$() $(italic)Farmer's Delight's$() Cooking Pot is the earliest step into the food chain. Lit campfires count as heat sources, so you don't need iron tools to begin. See $(l:2_hearth_season/wild_edibles_hearth)Wild Edibles & Hearth$() for the full stove/pot/skillet setup.",
+      "text": "$(bold)The hearth starts at the cooking pot.$() $(italic)Farmer's Delight's$() Cooking Pot is the earliest step into the food chain. Lit campfires count as heat sources, so you don't need iron tools to begin. See $(l:2_hearth_season/wild_edibles_hearth)Wild Edibles$() for the full stove/pot/skillet setup.",
       "title": "Cooking Pot"
     }
   ]
