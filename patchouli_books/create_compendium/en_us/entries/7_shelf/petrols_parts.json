@@ -1,0 +1,13 @@
+{
+  "name": "Petrol's Parts",
+  "icon": "create:precision_mechanism",
+  "category": "patchouli:7_shelf",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Petrol's Parts$() (on Petrolpark's library) adds $(bold)new kinetic components$() \u2014 fresh machines and mechanisms that slot into Create's rotation system and extend what you can build with it.$(br2)Treat its blocks like any other Create machine: they take rotation, cost stress, and Ponder explains each one.",
+      "title": "Petrol's Parts"
+    }
+  ]
+}

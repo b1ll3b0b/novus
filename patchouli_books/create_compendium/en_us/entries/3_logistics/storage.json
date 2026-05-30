@@ -1,0 +1,13 @@
+{
+  "name": "Bulk Storage",
+  "icon": "create:item_vault",
+  "category": "patchouli:3_logistics",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(bold)Item Vault$() \u2014 a multi-block box for huge stacks of one or many items; the standard Create bulk store, and what the package network draws from.$(li)$(bold)Fluid Tank$() \u2014 the same idea for liquids, and the body of steam boilers.$(br2)Novus also adds $(l:7_shelf/connected)Create: Vibrant Vaults$(), which gives the item vault new material variants for cleaner builds.",
+      "title": "Vaults & Tanks"
+    }
+  ]
+}

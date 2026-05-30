@@ -1,0 +1,18 @@
+{
+  "name": "Encased Fans",
+  "icon": "create:encased_fan",
+  "category": "patchouli:2_processing",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "An $(bold)Encased Fan$() blows along its axis, and whatever element sits in front of it $(bold)transforms$() the airflow into a processing field. Items passing through that field on a belt or Depot are processed in bulk.$(br2)$(li)$(bold)Water$() \u2192 washing (ore washing, cleaning gravels)$(li)$(bold)Fire/Campfire$() \u2192 smoking (cooking food)$(li)$(bold)Lava$() \u2192 blasting (smelting)$(li)$(bold)Soul Fire$() \u2192 haunting",
+      "title": "Fan Processing"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Fans are the cheapest mass-processor in Create \u2014 no per-item machine, just one fan and a belt running through the field. Ore washing in particular turns crushed ore into nuggets and the occasional bonus.$(br2)A fan also just $(italic)pushes$() \u2014 handy for moving items, players, or feeding a furnace engine's airflow.",
+      "title": "Why Fans"
+    }
+  ]
+}

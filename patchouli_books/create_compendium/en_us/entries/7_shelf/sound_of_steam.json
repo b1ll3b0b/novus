@@ -1,0 +1,13 @@
+{
+  "name": "Sound of Steam",
+  "icon": "create:cogwheel",
+  "category": "patchouli:7_shelf",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Create: Sound of Steam$() adds $(bold)pipe organs$() and musical blocks driven by Create. Pair them with rotation and redstone timing and your factory can play as well as work.$(br2)A flourish rather than a system \u2014 but a charming one for a finished base.",
+      "title": "Sound of Steam"
+    }
+  ]
+}

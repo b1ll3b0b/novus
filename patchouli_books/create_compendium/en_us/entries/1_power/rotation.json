@@ -1,0 +1,18 @@
+{
+  "name": "Rotation & Shafts",
+  "icon": "create:shaft",
+  "category": "patchouli:1_power",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Every Create machine is driven by $(create)rotational force$(). A source spins, and that spin travels outward through $(bold)shafts$() and $(bold)cogwheels$() to the machines that need it.$(br2)Two rules: a line of connected components all turns together, and the network must agree on direction and speed. Force two parts to disagree and the whole network $(bold)locks up$().",
+      "title": "Rotation"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Carrying and turning power:$()$(br)$(li)$(bold)Shaft$() \u2014 carries rotation in a straight line.$(li)$(bold)Cogwheels$() \u2014 mesh side by side to pass power around corners; a $(italic)large$() cog meshed with a $(italic)small$() one changes the speed (see $(l:1_power/speed)Speed$()).$(li)$(bold)Gearbox / Encased Chain Drive$() \u2014 route power through turns and over distance without exposed cogs.",
+      "title": "Shafts & Cogs"
+    }
+  ]
+}

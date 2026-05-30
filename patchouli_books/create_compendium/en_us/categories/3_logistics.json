@@ -1,0 +1,6 @@
+{
+  "name": "Logistics",
+  "description": "Moving items, fluids, and information around your factory \u2014 belts and funnels up through the package network.",
+  "icon": "create:mechanical_arm",
+  "sortnum": 3
+}

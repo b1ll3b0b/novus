@@ -1,0 +1,18 @@
+{
+  "name": "About this Book",
+  "icon": "create:brass_ingot",
+  "category": "patchouli:0_foreword",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Create$() is a mod about $(bold)building machines that build for you$(). Everything runs on $(create)rotation$() \u2014 a turning force carried through shafts and cogwheels \u2014 and from that single idea grows crushing, pressing, mixing, farming, trains, and moving structures.$(br2)This Compendium explains the $(bold)systems$(): how power works, what each machine does, and how the pieces fit. It does not list every recipe \u2014 your recipe viewer does that.",
+      "title": "About this Book"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)What's covered.$() Create itself, and the many add-ons bundled in Novus \u2014 power and logistics, contraptions, trains, electricity, fuels, and the dozen smaller mods that each add a system of their own.$(br2)Read the $(l:1_power/rotation)Power & Kinetics$() chapter first. Almost nothing else makes sense until rotation, speed, and stress do.",
+      "title": "What's Covered"
+    }
+  ]
+}

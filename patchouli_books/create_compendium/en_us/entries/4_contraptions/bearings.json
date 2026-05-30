@@ -1,0 +1,18 @@
+{
+  "name": "Bearings",
+  "icon": "create:mechanical_bearing",
+  "category": "patchouli:4_contraptions",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Mechanical Bearing$() \u2014 feed it rotation and it spins whatever is glued in front of it. This is how a $(bold)Windmill$() works: glue sails to the bearing, and wind (well, motion) spins it into a power source.$(br2)Point it the other way \u2014 drive the bearing and it turns the structure for you, for rotating displays, lighthouses, or moving platforms.",
+      "title": "Mechanical Bearing"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(bold)Windmill Bearing$() \u2014 the variant tuned for sail assemblies; more sail blocks means more stress capacity.$(li)$(bold)Clockwork Bearing$() \u2014 drives clock hands from the time of day, for working clocks.$(br2)A bearing only assembles its contraption when given a redstone pulse or power, depending on type.",
+      "title": "Bearing Types"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Fuels & Burners",
+  "icon": "create:blaze_burner",
+  "category": "patchouli:7_shelf",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Two add-ons widen your $(bold)boiler and burner$() options:$(br)$(li)$(italic)Create: Blaze Burner Fuels$() \u2014 new items and recipes that serve as alternative fuels and easier steam-boiler setups.$(li)$(italic)More Create Burners$() \u2014 additional burner blocks as alternatives to the Blaze Burner.$(br2)Both matter most when you scale to steam power and want fuel you can source locally.",
+      "title": "Fuels & Burners"
+    }
+  ]
+}

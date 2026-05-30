@@ -1,0 +1,13 @@
+{
+  "name": "Track & Trains",
+  "icon": "create:track",
+  "category": "patchouli:5_trains",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Create's $(bold)Train Track$() is laid by hand or paved by a contraption, and bends into smooth curves and slopes nothing else in Minecraft can.$(br2)A $(bold)train$() is itself a contraption: $(bold)Train Bogeys$() for wheels, $(bold)Train Casing$() to clad it, and a $(bold)Train Controls$() seat. Assemble it at a $(bold)Train Station$() and you can drive it by hand or hand it a schedule.",
+      "title": "Track & Trains"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Carts & Keeping It Loaded",
+  "icon": "create:cart_assembler",
+  "category": "patchouli:4_contraptions",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Cart Assembler$() \u2014 place it on rails, glue a structure to a minecart beneath, and power it: the build rides the minecart as a mobile contraption. Mobile farms, drilling trains, and roving bases all start here.$(br2)Stop the cart on another assembler to disassemble it back into blocks.",
+      "title": "Minecart Contraptions"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Two Novus add-ons help here:$()$(br)$(li)$(bold)Create Contraption Terminals$() \u2014 lets Tom's Storage terminals reach inventories on a moving contraption.$(li)$(bold)Create: Power Loader$() \u2014 mechanical chunk-loaders so your trains, mining rigs, and far-off farms keep running while you're away.",
+      "title": "Contraption Add-ons"
+    }
+  ]
+}

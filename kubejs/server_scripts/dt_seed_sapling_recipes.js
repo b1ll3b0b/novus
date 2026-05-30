@@ -8,7 +8,8 @@
 // netherrack, mushrooms -> mycelium, cacti -> sand/red_sand/gravel).
 // Apple oak + cocoa chains are asymmetric.
 //
-// Ratio: 1 input + 1 catalyst -> 1 output. Bidirectional unless noted.
+// Ratio: 1 input + 1 catalyst -> 1 output. One-way: seed + catalyst -> sapling
+// (the reverse sapling -> seed direction was removed 2026-05-30).
 //
 // Intentionally NOT generated for these species (no clean 1:1 mapping):
 //   dynamictrees:mega_jungle_seed   -> conflicts with jungle_seed <-> jungle_sapling
@@ -35,8 +36,8 @@ const SAND = 'minecraft:sand';
 const RED_SAND = 'minecraft:red_sand';
 const GRAVEL = 'minecraft:gravel';
 
-// [seed_item, sapling_item, catalyst]  — each entry generates two shapeless
-// recipes: seed + catalyst -> sapling, and sapling + catalyst -> seed.
+// [seed_item, sapling_item, catalyst]  — each entry generates one shapeless
+// recipe: seed + catalyst -> sapling. (Reverse direction removed 2026-05-30.)
 const PAIRS = [
   // dynamictrees (vanilla MC counterparts) — grow on dirt
   ['dynamictrees:oak_seed',       'minecraft:oak_sapling',         DIRT],
@@ -92,10 +93,9 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'dynamictrees:dirt_bucket' });
 
   PAIRS.forEach(([seed, sapling, cat]) => {
-    // sapling + catalyst -> seed
-    event.shapeless(seed, [sapling, cat])
-         .id(`kubejs:dt_sapling_to_seed/${seed.replace(':', '_')}`);
-    // seed + catalyst -> sapling
+    // One-way: seed + catalyst -> sapling. The reverse (sapling -> seed) was
+    // removed 2026-05-30 so DT seeds can be spent into vanilla/mod saplings but
+    // can't be farmed back from freely-available saplings.
     event.shapeless(sapling, [seed, cat])
          .id(`kubejs:dt_seed_to_sapling/${seed.replace(':', '_')}`);
   });
@@ -120,9 +120,9 @@ ServerEvents.recipes(event => {
   event.shapeless('minecraft:jungle_sapling', ['dynamictrees:cocoa_seed', DIRT])
        .id('kubejs:dt_cocoa_seed_to_jungle_sapling');
 
-  // Ashen (Quark "Ancient" tree) — one-way fruit -> seed.
-  // ancient_fruit -> dtquark:ancient_seed (the reverse / sapling-to-seed and
-  // sapling-from-seed conversions live in the PAIRS array above).
+  // Ashen (Quark "Ancient" tree) — fruit -> seed.
+  // ancient_fruit -> dtquark:ancient_seed. The seed -> ancient_sapling
+  // conversion lives in the PAIRS array above.
   event.shapeless('dtquark:ancient_seed', ['quark:ancient_fruit'])
        .id('kubejs:dt_ancient_fruit_to_ashen_seed');
 

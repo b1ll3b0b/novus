@@ -1,0 +1,13 @@
+{
+  "name": "Central Kitchen",
+  "icon": "create:mechanical_mixer",
+  "category": "patchouli:7_shelf",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Create: Central Kitchen$() automates $(bold)Farmer's Delight$() cooking with Create machinery. Mechanical crafters and processing feed cooking pots and skillets, so a stew or pie line can run hands-free.$(br2)If you cook in bulk for the Novus diet system, this is how you turn a farm into finished meals on a belt.",
+      "title": "Central Kitchen"
+    }
+  ]
+}

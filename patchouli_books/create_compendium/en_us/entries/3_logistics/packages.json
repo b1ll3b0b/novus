@@ -1,0 +1,23 @@
+{
+  "name": "The Package Network",
+  "icon": "create:andesite_funnel",
+  "category": "patchouli:3_logistics",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Create 6 adds a full $(bold)package logistics$() system \u2014 think parcels travelling your base on demand.$(br2)A $(bold)Packager$() boxes items from an inventory into a $(bold)package$(). Packages ride belts and chutes like any item, but they also know their $(italic)address$() and can be routed automatically.",
+      "title": "Packages"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Sending and requesting:$()$(br)$(li)$(bold)Postbox / Frogport$() \u2014 send and receive packages across your network by address.$(li)$(bold)Stock Link$() + $(bold)Stock Ticker$() \u2014 register your storage to a network, then $(italic)request$() items from a list, like ordering from a catalogue.$(li)$(bold)Redstone Requester$() \u2014 auto-orders a set amount when a signal fires.",
+      "title": "Ordering"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "This system replaces a lot of hand-built sorting: you keep a wall of vaults behind Stock Links, and pull what you need from a Stock Ticker anywhere it reaches.$(br2)Ponder's package scenes are especially worth watching \u2014 the addressing UI is easier shown than written.",
+      "title": "Why It Matters"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Pistons, Pulleys, Gantries",
+  "icon": "create:piston_extension_pole",
+  "category": "patchouli:4_contraptions",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Linear motion$() for doors, drawbridges, lifts, and digging rigs:$(br)$(li)$(bold)Mechanical Piston$() \u2014 pushes a glued structure along a line; add $(bold)Piston Extension Poles$() for reach.$(li)$(bold)Rope Pulley$() \u2014 lowers and raises a structure on a rope; great for elevators and quarry frames.",
+      "title": "Pistons & Pulleys"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(bold)Gantry$() \u2014 a carriage on a gantry shaft that moves to an exact position under redstone/clutch control; the precise option for automated placement and big moving machines.$(li)$(bold)Elevator Pulley$() + $(bold)Contraption Controls$() \u2014 a multi-floor elevator you call to named floors.$(br2)Mount a Drill or Saw on any of these and you have an automatic miner or harvester.",
+      "title": "Gantry & Lifts"
+    }
+  ]
+}

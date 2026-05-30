@@ -1,0 +1,18 @@
+{
+  "name": "Belts, Chutes, Funnels",
+  "icon": "create:belt_connector",
+  "category": "patchouli:3_logistics",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The backbone of item transport:$(br)$(li)$(bold)Mechanical Belt$() \u2014 drag a shaft to a shaft to span them; carries items (and you) horizontally, diagonally, or vertically.$(li)$(bold)Chute$() \u2014 vertical item pipe; pairs with fans for up/down flow.$(li)$(bold)Funnel$() \u2014 the in/out mouth between a belt/chute and an inventory. Funnels can $(bold)filter$() by item.",
+      "title": "Belts & Chutes"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(bold)Depot$() \u2014 holds a single stack on a surface for a machine to act on.$(li)$(bold)Weighted Ejector$() \u2014 flings items to a target spot, with a threshold.$(li)$(bold)Smart Chute$() \u2014 a chute with a filter built in.$(br2)Filters everywhere accept an item or a $(bold)Filter$()/$(bold)Attribute Filter$() for 'any wool', 'any tool', and so on.",
+      "title": "Depots & Filters"
+    }
+  ]
+}

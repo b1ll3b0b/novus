@@ -1,0 +1,18 @@
+{
+  "name": "Stress (SU)",
+  "icon": "create:water_wheel",
+  "category": "patchouli:1_power",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Stress$() is Create's power budget. Every $(create)source$() supplies a pool of $(bold)Stress Units (SU)$(); every machine $(italic)consumes$() some while it runs. Spend more than you make and the network is $(bold)overstressed$() \u2014 everything grinds to a halt.$(br2)A machine's stress cost scales with $(italic)speed$(): the same press costs twice as much spun twice as fast.",
+      "title": "Stress"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Reading it.$() Put on the $(create)Engineer's Goggles$() and look at any shaft: you'll see capacity used versus available. A $(bold)Stressometer$() gives a precise gauge.$(br2)When you overstress, you have three choices: add a bigger source, run machines slower, or split the work across more networks.",
+      "title": "Reading Stress"
+    }
+  ]
+}

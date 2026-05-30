@@ -1,0 +1,13 @@
+{
+  "name": "Copycats+",
+  "icon": "create:brass_ingot",
+  "category": "patchouli:7_shelf",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Create: Copycats+$() gives you $(bold)copycat blocks$() \u2014 blocks that borrow the $(italic)texture$() of any other block while keeping a chosen shape: panels, slabs, steps, beams, fences, and more.$(br2)They're a builder's dream for camouflage and for matching Create's industrial look to any palette in the pack. Apply a block with the material in hand; change it any time.",
+      "title": "Copycats+"
+    }
+  ]
+}

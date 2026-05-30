@@ -1,0 +1,18 @@
+{
+  "name": "Power Sources",
+  "icon": "create:windmill_bearing",
+  "category": "patchouli:1_power",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Where rotation comes from$(), roughly in order of game progress:$(br)$(li)$(bold)Hand Crank$() \u2014 a few seconds of power on demand; fine for a Millstone.$(li)$(bold)Water Wheel$() / $(bold)Large Water Wheel$() \u2014 steady, free, early-game power from flowing water.$(li)$(bold)Windmill$() \u2014 sails on a $(l:4_contraptions/bearings)Mechanical Bearing$(); more sails, more force.",
+      "title": "Early Sources"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Steam$() is the heavy hitter. Build a multi-block $(bold)Boiler$(): tanks of water heated by $(create)Blaze Burners$(), feeding $(bold)Steam Engines$() on Fluid Tanks. A maxed boiler dwarfs every earlier source.$(br2)Burner fuel and boiler tuning is its own craft \u2014 see $(l:7_shelf/blaze_fuels)Fuels & Burners$(). Later still, electricity can spin a motor: $(l:6_energy/crafts_additions)Crafts & Additions$().",
+      "title": "Steam & Beyond"
+    }
+  ]
+}

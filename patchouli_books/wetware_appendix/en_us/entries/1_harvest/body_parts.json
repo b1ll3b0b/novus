@@ -24,6 +24,11 @@
     },
     {
       "type": "patchouli:text",
+      "text": "$(bold)Pressing the Toxin Gland.$() Beyond the Cradle, the $(flesh)Toxin Gland$() has an industrial use. Drop one in a Create $(bold)Basin$() with a $(bold)Mechanical Press$() running above \u2014 a compacting recipe \u2014 and it renders into $(bold)250 mb of Tinkers' Venom$().$(br2)A spider or bee farm feeding a press becomes a quiet, automatable Venom supply, with no need to court the Cradle for it.",
+      "title": "Gland to Venom"
+    },
+    {
+      "type": "patchouli:text",
       "text": "Most of these can also be made without hunting at all \u2014 the $(l:3_machines/decomposer)Decomposer$() breaks bulk organic matter down into fibres and fragments once you have it running. The harvest is how you $(italic)start$(); the machines are how you scale.",
       "title": "The Other Source"
     }

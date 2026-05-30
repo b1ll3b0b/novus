@@ -1,0 +1,13 @@
+{
+  "name": "Arms & Tunnels",
+  "icon": "create:brass_tunnel",
+  "category": "patchouli:3_logistics",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Sorting$() at scale:$(br)$(li)$(bold)Mechanical Arm$() \u2014 a configurable arm that picks from any number of inputs and places into any number of outputs, with per-target filters. One arm replaces a wall of funnels.$(li)$(bold)Brass Tunnel$() \u2014 sits on a belt and splits a stream across belts: round-robin, randomised, or filtered per side.",
+      "title": "Sorting"
+    }
+  ]
+}

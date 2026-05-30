@@ -1,0 +1,18 @@
+{
+  "name": "Mixing & Heat",
+  "icon": "create:mechanical_mixer",
+  "category": "patchouli:2_processing",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(bold)Mechanical Mixer$() over a $(bold)Basin$() combines several ingredients \u2014 and many recipes also need $(create)heat$() from a $(bold)Blaze Burner$() underneath.$(br2)$(li)$(bold)No heat$() \u2014 simple mixes.$(li)$(bold)Heated$() (lit burner) \u2014 most alloys and brewing.$(li)$(bold)Superheated$() (burner fed blaze cake) \u2014 the hottest recipes.",
+      "title": "Mixing"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Brass, the gateway to Create's second tier, is mixed here from copper and zinc over a heated burner. Andesite alloy, the first tier, can be mixed too.$(br2)A basin will only output once the recipe completes and there's somewhere for the result to go \u2014 a belt, a tank, or a funnel pulling it out.",
+      "title": "Alloys"
+    }
+  ]
+}

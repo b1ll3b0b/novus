@@ -1,0 +1,13 @@
+{
+  "name": "Create Compendium",
+  "icon": "patchouli:guide_book{\"patchouli:book\":\"patchouli:create_compendium\"}",
+  "category": "patchouli:7_catalog",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Novus's$() full guide to $(italic)Create$() and its many add-ons \u2014 rotation and stress, the core machines, trains, contraptions, and the systems each add-on layers on top. Where this Companion only points the way, that book explains the whole works.$(br2)$(bold)To craft:$() a $(italic)Book$() + an $(italic)Andesite Alloy$(), shapeless.",
+      "title": "Create Compendium"
+    }
+  ]
+}

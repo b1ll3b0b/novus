@@ -1,0 +1,18 @@
+{
+  "name": "Steam 'n' Rails",
+  "icon": "create:railway_casing",
+  "category": "patchouli:5_trains",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Create: Steam 'n' Rails$() extends the rail system with quality-of-life and variety:$(br)$(li)More $(bold)bogey styles$() and sizes for different train looks.$(li)$(bold)Conductors$() \u2014 placeable caps/figures that can help manage trains.$(li)$(bold)Train whistles$(), coupling tweaks, and extra track decoration.",
+      "title": "Steam 'n' Rails"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "None of it changes the core train rules \u2014 it makes large networks nicer to build and run. If you're laying serious track, it's the addon you'll feel most.$(br2)As always, Ponder scenes cover the exact placement of the new pieces.",
+      "title": "What It Adds"
+    }
+  ]
+}

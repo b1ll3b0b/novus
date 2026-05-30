@@ -1,0 +1,13 @@
+{
+  "name": "Create Recycling",
+  "icon": "create:crushing_wheel",
+  "category": "patchouli:7_shelf",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Create Recycling$() lets you feed unwanted gear and items back through crushing to recover $(bold)nuggets and base materials$().$(br2)It closes the loop on a factory: overflow and mistakes become raw stock again rather than clutter in a chest.",
+      "title": "Recycling"
+    }
+  ]
+}

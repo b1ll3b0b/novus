@@ -1,0 +1,18 @@
+{
+  "name": "Speed (RPM)",
+  "icon": "create:precision_mechanism",
+  "category": "patchouli:1_power",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Rotation has a $(bold)speed$(), measured in RPM. Some machines simply need a minimum to run; others go faster the quicker they spin. A Mechanical Drill or Saw on a slow line barely works; spin it up and it flies.$(br2)Speed is also half of $(l:1_power/stress)stress$() \u2014 the faster a thing spins, the more force it draws.",
+      "title": "Speed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Changing speed:$()$(br)$(li)$(bold)Cogwheel ratios$() \u2014 large-to-small speeds up, small-to-large slows down.$(li)$(bold)Rotation Speed Controller$() \u2014 set an exact RPM on a large cog, dialled by redstone.$(li)$(bold)Gearshift$() \u2014 reverses direction on a redstone signal.$(li)$(bold)Clutch$() \u2014 cuts power on a signal without stopping the source.",
+      "title": "Controlling Speed"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Diesel Generators",
+  "icon": "create:fluid_tank",
+  "category": "patchouli:6_energy",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Create: Diesel Generators$() adds liquid-fuelled power. Refine $(bold)Plant Oil$() and crude fuels into diesel, then burn them in $(bold)generators$() that output enormous rotational force \u2014 far past what water and windmills give, without a steam boiler's bulk.$(br2)In Novus, $(bold)Plant Oil$() is one of the fluids you can $(l:2_processing/pressing)press$() from Mega tree seeds, tying the seed economy straight into power.",
+      "title": "Diesel Generators"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The chain is: grow or gather oil-bearing matter \u2192 squeeze/refine it into fuel \u2192 feed a generator. Bigger generators and better fuels climb the output ladder.$(br2)It pairs naturally with tree farms and the press, making fuel a renewable, automatable resource.",
+      "title": "The Fuel Chain"
+    }
+  ]
+}

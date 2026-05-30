@@ -1,0 +1,18 @@
+{
+  "name": "Pressing & Compacting",
+  "icon": "create:mechanical_press",
+  "category": "patchouli:2_processing",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(bold)Mechanical Press$() hammers whatever passes under it. On a belt or Depot it flattens ingots into $(bold)sheets$() and presses other items.$(br2)Put a press directly above a $(bold)Basin$() and you get $(create)compacting$(): the items in the basin are squeezed together into a new item \u2014 or, in Novus, seeds and glands squeezed into $(italic)fluids$().",
+      "title": "Pressing"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Compacting$() is how you make blocks from nuggets, bricks from clay, and many modpack-specific results. The basin holds the ingredients; the press supplies the force.$(br2)It is the same recipe type the Traveler's Companion uses for seed-pressing and the Wetware Appendix uses for the Toxin Gland \u2014 one press over one basin, no heat required.",
+      "title": "Compacting"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Create Compendium",
+  "landing_text": "$(bold)A guide to the works.$()$(p)Create and its many add-ons, explained as systems rather than recipes. Read $(italic)Power & Kinetics$() first \u2014 rotation, speed, and stress underpin everything else. Where the detail is fiddly, watch Ponder.",
+  "book_texture": "patchouli:textures/gui/book_red.png",
+  "model": "patchouli:book_red",
+  "creative_tab": "tools",
+  "use_blocky_font": false,
+  "i18n": false,
+  "show_progress": false,
+  "show_toasts": false,
+  "version": 1,
+  "subtitle": "Create & Its Add-ons in Novus",
+  "advancements_tab": false,
+  "macros": {
+    "$(create)": "$(#C49A3A)"
+  }
+}

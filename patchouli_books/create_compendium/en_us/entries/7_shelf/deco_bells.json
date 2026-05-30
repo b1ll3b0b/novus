@@ -1,0 +1,13 @@
+{
+  "name": "Deco, Bells & Whistles",
+  "icon": "create:andesite_alloy",
+  "category": "patchouli:7_shelf",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Two decoration-and-utility add-ons:$(br)$(li)$(italic)Create Deco$() \u2014 catwalks, palings, supports, and a full set of industrial building blocks and palettes.$(li)$(italic)Create: Bells & Whistles$() \u2014 train whistles, signals, display and signage utilities, and decorative pieces that fit the rail and factory aesthetic.",
+      "title": "Deco & B&W"
+    }
+  ]
+}

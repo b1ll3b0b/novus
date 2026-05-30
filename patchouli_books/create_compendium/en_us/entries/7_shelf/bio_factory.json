@@ -1,0 +1,13 @@
+{
+  "name": "Bio-Factory",
+  "icon": "create:mechanical_mixer",
+  "category": "patchouli:7_shelf",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Bio-Factory$() is the bridge between $(bold)Create$() and $(bold)Biomancy$(). It lets Create machinery produce and handle biomancy's fluids and materials \u2014 automating parts of the flesh-craft with belts, basins, and pumps.$(br2)For the biomancy side of that pairing, see the $(italic)Wetware Appendix$() \u2014 Novus's dedicated Biomancy guide.",
+      "title": "Bio-Factory"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Crushing",
+  "icon": "create:crushing_wheel",
+  "category": "patchouli:2_processing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Crushing$() turns ores and raw materials into more \u2014 the classic ore-doubling, plus grits, powders, and crushed mulch.$(br2)$(li)$(bold)Millstone$() \u2014 a single block, even hand-crankable. Slow, cheap, perfect for a first base.$(li)$(bold)Crushing Wheels$() \u2014 a powered pair that grind anything dropped between them. Faster, higher throughput, and they can hurt mobs too.",
+      "title": "Crushing"
+    }
+  ]
+}

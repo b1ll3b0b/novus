@@ -1,0 +1,18 @@
+{
+  "name": "Crafts & Additions",
+  "icon": "create:precision_mechanism",
+  "category": "patchouli:6_energy",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Create Crafts & Additions$() bridges rotation and $(bold)Forge Energy (FE)$() \u2014 the electricity standard the rest of your tech mods (Powah, and so on) speak.$(br2)$(li)$(bold)Alternator$() \u2014 turn rotation into FE.$(li)$(bold)Electric Motor$() \u2014 turn FE back into rotation, at a speed you set.$(li)$(bold)Connectors & Wires$() \u2014 carry FE between machines.",
+      "title": "Rotation \u2194 FE"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(bold)Accumulator$() \u2014 an FE battery to bank surplus power.$(li)$(bold)Induction Heater$() \u2014 electric heat for mixers and basins, replacing the Blaze Burner where you have spare current.$(li)$(bold)Portable Energy Interface$() \u2014 moves FE on and off contraptions.$(br2)This is the join between Create and the pack's other power systems \u2014 store rotation as FE, ship it, and spin it back up on demand.",
+      "title": "Storage & Heat"
+    }
+  ]
+}

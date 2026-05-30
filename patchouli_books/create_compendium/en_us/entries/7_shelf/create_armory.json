@@ -1,0 +1,13 @@
+{
+  "name": "CreateArmory",
+  "icon": "create:brass_ingot",
+  "category": "patchouli:7_shelf",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)CreateArmory$() adds $(bold)firearms and ballistic weapons$() built around Create's industrial style, with ammunition you craft and manage.$(br2)It leans on Create's aesthetic and materials; the recipe viewer and its own tooltips cover ammo types and stats.",
+      "title": "CreateArmory"
+    }
+  ]
+}

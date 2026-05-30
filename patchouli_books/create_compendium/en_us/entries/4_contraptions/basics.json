@@ -1,0 +1,18 @@
+{
+  "name": "What Moves a Build",
+  "icon": "create:super_glue",
+  "category": "patchouli:4_contraptions",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(bold)contraption$() is a group of blocks picked up and moved as one. To build one you $(bold)bind$() the blocks together, then attach a machine that does the moving.$(br2)$(li)$(bold)Super Glue$() \u2014 sticks adjacent blocks into one group.$(li)$(bold)Chassis$() (linear / radial) \u2014 binds a whole region at once, with a tunable range.",
+      "title": "Binding Blocks"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The five movers:$()$(br)$(li)$(bold)Mechanical Bearing$() \u2014 spins a structure.$(li)$(bold)Mechanical Piston$() \u2014 slides it in a line.$(li)$(bold)Rope Pulley$() \u2014 raises and lowers it.$(li)$(bold)Gantry$() \u2014 moves it to a precise position.$(li)$(bold)Cart Assembler$() \u2014 mounts it on a minecart.$(br2)Each is covered next.",
+      "title": "The Movers"
+    }
+  ]
+}

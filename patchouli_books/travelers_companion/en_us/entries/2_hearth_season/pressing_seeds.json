@@ -1,0 +1,38 @@
+{
+  "name": "Pressing Seeds",
+  "icon": "create:mechanical_press",
+  "category": "patchouli:2_hearth_season",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Now that a seed only ever spends $(italic)down$() into a sapling, the seeds you don't plant are worth keeping. Many of them $(bold)press into fluids$().$(br2)This uses Create's $(bold)compacting$() recipe: a $(item)Basin$() with a $(item)Mechanical Press$() running directly above it. Drop a single seed in the basin and the press squeezes it into liquid \u2014 no heat, no spout, no byproduct.",
+      "title": "Pressing Seeds"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The point.$() The big $(italic)Mega$() seeds (jungle, spruce, crimson, warped) have $(bold)no$() sapling recipe at all \u2014 pressing is the only thing they are good for. Ordinary seeds give you a steady, automatable trickle of useful fluids straight off a tree farm.$(br2)One seed, one press cycle, one slug of fluid. Pipe the basin's output into a tank and walk away.",
+      "title": "Why Press?"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Experience$() $(italic)(Create: Enchantment Industry)$():$(br)$(li)Quark blossom seeds \u2014 Fiery, Frosty, Serene, Sunny, Warm \u2014 $(bold)100 mb$() each.$(li)Ancient (Ashen) seed \u2014 $(bold)500 mb$(), the richest XP source of the set.$(br)Pair a blossom-tree farm with this for a hands-off liquid-XP supply.",
+      "title": "Liquid Experience"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Plant Oil$() $(italic)(Diesel Generators)$():$(br)$(li)Mega Jungle seed \u2014 $(bold)500 mb$()$(li)Mega Spruce seed \u2014 $(bold)500 mb$()$(br2)$(bold)Lumisene$() $(italic)(Supplementaries)$():$(br)$(li)Glow Shroom seed \u2014 $(bold)100 mb$()",
+      "title": "Oil & Glow"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Tinkers' slime fluids$() $(italic)(250 mb each)$():$(br)$(li)Greenheart \u2192 Earth Slime$(li)Skyroot \u2192 Sky Slime$(li)Enderbark \u2192 Ender Slime$(li)Bloodshroom \u2192 Ichor$(br2)A slime-tree farm becomes a quiet slime-fluid pump \u2014 no slime islands required.",
+      "title": "Slime Fluids"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Hot Tinkers' fluids$() \u2014 the nether seeds:$(br)$(li)Crimson seed \u2192 $(bold)Blazing Blood$(), 100 mb (Mega Crimson \u2192 500 mb)$(li)Warped seed \u2192 $(bold)Liquid Soul$(), 100 mb (Mega Warped \u2192 500 mb)$(br2)The Mega forms give five times the fluid, so a single fungus that grows to full Mega size is well worth the press.",
+      "title": "Nether Fluids"
+    }
+  ]
+}

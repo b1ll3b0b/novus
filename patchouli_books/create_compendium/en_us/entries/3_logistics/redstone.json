@@ -1,0 +1,18 @@
+{
+  "name": "Redstone & Displays",
+  "icon": "create:display_link",
+  "category": "patchouli:3_logistics",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Create speaks redstone fluently:$(br)$(li)$(bold)Redstone Link$() \u2014 wireless redstone between two points, addressed by item frequencies.$(li)$(bold)Threshold Switch$() \u2014 emits a signal based on how full a container or tank is; the heart of 'refill when low' loops.$(li)$(bold)Stockpile Switch$() \u2014 the same idea for a single block's stock.",
+      "title": "Signals"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Showing data:$()$(br)$(li)$(bold)Display Link$() \u2014 reads a value (stock level, train station, kinetic speed, time) and writes it to a target.$(li)$(bold)Display Board$() \u2014 a big flip-board screen the link writes to.$(li)$(bold)Nixie Tubes$() \u2014 small numeric/letter displays.$(br2)Together these turn a factory into something you can read at a glance.",
+      "title": "Displays"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Create, in Brief",
+  "icon": "create:cogwheel",
+  "category": "patchouli:2_hearth_season",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Create$() is the pack's automation backbone \u2014 it turns $(bold)rotation$() into work. A spinning source drives shafts and cogwheels, and those drive machines that crush, press, mix, and move things for you.$(br2)This is only a first taste. The full system, and every add-on, has its own book: the $(italic)Create Compendium$() (see $(l:7_catalog/create_compendium)The Library$()).",
+      "title": "Create, in Brief"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Let Ponder teach you.$() Create ships an animated in-game guide called $(italic)Ponder$(). Open your inventory or the recipe viewer, hover any Create item, and press $(bold)W$() to watch a short scene that shows exactly how it works.$(br2)Ponder is the fastest way to learn any one block \u2014 this guide won't repeat what it already shows so well.",
+      "title": "Ponder"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Getting started.$()$(br)$(li)$(bold)Andesite Alloy$() is the gateway material \u2014 nearly every early machine needs it. Make a stack first.$(li)Your first rotation can come from a $(bold)Hand Crank$() or a $(bold)Water Wheel$(); a $(bold)Windmill$() of sails comes soon after.$(li)A $(bold)Millstone$() grinds ores and plants and can even be hand-cranked before you have real power.",
+      "title": "First Steps"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Two tools to keep on you.$()$(br)$(li)$(bold)Engineer's Goggles$() \u2014 wear them to see a machine's $(italic)speed$() and $(italic)stress$() at a glance. Every machine costs stress; every source supplies it.$(li)$(bold)Wrench$() \u2014 rotates and dismantles Create blocks cleanly.$(br2)When something stalls, put the goggles on first \u2014 it's almost always stress or speed.",
+      "title": "Goggles & Wrench"
+    }
+  ]
+}

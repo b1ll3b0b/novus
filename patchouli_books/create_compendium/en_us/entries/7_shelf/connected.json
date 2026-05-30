@@ -1,0 +1,13 @@
+{
+  "name": "Connected & Vaults",
+  "icon": "create:item_vault",
+  "category": "patchouli:7_shelf",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(italic)Create: Connected$() \u2014 quality-of-life blocks 'you wish Create already had': handy hatches, extra cogs and shafts, copy/paste helpers, and small conveniences across the mod.$(li)$(italic)Create: Vibrant Vaults$() \u2014 more $(bold)Item Vault$() material variants, so bulk storage can match your build instead of always reading as brass.",
+      "title": "QoL & Vaults"
+    }
+  ]
+}

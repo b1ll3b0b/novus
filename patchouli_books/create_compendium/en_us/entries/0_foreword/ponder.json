@@ -1,0 +1,18 @@
+{
+  "name": "Ponder & Two Tools",
+  "icon": "create:goggles",
+  "category": "patchouli:0_foreword",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Ponder is your real teacher.$() Create ships an animated, narrated guide built into the game. Hover any Create item in your inventory or recipe viewer and press $(bold)W$() \u2014 a scene plays showing exactly how the block is used.$(br2)This book gives you the $(italic)why$() and the $(italic)how it connects$(). Ponder gives you the $(italic)exact placement$(). Use both.",
+      "title": "Ponder"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Two tools to keep on you:$()$(br)$(li)$(create)Engineer's Goggles$() \u2014 worn on the head, they overlay a machine's $(italic)speed$() and $(italic)stress$(), and highlight what a block is connected to. Diagnosing anything starts here.$(li)$(create)Wrench$() \u2014 rotates blocks, picks them up, and dismantles contraptions cleanly.$(br2)When a build stalls, put the goggles on before you do anything else.",
+      "title": "Goggles & Wrench"
+    }
+  ]
+}

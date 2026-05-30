@@ -1,0 +1,18 @@
+{
+  "name": "Enchantment Industry",
+  "icon": "create:blaze_cake",
+  "category": "patchouli:6_energy",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Create Enchantment Industry$() makes $(bold)Experience$() a fluid you can pump, store, and spend by machine.$(br2)In Novus you already make liquid XP by $(l:2_processing/pressing)pressing$() blossom and ancient seeds. This addon is what lets you $(italic)use$() it at scale.",
+      "title": "Liquid Experience"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)What it enables:$()$(br)$(li)Automatic $(bold)enchanting$() \u2014 spout liquid XP onto items through a deployer/enchanting setup.$(li)$(bold)Printer$() \u2014 copy written books and filled maps automatically.$(li)$(bold)Disenchanter$() \u2014 pull enchantments back out into XP.$(li)$(bold)Hyper-Experience$() \u2014 a concentrated XP fluid for the hungriest setups.",
+      "title": "What It Enables"
+    }
+  ]
+}

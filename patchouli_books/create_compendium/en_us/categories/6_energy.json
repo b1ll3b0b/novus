@@ -1,0 +1,6 @@
+{
+  "name": "Energy & Power Add-ons",
+  "description": "Three add-ons that change how Create makes and spends power \u2014 diesel, electricity, and liquid experience.",
+  "icon": "create:fluid_tank",
+  "sortnum": 6
+}

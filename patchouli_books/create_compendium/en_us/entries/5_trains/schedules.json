@@ -1,0 +1,18 @@
+{
+  "name": "Schedules & Signals",
+  "icon": "create:railway_casing",
+  "category": "patchouli:5_trains",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Train Schedule$() \u2014 a programmable itinerary: go to this station, wait for this condition, then move on. Conditions can be timers, cargo levels, redstone, or idle time. This is how trains run themselves.$(br2)You write a schedule on the item, then hand it to the train's controls.",
+      "title": "Schedules"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Train Signals$() keep multiple trains from colliding. They divide track into $(italic)sections$() and hold a train at a red signal until the section ahead is clear \u2014 exactly like real block signalling.$(br2)$(li)$(bold)Entry/Chain signals$() \u2014 manage junctions and queues.$(li)$(bold)Observers & Display Links$() \u2014 report train arrivals to boards.",
+      "title": "Signals"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Cutting & Assembly",
+  "icon": "create:mechanical_saw",
+  "category": "patchouli:2_processing",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Specialist machines$(), each doing one job to an item beneath or beside it:$(br)$(li)$(bold)Mechanical Saw$() \u2014 cuts logs to planks, stone to slabs; mounted on a contraption it fells whole trees.$(li)$(bold)Deployer$() \u2014 'uses' a held item or tool on the block/entity in front, like a mechanical hand.$(li)$(bold)Spout$() \u2014 fills items from a tank; $(bold)Item Drain$() empties them.",
+      "title": "Specialists"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Automated crafting$() comes in two shapes:$(br)$(li)$(bold)Mechanical Crafters$() \u2014 a shaped grid that assembles a crafting recipe and spits out the result; used for the fancier Create blocks.$(li)$(bold)Sequenced Assembly$() \u2014 a looping line (press, then deploy, then fill\u2026) that builds an item in ordered stages. Precision mechanisms and the like are made this way.",
+      "title": "Crafting Machines"
+    }
+  ]
+}

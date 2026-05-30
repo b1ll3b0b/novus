@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(italic)Dynamic Trees$() adds a parallel item to every vanilla sapling: the $(bold)Seed$(). Seeds grow into real living trees, animated branch-by-branch over many days. Vanilla saplings still place and grow as before.$(br2)Conversion between the two systems is one shapeless crafting recipe.",
+      "text": "$(italic)Dynamic Trees$() adds a parallel item to every vanilla sapling: the $(bold)Seed$(). Seeds grow into real living trees, animated branch-by-branch over many days. Vanilla saplings still place and grow as before.$(br2)Conversion runs $(bold)one way$(): a seed can be turned into its sapling, but not back again.",
       "title": "Trees & Catalysts"
     },
     {
       "type": "patchouli:text",
-      "text": "$(bold)Crafting schema$() (works both directions):$(br2)$(italic)Seed$()  +  $(italic)Catalyst$()  \u2192  $(italic)Sapling$()$(br)$(italic)Sapling$()  +  $(italic)Catalyst$()  \u2192  $(italic)Seed$()$(br2)Place both items anywhere in a crafting grid. No shape, no special bench.",
+      "text": "$(bold)Crafting schema$() (one direction only):$(br2)$(italic)Seed$()  +  $(italic)Catalyst$()  \u2192  $(italic)Sapling$()$(br2)Place both items anywhere in a crafting grid. No shape, no special bench. There is no sapling \u2192 seed recipe \u2014 spend seeds with care.",
       "title": "Crafting Schema"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(bold)Three shortcuts without a catalyst:$()$(br2)$(li)$(bold)1 Apple \u2192 Apple-Oak Seed.$() Then Apple-Oak Seed + Dirt \u2192 Oak Sapling.$(li)$(bold)3 Cocoa Beans \u2192 Cocoa Seed$() (\"Cocoa Pod\"). Then Cocoa Seed + Dirt \u2192 Jungle Sapling.$(li)$(bold)1 Ancient Fruit \u2192 Ancient (Ashen) Seed.$() Reverse and dirt-conversion as in the table.",
+      "text": "$(bold)Three shortcuts without a catalyst:$()$(br2)$(li)$(bold)1 Apple \u2192 Apple-Oak Seed.$() Then Apple-Oak Seed + Dirt \u2192 Oak Sapling.$(li)$(bold)3 Cocoa Beans \u2192 Cocoa Seed$() (\"Cocoa Pod\"). Then Cocoa Seed + Dirt \u2192 Jungle Sapling.$(li)$(bold)1 Ancient Fruit \u2192 Ancient (Ashen) Seed.$() The seed then converts to its sapling with Dirt, as in the table.",
       "title": "Fruit Shortcuts"
     },
     {
