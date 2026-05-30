@@ -60,7 +60,7 @@
 	Gravisand = true
 	"Iron Rod" = true
 	"Metal Buttons" = true
-	"Obsidian Plate" = true
+	"Obsidian Plate" = false
 	"Pistons Move Tile Entities" = false
 	"Redstone Randomizer" = true
 
@@ -98,8 +98,8 @@
 		"Use Pre End Recipe" = false
 
 	[automation.metal_buttons]
-		"Enable Iron" = true
-		"Enable Gold" = true
+		"Enable Iron" = false
+		"Enable Gold" = false
 
 	[automation.pistons_move_tile_entities]
 		"Enable Chests Moving Together" = true

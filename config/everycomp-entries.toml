@@ -218,6 +218,10 @@
 		[entries.wood_type.villagersplus]
 			horticulturist_table = true
 
+		[entries.wood_type.infinitybuttons]
+			large_button = true
+			plank_secret_button = true
+
 	[entries.leaves_type]
 
 		[entries.leaves_type.quark]

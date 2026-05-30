@@ -82,6 +82,11 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "infinitybuttons": {
+    "hide_secret_buttons": true,
+    "hide_lantern_buttons": true,
+    "hide_torch_buttons": true
+  },
   "balm": {
     "jade": true
   },

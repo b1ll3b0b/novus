@@ -12,9 +12,11 @@ hash-format = 'sha512'
 mode = 'url'
 url = 'https://cdn.modrinth.com/data/qMxbM4BQ/versions/loZ09szX/miners_delight-1.20.1-1.2.3.jar'
 
-[update.modrinth]
-mod-id = 'qMxbM4BQ'
-version = 'loZ09szX'
+# Pinned to 1.20.1-1.2.3 — do not auto-update (2026-05-30)
+# To unpin: restore the [update.modrinth] block:
+#   [update.modrinth]
+#   mod-id = 'qMxbM4BQ'
+#   version = 'loZ09szX'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'u6dRKJwZ'
