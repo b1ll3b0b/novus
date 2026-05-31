@@ -717,7 +717,7 @@
 		#Can players harvest crops with empty hand clicks?
 		"Empty Hand Harvest" = false
 		#Does harvesting crops with a hoe cost durability?
-		"Harvesting Costs Durability" = false
+		"Harvesting Costs Durability" = true
 		#Should Quark look for(nonvanilla) crops, and handle them?
 		"Do Harvesting Search" = true
 		#Should villagers use simple harvest instead of breaking crops?
