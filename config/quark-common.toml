@@ -545,10 +545,10 @@
 	"Replace Scaffolding" = false
 	"Safer Creatures" = false
 	"Shulker Packing" = false
-	"Simple Harvest" = false
+	"Simple Harvest" = true
 	"Slabs To Blocks" = true
 	"Slimes To Magma Cubes" = true
-	"Snow Golem Player Heads" = true
+	"Snow Golem Player Heads" = false
 	"Utility Recipes" = true
 	"Vexes Die With Their Masters" = true
 	"Villagers Follow Emeralds" = true
@@ -715,7 +715,7 @@
 
 	[tweaks.simple_harvest]
 		#Can players harvest crops with empty hand clicks?
-		"Empty Hand Harvest" = true
+		"Empty Hand Harvest" = false
 		#Does harvesting crops with a hoe cost durability?
 		"Harvesting Costs Durability" = false
 		#Should Quark look for(nonvanilla) crops, and handle them?
