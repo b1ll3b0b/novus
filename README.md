@@ -91,7 +91,7 @@ Botania). This is normal for a Forge pack and is disclosed here in full.
 | chefs-delight | Redstone Games | MIT | [Modrinth](https://modrinth.com/mod/chefs-delight) |
 | Cherished Worlds | Illusive Soulworks | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/cherished-worlds) |
 | Chunky | pop4959 | GPL-3.0-only | [Modrinth](https://modrinth.com/mod/chunky) |
-| Clockwork | — | Apache-2.0 | [Modrinth](https://modrinth.com/mod/create-clockwork) |
+| Clockwork | rubydesic, ThePlasticPotato1, rainyatrium, PriestOfFerns | Apache-2.0 | [Modrinth](https://modrinth.com/mod/create-clockwork) |
 | Cloth Config API | shedaniel | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/cloth-config) |
 | Collective | Rick South | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/collective) |
 | Comforts | Illusive Soulworks | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/comforts) |
@@ -169,7 +169,7 @@ Botania). This is normal for a Forge pack and is disclosed here in full.
 | Just Enough Effect Descriptions (JEED) | MehVahdJukaar | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/just-enough-effect-descriptions-jeed) |
 | Just Enough Professions (JEP) | Mrbysco, ShyNieke | MIT | [Modrinth](https://modrinth.com/mod/just-enough-professions-jep) |
 | Kambrik | Me! | MPL-2.0 | [Modrinth](https://modrinth.com/mod/kambrik) |
-| Kotlin For Forge | — | LGPL-2.1-only | [Modrinth](https://modrinth.com/mod/kotlin-for-forge) |
+| Kotlin For Forge | thedarkcolour | LGPL-2.1-only | [Modrinth](https://modrinth.com/mod/kotlin-for-forge) |
 | KubeJS | LatvianModder | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/kubejs) |
 | KubeJS Additions | ILIKEPIEFOO2 | MIT | [Modrinth](https://modrinth.com/mod/kubejs-additions) |
 | KubeJS Create | LatvianModder | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/kubejs-create) |
@@ -215,7 +215,7 @@ Botania). This is normal for a Forge pack and is disclosed here in full.
 | Quark Oddities | Vazkii, WireSegal, MCVinnyq, Sully | CC-BY-NC-SA-3.0 | [Modrinth](https://modrinth.com/mod/quark-oddities) |
 | Rainbows | Verph | BSD-2-Clause | [Modrinth](https://modrinth.com/mod/rainboows) |
 | Repurposed Structures | TelepathicGrunt | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/repurposed-structures-forge) |
-| Resourceful Config | — | MIT | [Modrinth](https://modrinth.com/mod/resourceful-config) |
+| Resourceful Config | ThatGravyBoat, epic_oreo (Team Resourceful) | MIT | [Modrinth](https://modrinth.com/mod/resourceful-config) |
 | Rhino | latvian.dev, Mozilla | MPL-2.0 | [Modrinth](https://modrinth.com/mod/rhino) |
 | Saturn | AbdElAziz | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/saturn) |
 | Sawmill | MehVahdJukaar | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/universal-sawmill) |
@@ -225,7 +225,7 @@ Botania). This is normal for a Forge pack and is disclosed here in full.
 | Serene Seasons Plus | Gabou | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/serene-seasons-plus) |
 | ShetiPhianCore | ShetiPhian, Artwork: Fruzstrated | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/shetiphiancore) |
 | Simple Clouds | nonamecrackers2 | LicenseRef-PolyForm-Perimeter-License-1.0.1 | [Modrinth](https://modrinth.com/mod/simple-clouds) |
-| Sinytra Connector | — | MIT | [Modrinth](https://modrinth.com/mod/connector) |
+| Sinytra Connector | Sinytra (team) | MIT | [Modrinth](https://modrinth.com/mod/connector) |
 | Sodium Dynamic Lights | toni, LambdAurora | MIT | [Modrinth](https://modrinth.com/mod/sodium-dynamic-lights) |
 | Sodium Options API | toni | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/sodium-options-api) |
 | Sound Physics Remastered | Sonic Ether, vlad2305m, Max Henkel, Saint | GPL-3.0-only | [Modrinth](https://modrinth.com/mod/sound-physics-remastered) |
@@ -242,14 +242,14 @@ Botania). This is normal for a Forge pack and is disclosed here in full.
 | TerraBlender (Forge) | Adubbz | LGPL-3.0 | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/terrablender) |
 | Tinkers Construct Delight | NoCube | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/tinkers-construct-delight) |
 | tinkers-construct | Slime Knights | MIT | [Modrinth](https://modrinth.com/mod/tinkers-construct) |
-| tinkers-things | — | MIT | [Modrinth](https://modrinth.com/mod/tinkers-things) |
+| tinkers-things | KnightMiner | MIT | [Modrinth](https://modrinth.com/mod/tinkers-things) |
 | Toast Control | Shadows_of_Fire | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/toast-control) |
 | toms-storage | tom5454 | MIT | [Modrinth](https://modrinth.com/mod/toms-storage) |
 | TooManyRecipeViewers | Nolij (@xdMatthewbx#1337) & the Craftoria team | LicenseRef-OSL-3.0 | [Modrinth](https://modrinth.com/mod/tmrv) |
 | Trackwork | Endalion | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/trackwork) |
 | Trading Post | Fuzs | MPL-2.0 | [Modrinth](https://modrinth.com/mod/trading-post) |
 | Trash Cans | SuperMartijn642 | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/trash-cans) |
-| Valkyrien Skies | — | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/valkyrien-skies) |
+| Valkyrien Skies | rubydesic, StewStrong (VS team) | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/valkyrien-skies) |
 | villagers-sell-animals | NoCube | ARR | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/villagers-sell-animals) |
 | VillagersPlus | Lion | GPL-3.0-only | [Modrinth](https://modrinth.com/mod/villagersplus) |
 | Waystones | BlayTheNinth | ARR | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/waystones) |
@@ -367,7 +367,44 @@ licenses (listed above); where an upstream license is more restrictive, it gover
 
 ## Credits
 
-Novus is a curation of other people's work — thank you to every mod and resource-pack
-author listed above. Particular thanks to Fresh_LX (Fresh Animations), the Vanilla
-Tweaks team, Matt_Crowberry (Actually 3D), and the Create, Tinkers' Construct, Farmer's
-Delight, Quark, Supplementaries, Botania, and Biomancy communities.
+Novus is a curation of other people's work. Thank you to every mod and resource-pack
+author listed above — and especially to the people whose mods recur throughout the pack
+or anchor whole systems:
+
+**Anchor & recurring mod authors**
+
+- **Vazkii** — Botania, Quark, Quark Oddities, Patchouli, Zeta
+- **simibubi & the Create team** — Create (the pack's backbone) and much of the Create addon ecosystem
+- **MehVahdJukaar & Plantkillable** — Supplementaries, Supplementaries Squared, Amendments, Moonlight Library, Every Compat, JEED
+- **Sketch & Peachy Macaw** — the entire Macaw's decoration suite (Doors, Roofs, Windows, Stairs, Bridges, Fences & Walls, Paths, Trapdoors, Lights & Lamps, Holidays)
+- **Fuzs & XFactHD** — Puzzles Lib, Diagonal Fences/Walls/Windows, Bartering Station, Leaves Be Gone, Plenty Plates
+- **MrCrayfish** — Configured, Catalogue, Controllable, Framework, Backpacked, Goblin Traders
+- **SuperMartijn642** — core & config libraries, Fusion, Trash Cans, Scarecrows' Territory
+- **KnightMiner & the Slime Knights** — Tinkers' Construct, Mantle, Tinkers' Things
+- **LatvianModder** — KubeJS, KubeJS Create, Rhino
+- **Ferreusveritas, Max Hyper & Harley O'Connor** — Dynamic Trees (+ Plus, Quark and Tinkers' addons)
+- **Elenterius** — Biomancy, Create: Bio-Factory
+- **vectorwing** — Farmer's Delight
+- **Jaredlll08 (BlameJared)** — CraftTweaker, Controlling, Searchables, Initial Inventory
+- **NoCube** — Create Recycle Everything, Quark Delight, Tinkers' Construct Delight, Villagers Sell Animals
+- **Adubbz** — Serene Seasons, TerraBlender, GlitchCore
+- **Sisby folk** — Antique Atlas, Surveyor, Surveystones
+- **YUNGNICKYOUNG** — YUNG's API and **Paxi**, the resource/datapack loader Novus's pack stack runs on
+- **embeddedt** — Embeddium, ModernFix (performance)
+- **Traben** — Entity Model Features, Entity Texture Features
+- **Darkhax** — Bookshelf, Enchantment Descriptions
+- **Illusive Soulworks** — Cherished Worlds, Comforts, Polymorph
+- **mortuusars** — Chalk, Exposure
+- **shedaniel** — Architectury API, Cloth Config
+- **BlayTheNinth** — Balm, Waystones
+- **Shadows-of-Fire** — Placebo, Toast Control
+- **rubydesic & the Valkyrien Skies team** — Valkyrien Skies, Clockwork, Trackwork
+- **nonamecrackers2** — Simple Clouds
+- **thedarkcolour** — Kotlin For Forge  ·  **the Sinytra team** — Connector
+
+**Texture / animation backbone**
+
+- **Fresh_LX** (Fresh Animations), the **Vanilla Tweaks** team, **Matt_Crowberry** (Actually 3D), **Chomik_Oto** (Actually 3D Plants), and **Stridey**
+
+If your work is here and miscredited or missing, please open an issue — see the full
+per-item attribution in the tables above.
