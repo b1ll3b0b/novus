@@ -21,6 +21,10 @@
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 OUT="${1:-$HERE/dist}"
+# Absolutize OUT: the zip step runs inside a temp dir (cd "$STAGE"), so a relative
+# output path would resolve against the wrong CWD. Create it, then canonicalize.
+mkdir -p "$OUT"
+OUT="$(cd "$OUT" && pwd)"
 PACK_URL="https://b1ll3b0b.github.io/novus/pack.toml"
 BOOT_URL="https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
 
@@ -28,8 +32,17 @@ STAGE="$(mktemp -d)"
 trap 'rm -rf "$STAGE"' EXIT
 mkdir -p "$STAGE/minecraft"
 
-# loader + MC version come straight from your dev instance (Forge 47.4.20 / 1.20.1)
-cp "$HERE/../mmc-pack.json" "$STAGE/mmc-pack.json"
+# loader + MC version (Forge 47.4.20 / 1.20.1). Prefer the in-repo copy (present
+# in a CI checkout); fall back to the live instance's copy one level up for local
+# runs. Keep the repo copy in sync if you ever change loader/MC version.
+if [ -f "$HERE/mmc-pack.json" ]; then
+  cp "$HERE/mmc-pack.json" "$STAGE/mmc-pack.json"
+elif [ -f "$HERE/../mmc-pack.json" ]; then
+  cp "$HERE/../mmc-pack.json" "$STAGE/mmc-pack.json"
+else
+  echo "!! mmc-pack.json not found (looked in repo root and ../) — cannot build instance" >&2
+  exit 1
+fi
 
 # the self-updater
 curl -sfL --max-time 60 -o "$STAGE/minecraft/packwiz-installer-bootstrap.jar" "$BOOT_URL"

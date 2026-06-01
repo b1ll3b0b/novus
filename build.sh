@@ -43,6 +43,7 @@ SHIP_DENYLIST=(
   ".gitignore" ".gitattributes" ".packwizignore"
   "tools" "dist"                           # vendored binary / build output
   "options.txt"                            # personal client settings (tracked, but not shipped)
+  "mmc-pack.json"                          # Prism instance metadata (for make-prism-instance.sh; not pack content)
 )                                          # ('.github' and 'mods' handled in code)
 # Note: rhino.local.properties is now handled by .gitignore (untracked => not
 # shipped), so it doesn't need a denylist entry. Gitignore is the single knob.
