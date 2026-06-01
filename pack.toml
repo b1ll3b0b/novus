@@ -1,0 +1,13 @@
+name = "Novus"
+author = "bill3bob"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "87225199ff84111eeca53575b713a3a70f92b5344eec0d35a7b805d34ac34451"
+
+[versions]
+forge = "47.4.20"
+minecraft = "1.20.1"
