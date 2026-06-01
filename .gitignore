@@ -5,6 +5,7 @@ data/surveyor/*
 
 emi.json
 patchouli_data.json
+rhino.local.properties
 
 backups
 crash-reports
@@ -17,3 +18,7 @@ usernamecache.json
 .mixin.out
 
 /cherishedworlds-favorites.dat
+
+# packwiz distribution build outputs
+/dist
+/tools/packwiz
