@@ -1,0 +1,45 @@
+name: Release Novus
+
+# Cuts a downloadable release. Fires when you push a version tag (e.g. v1.0.0):
+# builds the standalone zips on GitHub's servers and attaches them to a GitHub
+# Release. Independent of the Pages publish (that runs on master pushes).
+#
+# To release:  bump `version` in pack.toml, commit, then:
+#   git tag v1.0.0 && git push origin v1.0.0
+
+on:
+  push:
+    tags: [ 'v*' ]
+  workflow_dispatch:
+
+permissions:
+  contents: write          # needed to create the Release and upload assets
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the tagged commit
+        uses: actions/checkout@v4
+
+      - name: Set up Go (to build packwiz)
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Build release artifacts (complete + server zips, .mrpack)
+        run: |
+          chmod +x build.sh
+          PACKWIZ="$(go env GOPATH)/bin/packwiz" ./build.sh --release
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: |
+            dist/novus-*-complete.zip
+            dist/novus-*-server.zip
+            dist/novus-*.mrpack

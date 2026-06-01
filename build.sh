@@ -21,9 +21,10 @@
 # from master and deploys to GitHub Pages on every push.
 #
 # Usage:
-#   ./build.sh              # build everything into ./dist
+#   ./build.sh              # build the gh-pages pack + .mrpack into ./dist
+#   ./build.sh --release    # ALSO build standalone zips: complete (client/SP) + server
 #   ./build.sh --publish    # local fallback: force-push dist/pack to gh-pages
-#                           # (CI is the primary publish path; see workflow)
+#                           # (CI is the primary publish path; see workflows)
 #
 # packwiz resolution order: $PACKWIZ env  ->  ./tools/packwiz  ->  packwiz on PATH
 # =============================================================================
@@ -57,6 +58,18 @@ EXCLUDE_SLUGS=()
 # Public URL where the gh-pages tree is served (used by the server bootstrap):
 PACK_URL="https://b1ll3b0b.github.io/novus/pack.toml"
 GHPAGES_BRANCH="gh-pages"
+FORGE_VERSION="1.20.1-47.4.20"
+FORGE_INSTALLER_URL="https://maven.minecraftforge.net/net/minecraftforge/forge/${FORGE_VERSION}/forge-${FORGE_VERSION}-installer.jar"
+# Server zip ships these override folders (gameplay/config). Pure-client dirs
+# (resourcepacks, shaderpacks, patchouli_books, controllable_natives, icons) are omitted.
+SERVER_OVERRIDES=(config kubejs defaultconfigs data scripts trees modernfix)
+
+# ---- args -------------------------------------------------------------------
+RELEASE=0; PUBLISH=0
+for a in "$@"; do case "$a" in
+  --release) RELEASE=1 ;;
+  --publish) PUBLISH=1 ;;
+esac; done
 
 # ---- locate packwiz ---------------------------------------------------------
 if [ -n "${PACKWIZ:-}" ]; then :;
@@ -142,36 +155,86 @@ else
   echo "   is the primary friend-install source and is fully built."
 fi
 
-# ---- 8. server bootstrap (metadata-clean; no jars bundled) ------------------
-# Ships a tiny zip: packwiz-installer-bootstrap.jar + start scripts that pull
-# the server-side mod set (side = both|server) from the Pages URL on first run.
-SRV="${DIST}/server-bootstrap"
-rm -rf "$SRV"; mkdir -p "$SRV"
-BOOT_URL="https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
-if curl -sfL --max-time 60 -o "$SRV/packwiz-installer-bootstrap.jar" "$BOOT_URL"; then
-  cat > "$SRV/start.sh" <<EOF
+# ---- 8. standalone release zips (--release): complete + server --------------
+# These bundle the ACTUAL jars from your instance (the exact tested files, byte
+# for byte) so they're self-contained — no Pages dependency. Heavy (~300 MB), so
+# they're built only for tagged releases, not every push.
+if [ "$RELEASE" = 1 ]; then
+  echo ">> building standalone release zips..."
+  # map each jar filename -> side, from the metafiles
+  declare -A SIDE
+  for m in "$PACK_SRC"/mods/.index/*.pw.toml; do
+    fn=$(sed -n "s/^filename = [\"']\(.*\)[\"']\$/\1/p" "$m")
+    sd=$(sed -n "s/^side = '\([^']*\)'.*/\1/p" "$m" | head -1)
+    [ -n "$fn" ] && SIDE["$fn"]="${sd:-both}"
+  done
+
+  # --- complete (client / singleplayer): ALL jars + ALL overrides ---
+  # Overrides staged; jars added in place from the instance (no 310 MB copy),
+  # store-mode (-0) since jars are already compressed -> fast.
+  CPL="${DIST}/_complete"; rm -rf "$CPL"; mkdir -p "$CPL"
+  for o in "$PUB"/*; do
+    case "$(basename "$o")" in pack.toml|index.toml|mods) continue ;; esac
+    cp -r "$o" "$CPL/"
+  done
+  printf 'Novus %s - complete pack (client / singleplayer)\nForge 1.20.1-47.4.20, Java 17. Extract these contents into your instance .minecraft (game) folder.\n' "$VERSION" > "$CPL/README.txt"
+  CZIP="${DIST}/novus-${VERSION}-complete.zip"; rm -f "$CZIP"
+  ( cd "$CPL" && zip -qr0 "$CZIP" . )
+  ( cd "$PACK_SRC" && zip -qg0 "$CZIP" mods/*.jar )
+  echo "   + dist/novus-${VERSION}-complete.zip ($(ls "$PACK_SRC"/mods/*.jar | wc -l) jars)"
+
+  # --- server: both+server jars + server overrides + Forge installer + scripts ---
+  SRVZ="${DIST}/_server"; rm -rf "$SRVZ"; mkdir -p "$SRVZ"
+  for o in "${SERVER_OVERRIDES[@]}"; do [ -e "$PUB/$o" ] && cp -r "$PUB/$o" "$SRVZ/"; done
+  if ! curl -sfL --max-time 120 -o "$SRVZ/forge-${FORGE_VERSION}-installer.jar" "$FORGE_INSTALLER_URL"; then
+    echo "   ! Forge installer download failed; server zip will lack it" >&2
+  fi
+  printf 'eula=false\n' > "$SRVZ/eula.txt"
+  cat > "$SRVZ/start.sh" <<EOS
 #!/usr/bin/env bash
 set -e
-# 1. sync the server-side mod set + configs from the published pack
-java -jar packwiz-installer-bootstrap.jar -s server "${PACK_URL}"
-# 2. launch the Forge server (place the Forge 47.4.20 server files here first;
-#    e.g. run the Forge installer with --installServer in this directory).
-#    Adjust the line below to your host's run command if needed:
+cd "\$(dirname "\$0")"
+if [ ! -f run.sh ]; then
+  echo "First run: installing Forge ${FORGE_VERSION} server files..."
+  java -jar forge-${FORGE_VERSION}-installer.jar --installServer
+fi
+grep -q '^eula=true' eula.txt 2>/dev/null || { echo "Set eula=true in eula.txt (Mojang EULA) before starting."; exit 1; }
 exec ./run.sh nogui
-EOF
-  cat > "$SRV/start.bat" <<EOF
+EOS
+  cat > "$SRVZ/start.bat" <<EOB
 @echo off
-java -jar packwiz-installer-bootstrap.jar -s server "${PACK_URL}"
+cd /d "%~dp0"
+if not exist run.bat (
+  echo First run: installing Forge ${FORGE_VERSION} server files...
+  java -jar forge-${FORGE_VERSION}-installer.jar --installServer
+)
+findstr /b /c:"eula=true" eula.txt >nul 2>&1 || (echo Set eula=true in eula.txt first & pause & exit /b 1)
 call run.bat nogui
-EOF
-  chmod +x "$SRV/start.sh"
-  echo ">> server bootstrap: dist/server-bootstrap/ (foundation; finish Forge install per README)"
-else
-  echo "!! could not fetch packwiz-installer-bootstrap.jar; skipped server bootstrap" >&2
+EOB
+  chmod +x "$SRVZ/start.sh"
+  cat > "$SRVZ/README.txt" <<EOR
+Novus ${VERSION} — dedicated server
+Requires Java 17. Steps:
+ 1) Set eula=true in eula.txt (accepts the Mojang EULA).
+ 2) Run start.sh (Linux/Mac) or start.bat (Windows).
+First run installs Forge ${FORGE_VERSION}, then launches. Mods = server-side set
+(client-only mods are excluded). Configs match the client pack.
+EOR
+  SZIP="${DIST}/novus-${VERSION}-server.zip"; rm -f "$SZIP"
+  ( cd "$SRVZ" && zip -qr0 "$SZIP" . )
+  # add both+server jars in place (exclude client-only), store-mode
+  srvjars=()
+  for jar in "$PACK_SRC"/mods/*.jar; do
+    [ "${SIDE[$(basename "$jar")]:-both}" = "client" ] && continue
+    srvjars+=("mods/$(basename "$jar")")
+  done
+  ( cd "$PACK_SRC" && zip -qg0 "$SZIP" "${srvjars[@]}" )
+  echo "   + dist/novus-${VERSION}-server.zip (${#srvjars[@]} jars + Forge installer)"
+  rm -rf "$CPL" "$SRVZ"
 fi
 
 # ---- 9. optional: publish the flattened tree to the gh-pages branch ----------
-if [ "${1:-}" = "--publish" ]; then
+if [ "$PUBLISH" = 1 ]; then
   echo ">> publishing $PUB to branch '$GHPAGES_BRANCH'..."
   TMP="$(mktemp -d)"
   git -C "$PACK_SRC" worktree add --force "$TMP" "$GHPAGES_BRANCH" 2>/dev/null \
