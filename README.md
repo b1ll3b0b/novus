@@ -297,7 +297,7 @@ bottom — so those upstream licenses still govern the bundled assets.
 |---|---|---|
 | `FA+AL+Azu_Zombies` | AL's Zombies Revamped+FA + Azu's Enhanced Zombie Variants FA, merged for 1.20.1 | Fresh_LX · AZUHCK |
 | `FA+Witch_Old` | Vanilla witch CEM extracted from the Fresh Animations base | Fresh_LX (base) · assembled by z0nb1 |
-| `PA-FA-Compat` | Fresh Animations: Player Extension × PlayerAnimator compatibility patch | Fresh Animations / FreshLX ecosystem (FA terms); exact compat-pack author unverified ⚠ |
+| `PA-FA-Compat` | FA: Player Extension × PlayerAnimator compatibility patch | **AxoLabs** · MPL-2.0 |
 | `Novus3D_Corundum`, `Novus3D_SlimeCrystal` | Stridey's Vanilla Tweaks 3D Amethyst crystal template, recolored | Stridey / Vanilla Tweaks |
 
 ### Original packs made for Novus
@@ -320,32 +320,30 @@ rather than generating new art, so upstream licenses apply to those assets.
 
 ### Source packs (assets drawn from)
 
-Per Novus's own `PACKS.md` plus license research. ⚠ marks attributions to confirm
-before a public release.
+**✓** = author/license confirmed from the pack file itself (its `pack.mcmeta`, embedded
+README or LICENSE). **⚠** = taken from a CurseForge/Modrinth listing and *not* verified
+in-file — confirm before any public release.
 
 | Source pack | Author | License | Link |
 |---|---|---|---|
-| Actually 3D — Blocks & Items r1.8 | Matt_Crowberry | Custom — modpack inclusion w/ credit | https://modrinth.com/resourcepack/actually-3d (Modrinth `5048Qu03`) |
-| Nautilus 3D | FabianMPunkt | **AGPL-3.0** (open source) | https://modrinth.com/resourcepack/nautilus3d |
-| RAY's 3D Ladders / 3D Rails | xR4YM0ND | **MIT** (open source) | https://github.com/xR4YM0ND |
-| Vanilla Tweaks (incl. Stridey's 3D Amethyst) | Vanilla Tweaks team | Custom (modify + credit + free) | https://vanillatweaks.net |
-| Supplementaries 3D Doors & Trapdoors | thricebite | **CC BY-NC-SA 4.0** | https://modrinth.com/resourcepack/supplementaries-3d-doors-and-trapdoors |
-| REVIVED Farmer's Delight Crops 3D | YStheStudio | **GPL-3.0** (open source) | https://modrinth.com/resourcepack/revived-farmers-delight-crops-3d |
-| AA4 Structure Markers | x7bbbbbbb (7bbbbbbb) | **CC BY-NC-SA 4.0** | https://modrinth.com/resourcepack/aa4-structure-markers |
-| Tinkers' Construct (referenced textures) | Slime Knights | **MIT** (open source) | https://github.com/SlimeKnights/TinkersConstruct |
-| Ladder 3D Pack · Modded Rail 3D Pack | mega_trainer | **All Rights Reserved — "do not repost"** | https://www.curseforge.com/members/mega_trainer/projects |
-| Quark 3D Pack | mega_trainer | **All Rights Reserved — "do not repost"** | https://www.curseforge.com/minecraft/texture-packs/quark-3d-pack |
-| Tinkers' Construct 3D Pack (Flora) | mega_trainer | **All Rights Reserved — "do not repost"** | https://www.curseforge.com/minecraft/texture-packs/tinkers-construct-3d-pack |
-| Better 3D Craft | Heycronus | **All Rights Reserved — "do not redistribute without permission"** | https://modrinth.com/resourcepack/better3dcraft |
-| Barrel 3D | Heycronus | **All Rights Reserved — "do not redistribute without permission"** | https://modrinth.com/resourcepack/barrel-3d |
-| Better 3D Beds | Heycronus | **All Rights Reserved — "do not redistribute without permission"** | https://modrinth.com/resourcepack/better-3d-beds |
-| Allure 3D Plants | P4ncake | **All Rights Reserved** | https://modrinth.com/resourcepack/allure-3d-plants |
-| AL's 3D Potions | ALtheGatorMC | **All Rights Reserved** | https://modrinth.com/resourcepack/als-3d-potions |
-| Brewing Guide | Kingybu | **All Rights Reserved** | https://modrinth.com/resourcepack/brewing-guide |
-| Fusion Connected Glass | SuperMartijn642 | **All Rights Reserved** (requires the Fusion mod) | https://modrinth.com/resourcepack/fusion-connected-glass |
-| Better Stained Glass | elwood612 | ⚠ *license not stated on listing — confirm* | https://www.curseforge.com/minecraft/texture-packs/better-stained-glass |
-| Undopia 3D Furnaces | UnduGT | Custom "Undopia Patch License" — permission-required ⚠ | https://modrinth.com/resourcepack/undopia-3d-furnaces |
-| crops-3d (base of Novus3D_Crops; in-pack description "Grow your bossoms") | ⚠ *unidentified — author unknown* | ⚠ *unconfirmed* | closest: https://modrinth.com/resourcepack/3d-crops |
+| Actually 3D — Blocks & Items r1.8 | Matt_Crowberry ✓ | not stated in pack ⚠ | https://modrinth.com/resourcepack/actually-3d (`5048Qu03`) |
+| Actually 3D — Plants | Chomik_Oto ✓ | not stated in pack ⚠ | https://modrinth.com/resourcepack/actually-3d-plants |
+| Nautilus 3D (V1.9, MC-1.13+) | Waschtl & playtrix ✓ | not stated in pack ⚠ | https://modrinth.com/resourcepack/nautilus3d |
+| RAY's 3D Ladders / 3D Rails | xR4YM0ND ✓ | **MIT** ✓ (LICENSE in pack) | https://github.com/xR4YM0ND |
+| Vanilla Tweaks (incl. Stridey's 3D Amethyst) | Vanilla Tweaks team ✓ | Custom — modify + credit + keep free | https://vanillatweaks.net |
+| Better 3D Craft · Barrel 3D · Better 3D Beds | Heycronus ✓ | All Rights Reserved (Heycronus — see page) | https://modrinth.com/user/heycronus |
+| Allure 3D Plants | P4ncake ✓ | All Rights Reserved ⚠ | https://modrinth.com/resourcepack/allure-3d-plants |
+| Undopia 3D Furnaces | UnduGT (patch.undopia.net) ✓ | Custom "Undopia Patch License" ⚠ | https://modrinth.com/resourcepack/undopia-3d-furnaces |
+| In-Game Brewing Guide | PinPal (pinpal.github.io) ✓ | All Rights Reserved ⚠ | https://modrinth.com/resourcepack/brewing-guide |
+| AA4 Structure Markers | x7bbbbbbb ✓ | CC BY-NC-SA 4.0 ⚠ | https://modrinth.com/resourcepack/aa4-structure-markers |
+| Fusion Connected Glass | SuperMartijn642 ✓ | All Rights Reserved ⚠ (needs the Fusion mod) | https://modrinth.com/resourcepack/fusion-connected-glass |
+| Better Stained Glass | elwood612 ⚠ | not stated on listing ⚠ | https://www.curseforge.com/minecraft/texture-packs/better-stained-glass |
+| Ladder 3D · Modded Rail 3D · Quark 3D · Tinkers' Construct 3D | mega_trainer ⚠ | **All Rights Reserved — "do not repost"** (per Novus PACKS.md) | https://www.curseforge.com/members/mega_trainer/projects |
+| Supplementaries 3D Doors & Trapdoors | thricebite ⚠ | CC BY-NC-SA 4.0 ⚠ | https://modrinth.com/resourcepack/supplementaries-3d-doors-and-trapdoors |
+| REVIVED Farmer's Delight Crops 3D | YStheStudio ⚠ | GPL-3.0 ⚠ | https://modrinth.com/resourcepack/revived-farmers-delight-crops-3d |
+| AL's 3D Potions | ALtheGatorMC ⚠ | All Rights Reserved ⚠ | https://modrinth.com/resourcepack/als-3d-potions |
+| Tinkers' Construct (referenced textures) | Slime Knights | MIT (the mod) | https://github.com/SlimeKnights/TinkersConstruct |
+| crops-3d (base of Novus3D_Crops; in-pack desc "Grow your bossoms") | **unknown** ⚠ | unknown ⚠ | closest: https://modrinth.com/resourcepack/3d-crops |
 
 ### Datapacks (Paxi-applied)
 
