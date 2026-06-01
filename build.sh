@@ -47,11 +47,20 @@ SHIP_DENYLIST=(
 )                                          # ('.github' and 'mods' handled in code)
 # Note: rhino.local.properties is now handled by .gitignore (untracked => not
 # shipped), so it doesn't need a denylist entry. Gitignore is the single knob.
-# CurseForge mods whose authors disabled 3rd-party API distribution: no installer
-# can auto-fetch them, so we self-host the actual jar inside the pack (served from
-# gh-pages) and drop the un-fetchable metafile. List by metafile slug. This is the
-# same mechanism you'd use to self-host the whole pack if ever needed.
-BUNDLED_SLUGS=(create-recycle-everything villagers-sell-animals quark-delight)
+# CurseForge mods: packwiz-installer cannot resolve `mode = "metadata:curseforge"`
+# entries (they carry an empty download url), so the self-updating Prism instance
+# crashes on them. Fix: self-host the actual jar inside the pack (served from
+# gh-pages) and drop the un-fetchable metafile; `packwiz refresh` then indexes the
+# jar as a plain file with a direct Pages url that any installer can fetch. This is
+# ALL 20 CurseForge mods (the .mrpack already bundles them as overrides too).
+# List by metafile slug; keep in sync with `grep -l "metadata:curseforge" mods/.index/*`.
+BUNDLED_SLUGS=(
+  backpacked balm catalogue configured controllable
+  create-recycle-everything dynamic-trees-tinkers-construct farmers-respite
+  framework goblin-traders initial-inventory json-things kubejs-delight
+  placebo quark-delight terrablender toast-control trackwork
+  villagers-sell-animals waystones
+)
 # Mods to keep in YOUR dev instance but NOT ship (e.g. profilers). Dropped from
 # the published tree + .mrpack, including a matching config/<slug> folder.
 # List by metafile slug. Empty now (spark was uninstalled); e.g. =(spark).

@@ -47,7 +47,11 @@ fi
 # the self-updater
 curl -sfL --max-time 60 -o "$STAGE/minecraft/packwiz-installer-bootstrap.jar" "$BOOT_URL"
 
-# shipped instance config (note: $INST_JAVA is a Prism runtime variable -> keep literal)
+# shipped instance config (note: $INST_JAVA is a Prism runtime variable -> keep literal).
+# IMPORTANT: $INST_JAVA must be UNQUOTED. Prism does not run the pre-launch line
+# through a shell; quoting it ("$INST_JAVA") makes Prism collapse `java" -jar` into
+# `java-jar`, so it tries to exec a binary named "java-jar" -> "process failed to
+# start". Unquoted is the canonical packwiz form (Java path here has no spaces).
 cat > "$STAGE/instance.cfg" <<EOF
 [General]
 ConfigVersion=1.3
@@ -55,7 +59,7 @@ InstanceType=OneSix
 name=Novus
 iconKey=default
 OverrideCommands=true
-PreLaunchCommand="\$INST_JAVA" -jar packwiz-installer-bootstrap.jar ${PACK_URL}
+PreLaunchCommand=\$INST_JAVA -jar packwiz-installer-bootstrap.jar ${PACK_URL}
 OverrideMemory=true
 MinMemAlloc=8192
 MaxMemAlloc=8192
