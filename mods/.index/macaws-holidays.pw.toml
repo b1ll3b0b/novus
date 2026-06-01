@@ -1,6 +1,6 @@
 filename = 'mcw-holidays-1.1.2-mc1.20.1forge.jar'
 name = "Macaw's Holidays"
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
 x-prismlauncher-release-type = 'release'

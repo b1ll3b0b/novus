@@ -1,6 +1,6 @@
 filename = 'entityculling-forge-1.10.2-mc1.20.1.jar'
 name = 'EntityCulling'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

@@ -1,6 +1,6 @@
 filename = 'goblintraders-forge-1.20.1-1.11.5.jar'
 name = 'Goblin Traders'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'

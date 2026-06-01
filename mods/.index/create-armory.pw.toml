@@ -1,6 +1,6 @@
 filename = 'createarmoryv0.6.1n.jar'
 name = 'Create: Armory'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
 x-prismlauncher-release-type = 'release'

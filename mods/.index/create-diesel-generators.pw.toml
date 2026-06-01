@@ -1,6 +1,6 @@
 filename = 'createdieselgenerators-1.20.1-1.3.12.jar'
 name = 'Create: Diesel Generators'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'

@@ -1,6 +1,6 @@
 filename = 'modernfix-forge-5.27.40+mc1.20.1.jar'
 name = 'ModernFix'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

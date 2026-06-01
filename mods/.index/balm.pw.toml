@@ -1,6 +1,6 @@
 filename = 'balm-forge-1.20.1-7.3.38-all.jar'
 name = 'Balm'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]

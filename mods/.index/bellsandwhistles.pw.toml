@@ -1,6 +1,6 @@
 filename = 'bellsandwhistles-0.4.5-1.20.x-Create6.0+.jar'
 name = 'Create: Bells & Whistles'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
