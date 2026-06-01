@@ -334,7 +334,6 @@ in-file — confirm before any public release.
 | Better 3D Craft · Barrel 3D · Better 3D Beds | Heycronus ✓ | All Rights Reserved (Heycronus — see page) | https://modrinth.com/user/heycronus |
 | Allure 3D Plants | P4ncake ✓ | All Rights Reserved ⚠ | https://modrinth.com/resourcepack/allure-3d-plants |
 | Undopia 3D Furnaces | UnduGT (patch.undopia.net) ✓ | Custom "Undopia Patch License" ⚠ | https://modrinth.com/resourcepack/undopia-3d-furnaces |
-| In-Game Brewing Guide | PinPal (pinpal.github.io) ✓ | All Rights Reserved ⚠ | https://modrinth.com/resourcepack/brewing-guide |
 | AA4 Structure Markers | x7bbbbbbb ✓ | CC BY-NC-SA 4.0 ⚠ | https://modrinth.com/resourcepack/aa4-structure-markers |
 | Fusion Connected Glass | SuperMartijn642 ✓ | All Rights Reserved ⚠ (needs the Fusion mod) | https://modrinth.com/resourcepack/fusion-connected-glass |
 | Better Stained Glass | elwood612 ⚠ | not stated on listing ⚠ | https://www.curseforge.com/minecraft/texture-packs/better-stained-glass |
@@ -343,7 +342,7 @@ in-file — confirm before any public release.
 | REVIVED Farmer's Delight Crops 3D | YStheStudio ⚠ | GPL-3.0 ⚠ | https://modrinth.com/resourcepack/revived-farmers-delight-crops-3d |
 | AL's 3D Potions | ALtheGatorMC ⚠ | All Rights Reserved ⚠ | https://modrinth.com/resourcepack/als-3d-potions |
 | Tinkers' Construct (referenced textures) | Slime Knights | MIT (the mod) | https://github.com/SlimeKnights/TinkersConstruct |
-| crops-3d (base of Novus3D_Crops; in-pack desc "Grow your bossoms") | **unknown** ⚠ | unknown ⚠ | closest: https://modrinth.com/resourcepack/3d-crops |
+| crops-3d (base of Novus3D_Crops) | NinthWorld ✓ | ⚠ *confirm on listing* | https://www.curseforge.com/minecraft/texture-packs/crops-3d |
 
 ### Datapacks (Paxi-applied)
 
