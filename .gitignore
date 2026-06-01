@@ -1,3 +1,4 @@
+config/betterdays-common.toml
 config/lighty.config
 config/chunky/tasks/*
 data/surveyor/*
@@ -14,4 +15,5 @@ screenshots
 usercache.json
 usernamecache.json
 .mixin.out
+
 /cherishedworlds-favorites.dat
