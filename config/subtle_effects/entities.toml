@@ -38,10 +38,10 @@ magmaCubeLandSparks = true
 snowGolemStepSounds = true
 
 [sleeping]
-playerSnoreChance = 1.0
+playerSnoreChance = 0.0
 playerSnoreSoundVolume = 1.0
 playersHaveSleepingZs = true
-villagerSnoreChance = 1.0
+villagerSnoreChance = 0.0
 villagerSnoreSoundVolume = 1.0
 villagersHaveSleepingZs = true
 foxesHaveSleepingZs = true
@@ -71,10 +71,10 @@ additionalBiomes = [  ]
 
 [humanoids.player]
 enableBreathingEffectsInCreative = true
-stomachGrowlingThreshold = 6
+stomachGrowlingThreshold = 0
 stomachGrowlingVolume = 1.0
 stomachGrowlingWaitTime = 15
-heartBeatingThreshold = 6
+heartBeatingThreshold = 0
 heartbeatVolume = 1.0
 heartBeatingWaitTime = 3
 
