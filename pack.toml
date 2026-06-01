@@ -1,6 +1,6 @@
 name = "Novus"
 author = "bill3bob"
-version = "1.0.2"
+version = "1.0.3"
 pack-format = "packwiz:1.1.0"
 
 [index]
