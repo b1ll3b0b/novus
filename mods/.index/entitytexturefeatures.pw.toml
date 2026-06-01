@@ -1,6 +1,6 @@
 filename = 'entity_texture_features_1.20.1-forge-7.1.jar'
 name = 'Entity Texture Features'
-side = 'both'
+side = 'client'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]

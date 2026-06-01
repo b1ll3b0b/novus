@@ -1,6 +1,6 @@
 filename = 'hideexperimentalwarning-1.20.1-1.2.jar'
 name = 'Hide Experimental Warning'
-side = 'both'
+side = 'client'
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
 x-prismlauncher-release-type = 'release'

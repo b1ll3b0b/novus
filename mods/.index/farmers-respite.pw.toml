@@ -1,6 +1,6 @@
 filename = 'farmersrespite-1.20.1-2.1.2.jar'
 name = "Farmer's Respite"
-side = 'server'
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
