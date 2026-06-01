@@ -17,9 +17,12 @@ interoperate.
 
 ## Install
 
-- **Self-updating (recommended):** import `Novus.zip` into Prism / MultiMC
-  (Add Instance → Import from zip). A pre-launch hook keeps it up to date on every
-  launch from the project's page.
+- **Self-updating (recommended):** download
+  **[`Novus.zip`](https://github.com/b1ll3b0b/novus/releases/latest/download/Novus.zip)**
+  and import it into Prism / MultiMC (Add Instance → Import from zip). A pre-launch
+  hook keeps it up to date on every launch — import once, and it pulls the latest
+  mods and configs from the project page automatically. That link always points at
+  the newest release, so it never goes stale.
 - **Standalone download:** grab `novus-<version>-complete.zip` (client /
   singleplayer) or `novus-<version>-server.zip` (dedicated server) from the
   [Releases](https://github.com/b1ll3b0b/novus/releases).
