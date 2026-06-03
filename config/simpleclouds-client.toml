@@ -20,7 +20,7 @@ dimensionWhitelist = ["minecraft:overworld"]
 whitelistAsBlacklist = false
 #Shows the Vivecraft notice on startup.
 #Default: true
-showVivecraftNotice = true
+showVivecraftNotice = false
 
 #Preference
 [preference]
@@ -64,7 +64,7 @@ showVivecraftNotice = true
 	transparency = false
 	#Specifies if a purely visual 2D atmospheric cloud layer should render.
 	#Default: true
-	atmosphericClouds = false
+	atmosphericClouds = true
 
 #Seed
 [seed]
