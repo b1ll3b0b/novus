@@ -977,18 +977,6 @@ file = "defaultconfigs/dynamictreesplus-server.toml"
 hash = "9237dfc81edda4e01cff9605cd5f5ac61f81c106b62a17201d8b52c1e7893d8b"
 
 [[files]]
-file = "defaultconfigs/ftbchunks/client-config.snbt"
-hash = "6c791c980cacce7ca6baa5d9802969daac34b888045a0bd1d7c99ec3143c0509"
-
-[[files]]
-file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
-hash = "65562aaae1b17c5aba22253203b20e2b39a674870570157d155e58087e7e720c"
-
-[[files]]
-file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
-hash = "7cf44bc2b79d6798ac1b0bca7dc52ab570a14ade2c11eccf4e1272ce6e081001"
-
-[[files]]
 file = "docs/keybinds.png"
 hash = "cfa0c7059b3f56cfd4262915382aab99ed74e48f1da0a98f738fab5e84ac9270"
 
