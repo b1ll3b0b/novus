@@ -1,0 +1,9 @@
+#!/bin/sh
+# Auto-refresh the packwiz index so committed index.toml/pack.toml always match
+# the mods & configs in the commit. Runs only when the vendored packwiz binary
+# is present; CI rebuilds the shipped index via build.sh regardless.
+# On a fresh clone, enable with:  git config core.hooksPath .githooks
+[ -x ./tools/packwiz ] || exit 0
+./tools/packwiz refresh >/dev/null 2>&1 || exit 0
+git add index.toml pack.toml 2>/dev/null || true
+exit 0

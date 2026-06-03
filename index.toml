@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".githooks/pre-commit"
+hash = "b3becfb1f05afe8c0f5b245eff515e40ca0fbd50d0a2444b2efe91edc512444b"
+
+[[files]]
 file = ".github/workflows/publish.yml"
 hash = "71b35cea92d102958f69258e1d2acfff304c5c404e6605c4f896e96331b035b5"
 
@@ -14,11 +18,11 @@ hash = "fd762404039b691a2782a4a6f7cbb9d1c388377b50ae842b9b02ad3ff2cb28fa"
 
 [[files]]
 file = "README.md"
-hash = "87deca44420877fddcb1e696808db2e3d5a94821f6a765855195b2640972ef2a"
+hash = "b7fb26437fd03e0687a970751da44c9f002858c8420fcdccb22ef3c1feedb455"
 
 [[files]]
 file = "build.sh"
-hash = "fc14aff9fb41ee71175011042d9fdb0d47747029c81ccbdb38f80e9be6b46f4b"
+hash = "32fb8b7a5bf85c7ea9a9bbf6a17a461d72862d7e321c5bac90556e9ff90d2d6e"
 
 [[files]]
 file = "config/ImmersiveAtmosphere.json"
@@ -237,6 +241,18 @@ file = "config/curios-common.toml"
 hash = "541ee90994c1cf3d4e132df2ac3ff74004bc3952d3914ae843b5089a4dda8a95"
 
 [[files]]
+file = "config/defaultoptions-common.toml"
+hash = "9424ceb580ec8f3f074ebcc0618bfceebb62bb44d64750c7df5964fc7713964c"
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "bd1e50d0a52fc8582e788f37612c6bb86d5e2874a44dbb2efa14a784b427b294"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "e75254caa44a0dbd4f43d5bbf694e1dcace1de0ae0eac49916b327abf77d8b4c"
+
+[[files]]
 file = "config/dummmmmmy-client.toml"
 hash = "602147b8926e6dd9b9810c9ac59bb6bf0554ef0d78d52d6ed11655a692bcaf7f"
 
@@ -346,7 +362,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "abcc94dc6ca0c5d0d6f9e6719ca26f3b67761d659a9bc3cfd4ba0f61b7163062"
+hash = "d79bab38906439784f0ac20521dd44f45a73bce34c8a295af15d13510660d012"
 
 [[files]]
 file = "config/fape_compat-client.toml"
@@ -510,7 +526,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "a90b330255c8091e30f087c3a82f3433cd176d4b17d8ca140e10520b9ae4471a"
+hash = "e0ed10210b06033fde5257eb68dfbd0545f2da3d25b2ca713a8fc099a3937bc2"
 
 [[files]]
 file = "config/particlerain.json"
@@ -698,7 +714,7 @@ hash = "76832340209d9ec735923b979a10be5f6724a407981cdf614581c8c5b0fd07e5"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "e1995096684db75e5dbab391cb3e2fd94d875821736779890a06f94fe0bc8462"
+hash = "b25fea62f78b0c847c8fba550f43dbd5bee92d2a34a2e23206136776be4ca49d"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -830,7 +846,7 @@ hash = "5477a771e3d4fc7d93f1392232053460fced2ba14870fe9adc55669113c4c9ba"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "96cd9a059a3cb718565cce3041c10735744f931fa38eed62752472100b8617e5"
+hash = "2c390c7b66b79cdc6b6bbe29369afffbe6833abf9ecf6409641ee2f3c2b559dc"
 
 [[files]]
 file = "config/suppsquared-common.toml"
@@ -922,7 +938,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "c76b0bbfa811e1b3f628d026e94c37d05e059efa289730c00f457dac6e9b5d35"
+hash = "9756baa3e847132446d7eba1125daa31326385f89e3ac3676d5fae2ab6e6aa76"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
@@ -971,6 +987,10 @@ hash = "65562aaae1b17c5aba22253203b20e2b39a674870570157d155e58087e7e720c"
 [[files]]
 file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
 hash = "7cf44bc2b79d6798ac1b0bca7dc52ab570a14ade2c11eccf4e1272ce6e081001"
+
+[[files]]
+file = "docs/keybinds.png"
+hash = "cfa0c7059b3f56cfd4262915382aab99ed74e48f1da0a98f738fab5e84ac9270"
 
 [[files]]
 file = "icon.png"
@@ -3317,6 +3337,11 @@ hash = "49b1d2283c0918a5f2c1b56035b8048fe6c1139fc3cbb9a015e7a7d25e0b1289"
 metafile = true
 
 [[files]]
+file = "mods/.index/default-options.pw.toml"
+hash = "5bc20d6deaadcfb69aa92667e576f3fdb04f5078e86d13740bd07e9349c994d5"
+metafile = true
+
+[[files]]
 file = "mods/.index/diagonal-fences.pw.toml"
 hash = "28b58894c9a44937c7ac7230dce45315d6c34dce30323d7cc1d7aaaf0b161aee"
 metafile = true
@@ -4432,6 +4457,10 @@ file = "mods/curios-forge-5.14.1+1.20.1.jar"
 hash = "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
 
 [[files]]
+file = "mods/defaultoptions-forge-1.20.1-18.0.4.jar"
+hash = "88b89d7734a4f5d99e9464fc368428a72e5052c3570865a954cf74ef98a2581b"
+
+[[files]]
 file = "mods/dummmmmmy-1.20-2.0.12-forge.jar"
 hash = "bd7f168ec56f14a25d36d9d0dc4d281e88f77b1ba678907b5c570e5c051a5ca4"
 
@@ -4793,7 +4822,7 @@ hash = "5ecc6535596b5954f6293224be6b35805c64f4d4aedc2b9e32d9508dd529cabd"
 
 [[files]]
 file = "options.txt"
-hash = "1d2ddadd66bbfd8b99e097fb3b9452b75b280578296af7e0db4facb3670610c0"
+hash = "f906d76b09451c714511e0e1cb615c1b683c421700a7eaedc24a81abdd2c31a2"
 
 [[files]]
 file = "patchouli_books/create_compendium/book.json"
