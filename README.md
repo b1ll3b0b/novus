@@ -30,6 +30,16 @@ interoperate.
 
 ---
 
+## Keybinds
+
+Novus ships a tuned, conflict-free keybind layout, applied automatically on first
+launch (via Default Options). Core systems and quality-of-life sit on the main
+keyboard, the numpad is reserved for niceties, and vanilla controls are untouched.
+
+![Novus keybind layout](docs/keybinds.png)
+
+---
+
 ## Licensing & credits — read this
 
 Everything below belongs to its respective author and is included under its own

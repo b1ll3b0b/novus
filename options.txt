@@ -120,7 +120,7 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.modernfix.config:key.keyboard.unknown
-key_key.cadmus.open_claim_map:key.keyboard.m
+key_key.cadmus.open_claim_map:key.keyboard.comma
 key_key.exposure.camera_controls:key.keyboard.unknown
 key_key.shetiphiancore.tool.next:key.keyboard.page.up
 key_key.shetiphiancore.tool.previous:key.keyboard.page.down
@@ -136,9 +136,9 @@ key_key.jetpack.toggle_active.description:key.keyboard.g
 key_key.jetpack.toggle_hover.description:key.keyboard.h
 key_key.toms_storage.open_terminal:key.keyboard.b
 key_auroras.key.reload_aurora_configs:key.keyboard.unknown
-key_key.push_to_talk:key.keyboard.unknown
+key_key.push_to_talk:key.keyboard.v
 key_key.whisper:key.keyboard.unknown
-key_key.mute_microphone:key.keyboard.m
+key_key.mute_microphone:key.keyboard.period
 key_key.disable_voice_chat:key.keyboard.n
 key_key.hide_icons:key.keyboard.h
 key_key.voice_chat:key.keyboard.grave.accent

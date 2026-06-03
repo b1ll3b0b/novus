@@ -41,7 +41,7 @@ SHIP_DENYLIST=(
   "pack.toml" "index.toml"                 # regenerated in the publish tree
   "build.sh" "make-prism-instance.sh"      # build tooling
   ".gitignore" ".gitattributes" ".packwizignore"
-  "tools" "dist"                           # vendored binary / build output
+  "tools" "dist" "docs"                           # vendored binary / build output
   "options.txt"                            # personal client settings (tracked, but not shipped)
   "mmc-pack.json"                          # Prism instance metadata (for make-prism-instance.sh; not pack content)
 )                                          # ('.github' and 'mods' handled in code)
