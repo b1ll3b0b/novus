@@ -27,9 +27,8 @@ usernamecache.json
 mods/.connector/
 mods/.connectorEarly/
 
-# Simple Voice Chat — per-user/client state (never ship)
-config/voicechat/
-config/voicechat-client.toml
-
-# migration/editor backups
+# packwiz/meta files that must never be indexed
+.git/
+.gitignore
+.packwizignore
 *.bak
