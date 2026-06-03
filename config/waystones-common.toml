@@ -68,7 +68,7 @@
 	#Set to true if players should be able to teleport between waystones by simply right-clicking a waystone.
 	allowWaystoneToWaystoneTeleport = true
 	#Set to false to allow non-creative players to make waystones globally activated for all players.
-	globalWaystoneSetupRequiresCreativeMode = true
+	globalWaystoneSetupRequiresCreativeMode = false
 
 [client]
 	#If enabled, the text overlay on waystones will no longer always render at full brightness.

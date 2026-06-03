@@ -1827,7 +1827,7 @@
 	"Matrix Enchanting" = true
 	Pipes = true
 	"Tiny Potato" = false
-	"Totem Of Holding" = false
+	"Totem Of Holding" = true
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
