@@ -362,7 +362,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "d79bab38906439784f0ac20521dd44f45a73bce34c8a295af15d13510660d012"
+hash = "abcc94dc6ca0c5d0d6f9e6719ca26f3b67761d659a9bc3cfd4ba0f61b7163062"
 
 [[files]]
 file = "config/fape_compat-client.toml"
@@ -526,7 +526,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "e0ed10210b06033fde5257eb68dfbd0545f2da3d25b2ca713a8fc099a3937bc2"
+hash = "a90b330255c8091e30f087c3a82f3433cd176d4b17d8ca140e10520b9ae4471a"
 
 [[files]]
 file = "config/particlerain.json"
