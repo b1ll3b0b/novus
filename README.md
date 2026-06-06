@@ -22,11 +22,11 @@ so these systems understand each other.
 ## Install
 
 **Self-updating (recommended).** Download
-**[`novus.zip`](https://github.com/b1ll3b0b/novus/releases/latest/download/novus.zip)**
+**[`novus.zip`](https://b1ll3b0b.github.io/novus/novus.zip)**
 and import it into Prism or MultiMC (Add Instance → Import from zip). A small
 pre-launch step keeps it current: import once, and every launch pulls the latest
-mods and configs for you. That link always points at the newest release, so it
-never goes stale.
+mods and configs for you. That link is permanent and the pack self-updates on
+every launch, so it never goes stale.
 
 **Standalone download.** Prefer a fixed version? Grab
 `novus-<version>-complete.zip` (client / singleplayer) or

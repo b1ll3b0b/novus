@@ -39,6 +39,14 @@ jobs:
           chmod +x build.sh
           PACKWIZ="$(go env GOPATH)/bin/packwiz" ./build.sh
 
+      # Ship the self-updating Prism instance alongside the pack tree, so it lives
+      # at a stable URL (https://b1ll3b0b.github.io/novus/novus.zip) instead of
+      # being re-attached to every GitHub Release. It's static across releases.
+      - name: Add self-updating instance (novus.zip) to the Pages tree
+        run: |
+          chmod +x make-prism-instance.sh
+          ./make-prism-instance.sh dist/pack
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

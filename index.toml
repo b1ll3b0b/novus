@@ -6,11 +6,11 @@ hash = "b3becfb1f05afe8c0f5b245eff515e40ca0fbd50d0a2444b2efe91edc512444b"
 
 [[files]]
 file = ".github/workflows/publish.yml"
-hash = "71b35cea92d102958f69258e1d2acfff304c5c404e6605c4f896e96331b035b5"
+hash = "be82cbf2fc7ea2532d3dba951ef2e26f62aeded50739942c17bda2d694f994ed"
 
 [[files]]
 file = ".github/workflows/release.yml"
-hash = "d2da6540c698b27f26e0114792a744f195bb6a16e79bd6b9c519498fa3957e2d"
+hash = "446abe0a1016c6d26ccdbe0aabcf09a631afcef105eba66b5ee88888684ae9d0"
 
 [[files]]
 file = "LICENSE"
@@ -18,7 +18,7 @@ hash = "fd762404039b691a2782a4a6f7cbb9d1c388377b50ae842b9b02ad3ff2cb28fa"
 
 [[files]]
 file = "README.md"
-hash = "5592af05584e5f3cb0390b1336e0933acf078ffd0cf8cfb89f543d64a2178548"
+hash = "6eff67a2169d6962eff22adaa073277c1583a95677e2b09d9ad3e1987cc943fb"
 
 [[files]]
 file = "build.sh"
@@ -246,7 +246,7 @@ hash = "9424ceb580ec8f3f074ebcc0618bfceebb62bb44d64750c7df5964fc7713964c"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "efe0d7030cb616008874317edd6d7e53383080d776cf6d16aefd636acf8181ae"
+hash = "a7c7c3e7d9eb8b55910a2c5ebfc6fa30ed56c501c150e34c4795d6c01e280fc0"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -4983,7 +4983,7 @@ hash = "5ecc6535596b5954f6293224be6b35805c64f4d4aedc2b9e32d9508dd529cabd"
 
 [[files]]
 file = "options.txt"
-hash = "710524d8181b53c7df75d7e82dd13a39a4c2a685131e6ca0a289af1ac841ecd1"
+hash = "f9ddb4b0d2e2e4a19edcf9173e3cfa4c8897d68b260a43f2ff68fcee740646d3"
 
 [[files]]
 file = "patchouli_books/arborists_journal/book.json"
