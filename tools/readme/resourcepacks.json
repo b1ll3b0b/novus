@@ -1,0 +1,60 @@
+{
+  "_comment": "Resource-pack credit data for the README generator. Resource packs are bundled as FILES (not metadata), so this is hand-maintained. Licenses verified against each project's Modrinth/CurseForge listing or in-file LICENSE on 2026-06-05. 'verified' = confirmed; 'unverified' = could not confirm a license anywhere (README leaves the cell blank, per project policy). Update when packs are added/removed in config/paxi/resourcepacks/ or resourcepacks/.",
+
+  "intro": "Novus ships a curated texture and animation stack, applied automatically through Paxi, plus two opt-in packs you can turn on yourself. They come in three groups: third-party packs included whole, Novus packs that merge or adapt third-party work, and the original Novus3D_* / Novus_* packs built for this pack. The original packs pull models and textures directly from the upstream \"source packs\" listed further down, so those upstream licenses still govern the bundled assets.",
+
+  "warning": "Unlike the mods, which are distributed as download links plus file hashes, the resource packs are shipped as actual files. Several of the source packs below are All Rights Reserved, and a few say outright \"no redistribution without permission.\" Bundling their assets in a publicly distributed pack goes beyond what those licenses grant. For a private group this is low-risk. Before any public release, get permission, switch to permissively-licensed sources, or leave those packs out of the public build. The credits below are given in good faith and to honor attribution-required licenses.",
+
+  "bundled_whole": [
+    {"pack": "Authentic Shadows (shipped as `Authentic Shadows_1.20.zip`)", "author": "Liahim85", "license": "All Rights Reserved", "note": "Bundled with credit; get permission before any public release.", "link": "https://modrinth.com/resourcepack/authentic-shadows"},
+    {"pack": "Fresh Animations (shipped as `FreshAnimations_v1.10.4_Novus`)", "author": "Fresh_LX", "license": "Custom", "note": "Terms of use in the project description: modpack inclusion allowed with credit; no redistribution of the standalone pack.", "link": "https://modrinth.com/resourcepack/fresh-animations"},
+    {"pack": "FA Extensions — Emissive, Player, Quivers, Spiders", "author": "Fresh_LX", "license": "All Rights Reserved", "note": "Same Fresh Animations terms.", "link": "https://modrinth.com/resourcepack/fresh-animations-extensions"},
+    {"pack": "Vanilla Tweaks packs (3D Amethyst/Dripstone/Redstone Dust, Age-25 Kelp, Compass Lodestone, Disc Redstone, Groovy Levers, Visual Noteblock)", "author": "Vanilla Tweaks team", "license": "Custom", "note": "Include only if modified, credited, and kept free; no verbatim re-hosting.", "link": "https://vanillatweaks.net"},
+    {"pack": "Randomized Textures (opt-in, in `resourcepacks/`)", "author": "Vanilla Tweaks team", "license": "Custom", "note": "Same Vanilla Tweaks terms.", "link": "https://vanillatweaks.net"},
+    {"pack": "Quark Programmer Art (opt-in, in `resourcepacks/`)", "author": "Vazkii / Quark Team", "license": "CC-BY-NC-SA-3.0", "note": "", "link": "https://github.com/VazkiiMods/Quark"}
+  ],
+
+  "derived": [
+    {"pack": "`FA+AL+Azu_Zombies`", "built_from": "AL's Zombies Revamped + FA and Azu's Enhanced Zombie Variants FA, merged for 1.20.1", "upstream": "Fresh_LX · AZUHCK"},
+    {"pack": "`FA+Witch_Old`", "built_from": "Vanilla witch CEM extracted from the Fresh Animations base", "upstream": "Fresh_LX (base) · assembled by z0nb1"},
+    {"pack": "`PA-FA-Compat`", "built_from": "FA: Player Extension × PlayerAnimator compatibility patch", "upstream": "AxoLabs · MPL-2.0"},
+    {"pack": "`Novus3D_Corundum`, `Novus3D_SlimeCrystal`", "built_from": "Stridey's Vanilla Tweaks 3D Amethyst crystal template, recolored", "upstream": "Stridey / Vanilla Tweaks"}
+  ],
+
+  "original_intro": "By z0nb1 (b1ll3b0b). Each one assembles or adapts assets from the source packs below rather than drawing new art, so the upstream licenses apply to those assets.",
+  "original": [
+    {"pack": "`Novus3D_Objects`", "draws_from": "Actually 3D (3D torch geometry applied to the Infinity Buttons mod's lever/button blocks)"},
+    {"pack": "`Novus3D_Plants`", "draws_from": "Vanilla Tweaks · Actually 3D · Allure 3D Plants · Tinkers' Construct 3D"},
+    {"pack": "`Novus3D_Stations`", "draws_from": "Actually 3D (crafting) · Heycronus Furnaces 3D + Craft 3D + Barrel 3D (cooking/storage)"},
+    {"pack": "`Novus3D_Ladders`", "draws_from": "RAY's 3D Ladders · Vanilla Tweaks · Ladder 3D Pack (mega_trainer)"},
+    {"pack": "`Novus3D_Rails`", "draws_from": "Actually 3D · RAY's 3D Rails · Modded Rail 3D Pack (mega_trainer)"},
+    {"pack": "`Novus3D_Brewing`", "draws_from": "Actually 3D (+ Amendments tint patch)"},
+    {"pack": "`Novus3D_Doors`", "draws_from": "Actually 3D · Supplementaries 3D Doors & Trapdoors"},
+    {"pack": "`Novus3D_Crops`", "draws_from": "crops-3d (base) · Actually 3D · REVIVED Farmer's Delight Crops 3D"},
+    {"pack": "`Novus_Glass`", "draws_from": "Fusion Connected Glass (base) · Better Stained Glass (panes)"},
+    {"pack": "`Novus_BotaniaImprovedFlowers`, `Novus_DiscRedstone_*`", "draws_from": "Novus-original / Vanilla Tweaks-style"}
+  ],
+
+  "sources": [
+    {"name": "Actually 3D — Blocks & Items r1.8", "author": "Matt_Crowberry", "license": "CC-BY-4.0", "verified": true, "link": "https://modrinth.com/resourcepack/actually-3d-blocks-and-items", "note": ""},
+    {"name": "Actually 3D — Flowers & Plants", "author": "Chomik_Oto", "license": "CC-BY-4.0", "verified": true, "link": "https://modrinth.com/resourcepack/actually-3d-plants", "note": ""},
+    {"name": "RAY's 3D Ladders / 3D Rails", "author": "xR4YM0ND", "license": "MIT", "verified": true, "link": "https://github.com/xR4YM0ND", "note": "LICENSE confirmed inside the pack file."},
+    {"name": "Vanilla Tweaks (incl. Stridey's 3D Amethyst)", "author": "Vanilla Tweaks team", "license": "Custom", "verified": true, "link": "https://vanillatweaks.net", "note": "Modify + credit + keep free."},
+    {"name": "Heycronus 3D packs — Craft 3D, Barrel 3D, Furnaces 3D, Better 3D Beds", "author": "Heycronus", "license": "All Rights Reserved", "verified": true, "link": "https://www.curseforge.com/members/heycronus/projects", "note": "Furnaces 3D replaced the previous Undopia furnaces source."},
+    {"name": "Allure 3D Plants", "author": "P4ncake", "license": "All Rights Reserved", "verified": true, "link": "https://modrinth.com/resourcepack/allure-3d-plants", "note": ""},
+    {"name": "AA4 Structure Markers", "author": "x7bbbbbbb", "license": "CC-BY-NC-SA-4.0", "verified": true, "link": "https://modrinth.com/resourcepack/aa4-structure-markers", "note": ""},
+    {"name": "Fusion Connected Glass", "author": "SuperMartijn642", "license": "All Rights Reserved", "verified": true, "link": "https://modrinth.com/resourcepack/fusion-connected-glass", "note": "Requires the Fusion mod."},
+    {"name": "Better Stained Glass", "author": "elwood612", "license": "", "verified": false, "link": "https://www.curseforge.com/minecraft/texture-packs/better-stained-glass", "note": "No license stated on the listing; treat as All Rights Reserved until confirmed."},
+    {"name": "Ladder 3D · Modded Rail 3D", "author": "mega_trainer", "license": "All Rights Reserved", "verified": true, "link": "https://www.curseforge.com/members/mega_trainer/projects", "note": "Listing states \"do not repost\" — personal use only, no redistribution."},
+    {"name": "Supplementaries 3D Doors & Trapdoors", "author": "thricebite", "license": "CC-BY-NC-SA-4.0", "verified": true, "link": "https://modrinth.com/resourcepack/supplementaries-3d-doors-and-trapdoors", "note": ""},
+    {"name": "REVIVED Farmer's Delight Crops 3D", "author": "YStheStudio", "license": "GPL-3.0-only", "verified": true, "link": "https://modrinth.com/resourcepack/revived-farmers-delight-crops-3d", "note": ""},
+    {"name": "crops-3d (base of Novus3D_Crops)", "author": "NinthWorld", "license": "", "verified": false, "link": "https://www.curseforge.com/minecraft/texture-packs/crops-3d", "note": "No license stated on the listing; confirm before public release."},
+    {"name": "Tinkers' Construct (referenced textures)", "author": "Slime Knights", "license": "MIT", "verified": true, "link": "https://github.com/SlimeKnights/TinkersConstruct", "note": "The mod itself."}
+  ],
+
+  "datapacks_intro": "Datapacks bundled in the pack — either applied automatically through Paxi (config/paxi/datapacks/) or merged into the KubeJS data layer (kubejs/data/). Each stays under its author's license.",
+  "datapacks": [
+    {"name": "Repurposed Structures — Chef's Delight, Farmer's Delight & VillagersPlus compat", "author": "telepathicgrunt (the Farmer's Delight variant credits pm095)", "license": "LGPL-3.0", "applied": "Paxi", "link": "https://modrinth.com/datapack/repurposed-structures"},
+    {"name": "Respite: There's Ash in My Coffee!! — wild coffee & tea bush worldgen, kettle loot", "author": "Myriadh", "license": "MIT", "applied": "merged into kubejs/data/farmersrespite", "link": "https://modrinth.com/datapack/ash-in-my-coffee"}
+  ]
+}

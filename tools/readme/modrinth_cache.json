@@ -1,0 +1,1028 @@
+{
+ "1RaTTUPz": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "scarecrows-territory",
+  "title": "Scarecrows' Territory"
+ },
+ "2eT495vq": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "saturn",
+  "title": "Saturn"
+ },
+ "2raGoXFz": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "infinitybuttons",
+  "title": "Infinity Buttons"
+ },
+ "3azQ6p0W": {
+  "license_id": "LGPL-3.0-or-later",
+  "license_name": "GNU Lesser General Public License v3.0 or later",
+  "slug": "cherished-worlds",
+  "title": "Cherished Worlds"
+ },
+ "3hZmBMYA": {
+  "license_id": "GPL-3.0-only",
+  "license_name": "GNU General Public License v3.0 only",
+  "slug": "immersive-gateways",
+  "title": "Immersive Gateways"
+ },
+ "4I1XuqiY": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "entity-model-features",
+  "title": "[EMF] Entity Model Features"
+ },
+ "4KjqhPc9": {
+  "license_id": "LGPL-3.0-or-later",
+  "license_name": "GNU Lesser General Public License v3.0 or later",
+  "slug": "surveyor",
+  "title": "Surveyor Map Framework"
+ },
+ "4QrnfueM": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "trash-cans",
+  "title": "Trash Cans"
+ },
+ "4hwXMFif": {
+  "license_id": "GPL-3.0-only",
+  "license_name": "GNU General Public License v3.0 only",
+  "slug": "map-atlases-forge",
+  "title": "Map Atlases [Forge]"
+ },
+ "4q8UOK1d": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "subtle-effects",
+  "title": "Subtle Effects"
+ },
+ "5A34Stj8": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "ponder",
+  "title": "Ponder for KubeJS"
+ },
+ "5ZwdcRci": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "immediatelyfast",
+  "title": "ImmediatelyFast"
+ },
+ "5sy6g3kz": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "better-combat",
+  "title": "Better Combat"
+ },
+ "5xHusliT": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "simple-clouds-compat",
+  "title": "Simple Clouds Compat"
+ },
+ "6iTJugQR": {
+  "license_id": "LicenseRef-Supplementaries-Team-License-1.1",
+  "license_name": "",
+  "slug": "amendments",
+  "title": "Amendments"
+ },
+ "6lvkzFFj": {
+  "license_id": "BSD-4-Clause",
+  "license_name": "BSD 4-Clause \"Original\" or \"Old\" License",
+  "slug": "polylib",
+  "title": "PolyLib"
+ },
+ "84USeAvk": {
+  "license_id": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "slug": "create-clockwork",
+  "title": "Clockwork"
+ },
+ "8BmcQJ2H": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "geckolib",
+  "title": "Geckolib"
+ },
+ "8pcjMDgj": {
+  "license_id": "MPL-2.0",
+  "license_name": "Mozilla Public License 2.0",
+  "slug": "trading-post",
+  "title": "Trading Post"
+ },
+ "9Pk89J3g": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "justenoughbreeding",
+  "title": "Just Enough Breeding (JEBr)"
+ },
+ "9paueCZy": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "dynamic-trees-quark",
+  "title": "Dynamic Trees - Quark"
+ },
+ "9s6osm5g": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "cloth-config",
+  "title": "Cloth Config API"
+ },
+ "AN0CZD9P": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "petrols-parts",
+  "title": "Petrol's Parts"
+ },
+ "ATDdrG1y": {
+  "license_id": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "slug": "hypertube",
+  "title": "Create: Hypertubes"
+ },
+ "AVq17PqV": {
+  "license_id": "MPL-2.0",
+  "license_name": "Mozilla Public License 2.0",
+  "slug": "leaves-be-gone",
+  "title": "Leaves Be Gone"
+ },
+ "Adega8YN": {
+  "license_id": "CC0-1.0",
+  "license_name": "Creative Commons Zero v1.0 Universal",
+  "slug": "mmmmmmmmmmmm",
+  "title": "MmmMmmMmmMmm"
+ },
+ "Aqlf1Shp": {
+  "license_id": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "slug": "forgified-fabric-api",
+  "title": "Forgified Fabric API"
+ },
+ "B8jaH3P1": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "macaws-roofs",
+  "title": "Macaw's Roofs"
+ },
+ "BVzZfTc1": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "entitytexturefeatures",
+  "title": "[ETF] Entity Texture Features"
+ },
+ "BZemjxZb": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "kubejs-additions",
+  "title": "KubeJS Additions"
+ },
+ "BpfiXMaS": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "bio-delight",
+  "title": "Biomantic Delight"
+ },
+ "BpwWFOVM": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "bountiful",
+  "title": "Bountiful"
+ },
+ "C7I0BCni": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "macaws-windows",
+  "title": "Macaw's Windows"
+ },
+ "CU0PAyzb": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "paxi",
+  "title": "Paxi"
+ },
+ "Cg6Uc79H": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "mantle",
+  "title": "Mantle"
+ },
+ "EO27GKs1": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "just-enough-effect-descriptions-jeed",
+  "title": "Just Enough Effect Descriptions (JEED)"
+ },
+ "EOig9U0j": {
+  "license_id": "MPL-2.0",
+  "license_name": "Mozilla Public License 2.0",
+  "slug": "bartering-station",
+  "title": "Bartering Station"
+ },
+ "Es5v4eyq": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "sodium-options-api",
+  "title": "Sodium Options API"
+ },
+ "EsAfCjCV": {
+  "license_id": "Unlicense",
+  "license_name": "The Unlicense",
+  "slug": "appleskin",
+  "title": "AppleSkin"
+ },
+ "FQgc8dib": {
+  "license_id": "MPL-2.0",
+  "license_name": "Mozilla Public License 2.0",
+  "slug": "diagonal-walls",
+  "title": "Diagonal Walls"
+ },
+ "G1hIVOrD": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "resourceful-lib",
+  "title": "Resourceful Lib"
+ },
+ "G1s2WpNo": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "better-third-person",
+  "title": "Better Third Person"
+ },
+ "GURcjz8O": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "macaws-bridges",
+  "title": "Macaw's Bridges"
+ },
+ "GchcoXML": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "oculus",
+  "title": "Oculus"
+ },
+ "GmwLse2I": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "macaws-fences-and-walls",
+  "title": "Macaw's Fences and Walls"
+ },
+ "I44nKnul": {
+  "license_id": "MPL-2.0",
+  "license_name": "Mozilla Public License 2.0",
+  "slug": "fa-player-extension-compat",
+  "title": "FA: Player Extension Compat"
+ },
+ "IKARgflD": {
+  "license_id": "MPL-2.0",
+  "license_name": "Mozilla Public License 2.0",
+  "slug": "diagonal-fences",
+  "title": "Diagonal Fences"
+ },
+ "JWGBpFUP": {
+  "license_id": "LGPL-3.0-or-later",
+  "license_name": "GNU Lesser General Public License v3.0 or later",
+  "slug": "create-enchantment-industry",
+  "title": "Create: Enchantment Industry"
+ },
+ "KZO4S4DO": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "powah",
+  "title": "Powah!"
+ },
+ "LN9BxssP": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "supermartijn642s-config-lib",
+  "title": "SuperMartijn642's Config Lib"
+ },
+ "LNytGWDc": {
+  "license_id": "LicenseRef-Create-Mod-License",
+  "license_name": "",
+  "slug": "create",
+  "title": "Create"
+ },
+ "LtZfKhel": {
+  "license_id": "LicenseRef-PolyForm-Perimeter-License-1.0.1",
+  "license_name": "",
+  "slug": "simple-clouds",
+  "title": "Simple Clouds"
+ },
+ "LyOBYG8Q": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "escalated",
+  "title": "Create: Escalated"
+ },
+ "M1953qlQ": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "resourceful-config",
+  "title": "Resourceful Config"
+ },
+ "MIxwm5GN": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "create-armory",
+  "title": "Create: Armory"
+ },
+ "MVARlG2f": {
+  "license_id": "CC-BY-NC-SA-3.0",
+  "license_name": "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported",
+  "slug": "zeta",
+  "title": "Zeta"
+ },
+ "MdWygI5q": {
+  "license_id": "BSD-2-Clause",
+  "license_name": "BSD 2-Clause \"Simplified\" License",
+  "slug": "rainboows",
+  "title": "Rainbows"
+ },
+ "MtA86qNV": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "ceramics",
+  "title": "Ceramics"
+ },
+ "N8aGZtvj": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "gabous-libs",
+  "title": "Gabou's Libs - New logo LIZZARRDD"
+ },
+ "NNAgCjsB": {
+  "license_id": "LicenseRef-tr7zw-Protective-License",
+  "license_name": "",
+  "slug": "entityculling",
+  "title": "Entity Culling"
+ },
+ "PxQSWIcD": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "sodium-dynamic-lights",
+  "title": "Sodium Dynamic Lights"
+ },
+ "Q7VPWopC": {
+  "license_id": "BSD-2-Clause",
+  "license_name": "BSD 2-Clause \"Simplified\" License",
+  "slug": "auroras",
+  "title": "Auroras"
+ },
+ "QAGBst4M": {
+  "license_id": "MPL-2.0",
+  "license_name": "Mozilla Public License 2.0",
+  "slug": "puzzles-lib",
+  "title": "Puzzles Lib"
+ },
+ "QDNS5oAT": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "repurposed-structures-forge",
+  "title": "Repurposed Structures - Neoforge/Forge"
+ },
+ "RV1qfVQ8": {
+  "license_id": "CC-BY-NC-SA-4.0",
+  "license_name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+  "slug": "explorers-compass",
+  "title": "Explorer's Compass"
+ },
+ "Rm4OOdHd": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "hide-experimental-warning",
+  "title": "Hide Experimental Warning"
+ },
+ "SaCpeal4": {
+  "license_id": "LGPL-3.0-or-later",
+  "license_name": "GNU Lesser General Public License v3.0 or later",
+  "slug": "comforts",
+  "title": "Comforts"
+ },
+ "T38eAZQC": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "kubejs-create",
+  "title": "KubeJS Create"
+ },
+ "UT2M39wf": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "copycats",
+  "title": "Create: Copycats+"
+ },
+ "UVtY3ZAC": {
+  "license_id": "LGPL-2.1-only",
+  "license_name": "GNU Lesser General Public License v2.1 only",
+  "slug": "enchantment-descriptions",
+  "title": "Enchantment Descriptions"
+ },
+ "Ua7DFN59": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "yungs-api",
+  "title": "YUNG's API"
+ },
+ "UbFnAd4l": {
+  "license_id": "LicenseRef-Custom",
+  "license_name": "",
+  "slug": "create-jetpack",
+  "title": "Create Jetpack"
+ },
+ "Utos7Mlk": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "foodvariations",
+  "title": "Spice of Life: Classic Edition [1.20.1]"
+ },
+ "UxYNfnfx": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "more-red",
+  "title": "More Red"
+ },
+ "V5ujR2yw": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "valkyrien-skies",
+  "title": "Valkyrien Skies"
+ },
+ "VRLhWB91": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "macaws-paths-and-pavings",
+  "title": "Macaw's Paths and Pavings"
+ },
+ "Vg5TIO6d": {
+  "license_id": "AGPL-3.0-or-later",
+  "license_name": "GNU Affero General Public License v3.0 or later",
+  "slug": "create-connected",
+  "title": "Create: Connected"
+ },
+ "VmcdxJxh": {
+  "license_id": "MPL-2.0",
+  "license_name": "Mozilla Public License 2.0",
+  "slug": "plenty-plates",
+  "title": "Plenty Plates"
+ },
+ "WEWiqYkW": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "exposure-polaroid",
+  "title": "Exposure: Polaroid"
+ },
+ "WEg59z5b": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "default-options",
+  "title": "Default Options"
+ },
+ "WRaRZdTd": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "universal-sawmill",
+  "title": "Sawmill"
+ },
+ "XZNI4Cpy": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "toms-storage",
+  "title": "Tom's Simple Storage Mod"
+ },
+ "XeEZ3fK2": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "freecam",
+  "title": "Freecam"
+ },
+ "Xg35A4rS": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "crafttweaker",
+  "title": "CraftTweaker"
+ },
+ "Y5Ve4Ui4": {
+  "license_id": "LGPL-3.0-or-later",
+  "license_name": "GNU Lesser General Public License v3.0 or later",
+  "slug": "antique-atlas-4",
+  "title": "Antique Atlas 4"
+ },
+ "YWGP4Y1d": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "chalk-mod",
+  "title": "Chalk"
+ },
+ "YdsAOij6": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "tinkers-construct-delight",
+  "title": "Tinkers Construct Delight"
+ },
+ "ZM3tt6p1": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "create-diesel-generators",
+  "title": "Create: Diesel Generators"
+ },
+ "ZjUUZ0PX": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "farmers-delight-plus",
+  "title": "Farmer's Delight: Plus"
+ },
+ "ZzjhlDgM": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "create-steam-n-rails",
+  "title": "Create: Steam 'n' Rails"
+ },
+ "aC3cM3Vq": {
+  "license_id": "BSD-3-Clause",
+  "license_name": "BSD 3-Clause \"New\" or \"Revised\" License",
+  "slug": "mouse-tweaks",
+  "title": "Mouse Tweaks"
+ },
+ "bRfPwYyB": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "hyperbox",
+  "title": "Hyperbox"
+ },
+ "bb2EpKpx": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "odyssey-allies",
+  "title": "Odyssey Allies"
+ },
+ "btq68HMO": {
+  "license_id": "LGPL-3.0-or-later",
+  "license_name": "GNU Lesser General Public License v3.0 or later",
+  "slug": "create-central-kitchen",
+  "title": "Create: Central Kitchen"
+ },
+ "cMppH5SJ": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "agricraft",
+  "title": "AgriCraft"
+ },
+ "dCCkNFwE": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "supplementaries-squared",
+  "title": "Supplementaries Squared"
+ },
+ "e0M1UDsY": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "collective",
+  "title": "Collective"
+ },
+ "e0bNACJD": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "serene-seasons",
+  "title": "Serene Seasons"
+ },
+ "eiktJyw1": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "every-compat",
+  "title": "Every Compat (Wood Good)"
+ },
+ "f3WJvB4r": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "surveystones",
+  "title": "Surveystones"
+ },
+ "f3wjDYg6": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "create-blaze-burner-fuels",
+  "title": "Create: Blaze Burner Fuels"
+ },
+ "fALzjamp": {
+  "license_id": "GPL-3.0-only",
+  "license_name": "GNU General Public License v3.0 only",
+  "slug": "chunky",
+  "title": "Chunky"
+ },
+ "fEWKxVzh": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "odyssey-claims",
+  "title": "Odyssey Claims"
+ },
+ "fFEIiSDQ": {
+  "license_id": "LicenseRef-Supplementaries-Team-License",
+  "license_name": "",
+  "slug": "supplementaries",
+  "title": "Supplementaries"
+ },
+ "fNJfw6Ix": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "tinkers-things",
+  "title": "Tinkers' Things"
+ },
+ "fPetb5Kh": {
+  "license_id": "CC-BY-NC-SA-4.0",
+  "license_name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+  "slug": "natures-compass",
+  "title": "Nature's Compass"
+ },
+ "fRiHVvU7": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "emi",
+  "title": "EMI"
+ },
+ "fuuu3xnx": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "searchables",
+  "title": "Searchables"
+ },
+ "gBUkmmra": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "biofactory",
+  "title": "Create: Bio-Factory"
+ },
+ "gJ5afkVv": {
+  "license_id": "GPL-3.0-or-later",
+  "license_name": "GNU General Public License v3.0 or later",
+  "slug": "bellsandwhistles",
+  "title": "Create: Bells & Whistles"
+ },
+ "gOPAFzp0": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "create-contraption-terminals",
+  "title": "Create Contraption Terminals"
+ },
+ "gedNE4y2": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "playeranimator",
+  "title": "playerAnimator"
+ },
+ "guitPqEi": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "storagedrawers",
+  "title": "Storage Drawers"
+ },
+ "gxSiDoVF": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "enderchests",
+  "title": "EnderChests"
+ },
+ "hB899VmG": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "exposure",
+  "title": "Exposure"
+ },
+ "hIu9KJTT": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "brewin-and-chewin",
+  "title": "Brewin' And Chewin'"
+ },
+ "hYykXjDp": {
+  "license_id": "LicenseRef-TDL-M",
+  "license_name": "",
+  "slug": "fzzy-config",
+  "title": "Fzzy Config"
+ },
+ "hddN8ksR": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "create-vibrant-vaults",
+  "title": "Create: Vibrant Vaults"
+ },
+ "iNJJU8Ib": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "compat-delight",
+  "title": "Compat Delight"
+ },
+ "iP3wH1ha": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "macaws-stairs",
+  "title": "Macaw's Stairs"
+ },
+ "ik2WZkTZ": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "petrolpark",
+  "title": "Petrolpark's Library"
+ },
+ "jNa5P8yc": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "tcintegrations",
+  "title": "Tinkers' Integrations and Tweaks"
+ },
+ "kB56GtWA": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "just-enough-professions-jep",
+  "title": "Just Enough Professions (JEP)"
+ },
+ "kNxa8z3e": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "macaws-doors",
+  "title": "Macaw's Doors"
+ },
+ "kU1G12Nn": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "createaddition",
+  "title": "Create Crafts & Additions"
+ },
+ "lhGA9TYQ": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "architectury-api",
+  "title": "Architectury API"
+ },
+ "mhvWcWRc": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "more-create-burners",
+  "title": "More Create Burners"
+ },
+ "n2fvCDlM": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "macaws-trapdoors",
+  "title": "Macaw's Trapdoors"
+ },
+ "nU0bVIaL": {
+  "license_id": "CC-BY-NC-SA-3.0",
+  "license_name": "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported",
+  "slug": "patchouli",
+  "title": "Patchouli"
+ },
+ "nmDcB62a": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "modernfix",
+  "title": "ModernFix"
+ },
+ "nrikgvxm": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "particle-rain",
+  "title": "Particle Rain"
+ },
+ "nvQzSEkH": {
+  "license_id": "CC-BY-NC-SA-4.0",
+  "license_name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+  "slug": "jade",
+  "title": "Jade \ud83d\udd0d"
+ },
+ "oHGMwNDR": {
+  "license_id": "GPL-3.0-only",
+  "license_name": "GNU General Public License v3.0 only",
+  "slug": "villagersplus",
+  "title": "VillagersPlus"
+ },
+ "oOi0CKes": {
+  "license_id": "MPL-2.0",
+  "license_name": "Mozilla Public License 2.0",
+  "slug": "diagonal-windows",
+  "title": "Diagonal Windows"
+ },
+ "oX7uP2kS": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "shetiphiancore",
+  "title": "ShetiPhianCore"
+ },
+ "ordsPcFz": {
+  "license_id": "LGPL-2.1-only",
+  "license_name": "GNU Lesser General Public License v2.1 only",
+  "slug": "kotlin-for-forge",
+  "title": "Kotlin for Forge"
+ },
+ "p19vrgc2": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "fusion-connected-textures",
+  "title": "Fusion (Connected Textures)"
+ },
+ "pfjLUfGv": {
+  "license_id": "LicenseRef-Botania-License",
+  "license_name": "",
+  "slug": "botania",
+  "title": "Botania"
+ },
+ "pvcsfne4": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "chefs-delight",
+  "title": "Chef's Delight - Farmer's Delight Villagers"
+ },
+ "qa2H4BS9": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "canary",
+  "title": "Canary"
+ },
+ "qaO9Dqpu": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "dynamictreesplus",
+  "title": "Dynamic Trees Plus"
+ },
+ "qeEEslrN": {
+  "license_id": "CC-BY-NC-SA-3.0",
+  "license_name": "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported",
+  "slug": "quark-oddities",
+  "title": "Quark Oddities"
+ },
+ "qnQsVE2z": {
+  "license_id": "CC-BY-NC-SA-3.0",
+  "license_name": "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported",
+  "slug": "quark",
+  "title": "Quark"
+ },
+ "qyVF9oeo": {
+  "license_id": "GPL-3.0-only",
+  "license_name": "GNU General Public License v3.0 only",
+  "slug": "sound-physics-remastered",
+  "title": "Sound Physics Remastered"
+ },
+ "rH20L2Lp": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "macaws-holidays",
+  "title": "Macaw's Holidays"
+ },
+ "rOUBggPv": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "supermartijn642s-core-lib",
+  "title": "SuperMartijn642's Core Lib"
+ },
+ "rxIIYO6c": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "tinkers-construct",
+  "title": "Tinkers' Construct"
+ },
+ "s3dmwKy5": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "glitchcore",
+  "title": "GlitchCore"
+ },
+ "sMvUb4Rb": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "create-deco",
+  "title": "Create Deco"
+ },
+ "sk9knFPE": {
+  "license_id": "MPL-2.0",
+  "license_name": "Mozilla Public License 2.0",
+  "slug": "rhino",
+  "title": "Rhino"
+ },
+ "sk9rgfiA": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "embeddium",
+  "title": "Embeddium"
+ },
+ "t5W7Jfwy": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "pehkui",
+  "title": "Pehkui"
+ },
+ "tPLE214j": {
+  "license_id": "LGPL-3.0-or-later",
+  "license_name": "GNU Lesser General Public License v3.0 or later",
+  "slug": "betterdays",
+  "title": "Better Days"
+ },
+ "tagwiZkJ": {
+  "license_id": "LGPL-3.0-or-later",
+  "license_name": "GNU Lesser General Public License v3.0 or later",
+  "slug": "polymorph",
+  "title": "Polymorph"
+ },
+ "twkfQtEc": {
+  "license_id": "LicenseRef-LGPL-with-additional-dependency-clause",
+  "license_name": "",
+  "slug": "moonlight",
+  "title": "Moonlight Lib"
+ },
+ "u58R1TMW": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "connector",
+  "title": "Sinytra Connector"
+ },
+ "uXXizFIs": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "ferrite-core",
+  "title": "FerriteCore"
+ },
+ "ulloLmqG": {
+  "license_id": "LicenseRef-Custom",
+  "license_name": "",
+  "slug": "another-furniture",
+  "title": "Another Furniture"
+ },
+ "umyGl7zF": {
+  "license_id": "LGPL-3.0-only",
+  "license_name": "GNU Lesser General Public License v3.0 only",
+  "slug": "kubejs",
+  "title": "KubeJS"
+ },
+ "uy4Cnpcm": {
+  "license_id": "LGPL-2.1-only",
+  "license_name": "GNU Lesser General Public License v2.1 only",
+  "slug": "bookshelf-lib",
+  "title": "Bookshelf"
+ },
+ "vdjF5PL5": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "dynamictrees",
+  "title": "Dynamic Trees"
+ },
+ "vvuO3ImH": {
+  "license_id": "LGPL-3.0-or-later",
+  "license_name": "GNU Lesser General Public License v3.0 or later",
+  "slug": "curios",
+  "title": "Curios API"
+ },
+ "w4an97C2": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "macaws-lights-and-lamps",
+  "title": "Macaw's Lights and Lamps"
+ },
+ "wPQ6GgFE": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "create-power-loader",
+  "title": "Create: Power Loader"
+ },
+ "xuDOzCLy": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "jade-addons-forge",
+  "title": "Jade Addons (Neo/Forge)"
+ },
+ "xv94TkTM": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "controlling",
+  "title": "Controlling"
+ },
+ "yFypjcfd": {
+  "license_id": "LicenseRef-OSL-3.0",
+  "license_name": "",
+  "slug": "tmrv",
+  "title": "TooManyRecipeViewers"
+ },
+ "yGttHo06": {
+  "license_id": "MIT",
+  "license_name": "MIT License",
+  "slug": "create-sound-of-steam",
+  "title": "Create: Sound of Steam"
+ },
+ "yjvKidNM": {
+  "license_id": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "slug": "lighty",
+  "title": "Lighty"
+ },
+ "zZwEA08D": {
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_name": "",
+  "slug": "endertanks",
+  "title": "EnderTanks"
+ },
+ "zfbCkvdZ": {
+  "license_id": "MPL-2.0",
+  "license_name": "Mozilla Public License 2.0",
+  "slug": "kambrik",
+  "title": "Kambrik"
+ }
+}

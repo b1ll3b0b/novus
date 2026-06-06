@@ -1,328 +1,358 @@
 # Novus
 
-**A Create-anchored progression modpack for Minecraft 1.20.1 (Forge).**
+**A Create-focused progression pack for Minecraft 1.20.1 (Forge).**
 
-Novus grafts Tinkers' Construct material progression onto Create's automation
-chassis, layers Farmer's Delight food complexity and Quark / Supplementaries /
-Macaw's decoration on top, and splits magic into two distinct paths — Botania
-(flora magic, tied to the agriculture stack) and Biomancy (flesh magic, bridged
-into Create). It is deliberately *not* a kitchen-sink pack: there's no combat
-overhaul, no quest layer, and no tech endgame beyond Create. The pack is
-bridge-heavy by design — a large set of compatibility mods make these ecosystems
-interoperate.
+Novus builds one connected playthrough out of a handful of big mods rather than
+throwing everything at you at once. Create runs the machines and automation.
+Tinkers' Construct handles tools and materials. Farmer's Delight turns cooking
+into a system of its own, and Quark, Supplementaries, and the Macaw's mods fill
+the world with things to build. Magic splits two ways: Botania, the flower-based
+path that grows out of the farming side, and Biomancy, the flesh-and-bio path
+that wires into Create.
 
-`Minecraft 1.20.1` · `Forge 47.4.20` · `Java 17` · **190 mods**
+It's a focused pack, not a kitchen sink. There's no combat overhaul, no quest
+book to grind through, and no tech tree that races past Create. What ties it all
+together is a large set of compatibility mods working quietly in the background
+so these systems understand each other.
+
+`Minecraft 1.20.1` · `Forge 47.4.20` · `Java 17` · **<!-- BEGIN:MODCOUNT -->197<!-- END:MODCOUNT --> mods**
 
 ---
 
 ## Install
 
-- **Self-updating (recommended):** download
-  **[`Novus.zip`](https://github.com/b1ll3b0b/novus/releases/latest/download/Novus.zip)**
-  and import it into Prism / MultiMC (Add Instance → Import from zip). A pre-launch
-  hook keeps it up to date on every launch — import once, and it pulls the latest
-  mods and configs from the project page automatically. That link always points at
-  the newest release, so it never goes stale.
-- **Standalone download:** grab `novus-<version>-complete.zip` (client /
-  singleplayer) or `novus-<version>-server.zip` (dedicated server) from the
-  [Releases](https://github.com/b1ll3b0b/novus/releases).
-- **packwiz:** point a packwiz-installer at the published `pack.toml`.
+**Self-updating (recommended).** Download
+**[`novus.zip`](https://github.com/b1ll3b0b/novus/releases/latest/download/novus.zip)**
+and import it into Prism or MultiMC (Add Instance → Import from zip). A small
+pre-launch step keeps it current: import once, and every launch pulls the latest
+mods and configs for you. That link always points at the newest release, so it
+never goes stale.
+
+**Standalone download.** Prefer a fixed version? Grab
+`novus-<version>-complete.zip` (client / singleplayer) or
+`novus-<version>-server.zip` (dedicated server) from the
+[Releases page](https://github.com/b1ll3b0b/novus/releases).
+
+**packwiz.** Point a packwiz-installer at the published `pack.toml`.
 
 ---
 
 ## Keybinds
 
-Novus ships a tuned, conflict-free keybind layout, applied automatically on first
-launch (via Default Options). Core systems and quality-of-life sit on the main
-keyboard, the numpad is reserved for niceties, and vanilla controls are untouched.
+Novus ships a tuned, conflict-free keybind layout that applies itself on first
+launch. The main keyboard holds the core systems and quality-of-life keys, the
+numpad is reserved for extras, and vanilla controls are left alone.
 
 ![Novus keybind layout](docs/keybinds.png)
 
 ---
 
-## Licensing & credits — read this
+## Licensing & credits — please read
 
-Everything below belongs to its respective author and is included under its own
-license. A few principles this pack follows:
+Everything below belongs to its original author and is included under that
+author's own license. Three things worth knowing up front:
 
-- **Mods are distributed as metadata** (download URL + file hash), **not** re-hosted
-  jars. Installing Novus pulls each mod from its official Modrinth/CurseForge source,
-  so the pack itself redistributes nothing for the ~187 metadata-tracked mods.
-- **Resource packs** are credited below. Where a pack's terms permit modpack
-  inclusion (Fresh Animations, Actually 3D, Vanilla Tweaks all do, with credit),
-  that's the basis for including it; the credit requirement is met here.
-- A handful of CurseForge mods can't be fetched by automated installers, so their
-  jars are bundled directly — see the note under the mod table.
+- **Most mods are included as metadata, not files.** For the 177 mods hosted on
+  Modrinth, Novus ships only a download link and a file hash. Installing the pack
+  fetches each one from its official source, so the pack itself re-hosts nothing
+  for those mods.
+- **The 20 CurseForge mods are bundled as actual jars.** Automated installers
+  can't fetch CurseForge by metadata, so those jars are included directly in the
+  pack. Several of them are All Rights Reserved (Waystones, Balm, Quark Delight,
+  and others). Credit goes to each author, linked in the table below.
+- **Resource packs are bundled as files too**, and some of their source packs are
+  All Rights Reserved. See the resource-pack section for the details and a
+  release caveat.
 
-**License mix across the 190 mods:**
+Novus started out aiming to be all open source. In practice it landed at roughly
+two-thirds open, with the rest being popular All Rights Reserved content and a
+few source-available licenses (Create, Supplementaries, Botania). That mix is
+normal for a Forge pack, and it's all disclosed here.
 
-| Category | Count |
+> This isn't legal advice. Licenses were read from each project's listing and/or
+> the mod's own metadata, and the trickier ones were checked against the
+> project's actual LICENSE file. If you spot a mistake, please open an issue.
+
+**License mix:**
+
+<!-- BEGIN:LICENSEMIX -->
+Across all 197 mods:
+
+| License type | Count |
 |---|---|
-| Open source (MIT, Apache, LGPL/GPL, MPL, OSL, etc.) | 131 |
-| All rights reserved | 43 |
-| Custom / source-available (Create, Supplementaries, Botania, etc.) | 9 |
-| Creative Commons non-commercial (Quark family, Jade, compasses) | 7 |
-
-Novus started with an all-open-source goal; in practice it drifted to roughly
-two-thirds OSI-open. The non-open remainder is mostly popular "all rights reserved"
-content (Waystones, the Macaw's suite, SuperMartijn642's libraries, Serene Seasons)
-and source-available-but-not-OSI licenses (Create, Supplementaries/Amendments,
-Botania). This is normal for a Forge pack and is disclosed here in full.
-
-> Not legal advice. Licenses were read from each project's Modrinth license field
-> and/or the mod's own `mods.toml`; if you spot an error, please open an issue.
+| Open source (MIT, Apache, LGPL/GPL, MPL, BSD, OSL, CC0/CC-BY, etc.) | 135 |
+| All rights reserved | 42 |
+| Custom / source-available (Create, Supplementaries, Botania, PolyForm, etc.) | 13 |
+| Creative Commons non-commercial (Quark family, Jade, the compasses) | 7 |
+<!-- END:LICENSEMIX -->
 
 ---
 
-## Mods (190)
+## Mods
 
-| Mod | Author | License | Source |
+<!-- BEGIN:MODS -->
+_197 mods. This table is generated from the jars and packwiz metadata by `tools/readme/build_readme_credits.py` — don't edit it by hand._
+
+| Mod | Author(s) | License | Source |
 |---|---|---|---|
 | AgriCraft | InfinityRaider, Ketheroth | MIT | [Modrinth](https://modrinth.com/mod/agricraft) |
-| Amendments | MehVahdJukaar | LicenseRef-Supplementaries-Team-License-1.1 | [Modrinth](https://modrinth.com/mod/amendments) |
-| Another Furniture | Starfish Studios | LicenseRef-Custom | [Modrinth](https://modrinth.com/mod/another-furniture) |
-| Antique Atlas 4 | Hunternif, tyra314, Sisby folk | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/antique-atlas-4) |
+| Amendments | MehVahdJukaar | Custom — Supplementaries Team License [^1] | [Modrinth](https://modrinth.com/mod/amendments) |
+| Another Furniture | Starfish Studios | Custom [^2] | [Modrinth](https://modrinth.com/mod/another-furniture) |
+| Antique Atlas | Hunternif, tyra314, Sisby folk. Contributions by Kenkron, asiekierka, Haven King, TheCodeWarrior, osipxd, coolAlias, TehNut, lumiscosity, frodolon | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/antique-atlas-4) |
 | AppleSkin | squeek | Unlicense | [Modrinth](https://modrinth.com/mod/appleskin) |
-| Architectury API | shedaniel | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/architectury-api) |
+| Architectury | shedaniel | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/architectury-api) |
+| Argonauts | Alex Nijjar, ThatGravyBoat | MIT | [Modrinth](https://modrinth.com/mod/argonauts) |
 | Auroras | Verph | BSD-2-Clause | [Modrinth](https://modrinth.com/mod/auroras) |
-| Backpacked | MrCrayfish | GNU Lesser General Public License v2.1 | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/backpacked) |
-| Balm | BlayTheNinth | ARR | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/balm) |
+| Backpacked | MrCrayfish | LGPL-2.1-only | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/backpacked) |
+| Balm | BlayTheNinth | All Rights Reserved | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/balm) |
 | Bartering Station | Fuzs | MPL-2.0 | [Modrinth](https://modrinth.com/mod/bartering-station) |
-| Better Combat | Daedelus | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/better-combat) |
-| Better Days | wendall911 | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/betterdays) |
-| Better Third Person | Socolio | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/better-third-person) |
-| Biomancy | Elenterius, RhinoW | MIT | [Modrinth](https://modrinth.com/mod/biomancy) |
-| Biomantic Delight | thesh, MCreator | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/bio-delight) |
+| Better Combat | Daedelus | GPL-3.0 [^3] | [Modrinth](https://modrinth.com/mod/better-combat) |
+| Better Third Person | Socolio | All Rights Reserved | [Modrinth](https://modrinth.com/mod/better-third-person) |
+| BetterDays | wendall911 | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/betterdays) |
+| Bio-Factory | Elenterius | MIT | [Modrinth](https://modrinth.com/mod/biofactory) |
+| Biomancy 2 | Elenterius, RhinoW | MIT | [Modrinth](https://modrinth.com/mod/biomancy) |
+| Biomantic Delight | thesh, MCreator | All Rights Reserved | [Modrinth](https://modrinth.com/mod/bio-delight) |
 | Bookshelf | Darkhax | LGPL-2.1-only | [Modrinth](https://modrinth.com/mod/bookshelf-lib) |
-| Botania | Vazkii, wiiv, williewillus, dylan4ever, Hubry, Alwinfy, artemisSystem, Falkory220 | LicenseRef-Botania-License | [Modrinth](https://modrinth.com/mod/botania) |
-| Bountiful | Ejektaflex | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/bountiful) |
-| brewin-and-chewin | Probleyes, Umpaz, MerchantPug | MIT | [Modrinth](https://modrinth.com/mod/brewin-and-chewin) |
+| Botania | Vazkii, wiiv, williewillus, dylan4ever, Hubry, Alwinfy, artemisSystem, Falkory220 | Custom — Botania License | [Modrinth](https://modrinth.com/mod/botania) |
+| Bountiful | Ejektaflex | GPL-3.0 [^4] | [Modrinth](https://modrinth.com/mod/bountiful) |
+| Brewin' And Chewin' | Probleyes, Umpaz, MerchantPug | MIT | [Modrinth](https://modrinth.com/mod/brewin-and-chewin) |
+| Cadmus | Alex Nijjar, ThatGravyBoat | MIT | [Modrinth](https://modrinth.com/mod/cadmus) |
 | Canary | AbdElAziz | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/canary) |
 | Catalogue | MrCrayfish | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/catalogue) |
 | Ceramics | KnightMiner | MIT | [Modrinth](https://modrinth.com/mod/ceramics) |
 | Chalk | mortuusars | MIT | [Modrinth](https://modrinth.com/mod/chalk-mod) |
-| chefs-delight | Redstone Games | MIT | [Modrinth](https://modrinth.com/mod/chefs-delight) |
+| Chefs Delight | Redstone Games | MIT | [Modrinth](https://modrinth.com/mod/chefs-delight) |
 | Cherished Worlds | Illusive Soulworks | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/cherished-worlds) |
-| Chunky | pop4959 | GPL-3.0-only | [Modrinth](https://modrinth.com/mod/chunky) |
-| Clockwork | rubydesic, ThePlasticPotato1, rainyatrium, PriestOfFerns | Apache-2.0 | [Modrinth](https://modrinth.com/mod/create-clockwork) |
-| Cloth Config API | shedaniel | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/cloth-config) |
-| Collective | Rick South | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/collective) |
+| Chunky | pop4959 | GPL-3.0 | [Modrinth](https://modrinth.com/mod/chunky) |
+| Clockwork | rubydesic, ThePlasticPotato1, rainyatrium, PriestOfFerns | Apache-2.0 [^5] | [Modrinth](https://modrinth.com/mod/create-clockwork) |
+| Cloth Config v10 API | shedaniel | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/cloth-config) |
+| Collective | Rick South | All Rights Reserved | [Modrinth](https://modrinth.com/mod/collective) |
 | Comforts | Illusive Soulworks | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/comforts) |
-| Compat Delight | FixerLink | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/compat-delight) |
-| Configured | MrCrayfish | GNU Lesser General Public License v3.0 | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/configured) |
+| Compat Delight | FixerLink | All Rights Reserved | [Modrinth](https://modrinth.com/mod/compat-delight) |
+| Configured | MrCrayfish | LGPL-3.0-only | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/configured) |
 | Controllable | MrCrayfish | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/controllable) |
 | Controlling | Jaredlll08 | MIT | [Modrinth](https://modrinth.com/mod/controlling) |
 | CraftTweaker | Jaredlll08, Kindlich, StanHebben and TheSilkMiner | MIT | [Modrinth](https://modrinth.com/mod/crafttweaker) |
-| Create | simibubi | LicenseRef-Create-Mod-License | [Modrinth](https://modrinth.com/mod/create) |
+| Create | simibubi | Custom — Create Mod License [^6] | [Modrinth](https://modrinth.com/mod/create) |
 | Create Contraption Terminals | tom5454 | MIT | [Modrinth](https://modrinth.com/mod/create-contraption-terminals) |
 | Create Crafts & Additions | MRH0 | MIT | [Modrinth](https://modrinth.com/mod/createaddition) |
-| Create Deco | Kayla, Talrey, Ordana, Cassian | MIT | [Modrinth](https://modrinth.com/mod/create-deco) |
-| Create Jetpack | possible_triangle | LicenseRef-Custom | [Modrinth](https://modrinth.com/mod/create-jetpack) |
-| Create Recycle Everything | NoCube | ARR | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/create-recycle-everything) |
-| create-steam-n-rails | The Railways Team | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/create-steam-n-rails) |
-| Create: Armory | dcchill | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/create-armory) |
+| Create Deco | Kayla, Talrey, Ordana, Cassian | CC0-1.0 [^9] | [Modrinth](https://modrinth.com/mod/create-deco) |
+| Create Enchantment Industry | MarbleGateKeeper & LimonBlaze | LGPL-3.0-only [^7] | [Modrinth](https://modrinth.com/mod/create-enchantment-industry) |
+| Create Hypertube | Rok | Apache-2.0 | [Modrinth](https://modrinth.com/mod/hypertube) |
+| Create Jetpack | possible_triangle | Custom (source-available) [^8] | [Modrinth](https://modrinth.com/mod/create-jetpack) |
+| Create Recycle Everything | NoCube | All Rights Reserved | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/create-recycle-everything) |
 | Create: Bells & Whistles | lev | GPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/bellsandwhistles) |
-| Create: Bio-Factory | Elenterius | MIT | [Modrinth](https://modrinth.com/mod/biofactory) |
-| Create: Blaze Burner Fuels | robinfrt | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/create-blaze-burner-fuels) |
-| Create: Central Kitchen | LimonBlaze, MarbleGate and Etherwood | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/create-central-kitchen) |
+| Create: Blaze Burner Fuels | robinfrt | All Rights Reserved | [Modrinth](https://modrinth.com/mod/create-blaze-burner-fuels) |
+| Create: Central Kitchen | LimonBlaze, MarbleGate and Etherwood | LGPL-3.0-only [^7] | [Modrinth](https://modrinth.com/mod/create-central-kitchen) |
 | Create: Connected | Lysine | AGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/create-connected) |
-| Create: Copycats+ | Lysine, Bennyboy1695, Redcat_XVIII | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/copycats) |
+| Create: Copycats+ | Lysine, Bennyboy1695, Redcat_XVIII | All Rights Reserved | [Modrinth](https://modrinth.com/mod/copycats) |
 | Create: Diesel Generators | George VI | MIT | [Modrinth](https://modrinth.com/mod/create-diesel-generators) |
-| Create: Enchantment Industry | MarbleGateKeeper & LimonBlaze | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/create-enchantment-industry) |
 | Create: Escalated | rbasamoyai | MIT | [Modrinth](https://modrinth.com/mod/escalated) |
-| Create: Hypertubes | Rok | Apache-2.0 | [Modrinth](https://modrinth.com/mod/hypertube) |
 | Create: Power Loader | Lysine | MIT | [Modrinth](https://modrinth.com/mod/create-power-loader) |
-| Create: Sound of Steam | FinchyMcFinch, Deanosaur75 | MIT | [Modrinth](https://modrinth.com/mod/create-sound-of-steam) |
+| Create: Sound of Steam | FinchyMcFinch, Deanosaur75 | MIT [^12] | [Modrinth](https://modrinth.com/mod/create-sound-of-steam) |
+| Create: Steam 'n' Rails | The Railways Team | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/create-steam-n-rails) |
 | Create: Vibrant Vaults | ZLT | MIT | [Modrinth](https://modrinth.com/mod/create-vibrant-vaults) |
+| CreateArmory | dcchill | All Rights Reserved | [Modrinth](https://modrinth.com/mod/create-armory) |
 | Curios API | C4 | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/curios) |
+| Default Options | BlayTheNinth | All Rights Reserved | [Modrinth](https://modrinth.com/mod/default-options) |
 | Diagonal Fences | Fuzs, XFactHD | MPL-2.0 | [Modrinth](https://modrinth.com/mod/diagonal-fences) |
 | Diagonal Walls | Fuzs, XFactHD | MPL-2.0 | [Modrinth](https://modrinth.com/mod/diagonal-walls) |
 | Diagonal Windows | Fuzs, XFactHD | MPL-2.0 | [Modrinth](https://modrinth.com/mod/diagonal-windows) |
 | Dynamic Trees | Ferreusveritas | MIT | [Modrinth](https://modrinth.com/mod/dynamictrees) |
-| Dynamic Trees - Quark | Max Hyper | MIT | [Modrinth](https://modrinth.com/mod/dynamic-trees-quark) |
+| Dynamic Trees for Quark | Max Hyper | MIT | [Modrinth](https://modrinth.com/mod/dynamic-trees-quark) |
+| Dynamic Trees for Tinker's Construct | Max Hyper | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-tinkers-construct) |
 | Dynamic Trees Plus | Ferreusveritas, Max Hyper/supermassimo, Harley O'Connor | MIT | [Modrinth](https://modrinth.com/mod/dynamictreesplus) |
-| dynamic-trees-tinkers-construct | Max Hyper | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-tinkers-construct) |
 | Embeddium | embeddedt | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/embeddium) |
 | EMI | Emi | MIT | [Modrinth](https://modrinth.com/mod/emi) |
-| Enchantment Descriptions | Darkhax | LGPL-2.1-only | [Modrinth](https://modrinth.com/mod/enchantment-descriptions) |
-| EnderChests | ShetiPhian; Artwork: Fruzstrated | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/enderchests) |
-| EnderTanks | ShetiPhian; Artwork: Fruzstrated | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/endertanks) |
+| EnchantmentDescriptions | Darkhax | LGPL-2.1-only | [Modrinth](https://modrinth.com/mod/enchantment-descriptions) |
+| EnderChests | ShetiPhian; Artwork: Fruzstrated | All Rights Reserved | [Modrinth](https://modrinth.com/mod/enderchests) |
+| EnderTanks | ShetiPhian; Artwork: Fruzstrated | All Rights Reserved | [Modrinth](https://modrinth.com/mod/endertanks) |
 | Entity Model Features | Traben | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/entity-model-features) |
 | Entity Texture Features | Traben | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/entitytexturefeatures) |
-| EntityCulling | tr7zw | LicenseRef-tr7zw-Protective-License | [Modrinth](https://modrinth.com/mod/entityculling) |
-| Every Compat | MehVahdJukaar | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/every-compat) |
-| explorers-compass | ChaosTheDude | CC-BY-NC-SA-4.0 | [Modrinth](https://modrinth.com/mod/explorers-compass) |
+| EntityCulling | tr7zw | Custom — tr7zw Protective License | [Modrinth](https://modrinth.com/mod/entityculling) |
+| Every Compat | MehVahdJukaar, Xel'Bayria, WenXin2 | Custom — Supplementaries Team License [^1] | [Modrinth](https://modrinth.com/mod/every-compat) |
+| Explorer's Compass | ChaosTheDude | CC-BY-NC-SA-4.0 | [Modrinth](https://modrinth.com/mod/explorers-compass) |
 | Exposure | mortuusars | MIT | [Modrinth](https://modrinth.com/mod/exposure) |
 | Exposure Polaroid | mortuusars | MIT | [Modrinth](https://modrinth.com/mod/exposure-polaroid) |
-| FA: Player Extension Compat | ArimoV2 | MPL-2.0 | [Modrinth](https://modrinth.com/mod/fa-player-extension-compat) |
-| farmers-delight | vectorwing | MIT | [Modrinth](https://modrinth.com/mod/farmers-delight) |
-| farmers-delight-plus | Johnyele | MIT | [Modrinth](https://modrinth.com/mod/farmers-delight-plus) |
-| farmers-respite | Umpaz, Probleyes | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/farmers-respite) |
-| FerriteCore | malte0811 | MIT | [Modrinth](https://modrinth.com/mod/ferrite-core) |
+| FA Player Extension Compat | ArimoV2 | MPL-2.0 | [Modrinth](https://modrinth.com/mod/fa-player-extension-compat) |
+| Farmer's Delight | vectorwing | MIT | [Modrinth](https://modrinth.com/mod/farmers-delight) |
+| Farmer's Delight: Plus | Johnyele | MIT | [Modrinth](https://modrinth.com/mod/farmers-delight-plus) |
+| Farmer's Respite | Umpaz, Probleyes | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/farmers-respite) |
+| Ferrite Core | malte0811 | MIT | [Modrinth](https://modrinth.com/mod/ferrite-core) |
 | Forgified Fabric API | FabricMC, Sinytra | Apache-2.0 | [Modrinth](https://modrinth.com/mod/forgified-fabric-api) |
-| Framework | MrCrayfish | LGPL-3.0 | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/framework) |
+| Framework | MrCrayfish | LGPL-2.1-only | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/framework) |
 | Freecam | hashalite | MIT | [Modrinth](https://modrinth.com/mod/freecam) |
-| frights-delight | ChefMooon | MIT | [Modrinth](https://modrinth.com/mod/frights-delight) |
-| Fusion (Connected Textures) | SuperMartijn642 | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/fusion-connected-textures) |
-| Fzzy Config | fzzyhmstrs | LicenseRef-TDL-M | [Modrinth](https://modrinth.com/mod/fzzy-config) |
-| gabous-libs | Gabou | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/gabous-libs) |
-| Geckolib | Gecko, Eliot, AzureDoom, DerToaster, Tslat, Witixin | MIT | [Modrinth](https://modrinth.com/mod/geckolib) |
-| GlitchCore | Adubbz | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/glitchcore) |
+| Fright's Delight | ChefMooon | MIT | [Modrinth](https://modrinth.com/mod/frights-delight) |
+| Fusion | SuperMartijn642 | All Rights Reserved | [Modrinth](https://modrinth.com/mod/fusion-connected-textures) |
+| Fzzy Config | fzzyhmstrs | Custom — TDL-M | [Modrinth](https://modrinth.com/mod/fzzy-config) |
+| Gabou's Libs | Gabou | All Rights Reserved | [Modrinth](https://modrinth.com/mod/gabous-libs) |
+| GeckoLib 4 | Gecko, Eliot, AzureDoom, DerToaster, Tslat, Witixin | MIT | [Modrinth](https://modrinth.com/mod/geckolib) |
+| GlitchCore | Adubbz | All Rights Reserved | [Modrinth](https://modrinth.com/mod/glitchcore) |
 | Goblin Traders | MrCrayfish | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/goblin-traders) |
-| Hide Experimental Warning | Rick South | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/hide-experimental-warning) |
+| Hide Experimental Warning | Rick South | All Rights Reserved | [Modrinth](https://modrinth.com/mod/hide-experimental-warning) |
 | Hyperbox | Commoble | MIT | [Modrinth](https://modrinth.com/mod/hyperbox) |
 | ImmediatelyFast | RK_01 | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/immediatelyfast) |
-| Immersive Gateways | Luke100000 | GPL-3.0-only | [Modrinth](https://modrinth.com/mod/immersive-gateways) |
+| Immersive Gateways | Luke100000 | GPL-3.0 | [Modrinth](https://modrinth.com/mod/immersive-gateways) |
 | Infinity Buttons | LarsMans | MIT | [Modrinth](https://modrinth.com/mod/infinitybuttons) |
 | Initial Inventory | Jaredlll08 | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/initial-inventory) |
-| Jade Addons (Neo/Forge) | Snownee | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/jade-addons-forge) |
-| Jade 🔍 | Snownee | CC-BY-NC-SA-4.0 | [Modrinth](https://modrinth.com/mod/jade) |
-| Json Things | gigaherz | BSD | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/json-things) |
+| Jade | Snownee | CC-BY-NC-SA-4.0 | [Modrinth](https://modrinth.com/mod/jade) |
+| Jade Addons | Snownee | All Rights Reserved | [Modrinth](https://modrinth.com/mod/jade-addons-forge) |
+| Json Things | gigaherz | BSD-3-Clause | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/json-things) |
 | Just Enough Breeding | Christofmeg | MIT | [Modrinth](https://modrinth.com/mod/justenoughbreeding) |
-| Just Enough Effect Descriptions (JEED) | MehVahdJukaar | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/just-enough-effect-descriptions-jeed) |
+| Just Enough Effects Descriptions | MehVahdJukaar | All Rights Reserved | [Modrinth](https://modrinth.com/mod/just-enough-effect-descriptions-jeed) |
 | Just Enough Professions (JEP) | Mrbysco, ShyNieke | MIT | [Modrinth](https://modrinth.com/mod/just-enough-professions-jep) |
-| Kambrik | Me! | MPL-2.0 | [Modrinth](https://modrinth.com/mod/kambrik) |
-| Kotlin For Forge | thedarkcolour | LGPL-2.1-only | [Modrinth](https://modrinth.com/mod/kotlin-for-forge) |
+| Kambrik | enjarai | MPL-2.0 [^10] | [Modrinth](https://modrinth.com/mod/kambrik) |
+| Kotlin For Forge | — | LGPL-2.1-only | [Modrinth](https://modrinth.com/mod/kotlin-for-forge) |
 | KubeJS | LatvianModder | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/kubejs) |
-| KubeJS Additions | ILIKEPIEFOO2 | MIT | [Modrinth](https://modrinth.com/mod/kubejs-additions) |
+| KubeJS Addditions (Forge) | ILIKEPIEFOO2 | All Rights Reserved [^11] | [Modrinth](https://modrinth.com/mod/kubejs-additions) |
 | KubeJS Create | LatvianModder | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/kubejs-create) |
-| KubeJS Delight | QinomeD, Bob Varioa | LGPL-3.0 | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/kubejs-delight) |
+| KubeJSDelight | QinomeD, Bob Varioa | LGPL-3.0-only | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/kubejs-delight) |
 | Leaves Be Gone | Fuzs | MPL-2.0 | [Modrinth](https://modrinth.com/mod/leaves-be-gone) |
 | Lighty | andi_makes, agnor99 | Apache-2.0 | [Modrinth](https://modrinth.com/mod/lighty) |
-| macaws-bridges | Sketch Macaw & Peachy Macaw | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/macaws-bridges) |
-| macaws-doors | Sketch Macaw & Sketch Peachy | MIT | [Modrinth](https://modrinth.com/mod/macaws-doors) |
-| macaws-fences-and-walls | Sketch Macaw & Peachy Macaw | MIT | [Modrinth](https://modrinth.com/mod/macaws-fences-and-walls) |
-| macaws-holidays | Sketch Macaw & Peachy Macaw | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/macaws-holidays) |
-| macaws-lights-and-lamps | Sketch Macaw & Peachy Macaw | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/macaws-lights-and-lamps) |
-| macaws-paths-and-pavings | Sketch Macaw & Peachy Macaw | MIT | [Modrinth](https://modrinth.com/mod/macaws-paths-and-pavings) |
-| macaws-roofs | Sketch Macaw & Sketch Peachy | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/macaws-roofs) |
-| macaws-stairs | Sketch Macaw & Sketch Peachy | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/macaws-stairs) |
-| macaws-trapdoors | Sketch Macaw & Peachy Macaw | MIT | [Modrinth](https://modrinth.com/mod/macaws-trapdoors) |
-| macaws-windows | Sketch Macaw & Peachy Macaw | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/macaws-windows) |
+| Macaw's Bridges | Sketch Macaw & Peachy Macaw | All Rights Reserved | [Modrinth](https://modrinth.com/mod/macaws-bridges) |
+| Macaw's Doors | Sketch Macaw & Sketch Peachy | MIT | [Modrinth](https://modrinth.com/mod/macaws-doors) |
+| Macaw's Fences and Walls | Sketch Macaw & Peachy Macaw | MIT | [Modrinth](https://modrinth.com/mod/macaws-fences-and-walls) |
+| Macaw's Holidays | Sketch Macaw & Peachy Macaw | All Rights Reserved | [Modrinth](https://modrinth.com/mod/macaws-holidays) |
+| Macaw's Lights and Lamps | Sketch Macaw & Peachy Macaw | All Rights Reserved | [Modrinth](https://modrinth.com/mod/macaws-lights-and-lamps) |
+| Macaw's Paths and Pavings | Sketch Macaw & Peachy Macaw | MIT | [Modrinth](https://modrinth.com/mod/macaws-paths-and-pavings) |
+| Macaw's Roofs | Sketch Macaw & Sketch Peachy | All Rights Reserved | [Modrinth](https://modrinth.com/mod/macaws-roofs) |
+| Macaw's Stairs and Balconies | Sketch Macaw & Sketch Peachy | All Rights Reserved | [Modrinth](https://modrinth.com/mod/macaws-stairs) |
+| Macaw's Trapdoors | Sketch Macaw & Peachy Macaw | MIT | [Modrinth](https://modrinth.com/mod/macaws-trapdoors) |
+| Macaw's Windows | Sketch Macaw & Peachy Macaw | All Rights Reserved | [Modrinth](https://modrinth.com/mod/macaws-windows) |
 | Mantle | Slime Knights | MIT | [Modrinth](https://modrinth.com/mod/mantle) |
-| miners-delight | Sammy; | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/miners-delight) |
-| MmmMmmMmmmmm | MehVahdJukaar, Bonusboni, Plantkillable | CC0-1.0 | [Modrinth](https://modrinth.com/mod/mmmmmmmmmmmm) |
+| Map Atlases | MehVahdJukaar, Pepperoni__Jabroni__ | GPL-3.0 | [Modrinth](https://modrinth.com/mod/map-atlases-forge) |
+| Miner's Delight | Sammy; | All Rights Reserved | [Modrinth](https://modrinth.com/mod/miners-delight) |
+| MmmMmmMmmMmm | MehVahdJukaar, Bonusboni, Plantkillable | CC0-1.0 | [Modrinth](https://modrinth.com/mod/mmmmmmmmmmmm) |
 | ModernFix | embeddedt | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/modernfix) |
-| Moonlight Library | MehVahdJukaar | LicenseRef-LGPL-with-additional-dependency-clause | [Modrinth](https://modrinth.com/mod/moonlight) |
-| More Create Burners | Dragon Egg | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/more-create-burners) |
+| Moonlight Library | MehVahdJukaar | Custom — LGPL + dependency clause | [Modrinth](https://modrinth.com/mod/moonlight) |
+| More Create Burners | Dragon Egg | All Rights Reserved | [Modrinth](https://modrinth.com/mod/more-create-burners) |
 | More Red | Commoble | MIT | [Modrinth](https://modrinth.com/mod/more-red) |
 | Mouse Tweaks | Ivan Molodetskikh (YaLTeR) | BSD-3-Clause | [Modrinth](https://modrinth.com/mod/mouse-tweaks) |
-| natures-compass | ChaosTheDude | CC-BY-NC-SA-4.0 | [Modrinth](https://modrinth.com/mod/natures-compass) |
+| Nature's Compass | ChaosTheDude | CC-BY-NC-SA-4.0 | [Modrinth](https://modrinth.com/mod/natures-compass) |
 | Oculus | NanoLive, dima_dencep, coderbot, IMS212, Justsnoopy30, FoundationGames | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/oculus) |
 | Particle Rain | pigcart | MIT | [Modrinth](https://modrinth.com/mod/particle-rain) |
 | Patchouli | Vazkii | CC-BY-NC-SA-3.0 | [Modrinth](https://modrinth.com/mod/patchouli) |
 | Paxi | YUNGNICKYOUNG | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/paxi) |
 | Pehkui | Virtuoel | MIT | [Modrinth](https://modrinth.com/mod/pehkui) |
-| petrolpark | petrolpark | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/petrolpark) |
-| petrols-parts | petrolpark | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/petrols-parts) |
+| Petrol's Parts | petrolpark | All Rights Reserved | [Modrinth](https://modrinth.com/mod/petrols-parts) |
+| Petrolpark's Library | petrolpark | All Rights Reserved | [Modrinth](https://modrinth.com/mod/petrolpark) |
 | Placebo | Shadows_of_Fire | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/placebo) |
-| playerAnimator | KosmX | MIT | [Modrinth](https://modrinth.com/mod/playeranimator) |
+| Player Animator | KosmX | MIT | [Modrinth](https://modrinth.com/mod/playeranimator) |
 | Plenty Plates | Fuzs | MPL-2.0 | [Modrinth](https://modrinth.com/mod/plenty-plates) |
-| PolyLib | CreeperHost | BSD-4-Clause | [Modrinth](https://modrinth.com/mod/polylib) |
+| PolyLib | CreeperHost | BSD-4-Clause [^13] | [Modrinth](https://modrinth.com/mod/polylib) |
 | Polymorph | Illusive Soulworks | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/polymorph) |
-| Ponder for KubeJS | kotakotik22, AlmostReliable | MIT | [Modrinth](https://modrinth.com/mod/ponder) |
-| Powah! | owmii,Technici4n | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/powah) |
+| PonderJS | kotakotik22, AlmostReliable | MIT | [Modrinth](https://modrinth.com/mod/ponder) |
+| Powah | owmii,Technici4n | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/powah) |
 | Puzzles Lib | Fuzs | MPL-2.0 | [Modrinth](https://modrinth.com/mod/puzzles-lib) |
 | Quark | Vazkii, WireSegal, MCVinnyq, Sully | CC-BY-NC-SA-3.0 | [Modrinth](https://modrinth.com/mod/quark) |
-| Quark Delight | NoCube | ARR | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/quark-delight) |
+| Quark Delight | NoCube | All Rights Reserved | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/quark-delight) |
 | Quark Oddities | Vazkii, WireSegal, MCVinnyq, Sully | CC-BY-NC-SA-3.0 | [Modrinth](https://modrinth.com/mod/quark-oddities) |
 | Rainbows | Verph | BSD-2-Clause | [Modrinth](https://modrinth.com/mod/rainboows) |
 | Repurposed Structures | TelepathicGrunt | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/repurposed-structures-forge) |
-| Resourceful Config | ThatGravyBoat, epic_oreo (Team Resourceful) | MIT | [Modrinth](https://modrinth.com/mod/resourceful-config) |
+| Resourceful Lib | ThatGravyBoat, Epic_Oreo | MIT | [Modrinth](https://modrinth.com/mod/resourceful-lib) |
+| Resourcefulconfig | ThatGravyBoat, Epic_Oreo | MIT [^14] | [Modrinth](https://modrinth.com/mod/resourceful-config) |
 | Rhino | latvian.dev, Mozilla | MPL-2.0 | [Modrinth](https://modrinth.com/mod/rhino) |
 | Saturn | AbdElAziz | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/saturn) |
-| Sawmill | MehVahdJukaar | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/universal-sawmill) |
-| scarecrows-territory | SuperMartijn642 | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/scarecrows-territory) |
+| Scarecrows' Territory | SuperMartijn642 | All Rights Reserved | [Modrinth](https://modrinth.com/mod/scarecrows-territory) |
 | Searchables | Jaredlll08 | MIT | [Modrinth](https://modrinth.com/mod/searchables) |
-| Serene Seasons | Adubbz, Forstride | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/serene-seasons) |
-| Serene Seasons Plus | Gabou | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/serene-seasons-plus) |
-| ShetiPhianCore | ShetiPhian, Artwork: Fruzstrated | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/shetiphiancore) |
-| Simple Clouds | nonamecrackers2 | LicenseRef-PolyForm-Perimeter-License-1.0.1 | [Modrinth](https://modrinth.com/mod/simple-clouds) |
-| Sinytra Connector | Sinytra (team) | MIT | [Modrinth](https://modrinth.com/mod/connector) |
+| Serene Seasons | Adubbz, Forstride | All Rights Reserved | [Modrinth](https://modrinth.com/mod/serene-seasons) |
+| Serene Seasons Plus | Gabou | All Rights Reserved | [Modrinth](https://modrinth.com/mod/serene-seasons-plus) |
+| ShetiPhian-Core | ShetiPhian, Artwork: Fruzstrated | All Rights Reserved | [Modrinth](https://modrinth.com/mod/shetiphiancore) |
+| Simple Clouds | nonamecrackers2 | PolyForm Perimeter 1.0.1 | [Modrinth](https://modrinth.com/mod/simple-clouds) |
+| Simple Clouds Compat | RedCraft86 | MIT | [Modrinth](https://modrinth.com/mod/simple-clouds-compat) |
+| Simple Voice Chat | Max Henkel | All Rights Reserved | [Modrinth](https://modrinth.com/mod/simple-voice-chat) |
+| Sinytra Connector | — | MIT | [Modrinth](https://modrinth.com/mod/connector) |
 | Sodium Dynamic Lights | toni, LambdAurora | MIT | [Modrinth](https://modrinth.com/mod/sodium-dynamic-lights) |
 | Sodium Options API | toni | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/sodium-options-api) |
-| Sound Physics Remastered | Sonic Ether, vlad2305m, Max Henkel, Saint | GPL-3.0-only | [Modrinth](https://modrinth.com/mod/sound-physics-remastered) |
-| Spice of Life: Classic Edition [1.20.1] | leopoko | MIT | [Modrinth](https://modrinth.com/mod/foodvariations) |
+| Sound Physics Remastered | Sonic Ether, vlad2305m, Max Henkel, Saint | GPL-3.0 | [Modrinth](https://modrinth.com/mod/sound-physics-remastered) |
+| Spice of Life: Classic Edition | leopoko | MIT | [Modrinth](https://modrinth.com/mod/foodvariations) |
 | Storage Drawers | Texelsaur | MIT | [Modrinth](https://modrinth.com/mod/storagedrawers) |
-| Subtle Effects | MincraftEinstein | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/subtle-effects) |
-| supermartijn642s-config-lib | SuperMartijn642 | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/supermartijn642s-config-lib) |
-| supermartijn642s-core-lib | SuperMartijn642 | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/supermartijn642s-core-lib) |
-| Supplementaries | MehVahdJukaar, Plantkillable | LicenseRef-Supplementaries-Team-License | [Modrinth](https://modrinth.com/mod/supplementaries) |
-| Supplementaries Squared | MehVahdJukaar, Plantkillable | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/supplementaries-squared) |
-| Surveyor Map Framework | Sisby folk | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/surveyor) |
-| Surveystones | Sisby folk | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/surveystones) |
-| tcintegrations | wendall911 | MIT | [Modrinth](https://modrinth.com/mod/tcintegrations) |
-| TerraBlender (Forge) | Adubbz | LGPL-3.0 | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/terrablender) |
-| Tinkers Construct Delight | NoCube | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/tinkers-construct-delight) |
-| tinkers-construct | Slime Knights | MIT | [Modrinth](https://modrinth.com/mod/tinkers-construct) |
-| tinkers-things | KnightMiner | MIT | [Modrinth](https://modrinth.com/mod/tinkers-things) |
+| Subtle Effects | MincraftEinstein | All Rights Reserved | [Modrinth](https://modrinth.com/mod/subtle-effects) |
+| SuperMartijn642's Config Library | SuperMartijn642 | All Rights Reserved | [Modrinth](https://modrinth.com/mod/supermartijn642s-config-lib) |
+| SuperMartijn642's Core Lib | SuperMartijn642 | All Rights Reserved | [Modrinth](https://modrinth.com/mod/supermartijn642s-core-lib) |
+| Supplementaries | MehVahdJukaar, Plantkillable | Custom — Supplementaries Team License [^1] | [Modrinth](https://modrinth.com/mod/supplementaries) |
+| Supplementaries Squared | MehVahdJukaar, Plantkillable | Custom — Supplementaries Team License [^1] | [Modrinth](https://modrinth.com/mod/supplementaries-squared) |
+| Surveyor Map Framework | Sisby folk. Contributions by Ampflower, falkreon, jaskarth, Garden System | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/surveyor) |
+| Surveystones | Sisby folk. Contributions by lack | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/surveystones) |
+| TCIntegrations | wendall911 | MIT | [Modrinth](https://modrinth.com/mod/tcintegrations) |
+| TerraBlender | Adubbz | LGPL-3.0-only | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/terrablender) |
+| Tinkers' Construct | Slime Knights | MIT | [Modrinth](https://modrinth.com/mod/tinkers-construct) |
+| Tinkers' Delight | NoCube | All Rights Reserved | [Modrinth](https://modrinth.com/mod/tinkers-construct-delight) |
+| Tinkers' Things | KnightMiner | MIT [^14] | [Modrinth](https://modrinth.com/mod/tinkers-things) |
 | Toast Control | Shadows_of_Fire | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/toast-control) |
-| toms-storage | tom5454 | MIT | [Modrinth](https://modrinth.com/mod/toms-storage) |
-| TooManyRecipeViewers | Nolij (@xdMatthewbx#1337) & the Craftoria team | LicenseRef-OSL-3.0 | [Modrinth](https://modrinth.com/mod/tmrv) |
-| Trackwork | Endalion | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/trackwork) |
+| Tom's Simple Storage Mod | tom5454 | MIT | [Modrinth](https://modrinth.com/mod/toms-storage) |
+| TooManyRecipeViewers | Nolij (@xdMatthewbx#1337) & the Craftoria team | OSL-3.0 | [Modrinth](https://modrinth.com/mod/tmrv) |
+| Trackwork Mod | Endalion | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/trackwork) |
 | Trading Post | Fuzs | MPL-2.0 | [Modrinth](https://modrinth.com/mod/trading-post) |
-| Trash Cans | SuperMartijn642 | LicenseRef-All-Rights-Reserved | [Modrinth](https://modrinth.com/mod/trash-cans) |
-| Valkyrien Skies | rubydesic, StewStrong (VS team) | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/valkyrien-skies) |
-| villagers-sell-animals | NoCube | ARR | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/villagers-sell-animals) |
-| VillagersPlus | Lion | GPL-3.0-only | [Modrinth](https://modrinth.com/mod/villagersplus) |
-| Waystones | BlayTheNinth | ARR | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/waystones) |
-| yungs-api | YUNGNICKYOUNG | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/yungs-api) |
+| Trash Cans | SuperMartijn642 | All Rights Reserved | [Modrinth](https://modrinth.com/mod/trash-cans) |
+| Universal Sawmill | MehVahdJukaar | Custom — Supplementaries Team License [^1] | [Modrinth](https://modrinth.com/mod/universal-sawmill) |
+| Valkyrien Skies 2 | the Valkyrien Skies team | LGPL-3.0-only [^15] | [Modrinth](https://modrinth.com/mod/valkyrien-skies) |
+| Villagers Sell Animals | NoCube | All Rights Reserved | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/villagers-sell-animals) |
+| VillagersPlus | Lion | GPL-3.0 [^16] | [Modrinth](https://modrinth.com/mod/villagersplus) |
+| Waystones | BlayTheNinth | All Rights Reserved | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/waystones) |
+| YUNG's API | YUNGNICKYOUNG | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/yungs-api) |
 | Zeta | Vazkii, quat, IThundxr, siuol, wiresegal, MehVahdJukaar | CC-BY-NC-SA-3.0 | [Modrinth](https://modrinth.com/mod/zeta) |
 
-**Bundled CurseForge jars (re-hosted in the pack):** *Create Recycle Everything*,
-*Villagers Sell Animals*, and *Quark Delight* have third-party API distribution
-disabled, so no installer can fetch them automatically. Their jars are bundled
-directly so the pack installs cleanly. All three are All Rights Reserved; credit to
-their respective authors (linked above).
+Notes on specific licenses:
+
+[^1]: Source-available with redistribution restrictions; see the project page.
+[^2]: Split license: code MIT, art assets All Rights Reserved (Starfish Studios). The jar's 'MIT' only covers the code.
+[^3]: The source LICENSE file is GPL-3.0 and the jar agrees; the Modrinth listing's 'All Rights Reserved' is stale.
+[^4]: The source LICENSE file is GPL-3.0 (not LGPL as the Modrinth listing shows).
+[^5]: Author list from the project page; the jar leaves the authors field blank.
+[^6]: Source-available: code is MIT, art/assets are All Rights Reserved. The jar's bare 'MIT' only covers the code.
+[^7]: The source LICENSE file is LGPL-3.0; the jar mislabels it MIT.
+[^8]: Custom source-available license; the jar stores the license as a bare URL.
+[^9]: The source LICENSE file is CC0-1.0; the jar metadata is a placeholder ('Insert License Here').
+[^10]: Author from the source repo; the jar lists the author as the placeholder 'Me!'.
+[^11]: The source LICENSE file states All Rights Reserved; the Modrinth listing mislabels it MIT.
+[^12]: The source LICENSE file is MIT; the jar metadata mislabels it All Rights Reserved.
+[^13]: From the source LICENSE; the jar metadata is a placeholder ('Insert License Here').
+[^14]: Author from the project page; the jar leaves the authors field blank.
+[^15]: Core mod is LGPL-3.0; the jar's 'Apache-2.0' is the separately-licensed addon API module.
+[^16]: The source LICENSE file is GPL-3.0; the jar metadata mislabels it CC0.
+
+A dash in the License column means no license could be confirmed from the jar, the project's listing, or its source repository. Treat those as All Rights Reserved unless and until the author states otherwise.
+<!-- END:MODS -->
 
 ---
 
 ## Resource packs
 
-Novus ships a curated texture/animation stack (auto-applied via Paxi) plus two
-opt-in packs. They fall into three groups: third-party packs included whole,
-Novus packs that merge or derive from third-party work, and the original
-`Novus3D_*` / `Novus_*` packs assembled for Novus. The original packs **pull
-models/textures verbatim from the upstream "source packs"** credited at the
-bottom — so those upstream licenses still govern the bundled assets.
+<!-- BEGIN:RESOURCEPACKS -->
+Novus ships a curated texture and animation stack, applied automatically through Paxi, plus two opt-in packs you can turn on yourself. They come in three groups: third-party packs included whole, Novus packs that merge or adapt third-party work, and the original Novus3D_* / Novus_* packs built for this pack. The original packs pull models and textures directly from the upstream "source packs" listed further down, so those upstream licenses still govern the bundled assets.
 
-> **Please read — resource-pack licensing.** Unlike the mods (distributed as
-> links + hashes), the resource packs are bundled as files. Several source packs
-> below are **All Rights Reserved, some explicitly "no redistribution without
-> permission."** Including their assets in a publicly distributed pack goes beyond
-> what those licenses grant. For a private group this is low-risk; **before any
-> public release, get permission, swap to permissively-licensed sources, or keep
-> those packs out of the public build.** Credits below are given in good faith and
-> to honor attribution-required licenses.
+> **Please read — resource-pack licensing.** Unlike the mods, which are distributed as download links plus file hashes, the resource packs are shipped as actual files. Several of the source packs below are All Rights Reserved, and a few say outright "no redistribution without permission." Bundling their assets in a publicly distributed pack goes beyond what those licenses grant. For a private group this is low-risk. Before any public release, get permission, switch to permissively-licensed sources, or leave those packs out of the public build. The credits below are given in good faith and to honor attribution-required licenses.
 
 ### Third-party packs, included whole
 
 | Pack(s) | Author | License / terms | Link |
 |---|---|---|---|
-| Fresh Animations (shipped as `FreshAnimations_v1.10.4_Novus`) | Fresh_LX | Custom — modpack inclusion allowed **with credit**; no redistribution of the standalone pack | https://modrinth.com/resourcepack/fresh-animations |
-| FA Extensions — Emissive, Player, Quivers, Spiders | Fresh_LX | Same Fresh Animations terms | https://modrinth.com/resourcepack/fresh-animations-extensions |
-| Vanilla Tweaks packs (3D Amethyst/Dripstone/Redstone Dust, Age-25 Kelp, Compass Lodestone, Disc Redstone, Groovy Levers, Visual Noteblock, Randomized Textures) | Vanilla Tweaks team | Custom — include only if modified + credited + kept free; no verbatim re-hosting | https://vanillatweaks.net |
-| Quark Programmer Art (opt-in) | Vazkii / Quark Team | CC BY-NC-SA 3.0 | https://github.com/VazkiiMods/Quark |
+| Authentic Shadows (shipped as `Authentic Shadows_1.20.zip`) | Liahim85 | All Rights Reserved — Bundled with credit; get permission before any public release. | https://modrinth.com/resourcepack/authentic-shadows |
+| Fresh Animations (shipped as `FreshAnimations_v1.10.4_Novus`) | Fresh_LX | Custom — Terms of use in the project description: modpack inclusion allowed with credit; no redistribution of the standalone pack. | https://modrinth.com/resourcepack/fresh-animations |
+| FA Extensions — Emissive, Player, Quivers, Spiders | Fresh_LX | All Rights Reserved — Same Fresh Animations terms. | https://modrinth.com/resourcepack/fresh-animations-extensions |
+| Vanilla Tweaks packs (3D Amethyst/Dripstone/Redstone Dust, Age-25 Kelp, Compass Lodestone, Disc Redstone, Groovy Levers, Visual Noteblock) | Vanilla Tweaks team | Custom — Include only if modified, credited, and kept free; no verbatim re-hosting. | https://vanillatweaks.net |
+| Randomized Textures (opt-in, in `resourcepacks/`) | Vanilla Tweaks team | Custom — Same Vanilla Tweaks terms. | https://vanillatweaks.net |
+| Quark Programmer Art (opt-in, in `resourcepacks/`) | Vazkii / Quark Team | CC-BY-NC-SA-3.0 | https://github.com/VazkiiMods/Quark |
 
-### Novus packs that merge / derive from third-party work
+### Novus packs that merge or adapt third-party work
 
 | Pack | Built from | Upstream authors |
 |---|---|---|
-| `FA+AL+Azu_Zombies` | AL's Zombies Revamped+FA + Azu's Enhanced Zombie Variants FA, merged for 1.20.1 | Fresh_LX · AZUHCK |
+| `FA+AL+Azu_Zombies` | AL's Zombies Revamped + FA and Azu's Enhanced Zombie Variants FA, merged for 1.20.1 | Fresh_LX · AZUHCK |
 | `FA+Witch_Old` | Vanilla witch CEM extracted from the Fresh Animations base | Fresh_LX (base) · assembled by z0nb1 |
-| `PA-FA-Compat` | FA: Player Extension × PlayerAnimator compatibility patch | **AxoLabs** · MPL-2.0 |
+| `PA-FA-Compat` | FA: Player Extension × PlayerAnimator compatibility patch | AxoLabs · MPL-2.0 |
 | `Novus3D_Corundum`, `Novus3D_SlimeCrystal` | Stridey's Vanilla Tweaks 3D Amethyst crystal template, recolored | Stridey / Vanilla Tweaks |
 
 ### Original packs made for Novus
 
-By **z0nb1** (b1ll3b0b). Each assembles/adapts assets from the source packs below
-rather than generating new art, so upstream licenses apply to those assets.
+By z0nb1 (b1ll3b0b). Each one assembles or adapts assets from the source packs below rather than drawing new art, so the upstream licenses apply to those assets.
 
 | Pack | Draws assets from |
 |---|---|
-| `Novus3D_Objects` | Actually 3D · (3D torch geometry applied to the **Infinity Buttons** mod's lever/button blocks) |
+| `Novus3D_Objects` | Actually 3D (3D torch geometry applied to the Infinity Buttons mod's lever/button blocks) |
 | `Novus3D_Plants` | Vanilla Tweaks · Actually 3D · Allure 3D Plants · Tinkers' Construct 3D |
-| `Novus3D_Stations` | Actually 3D · Better 3D Craft · Undopia 3D Furnaces · Barrel 3D |
+| `Novus3D_Stations` | Actually 3D (crafting) · Heycronus Furnaces 3D + Craft 3D + Barrel 3D (cooking/storage) |
 | `Novus3D_Ladders` | RAY's 3D Ladders · Vanilla Tweaks · Ladder 3D Pack (mega_trainer) |
 | `Novus3D_Rails` | Actually 3D · RAY's 3D Rails · Modded Rail 3D Pack (mega_trainer) |
 | `Novus3D_Brewing` | Actually 3D (+ Amendments tint patch) |
@@ -333,91 +363,94 @@ rather than generating new art, so upstream licenses apply to those assets.
 
 ### Source packs (assets drawn from)
 
-**✓** = author/license confirmed from the pack file itself (its `pack.mcmeta`, embedded
-README or LICENSE). **⚠** = taken from a CurseForge/Modrinth listing and *not* verified
-in-file — confirm before any public release.
+Licenses confirmed from each project's listing or in-file LICENSE on 2026-06-05. A blank License cell means none was stated anywhere — treat it as All Rights Reserved until confirmed.
 
 | Source pack | Author | License | Link |
 |---|---|---|---|
-| Actually 3D — Blocks & Items r1.8 | Matt_Crowberry ✓ | not stated in pack ⚠ | https://modrinth.com/resourcepack/actually-3d (`5048Qu03`) |
-| Actually 3D — Plants | Chomik_Oto ✓ | not stated in pack ⚠ | https://modrinth.com/resourcepack/actually-3d-plants |
-| Nautilus 3D (V1.9, MC-1.13+) | Waschtl & playtrix ✓ | not stated in pack ⚠ | https://modrinth.com/resourcepack/nautilus3d |
-| RAY's 3D Ladders / 3D Rails | xR4YM0ND ✓ | **MIT** ✓ (LICENSE in pack) | https://github.com/xR4YM0ND |
-| Vanilla Tweaks (incl. Stridey's 3D Amethyst) | Vanilla Tweaks team ✓ | Custom — modify + credit + keep free | https://vanillatweaks.net |
-| Better 3D Craft · Barrel 3D · Better 3D Beds | Heycronus ✓ | All Rights Reserved (Heycronus — see page) | https://modrinth.com/user/heycronus |
-| Allure 3D Plants | P4ncake ✓ | All Rights Reserved ⚠ | https://modrinth.com/resourcepack/allure-3d-plants |
-| Undopia 3D Furnaces | UnduGT (patch.undopia.net) ✓ | Custom "Undopia Patch License" ⚠ | https://modrinth.com/resourcepack/undopia-3d-furnaces |
-| AA4 Structure Markers | x7bbbbbbb ✓ | CC BY-NC-SA 4.0 ⚠ | https://modrinth.com/resourcepack/aa4-structure-markers |
-| Fusion Connected Glass | SuperMartijn642 ✓ | All Rights Reserved ⚠ (needs the Fusion mod) | https://modrinth.com/resourcepack/fusion-connected-glass |
-| Better Stained Glass | elwood612 ⚠ | not stated on listing ⚠ | https://www.curseforge.com/minecraft/texture-packs/better-stained-glass |
-| Ladder 3D · Modded Rail 3D · Quark 3D · Tinkers' Construct 3D | mega_trainer ⚠ | **All Rights Reserved — "do not repost"** (per Novus PACKS.md) | https://www.curseforge.com/members/mega_trainer/projects |
-| Supplementaries 3D Doors & Trapdoors | thricebite ⚠ | CC BY-NC-SA 4.0 ⚠ | https://modrinth.com/resourcepack/supplementaries-3d-doors-and-trapdoors |
-| REVIVED Farmer's Delight Crops 3D | YStheStudio ⚠ | GPL-3.0 ⚠ | https://modrinth.com/resourcepack/revived-farmers-delight-crops-3d |
-| AL's 3D Potions | ALtheGatorMC ⚠ | All Rights Reserved ⚠ | https://modrinth.com/resourcepack/als-3d-potions |
-| Tinkers' Construct (referenced textures) | Slime Knights | MIT (the mod) | https://github.com/SlimeKnights/TinkersConstruct |
-| crops-3d (base of Novus3D_Crops) | NinthWorld ✓ | ⚠ *confirm on listing* | https://www.curseforge.com/minecraft/texture-packs/crops-3d |
+| Actually 3D — Blocks & Items r1.8 | Matt_Crowberry | CC-BY-4.0 | https://modrinth.com/resourcepack/actually-3d-blocks-and-items |
+| Actually 3D — Flowers & Plants | Chomik_Oto | CC-BY-4.0 | https://modrinth.com/resourcepack/actually-3d-plants |
+| RAY's 3D Ladders / 3D Rails | xR4YM0ND | MIT — LICENSE confirmed inside the pack file. | https://github.com/xR4YM0ND |
+| Vanilla Tweaks (incl. Stridey's 3D Amethyst) | Vanilla Tweaks team | Custom — Modify + credit + keep free. | https://vanillatweaks.net |
+| Heycronus 3D packs — Craft 3D, Barrel 3D, Furnaces 3D, Better 3D Beds | Heycronus | All Rights Reserved — Furnaces 3D replaced the previous Undopia furnaces source. | https://www.curseforge.com/members/heycronus/projects |
+| Allure 3D Plants | P4ncake | All Rights Reserved | https://modrinth.com/resourcepack/allure-3d-plants |
+| AA4 Structure Markers | x7bbbbbbb | CC-BY-NC-SA-4.0 | https://modrinth.com/resourcepack/aa4-structure-markers |
+| Fusion Connected Glass | SuperMartijn642 | All Rights Reserved — Requires the Fusion mod. | https://modrinth.com/resourcepack/fusion-connected-glass |
+| Better Stained Glass | elwood612 | — (No license stated on the listing; treat as All Rights Reserved until confirmed.) | https://www.curseforge.com/minecraft/texture-packs/better-stained-glass |
+| Ladder 3D · Modded Rail 3D | mega_trainer | All Rights Reserved — Listing states "do not repost" — personal use only, no redistribution. | https://www.curseforge.com/members/mega_trainer/projects |
+| Supplementaries 3D Doors & Trapdoors | thricebite | CC-BY-NC-SA-4.0 | https://modrinth.com/resourcepack/supplementaries-3d-doors-and-trapdoors |
+| REVIVED Farmer's Delight Crops 3D | YStheStudio | GPL-3.0-only | https://modrinth.com/resourcepack/revived-farmers-delight-crops-3d |
+| crops-3d (base of Novus3D_Crops) | NinthWorld | — (No license stated on the listing; confirm before public release.) | https://www.curseforge.com/minecraft/texture-packs/crops-3d |
+| Tinkers' Construct (referenced textures) | Slime Knights | MIT — The mod itself. | https://github.com/SlimeKnights/TinkersConstruct |
 
-### Datapacks (Paxi-applied)
+### Datapacks
 
-`Repurposed Structures` compat datapacks for Chef's Delight, Farmer's Delight, and
-VillagersPlus — by **telepathicgrunt** (Repurposed Structures). The Farmer's Delight
-variant credits **pm095** as the original author.
+Datapacks bundled in the pack — either applied automatically through Paxi (config/paxi/datapacks/) or merged into the KubeJS data layer (kubejs/data/). Each stays under its author's license.
+
+| Datapack | Author | License | Applied via | Link |
+|---|---|---|---|---|
+| Repurposed Structures — Chef's Delight, Farmer's Delight & VillagersPlus compat | telepathicgrunt (the Farmer's Delight variant credits pm095) | LGPL-3.0 | Paxi | https://modrinth.com/datapack/repurposed-structures |
+| Respite: There's Ash in My Coffee!! — wild coffee & tea bush worldgen, kettle loot | Myriadh | MIT | merged into kubejs/data/farmersrespite | https://modrinth.com/datapack/ash-in-my-coffee |
+<!-- END:RESOURCEPACKS -->
 
 ---
 
-## The pack's own content & license
+## The pack's own work & license
 
-Novus's configuration, KubeJS scripts, recipe/data overrides, and the build tooling
-in this repo are the work of **z0nb1** (b1ll3b0b). The original `Novus3D_*` / `Novus_*`
-resource packs are assembled by z0nb1 but contain third-party assets that remain under
-the upstream licenses above.
+The parts of Novus that are original — its configuration, KubeJS scripts,
+recipe and data overrides, the build tooling in this repo, and the original
+`Novus3D_*` / `Novus_*` resource packs — are the work of **z0nb1** (b1ll3b0b).
+The original resource packs are assembled by z0nb1 but contain third-party
+assets that stay under their upstream licenses.
 
-**License:** Novus's own work — config, KubeJS scripts, recipe/data overrides, build
-tooling, and the original `Novus3D_*` / `Novus_*` packs — is licensed
-**[CC BY-NC-SA 4.0](LICENSE)** (attribution · non-commercial · share-alike). Third-party
-mods and resource-pack assets are **not** covered by it and remain under their own
-licenses (listed above); where an upstream license is more restrictive, it governs.
+That original work is licensed **[CC BY-NC-SA 4.0](LICENSE)** — attribution,
+non-commercial, share-alike. Third-party mods and resource-pack assets are **not**
+covered by it and remain under their own licenses, listed above. Where an
+upstream license is more restrictive, it wins.
+
+---
 
 ## Credits
 
-Novus is a curation of other people's work. Thank you to every mod and resource-pack
-author listed above — and especially to the people whose mods recur throughout the pack
-or anchor whole systems:
+Novus is a curation of other people's work. Thank you to every mod and
+resource-pack author listed above — and especially to the people whose mods
+recur throughout the pack or anchor whole systems:
 
 **Anchor & recurring mod authors**
 
 - **Vazkii** — Botania, Quark, Quark Oddities, Patchouli, Zeta
-- **simibubi & the Create team** — Create (the pack's backbone) and much of the Create addon ecosystem
-- **MehVahdJukaar & Plantkillable** — Supplementaries, Supplementaries Squared, Amendments, Moonlight Library, Every Compat, JEED
+- **simibubi & the Create team** — Create, the backbone of the whole pack, plus much of the Create addon ecosystem
+- **MehVahdJukaar & Plantkillable** — Supplementaries, Supplementaries Squared, Amendments, Moonlight Library, Every Compat, Map Atlases, JEED
 - **Sketch & Peachy Macaw** — the entire Macaw's decoration suite (Doors, Roofs, Windows, Stairs, Bridges, Fences & Walls, Paths, Trapdoors, Lights & Lamps, Holidays)
-- **Fuzs & XFactHD** — Puzzles Lib, Diagonal Fences/Walls/Windows, Bartering Station, Leaves Be Gone, Plenty Plates
+- **Fuzs & XFactHD** — Puzzles Lib, the Diagonal Fences/Walls/Windows family, Bartering Station, Leaves Be Gone, Plenty Plates, Trading Post
 - **MrCrayfish** — Configured, Catalogue, Controllable, Framework, Backpacked, Goblin Traders
-- **SuperMartijn642** — core & config libraries, Fusion, Trash Cans, Scarecrows' Territory
-- **KnightMiner & the Slime Knights** — Tinkers' Construct, Mantle, Tinkers' Things
+- **SuperMartijn642** — the core & config libraries, Fusion, Trash Cans, Scarecrows' Territory
+- **KnightMiner & the Slime Knights** — Tinkers' Construct, Mantle, Tinkers' Things, Ceramics
 - **LatvianModder** — KubeJS, KubeJS Create, Rhino
-- **Ferreusveritas, Max Hyper & Harley O'Connor** — Dynamic Trees (+ Plus, Quark and Tinkers' addons)
+- **Ferreusveritas, Max Hyper & Harley O'Connor** — Dynamic Trees and its Plus, Quark, and Tinkers' add-ons
 - **Elenterius** — Biomancy, Create: Bio-Factory
 - **vectorwing** — Farmer's Delight
 - **Jaredlll08 (BlameJared)** — CraftTweaker, Controlling, Searchables, Initial Inventory
 - **NoCube** — Create Recycle Everything, Quark Delight, Tinkers' Construct Delight, Villagers Sell Animals
 - **Adubbz** — Serene Seasons, TerraBlender, GlitchCore
+- **ThatGravyBoat & Alex Nijjar** — Argonauts, Cadmus, Resourceful Lib, Resourceful Config
 - **Sisby folk** — Antique Atlas, Surveyor, Surveystones
-- **YUNGNICKYOUNG** — YUNG's API and **Paxi**, the resource/datapack loader Novus's pack stack runs on
+- **YUNGNICKYOUNG** — YUNG's API and **Paxi**, the resource/datapack loader the whole pack stack runs on
 - **embeddedt** — Embeddium, ModernFix (performance)
 - **Traben** — Entity Model Features, Entity Texture Features
 - **Darkhax** — Bookshelf, Enchantment Descriptions
 - **Illusive Soulworks** — Cherished Worlds, Comforts, Polymorph
-- **mortuusars** — Chalk, Exposure
+- **mortuusars** — Chalk, Exposure, Exposure Polaroid
 - **shedaniel** — Architectury API, Cloth Config
-- **BlayTheNinth** — Balm, Waystones
-- **Shadows-of-Fire** — Placebo, Toast Control
+- **BlayTheNinth** — Balm, Waystones, Default Options
+- **Shadows_of_Fire** — Placebo, Toast Control
 - **rubydesic & the Valkyrien Skies team** — Valkyrien Skies, Clockwork, Trackwork
 - **nonamecrackers2** — Simple Clouds
-- **thedarkcolour** — Kotlin For Forge  ·  **the Sinytra team** — Connector
+- **Max Henkel** — Simple Voice Chat (also a Sound Physics Remastered author)
+- **thedarkcolour** — Kotlin for Forge  ·  **the Sinytra team** — Connector
 
 **Texture / animation backbone**
 
-- **Fresh_LX** (Fresh Animations), the **Vanilla Tweaks** team, **Matt_Crowberry** (Actually 3D), **Chomik_Oto** (Actually 3D Plants), and **Stridey**
+- **Fresh_LX** (Fresh Animations), the **Vanilla Tweaks** team, **Matt_Crowberry** and **Chomik_Oto** (Actually 3D), **Heycronus** (the 3D block packs), and **Stridey**
 
-If your work is here and miscredited or missing, please open an issue — see the full
-per-item attribution in the tables above.
+If your work is here and it's miscredited or missing, please open an issue — the
+full per-item attribution is in the tables above.
