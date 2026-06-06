@@ -1,13 +1,13 @@
 {
   "type": "createaddition:charging",
   "input": {
-    "item": "minecraft:snowball",
+    "item": "minecraft:diamond",
     "count": 1
   },
   "result": {
-    "item": "powah:charged_snowball",
+    "item": "vs_clockwork:wanderlite_crystal",
     "count": 1
   },
-  "energy": 500000,
+  "energy": 1000000,
   "maxChargeRate": 10000
 }
