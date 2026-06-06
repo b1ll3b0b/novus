@@ -10,7 +10,7 @@ hash = "71b35cea92d102958f69258e1d2acfff304c5c404e6605c4f896e96331b035b5"
 
 [[files]]
 file = ".github/workflows/release.yml"
-hash = "3f2c355a7504afed64322af1bf25d23153414f24d60cdd6e23248ebc8f0c671f"
+hash = "d2da6540c698b27f26e0114792a744f195bb6a16e79bd6b9c519498fa3957e2d"
 
 [[files]]
 file = "LICENSE"
@@ -18,7 +18,7 @@ hash = "fd762404039b691a2782a4a6f7cbb9d1c388377b50ae842b9b02ad3ff2cb28fa"
 
 [[files]]
 file = "README.md"
-hash = "b7fb26437fd03e0687a970751da44c9f002858c8420fcdccb22ef3c1feedb455"
+hash = "5592af05584e5f3cb0390b1336e0933acf078ffd0cf8cfb89f543d64a2178548"
 
 [[files]]
 file = "build.sh"
@@ -246,11 +246,11 @@ hash = "9424ceb580ec8f3f074ebcc0618bfceebb62bb44d64750c7df5964fc7713964c"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "bd1e50d0a52fc8582e788f37612c6bb86d5e2874a44dbb2efa14a784b427b294"
+hash = "efe0d7030cb616008874317edd6d7e53383080d776cf6d16aefd636acf8181ae"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "e75254caa44a0dbd4f43d5bbf694e1dcace1de0ae0eac49916b327abf77d8b4c"
+hash = "73684a4b130fff4fbd8983533b7ed40aa482b195b78d0332c856af4f9a09a73e"
 
 [[files]]
 file = "config/dummmmmmy-client.toml"
@@ -362,7 +362,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "abcc94dc6ca0c5d0d6f9e6719ca26f3b67761d659a9bc3cfd4ba0f61b7163062"
+hash = "e1cd5770aa24399e6521250b32ae43e678844a595d3520fd421f6cb6014700ee"
 
 [[files]]
 file = "config/fape_compat-client.toml"
@@ -481,6 +481,14 @@ file = "config/mantle-client.toml"
 hash = "83a767bf5d96b03174cacef236ef7aebdd3577e184d53a5a1e9d3e7a5256d075"
 
 [[files]]
+file = "config/map_atlases-client.toml"
+hash = "5f036aa48ae41857b3a8c74ed2e3bfd1ef53dd2b4eab649e25f758f07eeed74c"
+
+[[files]]
+file = "config/map_atlases-common.toml"
+hash = "5822733ec56bf7622c1afbbe86e0f2ccb6be1c9c4eb60097f1970823c43eabc4"
+
+[[files]]
 file = "config/midnightlib.json"
 hash = "5937187f5c3ad5f1a75a65d7f384a78d15a1a6d96d0667ea61bd103279122920"
 
@@ -490,7 +498,7 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "c6043a8e38658ca34135bde31a47bcc3accb9b7a6bc241ee9244fc783c00719e"
+hash = "f02b0fc56b4200130b29c6927617f85e4bc41ae8799a1aa50b5b00496f02cc5e"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -526,7 +534,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "a90b330255c8091e30f087c3a82f3433cd176d4b17d8ca140e10520b9ae4471a"
+hash = "c945b7ecf8bd9354a33e4292556962b77a0f0cd403d78f3599cc0f4f81af8ecb"
 
 [[files]]
 file = "config/particlerain.json"
@@ -558,7 +566,11 @@ hash = "592e56cf4c9f4bba6f7c7585003c9b223d73737e9ab3c7d8c5a0273a8a489b8d"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "32f02181faf89708afc225ae279742fe16bf12af9766834fde53f57c634abafc"
+hash = "e0594dff9634cce2ba749c2d5dcc369f773fbb44034b31d3f6e7b6109a6b1b9a"
+
+[[files]]
+file = "config/paxi/resourcepacks/Authentic Shadows_1.20.zip"
+hash = "4edb3a2ca4a458c2fc064948665be0a8730163c0d275f496794257aa77e58139"
 
 [[files]]
 file = "config/paxi/resourcepacks/FA+AL+Azu_Zombies.zip"
@@ -625,8 +637,8 @@ file = "config/paxi/resourcepacks/Novus3D_SlimeCrystal_v1.0.zip"
 hash = "a76ff96114686d506537c740cef76e77d1ac45d45f20af64d204cee243da2e95"
 
 [[files]]
-file = "config/paxi/resourcepacks/Novus3D_Stations_v0.13.zip"
-hash = "ebaee3d4dd44d926de3833dd24aa5e9b45d6d9e5a223802ef61d243758ed1513"
+file = "config/paxi/resourcepacks/Novus3D_Stations_v0.15.zip"
+hash = "20f10596e06cdf9566e885c5c6b7e576415731874c8e39ee9f6fc11b55528b64"
 
 [[files]]
 file = "config/paxi/resourcepacks/Novus_BotaniaImprovedFlowers_v0.3.zip"
@@ -710,7 +722,7 @@ hash = "7508f3f5ceed80c7c606d01ee2dc93e2c72a8afa199ccb691fc5225c894d5bbd"
 
 [[files]]
 file = "config/powah.json5"
-hash = "76832340209d9ec735923b979a10be5f6724a407981cdf614581c8c5b0fd07e5"
+hash = "de5130843ed3f7189f856bba6ec4b61e95de14f4011e58ce30399cf0e664eedb"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -806,7 +818,7 @@ hash = "bc029afc200ba2fba522a27245d65c8e5db0f20cd0eddd5873a316054d962923"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "f153b13bf471092a24a187781343b8365c80e6cb3e5649e375a988eb58128c43"
+hash = "2507a69b76e4f78671992f050dc9d704ddff88a93d8ae1f7588a8fe15a6a0b44"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -846,7 +858,7 @@ hash = "5477a771e3d4fc7d93f1392232053460fced2ba14870fe9adc55669113c4c9ba"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "2c390c7b66b79cdc6b6bbe29369afffbe6833abf9ecf6409641ee2f3c2b559dc"
+hash = "2e5a0872304aea8202aad9f3fad5f0e67dcf6db50fccca2ea05742a9411e9379"
 
 [[files]]
 file = "config/suppsquared-common.toml"
@@ -2125,6 +2137,22 @@ file = "kubejs/data/farmersdelight/advancements/recipes/food/cake_from_milk_bott
 hash = "3d63fcd2e931ea16a6672c18fa19debf57be105961818d5168e6cef82186cb92"
 
 [[files]]
+file = "kubejs/data/farmersrespite/loot_tables/blocks/kettle.json"
+hash = "0f42828838d5a8f6f96948519c1ca24f0d15b1cc4b8a434da631d763ce77700f"
+
+[[files]]
+file = "kubejs/data/farmersrespite/worldgen/configured_feature/patch_wild_coffee_bush.json"
+hash = "cd4560994de8fb003830f5ea4dc6ee06ed757e937a945f46848e4c6e570c8c47"
+
+[[files]]
+file = "kubejs/data/farmersrespite/worldgen/placed_feature/patch_wild_coffee_bush.json"
+hash = "6b2ea2cef89102c9d8bda6f1e96eb4eb469fc93595d82d462342923a58f38f17"
+
+[[files]]
+file = "kubejs/data/farmersrespite/worldgen/placed_feature/patch_wild_tea_bush.json"
+hash = "a156d78c6365dc5568ae1ddc3fef99cf1af247f7f40e4e06e8a228ba7608e3bd"
+
+[[files]]
 file = "kubejs/data/forge/tags/blocks/mineable/knife.json"
 hash = "25d9b358655e96a0e8c560fe5824fc0eb716edf9db847d645ed904144c7745b3"
 
@@ -2241,6 +2269,138 @@ file = "kubejs/data/moreburners/recipes/item_application/heat_converter.json"
 hash = "c78bcd6e38918b7bd1f771b8fd557c1f464153e17ce4cbf502f691360b786f8e"
 
 [[files]]
+file = "kubejs/data/novus/advancements/seeds/acacia_seed.json"
+hash = "cf41c8ff855347d44e5230657dde061ebf7109e4598728e69e86904d6c1d67ec"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/ancient_seed.json"
+hash = "52cd9279d9e5adb937805e12e2ee56d39722fd6101c8a3c8cbddd780259c43c3"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/apple_oak_seed.json"
+hash = "d03611e1af9f12768869c4ce5bb0110a2d645cf37dcec93fb11ce934cadbc74d"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/azalea_seed.json"
+hash = "76b0f5bd1ece27d0a2bd6df83998865ee5069564a7441f3d726b1b91e3b548cb"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/birch_seed.json"
+hash = "eea424c516243832cad680d21b6434ccffc5a91812df804d88e9cf96cb77c05a"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/bloodshroom_seed.json"
+hash = "6661d6fb3eda6294ea0993021513adbce872ff3f58ff83420e0f2db7eda03756"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/brown_mushroom_seed.json"
+hash = "00b8189f801ee8195a18ff3507378f87f1764e373b476bf83f0ec78238b17e6e"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/cherry_seed.json"
+hash = "aa3c97146c3ea16bbb9d6947e9f5d8893a4a9269c05b4a1bd2a12583b70f52b4"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/cocoa_seed.json"
+hash = "3b0e3df8b9bec2e6bf87298cfd2bc4a335f9a63d82cd0b0f81c96d6d6288a10e"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/crimson_seed.json"
+hash = "0fd73e5bc88477de01ccac7736afeeb9c072465175c9b6e57788cd9f26d8f7df"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/dark_oak_seed.json"
+hash = "f10ba895dbbe4a9a9b1f2b2942ca231bbebdbf1ab822bef488277691c78a3ec8"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/enderbark_seed.json"
+hash = "c01133590f6596d816239d01074a8468157833f5676aa44ab42f7a99e0035dab"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/fiery_blossom_seed.json"
+hash = "048c3f408e102a9da6dd159a696bc86d1dfae05a495252af43d3f1af4b786307"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/frosty_blossom_seed.json"
+hash = "701a99b9648cbd97c0b4e26802646b7bc67054e660ca9fd58b285c3e507dcc6e"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/glow_shroom_seed.json"
+hash = "46c35d16149502af2e722ff052e0b8ed75bc894524704b56cd4861a945520ca6"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/greenheart_seed.json"
+hash = "de7e6c8521517d66cef6209525d21a90fd4b481f90d44db3ab17ef16d0923a74"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/jungle_seed.json"
+hash = "fba9cc421c776eb7c36cbb33012f48f88aadc969428b6c4f972d4015318476ca"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/mangrove_seed.json"
+hash = "92a1cf1efe5dd2a920809f4cd74ad72cdba299e3d935a6a877ce76478869dd23"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/mega_crimson_seed.json"
+hash = "e60e94f93aafca547c12fe2c950c44f1de3d066afad9695d9b254196c6d9ddc5"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/mega_jungle_seed.json"
+hash = "e5ba9c823e637505b9a14a0f128116dd2af8eb0d9684d036bcecd4408d47548b"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/mega_spruce_seed.json"
+hash = "cead35ec39d0d1148f6201bb68e207034b079e0db6e847cc5798859fd6aa19a8"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/mega_warped_seed.json"
+hash = "a33e64dceeb8b47dae7c546e8e09c395d311019c6bcea0ed5d6f3d205152339d"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/oak_seed.json"
+hash = "109f91441854e585a54cee3a528acef53e1d29e7089ead8e66df4af99552ac71"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/pillar_cactus_seed.json"
+hash = "9ccc0521d4aedcaa4a96b47ecb3f67202f933b121794148e50ea8a01e84bf1fb"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/pipe_cactus_seed.json"
+hash = "f37c93c193bc379f0f16d2920ac1d5269523162825d5bc1655ac71390fe19b99"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/red_mushroom_seed.json"
+hash = "71e99c9ab23a2419f1a7feb837d33b6e0dac4f758b699012d62342138dd1d0a3"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/saguaro_cactus_seed.json"
+hash = "93b63feed9fa183933a9431e7a586bb9f74ea8de551a849dcc114258d0447ec1"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/serene_blossom_seed.json"
+hash = "2b7841778da50485a7df8af22feb0235552c62ad9ac09023296e80d37ed3c911"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/skyroot_seed.json"
+hash = "b8e2187e6b829a9b3f5125a9b9124ab4af4f5e111b4026280ce44867f9f0a08d"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/spruce_seed.json"
+hash = "2d7f66ba40f7e516aef84535a343f65065ce764e75d5c326f178275159b947f2"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/sunny_blossom_seed.json"
+hash = "fb3ef5f6cd2ab82a0d35a6ad0a1f451f2643d1144df160cc4bd8ef683e910d35"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/warm_blossom_seed.json"
+hash = "5e18cf1a20afa195ca8a42237f8c6df74825d37f5db045b6c6ec6dd019eaffe7"
+
+[[files]]
+file = "kubejs/data/novus/advancements/seeds/warped_seed.json"
+hash = "cf37ddb93631720dde358b6d46884a6c394c49872d35f801893d0c53bfec1eae"
+
+[[files]]
 file = "kubejs/data/novus/recipes/compacting/ancient_seed_to_experience.json"
 hash = "720817dd4908ab5c28c9b2d42d66709d166b53beb096a4424b51d00e82a253dc"
 
@@ -2315,6 +2475,10 @@ hash = "5f50375b1c30905bdad51f86f292f7c4d29820c23db382d37b010328a33c75b7"
 [[files]]
 file = "kubejs/data/novus/recipes/crafting/alternator_3x3.json"
 hash = "6a6ca36c66d2302f24ae6eb56132cb909fba25784610a8993c512ffdf5c24440"
+
+[[files]]
+file = "kubejs/data/novus/recipes/crafting/arborists_journal.json"
+hash = "5ae135778cc5c03a399d1d919385af1fafe569450cd802604dcb242db8456ab3"
 
 [[files]]
 file = "kubejs/data/novus/recipes/crafting/battery_basic.json"
@@ -2710,7 +2874,7 @@ hash = "f1868b96017b72dbaea53e1c997101409c571238f74148da52211d3bbf6bdac9"
 
 [[files]]
 file = "make-prism-instance.sh"
-hash = "6eee7d73cf03824fd2f102aa4e4f25600049a4e5443faaad0adc816c154c4a67"
+hash = "39b0cf55cdce7242d047f6beceb966fe8db53ed932003bd2bfc5aa8ce0ad2ab2"
 
 [[files]]
 file = "mmc-pack.json"
@@ -3411,7 +3575,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/every-compat.pw.toml"
-hash = "7ca01023312b882f6eec50ba0caef9c8b680a1fe0cb835fbd098e000f8394d03"
+hash = "18269fab3b676b6681154cabe1ba4ce8ba12d256de042f92ec69347cfee38f39"
 metafile = true
 
 [[files]]
@@ -3670,6 +3834,11 @@ hash = "f51ad3cb1a1d7686e96de570cc5072c08aaf24de911293a7f19ab5c442756d4a"
 metafile = true
 
 [[files]]
+file = "mods/.index/map-atlases-forge.pw.toml"
+hash = "10d3cee43e85b627931abb4c3d53200896e1699ba4240a29225e3ca8e42e45ee"
+metafile = true
+
+[[files]]
 file = "mods/.index/miners-delight.pw.toml"
 hash = "aefcf12bc128091356d7c6bf6d8a2135b1e8168b161a05477d34c3734d7bb611"
 metafile = true
@@ -3681,12 +3850,12 @@ metafile = true
 
 [[files]]
 file = "mods/.index/modernfix.pw.toml"
-hash = "6382fc4819dfec5a5fa16fc499bce076c62df2a87ad089f6072713b8370f5247"
+hash = "c71f9fc0782ed4afbe761dbcdda590cf236d312ab8aadf718c19550a22266343"
 metafile = true
 
 [[files]]
 file = "mods/.index/moonlight.pw.toml"
-hash = "edbbe74c559d1ed6b62df58e4c22c9f3aafa7f4c2d6ac097658186a3bdbcf14b"
+hash = "c82b818a8183f4ff420eb6c6408cd74306d36bc211d99f47d4e18dd4eb9f87d2"
 metafile = true
 
 [[files]]
@@ -4485,8 +4654,8 @@ file = "mods/escalated-1.2.1-create.6.0.8-mc.1.20.1-forge.jar"
 hash = "3dbae4821d2f57b1cc689f4353ff4d6f7e573252527da53d3ca72dda1fd884e2"
 
 [[files]]
-file = "mods/everycomp-1.20-2.9.20-forge.jar"
-hash = "6183dcb50cfed10b37d766a2cda409e31d9e9e9302acb3247f81d1ce08a8983d"
+file = "mods/everycomp-1.20-2.9.21-forge.jar"
+hash = "3790c52c1e01e73de5536e7c29771275f50596438715683730434462de31adc9"
 
 [[files]]
 file = "mods/exposure-forge-1.20.1-1.9.20.jar"
@@ -4593,6 +4762,10 @@ file = "mods/lighty-forge-2.1.3+1.20.1.jar"
 hash = "27f73305b6d1e9bcd7c785ade0a8cf2e6f61376d277f74a125bfb13515a03bfa"
 
 [[files]]
+file = "mods/map_atlases-1.20-6.0.20.jar"
+hash = "f9eebab3db00ab39a9b8134fba3c2c6b6868f5786c68bba59b2b32d166b42169"
+
+[[files]]
 file = "mods/mcw-bridges-3.1.2-mc1.20.1forge.jar"
 hash = "95c5aae4e82758d5c0ca2ba61c4cf72e9240e53f68befe8104c68fa9f9b19eed"
 
@@ -4637,12 +4810,12 @@ file = "mods/miners_delight-1.20.1-1.2.3.jar"
 hash = "dd7fda44dba9a9e953e35b36f45e2f30dfc2b1df5141574100c80cd4c2861380"
 
 [[files]]
-file = "mods/modernfix-forge-5.27.40+mc1.20.1.jar"
-hash = "0061a53c0335693318073788c57c5288f5b8b5b3918c7561f5fb7860a394611f"
+file = "mods/modernfix-forge-5.27.44+mc1.20.1.jar"
+hash = "e0be1a2aec23ed025ba29afff70c6a37cbd0b95c88ac98f33ff4b79452f458f2"
 
 [[files]]
-file = "mods/moonlight-1.20-2.16.32-forge.jar"
-hash = "abe6ef01c6d950789f55ee06b3767aa636655d41cd55f7ca2af3a34e8752d155"
+file = "mods/moonlight-1.20-2.16.33-forge.jar"
+hash = "b62559ebd7b23c2ac629403ac91573290957322cffb9437d3beff687ab55d4a8"
 
 [[files]]
 file = "mods/moreburners-1.20.1-0.3.5.jar"
@@ -4810,7 +4983,147 @@ hash = "5ecc6535596b5954f6293224be6b35805c64f4d4aedc2b9e32d9508dd529cabd"
 
 [[files]]
 file = "options.txt"
-hash = "f906d76b09451c714511e0e1cb615c1b683c421700a7eaedc24a81abdd2c31a2"
+hash = "c57cf6f86b5f97a8e2972c7d25f0c062f17c878ec634b64214af18b306b4771c"
+
+[[files]]
+file = "patchouli_books/arborists_journal/book.json"
+hash = "39f51c3924ec641ccb7abbe47d986b50eb81e328e962387182271eb5e4481383"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/categories/seeds.json"
+hash = "b7f700dcd7baa26dc77c1657081b0d35cb585681f00339a18e1011a8623508ee"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/acacia_seed.json"
+hash = "a255ef47ff6a85659195e021d382824fb83cbb6bd955b6473f4efe9509006c01"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/ancient_seed.json"
+hash = "4531e89c11a6bc7cedf9a55bfd3535887c03e646844efdada6b84cd63c642b85"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/apple_oak_seed.json"
+hash = "612821872457812b1a6267bd109721a14ba703cd7c41ad20a1bb90623f7dbfc2"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/azalea_seed.json"
+hash = "93531a2d300a4ad5a0e3bc8df2c73d2b2767879a2e745dd4a919b2ce1d3d01d1"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/birch_seed.json"
+hash = "4e6569a79e8edf191386a26d515454523d76bc9f7aa98e3ab6af5fd5bba55f27"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/bloodshroom_seed.json"
+hash = "fe3f897a27ac07735e887ab7a89dacc7dd40f16d120d90594fcacce31e06ae1c"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/brown_mushroom_seed.json"
+hash = "f7294a7376904e7e6b7f1b60e1a1b8a08eacb10548999c2e1d24d4740e3010b5"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/cherry_seed.json"
+hash = "59ecca01384b36257f95b70bfb184f9bbbf358f63e14daeeb7d33e29863426b7"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/cocoa_seed.json"
+hash = "a56a86c48e5acb77f05f965751d945c879f995e11a0efb64bde67651e8e1cf7e"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/crimson_seed.json"
+hash = "0ceb1fded192b0d7e022472414717b2828cbaa4d2fa56cee2489e0448f5eef79"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/dark_oak_seed.json"
+hash = "8f6ee64207e1696557006b9305a3c80a574817edb7c73d1582863bac449d8ae8"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/enderbark_seed.json"
+hash = "4965ce36a5efa404a07d46be745a94efef562d33a8e3ccf587b580a6ee756b38"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/fiery_blossom_seed.json"
+hash = "c340d874da03182ac4662d25d0b3a02a22af90b3f6d93f974e36d6ccd417fbea"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/frosty_blossom_seed.json"
+hash = "657a72ffb156233fcc77de0785d7f48ab80e2ffbef41c75d0b4d5b20782569be"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/glow_shroom_seed.json"
+hash = "4235751f632ba9ed28adaa824a8c4d6b8e3954a5986f4ff5615f9f5a9cb8a007"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/greenheart_seed.json"
+hash = "7671e590f736c652075d336568c55ab0847cc8d88676868f615e7f92cc621b90"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/jungle_seed.json"
+hash = "64872153668d07bbcfb3b8cc9dcd5c8937fcc9894f62ed58cc414ee5279bd7e4"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/mangrove_seed.json"
+hash = "df540808169de7500f27ab5114aca7e27e61ea260ae1a8b9ec2233823eeeb387"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/mega_crimson_seed.json"
+hash = "8a4a3a59af2b80081d8ef8923fe863e051942d82e3dd7e97903cebeab2456862"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/mega_jungle_seed.json"
+hash = "6524d64387f768295d36edf1026184cb52e8f902c0fa622b6eaf67f8f1eefa83"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/mega_spruce_seed.json"
+hash = "e7590e0863559751a66eede55d02d7a92ebc74524f3c188c606d70fd310a49c3"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/mega_warped_seed.json"
+hash = "a9f1f9b756c6b72ce85b02af5f9cac1a471e43f3311cf70c1ef681e29ad6ecec"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/oak_seed.json"
+hash = "bdf9f1d0d565c1e35b806610784da8fb5a09eeda40ba7b6fa871d7e98c3dbdc5"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/pillar_cactus_seed.json"
+hash = "c8888e8e010de87c14395f64e0194057e5472da9c70cdd3a36e37913b23b034f"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/pipe_cactus_seed.json"
+hash = "c5a1623e85481a439010bc0de264f7dc050dd28b6dcb5f6fbaa77b85565821a8"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/red_mushroom_seed.json"
+hash = "a839bfcbc9e9701a5d22fb189eb1adff650e65e52e64540495ebfdac79589abe"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/saguaro_cactus_seed.json"
+hash = "519dcadac2426b2841e3863595d7a6e488a7eb7d0278f1ccf3e2012d81bbea0c"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/serene_blossom_seed.json"
+hash = "c341f4eb814ac7b9addc000a8f9cce0cfe3f133560805ffcc2de09ecb0025d95"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/skyroot_seed.json"
+hash = "556599c4108cd28de96996dcd25a4a47bfea33176f2a95cb98a8d05467ead0d4"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/spruce_seed.json"
+hash = "4bf8e2eb4cef8d823a2c11236c8078085675314a4fd481ddd3061c311e00dbdd"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/sunny_blossom_seed.json"
+hash = "94e830d734436d8bbe15473a85c16e2de915758fea2607e71738c37e4f3346f4"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/warm_blossom_seed.json"
+hash = "c95a54a3c20db7bcb2a9676dec2ccbbe7290e86f5a7224dec917cbc266c31f8f"
+
+[[files]]
+file = "patchouli_books/arborists_journal/en_us/entries/seeds/warped_seed.json"
+hash = "38b7f50a7dea130b5bd6c518f0acbcaf71c028116bb80579e5d1ee0bea43ac6f"
 
 [[files]]
 file = "patchouli_books/create_compendium/book.json"
@@ -5001,6 +5314,66 @@ file = "patchouli_books/travelers_companion/book.json"
 hash = "575b8ecf2b1faabc65f13c0820a837a75493971606640b94c41d0739bd566678"
 
 [[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/agricultural_journal.json"
+hash = "2b6d24d0311f71b66b2350c75ec0aa736c8932da1fe0b3e30901a0fb92ea6a4e"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/antique_atlas_item.json"
+hash = "90f7ee507891c7f18f494bb700ef063bda037d191796bda8601fd66c86e2a5a5"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/arborists_journal.json"
+hash = "c54e04852ee7b1ff4cdc86d8a0773c4044db17c8f6882d3c54102ad28198e76c"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/companion.json"
+hash = "569281f4f196c21b71673867e990bd6bd22f004da1e2a3ea8d5ac8a4b6adbe34"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/create_compendium.json"
+hash = "ce28f1654b07788df1b516812d9cbdfeffdb376d84f5cbbd594d4ce0742de574"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/encyclopedia.json"
+hash = "82098080413f2dd9d0bce6b8cff53c4338c25c6e51020d2d774b2bdf26f7560d"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/fantastic_foundry.json"
+hash = "aa310909bca9c9b4c0e8f75e9b6f5e8572a3e9ae7c3f255628118e04f9f365a3"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/food_history_book.json"
+hash = "31a354de76dca47e7a18b9e35f4520717400708de8ee98281324da68f5725ff8"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/lexica_botania.json"
+hash = "48f3400c18056ad9fb7768893dc6100bce22fda0da2e0d3e153d237dbb63f53c"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/map_atlas.json"
+hash = "49a6b69e7e8f13af1de2a4f9596dcb6eece00beab45eab36f1101e4dd46a2a7f"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/materials_and_you.json"
+hash = "9e06cfaad05b4a81ca468f2a4dc3fc672dfc0237b754f39060fd940efe5c83aa"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/mighty_smelting.json"
+hash = "b4e824b587ad165c05616d4bff1fb5a29b6d80886814e4c23b665c7e334fdd34"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/puny_smelting.json"
+hash = "23a4477393b2462b438724421b1a5a0dbb4b7cf70167feb872cde555a0a3875c"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/tinkers_gadgetry.json"
+hash = "c54a0effa811d854e4436511fc7ccdccce831bafdb446b01e80f26a5670153e6"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/wetware_appendix.json"
+hash = "ac157417f481a4421d55160444c16b2203d554bf87cca5870856baca074e35c4"
+
+[[files]]
 file = "patchouli_books/travelers_companion/en_us/categories/0_welcome.json"
 hash = "16b23d60088c3f2721b77ae71e291f3c5e849319eb79f51b120e535ca46663fc"
 
@@ -5022,15 +5395,23 @@ hash = "01b29cc56a60f980693bfa610224d55b60115fe5eb2e57be5d13ecb62f2797bb"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/categories/5_builders_hand.json"
-hash = "fb062703e9c8655527bbff024de324c7fa63257ea2839ed7974fcee5968a1b39"
+hash = "b05615edaf4dc523ddc0326153d00d953313adeef84f3c0b19c79b7eee3ca558"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/categories/6_villages.json"
-hash = "b8a506fe4fcade8a3469d8649b3978a97f67d2fa383ad6e99a14361ba32f2c9f"
+hash = "cf6e3ae45b4560d4dfa8acb3f3ddaedaecacf0c62ab6254363fc04d6fd763820"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/categories/7_catalog.json"
-hash = "71749ce5c67473f79f4fabb7271b4e33336b81b04a5ea34c36ec650c98cfd733"
+hash = "c385fa813b39a31cbac8c14cc48736ea38b94cadd2c3f59d1a2d956518738097"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/categories/pack_tackle.json"
+hash = "e56db0500dea511508330a0bf6ccb29584fa9dd7bc06b268ee12922021c0008e"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/categories/weather_sky.json"
+hash = "e0ea638dc489c216cd38c8dfedb3cc2c543a37cb09acea7c66048585d27d6dd1"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/0_welcome/about.json"
@@ -5105,6 +5486,22 @@ file = "patchouli_books/travelers_companion/en_us/entries/4_wayfaring/chalk.json
 hash = "14e37531100139de934695e40004c0f9419cee9fa4264b60ffdae1d0661ecc4e"
 
 [[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/4_wayfaring/chunk_claim.json"
+hash = "712c46a0e2f7c38fecb60e5c71a4bfd9d54ceef7cacaabaf33b06963606b0ba5"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/4_wayfaring/map_atlases.json"
+hash = "442cf323a33b50373df5cb3d371f7ad0c5440bc27ce4d39e19df66fa72b456a9"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/4_wayfaring/voicechat.json"
+hash = "1816d803344905a95dc0d58bbf0eef8d19169ff56565e757fb3d58c711c4d4f9"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/4_wayfaring/waystones.json"
+hash = "c31abb12dc2e091d7e37d13db5691d147f8af7a791aa63df26f79018028e2178"
+
+[[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/5_builders_hand/ceramics.json"
 hash = "0bb11797345809677f89b7457d81830550dfd14a45d52a320a775d9744d6d7bb"
 
@@ -5146,47 +5543,91 @@ hash = "d2ae677dd73edc89d20eeefb735165dee94279b69e6acf0c54019114aae01720"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/agricultural_journal.json"
-hash = "2b6d24d0311f71b66b2350c75ec0aa736c8932da1fe0b3e30901a0fb92ea6a4e"
+hash = "7d48a39e77e2de53ad7233579fb03046cc9c1c0020399d6e78a34e191897b7d4"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/arborists_journal.json"
+hash = "b3637fbeaaa74ffd7267fdcdba4a8858bb6a6dfcc1c84bfad6fc79f8d56c655d"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/companion.json"
-hash = "569281f4f196c21b71673867e990bd6bd22f004da1e2a3ea8d5ac8a4b6adbe34"
+hash = "a4c239287655eed974c7ea3927d0b82157598c7c7c224816135adca9c97bef2e"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/create_compendium.json"
-hash = "ce28f1654b07788df1b516812d9cbdfeffdb376d84f5cbbd594d4ce0742de574"
+hash = "287154359823ce2cee6077ba2ac22201e529ad9c8afd6cb782a25339bba9c22c"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/encyclopedia.json"
-hash = "82098080413f2dd9d0bce6b8cff53c4338c25c6e51020d2d774b2bdf26f7560d"
+hash = "ed7539463b6245e4e5911d003c4044503047408200d3a1e29fbc44d3f5373f38"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/fantastic_foundry.json"
-hash = "aa310909bca9c9b4c0e8f75e9b6f5e8572a3e9ae7c3f255628118e04f9f365a3"
+hash = "6c3c4d15420e639b5e10d575e291edb60efeec7cf14747e5fa0bafc1351a0e44"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/food_history_book.json"
+hash = "83675529c11486710abb5778199ed39dbeb5e3a62ab44fa19669ab659f578f75"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/lexica_botania.json"
-hash = "48f3400c18056ad9fb7768893dc6100bce22fda0da2e0d3e153d237dbb63f53c"
+hash = "7f219607b5e529f73b291903a3422cdbccfec23d13398db2c99bb923dc0ee188"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/map_atlas.json"
+hash = "3e00407703e4bd0a51b7419671f687a3e612318d44a0385707283329f97fe876"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/materials_and_you.json"
-hash = "9e06cfaad05b4a81ca468f2a4dc3fc672dfc0237b754f39060fd940efe5c83aa"
+hash = "d625ae48021eb90efdbbdbe72a7df052cbb672f12065a4bb5efc8f76f8887660"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/mighty_smelting.json"
-hash = "b4e824b587ad165c05616d4bff1fb5a29b6d80886814e4c23b665c7e334fdd34"
+hash = "8d8bc5290079b394f132389e6226efaa72f565a8e11c0574a42d289467e62b24"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/puny_smelting.json"
-hash = "23a4477393b2462b438724421b1a5a0dbb4b7cf70167feb872cde555a0a3875c"
+hash = "8b832c05cb738301f955f45227d3dae9eb698cf930dfafb458288343b39a366b"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/tinkers_gadgetry.json"
-hash = "c54a0effa811d854e4436511fc7ccdccce831bafdb446b01e80f26a5670153e6"
+hash = "27bb6e3e6d9d8add2b57985b2cb8945c6c85dff57085eb9af80c82c87739c589"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/wetware_appendix.json"
-hash = "ac157417f481a4421d55160444c16b2203d554bf87cca5870856baca074e35c4"
+hash = "ead47060575cee3c8db626886c7d300c14d89acf2b1784a2248e180ebe6605fe"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/pack_tackle/backpacks.json"
+hash = "6dc2a145677a0821c47bf5d50cc5d2e7c6d0a29696cd13d73271e6a90db2a7ee"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/pack_tackle/curios.json"
+hash = "958cbb495cc99d681e528d541a6faf2a400cf5caff98457a44b25f48f9e1e631"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/pack_tackle/gadgets.json"
+hash = "522df0cab6630f9dfccdb429c4a82ba9131d71dc8b5a5d58de62e574c8695207"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/pack_tackle/jade.json"
+hash = "69d474f220d74280514575ada96474c6929488a9d1f2d68215d63f1604cb00ec"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/pack_tackle/quivers.json"
+hash = "dc61b7b13488456c3af6a01e0dcfa9254abcb1050131bd03d11eb3d41741dcc3"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/pack_tackle/scarecrows.json"
+hash = "4b2bb58cf75a9979bcdcee031df061f35c98d550685b0af7749922202db1ac26"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/weather_sky/weather_system.json"
+hash = "8a2887ff80667ef7c75d349826c0f036edd95adca32352e4de70f1469d4afc58"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/weather_sky/wind_vane.json"
+hash = "5b257f48a3fa80018bc8b5cd77c5595e3f5f252564440dbba559aff5e1504c7e"
 
 [[files]]
 file = "patchouli_books/wetware_appendix/book.json"
@@ -5375,6 +5816,26 @@ hash = "b0f9ba5b51b1297755fc2198937615c0f0486f2906312b86b339d455b851d0f6"
 [[files]]
 file = "shaderpacks/VanillaPlus_v3.3.zip"
 hash = "d14c6f0331a33d3dd16e613f3c98fc8e77b8707fc4f2544231b2468a69f51d2b"
+
+[[files]]
+file = "tools/readme/build_readme_credits.py"
+hash = "b21b3270d585d057ae44b6e2b533c81d3e30e2e10862e87fde7e2f88552520c9"
+
+[[files]]
+file = "tools/readme/cf_slugs.json"
+hash = "7f116b041b7d90c561a92e87c5496f8bd63eeffddb5da3b471fb27fe61229e05"
+
+[[files]]
+file = "tools/readme/modrinth_cache.json"
+hash = "2a2f49c56edea57ee814ac4029ce5b0df9090b4f3c4b7d1637fc222397479257"
+
+[[files]]
+file = "tools/readme/overrides.json"
+hash = "de60b9f1fbf7b62640c4d5a24f111d75ee7f6b399a3e91a8772bdf7bdaa25dd4"
+
+[[files]]
+file = "tools/readme/resourcepacks.json"
+hash = "184d6b7de00d938ec7922af2bc45803101cc9859d9ea3c6fa4c3dbfde7b7fe20"
 
 [[files]]
 file = "trees/dttconstruct/fruits/blood_slime.json"
