@@ -15,7 +15,7 @@ book to grind through, and no tech tree that races past Create. What ties it all
 together is a large set of compatibility mods working quietly in the background
 so these systems understand each other.
 
-`Minecraft 1.20.1` · `Forge 47.4.20` · `Java 17` · **<!-- BEGIN:MODCOUNT -->197<!-- END:MODCOUNT --> mods**
+`Minecraft 1.20.1` · `Forge 47.4.20` · `Java 17` · **<!-- BEGIN:MODCOUNT -->198<!-- END:MODCOUNT --> mods**
 
 ---
 
@@ -76,11 +76,11 @@ normal for a Forge pack, and it's all disclosed here.
 **License mix:**
 
 <!-- BEGIN:LICENSEMIX -->
-Across all 197 mods:
+Across all 198 mods:
 
 | License type | Count |
 |---|---|
-| Open source (MIT, Apache, LGPL/GPL, MPL, BSD, OSL, CC0/CC-BY, etc.) | 135 |
+| Open source (MIT, Apache, LGPL/GPL, MPL, BSD, OSL, CC0/CC-BY, etc.) | 136 |
 | All rights reserved | 42 |
 | Custom / source-available (Create, Supplementaries, Botania, PolyForm, etc.) | 13 |
 | Creative Commons non-commercial (Quark family, Jade, the compasses) | 7 |
@@ -91,7 +91,7 @@ Across all 197 mods:
 ## Mods
 
 <!-- BEGIN:MODS -->
-_197 mods. This table is generated from the jars and packwiz metadata by `tools/readme/build_readme_credits.py` — don't edit it by hand._
+_198 mods. This table is generated from the jars and packwiz metadata by `tools/readme/build_readme_credits.py` — don't edit it by hand._
 
 | Mod | Author(s) | License | Source |
 |---|---|---|---|
@@ -133,23 +133,23 @@ _197 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Controllable | MrCrayfish | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/controllable) |
 | Controlling | Jaredlll08 | MIT | [Modrinth](https://modrinth.com/mod/controlling) |
 | CraftTweaker | Jaredlll08, Kindlich, StanHebben and TheSilkMiner | MIT | [Modrinth](https://modrinth.com/mod/crafttweaker) |
-| Create | simibubi | Custom — Create Mod License [^6] | [Modrinth](https://modrinth.com/mod/create) |
+| Create | simibubi | Custom — Create Mod License [^7] | [Modrinth](https://modrinth.com/mod/create) |
 | Create Contraption Terminals | tom5454 | MIT | [Modrinth](https://modrinth.com/mod/create-contraption-terminals) |
 | Create Crafts & Additions | MRH0 | MIT | [Modrinth](https://modrinth.com/mod/createaddition) |
-| Create Deco | Kayla, Talrey, Ordana, Cassian | CC0-1.0 [^9] | [Modrinth](https://modrinth.com/mod/create-deco) |
-| Create Enchantment Industry | MarbleGateKeeper & LimonBlaze | LGPL-3.0-only [^7] | [Modrinth](https://modrinth.com/mod/create-enchantment-industry) |
+| Create Deco | Kayla, Talrey, Ordana, Cassian | CC0-1.0 [^10] | [Modrinth](https://modrinth.com/mod/create-deco) |
+| Create Enchantment Industry | MarbleGateKeeper & LimonBlaze | LGPL-3.0-only [^8] | [Modrinth](https://modrinth.com/mod/create-enchantment-industry) |
 | Create Hypertube | Rok | Apache-2.0 | [Modrinth](https://modrinth.com/mod/hypertube) |
-| Create Jetpack | possible_triangle | Custom (source-available) [^8] | [Modrinth](https://modrinth.com/mod/create-jetpack) |
+| Create Jetpack | possible_triangle | Custom (source-available) [^9] | [Modrinth](https://modrinth.com/mod/create-jetpack) |
 | Create Recycle Everything | NoCube | All Rights Reserved | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/create-recycle-everything) |
 | Create: Bells & Whistles | lev | GPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/bellsandwhistles) |
 | Create: Blaze Burner Fuels | robinfrt | All Rights Reserved | [Modrinth](https://modrinth.com/mod/create-blaze-burner-fuels) |
-| Create: Central Kitchen | LimonBlaze, MarbleGate and Etherwood | LGPL-3.0-only [^7] | [Modrinth](https://modrinth.com/mod/create-central-kitchen) |
+| Create: Central Kitchen | LimonBlaze, MarbleGate and Etherwood | LGPL-3.0-only [^8] | [Modrinth](https://modrinth.com/mod/create-central-kitchen) |
 | Create: Connected | Lysine | AGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/create-connected) |
 | Create: Copycats+ | Lysine, Bennyboy1695, Redcat_XVIII | All Rights Reserved | [Modrinth](https://modrinth.com/mod/copycats) |
 | Create: Diesel Generators | George VI | MIT | [Modrinth](https://modrinth.com/mod/create-diesel-generators) |
 | Create: Escalated | rbasamoyai | MIT | [Modrinth](https://modrinth.com/mod/escalated) |
 | Create: Power Loader | Lysine | MIT | [Modrinth](https://modrinth.com/mod/create-power-loader) |
-| Create: Sound of Steam | FinchyMcFinch, Deanosaur75 | MIT [^12] | [Modrinth](https://modrinth.com/mod/create-sound-of-steam) |
+| Create: Sound of Steam | FinchyMcFinch, Deanosaur75 | MIT [^13] | [Modrinth](https://modrinth.com/mod/create-sound-of-steam) |
 | Create: Steam 'n' Rails | The Railways Team | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/create-steam-n-rails) |
 | Create: Vibrant Vaults | ZLT | MIT | [Modrinth](https://modrinth.com/mod/create-vibrant-vaults) |
 | CreateArmory | dcchill | All Rights Reserved | [Modrinth](https://modrinth.com/mod/create-armory) |
@@ -201,10 +201,10 @@ _197 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Just Enough Breeding | Christofmeg | MIT | [Modrinth](https://modrinth.com/mod/justenoughbreeding) |
 | Just Enough Effects Descriptions | MehVahdJukaar | All Rights Reserved | [Modrinth](https://modrinth.com/mod/just-enough-effect-descriptions-jeed) |
 | Just Enough Professions (JEP) | Mrbysco, ShyNieke | MIT | [Modrinth](https://modrinth.com/mod/just-enough-professions-jep) |
-| Kambrik | enjarai | MPL-2.0 [^10] | [Modrinth](https://modrinth.com/mod/kambrik) |
+| Kambrik | enjarai | MPL-2.0 [^11] | [Modrinth](https://modrinth.com/mod/kambrik) |
 | Kotlin For Forge | — | LGPL-2.1-only | [Modrinth](https://modrinth.com/mod/kotlin-for-forge) |
 | KubeJS | LatvianModder | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/kubejs) |
-| KubeJS Addditions (Forge) | ILIKEPIEFOO2 | All Rights Reserved [^11] | [Modrinth](https://modrinth.com/mod/kubejs-additions) |
+| KubeJS Addditions (Forge) | ILIKEPIEFOO2 | All Rights Reserved [^12] | [Modrinth](https://modrinth.com/mod/kubejs-additions) |
 | KubeJS Create | LatvianModder | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/kubejs-create) |
 | KubeJSDelight | QinomeD, Bob Varioa | LGPL-3.0-only | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/kubejs-delight) |
 | Leaves Be Gone | Fuzs | MPL-2.0 | [Modrinth](https://modrinth.com/mod/leaves-be-gone) |
@@ -239,7 +239,7 @@ _197 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Placebo | Shadows_of_Fire | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/placebo) |
 | Player Animator | KosmX | MIT | [Modrinth](https://modrinth.com/mod/playeranimator) |
 | Plenty Plates | Fuzs | MPL-2.0 | [Modrinth](https://modrinth.com/mod/plenty-plates) |
-| PolyLib | CreeperHost | BSD-4-Clause [^13] | [Modrinth](https://modrinth.com/mod/polylib) |
+| PolyLib | CreeperHost | BSD-4-Clause [^14] | [Modrinth](https://modrinth.com/mod/polylib) |
 | Polymorph | Illusive Soulworks | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/polymorph) |
 | PonderJS | kotakotik22, AlmostReliable | MIT | [Modrinth](https://modrinth.com/mod/ponder) |
 | Powah | owmii,Technici4n | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/powah) |
@@ -250,7 +250,7 @@ _197 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Rainbows | Verph | BSD-2-Clause | [Modrinth](https://modrinth.com/mod/rainboows) |
 | Repurposed Structures | TelepathicGrunt | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/repurposed-structures-forge) |
 | Resourceful Lib | ThatGravyBoat, Epic_Oreo | MIT | [Modrinth](https://modrinth.com/mod/resourceful-lib) |
-| Resourcefulconfig | ThatGravyBoat, Epic_Oreo | MIT [^14] | [Modrinth](https://modrinth.com/mod/resourceful-config) |
+| Resourcefulconfig | ThatGravyBoat, Epic_Oreo | MIT [^15] | [Modrinth](https://modrinth.com/mod/resourceful-config) |
 | Rhino | latvian.dev, Mozilla | MPL-2.0 | [Modrinth](https://modrinth.com/mod/rhino) |
 | Saturn | AbdElAziz | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/saturn) |
 | Scarecrows' Territory | SuperMartijn642 | All Rights Reserved | [Modrinth](https://modrinth.com/mod/scarecrows-territory) |
@@ -261,7 +261,7 @@ _197 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Simple Clouds | nonamecrackers2 | PolyForm Perimeter 1.0.1 | [Modrinth](https://modrinth.com/mod/simple-clouds) |
 | Simple Clouds Compat | RedCraft86 | MIT | [Modrinth](https://modrinth.com/mod/simple-clouds-compat) |
 | Simple Voice Chat | Max Henkel | All Rights Reserved | [Modrinth](https://modrinth.com/mod/simple-voice-chat) |
-| Sinytra Connector | — | MIT | [Modrinth](https://modrinth.com/mod/connector) |
+| Sinytra Connector | Sinytra | MIT [^6] | [Modrinth](https://modrinth.com/mod/connector) |
 | Sodium Dynamic Lights | toni, LambdAurora | MIT | [Modrinth](https://modrinth.com/mod/sodium-dynamic-lights) |
 | Sodium Options API | toni | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/sodium-options-api) |
 | Sound Physics Remastered | Sonic Ether, vlad2305m, Max Henkel, Saint | GPL-3.0 | [Modrinth](https://modrinth.com/mod/sound-physics-remastered) |
@@ -276,9 +276,10 @@ _197 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Surveystones | Sisby folk. Contributions by lack | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/surveystones) |
 | TCIntegrations | wendall911 | MIT | [Modrinth](https://modrinth.com/mod/tcintegrations) |
 | TerraBlender | Adubbz | LGPL-3.0-only | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/terrablender) |
+| ThreatenGL | Richy Z. | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/threatengl) |
 | Tinkers' Construct | Slime Knights | MIT | [Modrinth](https://modrinth.com/mod/tinkers-construct) |
 | Tinkers' Delight | NoCube | All Rights Reserved | [Modrinth](https://modrinth.com/mod/tinkers-construct-delight) |
-| Tinkers' Things | KnightMiner | MIT [^14] | [Modrinth](https://modrinth.com/mod/tinkers-things) |
+| Tinkers' Things | KnightMiner | MIT [^15] | [Modrinth](https://modrinth.com/mod/tinkers-things) |
 | Toast Control | Shadows_of_Fire | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/toast-control) |
 | Tom's Simple Storage Mod | tom5454 | MIT | [Modrinth](https://modrinth.com/mod/toms-storage) |
 | TooManyRecipeViewers | Nolij (@xdMatthewbx#1337) & the Craftoria team | OSL-3.0 | [Modrinth](https://modrinth.com/mod/tmrv) |
@@ -286,9 +287,9 @@ _197 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Trading Post | Fuzs | MPL-2.0 | [Modrinth](https://modrinth.com/mod/trading-post) |
 | Trash Cans | SuperMartijn642 | All Rights Reserved | [Modrinth](https://modrinth.com/mod/trash-cans) |
 | Universal Sawmill | MehVahdJukaar | Custom — Supplementaries Team License [^1] | [Modrinth](https://modrinth.com/mod/universal-sawmill) |
-| Valkyrien Skies 2 | the Valkyrien Skies team | LGPL-3.0-only [^15] | [Modrinth](https://modrinth.com/mod/valkyrien-skies) |
+| Valkyrien Skies 2 | the Valkyrien Skies team | LGPL-3.0-only [^16] | [Modrinth](https://modrinth.com/mod/valkyrien-skies) |
 | Villagers Sell Animals | NoCube | All Rights Reserved | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/villagers-sell-animals) |
-| VillagersPlus | Lion | GPL-3.0 [^16] | [Modrinth](https://modrinth.com/mod/villagersplus) |
+| VillagersPlus | Lion | GPL-3.0 [^17] | [Modrinth](https://modrinth.com/mod/villagersplus) |
 | Waystones | BlayTheNinth | All Rights Reserved | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/waystones) |
 | YUNG's API | YUNGNICKYOUNG | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/yungs-api) |
 | Zeta | Vazkii, quat, IThundxr, siuol, wiresegal, MehVahdJukaar | CC-BY-NC-SA-3.0 | [Modrinth](https://modrinth.com/mod/zeta) |
@@ -300,17 +301,18 @@ Notes on specific licenses:
 [^3]: The source LICENSE file is GPL-3.0 and the jar agrees; the Modrinth listing's 'All Rights Reserved' is stale.
 [^4]: The source LICENSE file is GPL-3.0 (not LGPL as the Modrinth listing shows).
 [^5]: Author list from the project page; the jar leaves the authors field blank.
-[^6]: Source-available: code is MIT, art/assets are All Rights Reserved. The jar's bare 'MIT' only covers the code.
-[^7]: The source LICENSE file is LGPL-3.0; the jar mislabels it MIT.
-[^8]: Custom source-available license; the jar stores the license as a bare URL.
-[^9]: The source LICENSE file is CC0-1.0; the jar metadata is a placeholder ('Insert License Here').
-[^10]: Author from the source repo; the jar lists the author as the placeholder 'Me!'.
-[^11]: The source LICENSE file states All Rights Reserved; the Modrinth listing mislabels it MIT.
-[^12]: The source LICENSE file is MIT; the jar metadata mislabels it All Rights Reserved.
-[^13]: From the source LICENSE; the jar metadata is a placeholder ('Insert License Here').
-[^14]: Author from the project page; the jar leaves the authors field blank.
-[^15]: Core mod is LGPL-3.0; the jar's 'Apache-2.0' is the separately-licensed addon API module.
-[^16]: The source LICENSE file is GPL-3.0; the jar metadata mislabels it CC0.
+[^6]: No Forge mods.toml in the jar (loader shim), so its modId reads blank; keyed by Modrinth project id u58R1TMW. License from the source repo.
+[^7]: Source-available: code is MIT, art/assets are All Rights Reserved. The jar's bare 'MIT' only covers the code.
+[^8]: The source LICENSE file is LGPL-3.0; the jar mislabels it MIT.
+[^9]: Custom source-available license; the jar stores the license as a bare URL.
+[^10]: The source LICENSE file is CC0-1.0; the jar metadata is a placeholder ('Insert License Here').
+[^11]: Author from the source repo; the jar lists the author as the placeholder 'Me!'.
+[^12]: The source LICENSE file states All Rights Reserved; the Modrinth listing mislabels it MIT.
+[^13]: The source LICENSE file is MIT; the jar metadata mislabels it All Rights Reserved.
+[^14]: From the source LICENSE; the jar metadata is a placeholder ('Insert License Here').
+[^15]: Author from the project page; the jar leaves the authors field blank.
+[^16]: Core mod is LGPL-3.0; the jar's 'Apache-2.0' is the separately-licensed addon API module.
+[^17]: The source LICENSE file is GPL-3.0; the jar metadata mislabels it CC0.
 
 A dash in the License column means no license could be confirmed from the jar, the project's listing, or its source repository. Treat those as All Rights Reserved unless and until the author states otherwise.
 <!-- END:MODS -->

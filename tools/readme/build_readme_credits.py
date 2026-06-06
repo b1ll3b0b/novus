@@ -156,7 +156,9 @@ def build_rows():
     for jar in sorted(glob.glob(os.path.join(MODS, "*.jar")), key=str.lower):
         j = read_jar(jar)
         p = pw.get(j["jar"], {})
-        ov = OVERRIDES.get(j["modid"], {})
+        # Match by modId; fall back to the Modrinth project id for jars that
+        # ship no mods.toml (e.g. Sinytra Connector), whose modId reads blank.
+        ov = OVERRIDES.get(j["modid"]) or OVERRIDES.get(p.get("modrinth", ""), {})
         # name
         name = ov.get("name") or j["name"] or p.get("name") or j["jar"]
         # authors

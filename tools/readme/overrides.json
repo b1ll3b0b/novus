@@ -15,7 +15,7 @@
   "create_enchantment_industry": {"license": "LGPL-3.0", "note": "The source LICENSE file is LGPL-3.0; the jar mislabels it MIT."},
   "kambrik": {"authors": "enjarai", "license": "MPL-2.0", "note": "Author from the source repo; the jar lists the author as the placeholder 'Me!'."},
   "kotlinforforge": {"authors": "thedarkcolour", "license": "LGPL-2.1-only", "note": "No Forge mods.toml in the jar; license and author taken from the source repo."},
-  "connector": {"authors": "the Sinytra team", "license": "MIT", "note": "No Forge mods.toml in the jar; license from the source repo."},
+  "u58R1TMW": {"authors": "Sinytra", "license": "MIT", "note": "No Forge mods.toml in the jar (loader shim), so its modId reads blank; keyed by Modrinth project id u58R1TMW. License from the source repo."},
   "vs_clockwork": {"authors": "rubydesic, ThePlasticPotato1, rainyatrium, PriestOfFerns", "note": "Author list from the project page; the jar leaves the authors field blank."},
   "tinkers_things": {"authors": "KnightMiner", "note": "Author from the project page; the jar leaves the authors field blank."},
   "resourcefulconfig": {"authors": "ThatGravyBoat, Epic_Oreo", "note": "Author from the project page; the jar leaves the authors field blank."},
