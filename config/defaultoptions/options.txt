@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","fabric","plentyplates:main","mod/subtle_effects:resourcepacks/biome_color_water_particles","VanillaTweaks_GroovyLevers.zip","VanillaTweaks_CompassLodestone.zip","VanillaTweaks_Age25Kelp.zip","VanillaTweaks_VisualNoteblock.zip","VanillaTweaks_DiscRedstone.zip","Novus_DiscRedstone_CreateConnected.zip","Novus_DiscRedstone_Quark.zip","Novus_DiscRedstone_Supplementaries.zip","Novus_DiscRedstone_VSClockwork.zip","Novus3D_Brewing_v0.8.zip","Novus3D_Crops_v1.10.zip","Novus3D_Rails_v0.1.zip","VanillaTweaks_3D_Amethyst.zip","Novus3D_Corundum_v1.0.zip","Novus3D_SlimeCrystal_v1.0.zip","Novus3D_Plants_v2.0.zip","Novus3D_Doors_v1.0.zip","Novus3D_Ladders_v1.2.zip","Novus3D_Objects_v0.12.zip","Novus3D_Stations_v0.13.zip","VanillaTweaks_3D_Dripstone.zip","VanillaTweaks_3D_RedstoneDust.zip","Novus_BotaniaImprovedFlowers_v0.3.zip","Novus_Glass_v0.1.zip","FreshAnimations_v1.10.4_Novus.zip","FA+Witch_Old_v1.0.zip","FA+AL+Azu_Zombies.zip","FA+Spiders-v2.2.zip","FA+Quivers-v2.2.zip","FA+Emissive-v1.6.zip","FA+Player-v1.0.zip","PA-FA-Compat-v1.1.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","fabric","plentyplates:main","mod/subtle_effects:resourcepacks/biome_color_water_particles"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

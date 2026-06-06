@@ -75,6 +75,12 @@ key_key.biomancy.item_default:key.keyboard.o:NONE
 key_key.backpack:key.keyboard.unknown:NONE
 key_key.backpacked.open_management:key.keyboard.r:NONE
 key_key.antique_atlas.open:key.keyboard.m:NONE
+key_key.map_atlases.open_minimap:key.keyboard.n:NONE
+key_key.map_atlases.place_pin:key.keyboard.unknown:NONE
+key_key.map_atlases.zoom_in_minimap:key.keyboard.unknown:NONE
+key_key.map_atlases.zoom_out_minimap:key.keyboard.unknown:NONE
+key_key.map_atlases.increase_slice:key.keyboard.unknown:NONE
+key_key.map_atlases.decrease_slice:key.keyboard.unknown:NONE
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt:NONE
 key_key.argonauts.open_party_chat:key.keyboard.left.bracket:NONE
 key_key.argonauts.open_guild_chat:key.keyboard.right.bracket:NONE
