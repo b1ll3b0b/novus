@@ -69,6 +69,6 @@ AutomaticJava=true
 EOF
 
 mkdir -p "$OUT"
-( cd "$STAGE" && zip -qr "$OUT/Novus.zip" . )
-echo ">> built $OUT/Novus.zip"
-echo "   friends: Add Instance -> Import from zip -> select Novus.zip -> Launch"
+( cd "$STAGE" && zip -qr "$OUT/novus.zip" . )
+echo ">> built $OUT/novus.zip"
+echo "   friends: Add Instance -> Import from zip -> select novus.zip -> Launch"

@@ -35,7 +35,7 @@ jobs:
           chmod +x build.sh
           PACKWIZ="$(go env GOPATH)/bin/packwiz" ./build.sh --release
 
-      - name: Build self-updating Prism instance (Novus.zip)
+      - name: Build self-updating Prism instance (novus.zip)
         run: |
           chmod +x make-prism-instance.sh
           ./make-prism-instance.sh dist
@@ -48,4 +48,4 @@ jobs:
             dist/novus-*-complete.zip
             dist/novus-*-server.zip
             dist/novus-*.mrpack
-            dist/Novus.zip
+            dist/novus.zip
