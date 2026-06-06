@@ -18,7 +18,7 @@ hash = "fd762404039b691a2782a4a6f7cbb9d1c388377b50ae842b9b02ad3ff2cb28fa"
 
 [[files]]
 file = "README.md"
-hash = "6eff67a2169d6962eff22adaa073277c1583a95677e2b09d9ad3e1987cc943fb"
+hash = "f9e7d00fd782cd09442aceab88c7a9fbe66937790f9c12dfa36369790a9b9851"
 
 [[files]]
 file = "build.sh"
@@ -4114,6 +4114,11 @@ hash = "48b0f0663b17c54d2231db4aa25b9a5e181c6c4751e0cf61c93abe079f62a416"
 metafile = true
 
 [[files]]
+file = "mods/.index/threatengl.pw.toml"
+hash = "59a44f5ca1aecabc55ec0e08c24e20197d047fa9161ea9cddb3b63cd641dd7f6"
+metafile = true
+
+[[files]]
 file = "mods/.index/tinkers-construct-delight.pw.toml"
 hash = "ab3d33f889d8c5e68db5adcb0ad9ac7a2c4ed4d913da3c88b9eb595714123fb6"
 metafile = true
@@ -4950,6 +4955,10 @@ file = "mods/surveystones-2.0.3+1.20.jar"
 hash = "946506f6fc4ee0f0053f3dfeddafb03a412b585a9eac3d35c4dcd728d99cedb7"
 
 [[files]]
+file = "mods/threatengl-forge-2.0.4-release.10.jar"
+hash = "04ac04556e2bbff72e05ebaa5155b06656caac9b549508ca43bb95b007affd0e"
+
+[[files]]
 file = "mods/tinkersdelight-1.2.0-forge-1.20.1.jar"
 hash = "22f5106a0f30d9dc77fbd5abd9789412a5fd2b38b289c8a39b1abe590f0d15c6"
 
@@ -5758,8 +5767,12 @@ file = "shaderpacks/VanillaPlus_v3.3.zip"
 hash = "d14c6f0331a33d3dd16e613f3c98fc8e77b8707fc4f2544231b2468a69f51d2b"
 
 [[files]]
+file = "tools/readme/__pycache__/build_readme_credits.cpython-314.pyc"
+hash = "21a9f57051f7842898da9fb1ce596b558a3c51ed94915bfb33fe33978200defb"
+
+[[files]]
 file = "tools/readme/build_readme_credits.py"
-hash = "b21b3270d585d057ae44b6e2b533c81d3e30e2e10862e87fde7e2f88552520c9"
+hash = "34d5bf835b2c362e7d40e977cc1e6ca1c0d934199d8c30be11adeaeeb99eeec6"
 
 [[files]]
 file = "tools/readme/cf_slugs.json"
@@ -5767,11 +5780,11 @@ hash = "7f116b041b7d90c561a92e87c5496f8bd63eeffddb5da3b471fb27fe61229e05"
 
 [[files]]
 file = "tools/readme/modrinth_cache.json"
-hash = "2a2f49c56edea57ee814ac4029ce5b0df9090b4f3c4b7d1637fc222397479257"
+hash = "da8e146534a1d71214acf0c3b10893039151ae4ecd01212769ae71493d36ec44"
 
 [[files]]
 file = "tools/readme/overrides.json"
-hash = "de60b9f1fbf7b62640c4d5a24f111d75ee7f6b399a3e91a8772bdf7bdaa25dd4"
+hash = "25a680a8b8ed01626736ada674c28fae1f4041bf431b430a4b59167982c631c3"
 
 [[files]]
 file = "tools/readme/resourcepacks.json"
