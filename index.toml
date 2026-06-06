@@ -18,7 +18,7 @@ hash = "fd762404039b691a2782a4a6f7cbb9d1c388377b50ae842b9b02ad3ff2cb28fa"
 
 [[files]]
 file = "README.md"
-hash = "f9e7d00fd782cd09442aceab88c7a9fbe66937790f9c12dfa36369790a9b9851"
+hash = "d340bf1f7c2e0a9be95974d22cb6bac141bacd46c3af95cc605cecf489547ac1"
 
 [[files]]
 file = "build.sh"
@@ -243,6 +243,10 @@ hash = "541ee90994c1cf3d4e132df2ac3ff74004bc3952d3914ae843b5089a4dda8a95"
 [[files]]
 file = "config/defaultoptions-common.toml"
 hash = "9424ceb580ec8f3f074ebcc0618bfceebb62bb44d64750c7df5964fc7713964c"
+
+[[files]]
+file = "config/defaultoptions/keybindings-dvorak.txt"
+hash = "6946a0f582f53a4f196f26a173ace530dab1179fd55a25deb05a9e35873294e3"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"

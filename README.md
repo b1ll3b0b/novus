@@ -45,6 +45,8 @@ numpad is reserved for extras, and vanilla controls are left alone.
 
 ![Novus keybind layout](docs/keybinds.png)
 
+**Dvorak users:** a positional-transpose version of this layout ships alongside the default at `config/defaultoptions/keybindings-dvorak.txt` — every action sits on the same *physical* key as the QWERTY layout above. To use it, replace `config/defaultoptions/keybindings.txt` with that file **before your first launch**. Default Options applies the defaults only once, on first boot, so swapping it afterward won't take effect (you'd just rebind in-game instead).
+
 ---
 
 ## Licensing & credits — please read
