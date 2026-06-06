@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","fabric","plentyplates:main","mod/subtle_effects:resourcepacks/biome_color_water_particles"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","fabric","plentyplates:main","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/VanillaTweaks_VisualNoteblock.zip","file/VanillaTweaks_ClearerWater.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
