@@ -1,0 +1,17 @@
+{
+  "name": "The Arborist's Journal",
+  "landing_text": "$(bold)The Arborist's Journal.$()$(p)Every seed the living forest of Novus will give you \u2014 each leaf blank until that seed is in your hand. Gather them all to complete the Journal.$(p)Bound with $(italic)any seed$() and a book.",
+  "book_texture": "patchouli:textures/gui/book_green.png",
+  "model": "patchouli:book_green",
+  "creative_tab": "tools",
+  "use_blocky_font": false,
+  "i18n": false,
+  "show_progress": true,
+  "show_toasts": false,
+  "version": 1,
+  "subtitle": "Every Seed of the Living Forest",
+  "advancements_tab": false,
+  "macros": {
+    "$(novus)": "$(#2A5F3A)"
+  }
+}

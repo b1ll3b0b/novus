@@ -1,0 +1,20 @@
+{
+  "name": "Birch Seed",
+  "icon": "dynamictrees:birch_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 1,
+  "read_by_default": true,
+  "advancement": "novus:seeds/birch_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Birch Seed$()$(br2)Pale bark, quick growth. From the dynamic birch's leaves.",
+      "title": "Birch Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Dirt$() \u2192 $(italic)Birch Sapling$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

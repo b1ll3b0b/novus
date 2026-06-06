@@ -1,0 +1,20 @@
+{
+  "name": "Frosty Blossom Seed",
+  "icon": "dtquark:frosty_blossom_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 23,
+  "read_by_default": true,
+  "advancement": "novus:seeds/frosty_blossom_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Frosty Blossom Seed$()$(br2)Quark's blue blossom tree, in bloom.",
+      "title": "Frosty Blossom Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Dirt$() \u2192 $(italic)Blue Blossom Sapling$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

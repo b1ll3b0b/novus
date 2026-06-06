@@ -1,0 +1,20 @@
+{
+  "name": "Jungle Seed",
+  "icon": "dynamictrees:jungle_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 3,
+  "read_by_default": true,
+  "advancement": "novus:seeds/jungle_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Jungle Seed$()$(br2)Tall and vine-hung. From the dynamic jungle tree.",
+      "title": "Jungle Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Dirt$() \u2192 $(italic)Jungle Sapling$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

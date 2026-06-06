@@ -1,0 +1,20 @@
+{
+  "name": "Mega Warped Seed",
+  "icon": "dynamictrees:mega_warped_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 16,
+  "read_by_default": true,
+  "advancement": "novus:seeds/mega_warped_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Mega Warped Seed$()$(br2)A giant warped stalk. From the 2x2 nether megaflora.",
+      "title": "Mega Warped Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant in a 2\u00d72 to raise a giant warped stalk.$(br2)$(bold)No conversion recipe$() \u2014 this seed falls only from a fully-grown mega warped.",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

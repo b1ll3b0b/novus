@@ -1,0 +1,20 @@
+{
+  "name": "Acacia Seed",
+  "icon": "dynamictrees:acacia_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 4,
+  "read_by_default": true,
+  "advancement": "novus:seeds/acacia_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Acacia Seed$()$(br2)The savanna's flat crown. From the dynamic acacia.",
+      "title": "Acacia Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Dirt$() \u2192 $(italic)Acacia Sapling$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

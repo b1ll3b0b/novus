@@ -1,0 +1,20 @@
+{
+  "name": "Mega Jungle Seed",
+  "icon": "dynamictrees:mega_jungle_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 14,
+  "read_by_default": true,
+  "advancement": "novus:seeds/mega_jungle_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Mega Jungle Seed$()$(br2)The colossal jungle tree. Only the 2x2 megaflora drops it.",
+      "title": "Mega Jungle Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant in a 2\u00d72 to raise a giant jungle tree.$(br2)$(bold)No conversion recipe$() \u2014 this seed falls only from a fully-grown mega jungle tree.",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

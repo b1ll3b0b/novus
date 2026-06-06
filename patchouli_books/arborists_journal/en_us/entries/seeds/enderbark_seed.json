@@ -1,0 +1,20 @@
+{
+  "name": "Enderbark Seed",
+  "icon": "dttconstruct:enderbark_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 31,
+  "read_by_default": true,
+  "advancement": "novus:seeds/enderbark_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Enderbark Seed$()$(br2)The ender-slime tree of the dark islands. A Tinkers' slime tree.",
+      "title": "Enderbark Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Dirt$() \u2192 $(italic)Ender Slime Sapling$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

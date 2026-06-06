@@ -1,0 +1,20 @@
+{
+  "name": "Apple Oak Seed",
+  "icon": "dynamictrees:apple_oak_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 11,
+  "read_by_default": true,
+  "advancement": "novus:seeds/apple_oak_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Apple Oak Seed$()$(br2)The fruiting oak. Trade a single apple for its seed; it grows the orchard oak.",
+      "title": "Apple Oak Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Make:$() a single $(italic)Apple$() \u2192 this seed.$(br2)$(bold)Plant$() it to grow the fruiting orchard oak, or $(bold)convert:$() + $(italic)Dirt$() \u2192 $(italic)Oak Sapling$().",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Mangrove Seed",
+  "icon": "dynamictrees:mangrove_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 7,
+  "read_by_default": true,
+  "advancement": "novus:seeds/mangrove_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Mangrove Seed$()$(br2)Root-stilted swamp wood. From the dynamic mangrove.",
+      "title": "Mangrove Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Dirt$() \u2192 $(italic)Mangrove Propagule$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

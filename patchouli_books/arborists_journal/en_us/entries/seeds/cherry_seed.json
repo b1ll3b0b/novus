@@ -1,0 +1,20 @@
+{
+  "name": "Cherry Seed",
+  "icon": "dynamictrees:cherry_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 6,
+  "read_by_default": true,
+  "advancement": "novus:seeds/cherry_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Cherry Seed$()$(br2)Pink-blossomed. From the dynamic cherry tree.",
+      "title": "Cherry Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Dirt$() \u2192 $(italic)Cherry Sapling$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

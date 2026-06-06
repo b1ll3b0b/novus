@@ -1,0 +1,20 @@
+{
+  "name": "Glowshroom Seed",
+  "icon": "dtquark:glow_shroom_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 27,
+  "read_by_default": true,
+  "advancement": "novus:seeds/glow_shroom_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Glowshroom Seed$()$(br2)Quark's glowing cave shroom, grown tall.",
+      "title": "Glowshroom Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Dirt$() \u2192 $(italic)Glow Shroom$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

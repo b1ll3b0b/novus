@@ -1,0 +1,20 @@
+{
+  "name": "Warped Seed",
+  "icon": "dynamictrees:warped_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 10,
+  "read_by_default": true,
+  "advancement": "novus:seeds/warped_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Warped Seed$()$(br2)The blue-green nether canopy. From the dynamic warped.",
+      "title": "Warped Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Netherrack$() \u2192 $(italic)Warped Fungus$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

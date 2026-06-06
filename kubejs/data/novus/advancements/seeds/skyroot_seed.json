@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "has_seed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dttconstruct:skyroot_seed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_seed"
+    ]
+  ]
+}

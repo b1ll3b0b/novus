@@ -1,0 +1,20 @@
+{
+  "name": "Pipe Cactus Seed",
+  "icon": "dynamictreesplus:pipe_cactus_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 20,
+  "read_by_default": true,
+  "advancement": "novus:seeds/pipe_cactus_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Pipe Cactus Seed$()$(br2)The organ-pipe cactus of rocky bajadas. Pressed from cactus + gravel.",
+      "title": "Pipe Cactus Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant on sand to raise the dynamic pipe cactus.$(br2)$(bold)Make:$() $(italic)Cactus$() + $(italic)Gravel$() \u2192 this seed. One-way; no sapling.",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

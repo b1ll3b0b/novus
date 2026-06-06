@@ -1,0 +1,20 @@
+{
+  "name": "Brown Mushroom Seed",
+  "icon": "dynamictreesplus:brown_mushroom_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 17,
+  "read_by_default": true,
+  "advancement": "novus:seeds/brown_mushroom_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Brown Mushroom Seed$()$(br2)A towering brown mushroom tree. Grows on mycelium.",
+      "title": "Brown Mushroom Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Mycelium$() \u2192 $(italic)Brown Mushroom$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

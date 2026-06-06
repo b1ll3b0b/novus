@@ -1,0 +1,20 @@
+{
+  "name": "Bloodshroom Seed",
+  "icon": "dttconstruct:bloodshroom_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 32,
+  "read_by_default": true,
+  "advancement": "novus:seeds/bloodshroom_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Bloodshroom Seed$()$(br2)The blood-slime tree of the nether. A Tinkers' slime tree.",
+      "title": "Bloodshroom Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Netherrack$() \u2192 $(italic)Blood Slime Sapling$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

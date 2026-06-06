@@ -1,0 +1,20 @@
+{
+  "name": "Pillar Cactus Seed",
+  "icon": "dynamictreesplus:pillar_cactus_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 19,
+  "read_by_default": true,
+  "advancement": "novus:seeds/pillar_cactus_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Pillar Cactus Seed$()$(br2)A columnar desert cactus. Pressed from cactus + sand.",
+      "title": "Pillar Cactus Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant on sand to raise the dynamic pillar cactus.$(br2)$(bold)Make:$() $(italic)Cactus$() + $(italic)Sand$() \u2192 this seed. One-way; no sapling.",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

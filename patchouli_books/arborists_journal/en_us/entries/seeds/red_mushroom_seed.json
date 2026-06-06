@@ -1,0 +1,20 @@
+{
+  "name": "Red Mushroom Seed",
+  "icon": "dynamictreesplus:red_mushroom_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 18,
+  "read_by_default": true,
+  "advancement": "novus:seeds/red_mushroom_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Red Mushroom Seed$()$(br2)A towering red mushroom tree. Grows on mycelium.",
+      "title": "Red Mushroom Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Mycelium$() \u2192 $(italic)Red Mushroom$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

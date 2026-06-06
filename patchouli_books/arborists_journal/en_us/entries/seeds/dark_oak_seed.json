@@ -1,0 +1,20 @@
+{
+  "name": "Dark Oak Seed",
+  "icon": "dynamictrees:dark_oak_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 5,
+  "read_by_default": true,
+  "advancement": "novus:seeds/dark_oak_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Dark Oak Seed$()$(br2)Dense and dark-leaved. From the dynamic dark oak.",
+      "title": "Dark Oak Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Dirt$() \u2192 $(italic)Dark Oak Sapling$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

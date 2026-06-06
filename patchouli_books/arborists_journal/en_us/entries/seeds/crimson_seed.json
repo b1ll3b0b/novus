@@ -1,0 +1,20 @@
+{
+  "name": "Crimson Seed",
+  "icon": "dynamictrees:crimson_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 9,
+  "read_by_default": true,
+  "advancement": "novus:seeds/crimson_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Crimson Seed$()$(br2)Nether fungus grown into a tree. From the dynamic crimson.",
+      "title": "Crimson Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Netherrack$() \u2192 $(italic)Crimson Fungus$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

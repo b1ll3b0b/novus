@@ -1,0 +1,20 @@
+{
+  "name": "Ancient Seed",
+  "icon": "dtquark:ancient_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 28,
+  "read_by_default": true,
+  "advancement": "novus:seeds/ancient_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Ancient Seed$()$(br2)The ashen ancient tree. Its fallen fruit yields the seed.",
+      "title": "Ancient Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Make:$() $(italic)Ancient Fruit$() \u2192 this seed.$(br2)$(bold)Convert:$() + $(italic)Dirt$() \u2192 $(italic)Ancient Sapling$().",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

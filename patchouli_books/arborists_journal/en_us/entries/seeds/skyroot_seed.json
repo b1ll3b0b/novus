@@ -1,0 +1,20 @@
+{
+  "name": "Skyroot Seed",
+  "icon": "dttconstruct:skyroot_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 30,
+  "read_by_default": true,
+  "advancement": "novus:seeds/skyroot_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Skyroot Seed$()$(br2)The sky-slime island canopy. A Tinkers' slime tree.",
+      "title": "Skyroot Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Dirt$() \u2192 $(italic)Sky Slime Sapling$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Greenheart Seed",
+  "icon": "dttconstruct:greenheart_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 29,
+  "read_by_default": true,
+  "advancement": "novus:seeds/greenheart_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Greenheart Seed$()$(br2)The earth-slime island canopy. A Tinkers' slime tree.",
+      "title": "Greenheart Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Dirt$() \u2192 $(italic)Earth Slime Sapling$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

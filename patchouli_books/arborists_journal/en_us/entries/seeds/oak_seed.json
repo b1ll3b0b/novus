@@ -1,0 +1,20 @@
+{
+  "name": "Oak Seed",
+  "icon": "dynamictrees:oak_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 0,
+  "read_by_default": true,
+  "advancement": "novus:seeds/oak_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Oak Seed$()$(br2)The dynamic oak \u2014 first tree most worlds meet. Falls from its leaves and thin branches.",
+      "title": "Oak Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant this seed to raise its dynamic tree.$(br2)$(bold)Convert:$() this seed + $(italic)Dirt$() \u2192 $(italic)Oak Sapling$() (shapeless, one-way).",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

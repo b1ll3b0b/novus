@@ -1,0 +1,20 @@
+{
+  "name": "Saguaro Cactus Seed",
+  "icon": "dynamictreesplus:saguaro_cactus_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 21,
+  "read_by_default": true,
+  "advancement": "novus:seeds/saguaro_cactus_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Saguaro Cactus Seed$()$(br2)The badlands giant. Pressed from cactus + red sand.",
+      "title": "Saguaro Cactus Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant on sand to raise the dynamic saguaro.$(br2)$(bold)Make:$() $(italic)Cactus$() + $(italic)Red Sand$() \u2192 this seed. One-way; no sapling.",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Mega Crimson Seed",
+  "icon": "dynamictrees:mega_crimson_seed",
+  "category": "patchouli:seeds",
+  "sortnum": 15,
+  "read_by_default": true,
+  "advancement": "novus:seeds/mega_crimson_seed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Mega Crimson Seed$()$(br2)A giant crimson stalk. From the 2x2 nether megaflora.",
+      "title": "Mega Crimson Seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grows:$() plant in a 2\u00d72 to raise a giant crimson stalk.$(br2)$(bold)No conversion recipe$() \u2014 this seed falls only from a fully-grown mega crimson.",
+      "title": "Planting & Catalyst"
+    }
+  ]
+}
