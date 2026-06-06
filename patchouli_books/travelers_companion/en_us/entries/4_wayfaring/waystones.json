@@ -1,0 +1,23 @@
+{
+  "name": "Waystones",
+  "icon": "waystones:waystone",
+  "category": "patchouli:4_wayfaring",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Waystones$() are the pack's long-distance travel. A $(bold)Waystone$() is a waist-high pillar you place and name; once you've touched it, you can warp back to it from any other waystone \u2014 and, with a $(italic)Warp Stone$() or the inventory button, from anywhere at all.$(br2)You'll also find them already standing in villages and out in the wild, waiting to be activated as you pass.",
+      "title": "Waystones"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The cost is experience.$() A warp spends levels by distance \u2014 roughly $(bold)one level per 1000 blocks$() travelled. Short hops are nearly free; crossing the world costs real XP. There is no fuel and no item to carry; the price is paid from your bar.$(br2)$(li)$(bold)Warp Stone$() \u2014 a carried, rechargeable warp; about a $(bold)30-second$() cooldown.$(li)$(bold)Inventory button$() \u2014 warp to a global waystone from your inventory screen; a longer ($(bold)5-minute$()) cooldown.",
+      "title": "The Cost Is Experience"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Global waystones.$() A waystone can be set $(italic)global$() \u2014 then it appears in every player's list for free, the backbone of a shared map. On the Novus server these knit the world together: a global hub at spawn, and your own private stones for home.$(br2)$(italic)Activating a stone is permanent; naming it well is the only real skill.$()",
+      "title": "Global Waystones"
+    }
+  ]
+}

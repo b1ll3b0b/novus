@@ -1,0 +1,18 @@
+{
+  "name": "Jade",
+  "icon": "minecraft:spyglass",
+  "category": "patchouli:pack_tackle",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Jade$() is the small readout at the top of your screen that names whatever you point at. Look at a block and it tells you what the block is, what mod it came from, and \u2014 for machines, tanks, crops, and spawners \u2014 what it's $(italic)doing$(): how full, how grown, how powered.$(br2)Most of what you'll wonder about a strange block, Jade answers without a click.",
+      "title": "The Eye"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Reading more.$() Jade shows the basics always; hold to reveal detail. Useful keys (rebindable):$(br)$(li)$(bold)`$() (grave/tilde) \u2014 toggle the overlay on and off.$(li)$(bold)=$() / $(bold)-$() \u2014 show the $(italic)recipes$() / $(italic)uses$() for what you're looking at, straight from EMI.$(li)$(bold)Backspace$() \u2014 expand the full details.$(br2)Crops show growth stage; spawners show their mob and whether they're active; Create kinetics show speed and stress. Point first, ask later.",
+      "title": "Reading More"
+    }
+  ]
+}

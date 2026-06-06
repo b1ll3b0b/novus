@@ -1,0 +1,18 @@
+{
+  "name": "Voice Chat",
+  "icon": "minecraft:note_block",
+  "category": "patchouli:4_wayfaring",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Novus runs $(italic)Simple Voice Chat$() \u2014 real, $(bold)proximity-based$() voice. Speak and the players near you hear you; walk away and your voice fades with the distance. No outside program, no account; it travels with the server.$(br2)It turns a shared world into a place you're actually $(italic)in$() together \u2014 calling across a mine, narrating a build, hearing someone before you see them.",
+      "title": "Voice Chat"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Setting it up.$() Open the $(italic)Voice Chat$() menu from your controls (and bind a $(italic)push-to-talk$() key, or let it open on your voice). The first time, point it at the right microphone and set your volume \u2014 there's an in-game settings screen for all of it.$(br2)$(li)Voice is $(bold)opt-in$(): if you say nothing and bind nothing, you're silent.$(li)You can $(bold)mute$() anyone, or yourself, at any time.$(li)It needs to be on the $(italic)server$() to work \u2014 and Novus' server has it.",
+      "title": "Setting It Up"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Backpacks",
+  "icon": "backpacked:backpack",
+  "category": "patchouli:pack_tackle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Backpacked$() gives you a second inventory you can wear. A single backpack \u2014 no tiers, no upgrades \u2014 worn on your back and opened with a keypress, wherever you are.$(br2)It is the early answer to a full hotbar: somewhere to put the cobble, the saplings, the seventeen kinds of seed you're about to start collecting.",
+      "title": "Backpacks"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Wear it, open it.$() Equip the backpack in your back slot. Press $(bold)R$() to open the management screen \u2014 from there you can dye it, pin a cosmetic, and reach its contents.$(br2)The pack stays with you. On death its contents are kept according to the pack's rules, not scattered with your hotbar \u2014 check it first when you respawn.",
+      "title": "Wear It, Open It"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)To craft$() \u2014 see $(italic)EMI$() for the exact pattern (leather and a little iron). One is usually enough; a second is only for sorting one kind of haul from another.",
+      "title": "Crafting"
+    }
+  ]
+}

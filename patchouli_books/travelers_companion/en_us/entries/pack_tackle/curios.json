@@ -1,0 +1,23 @@
+{
+  "name": "Accessory Slots",
+  "icon": "minecraft:armor_stand",
+  "category": "patchouli:pack_tackle",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Curios$() gives you a second set of equipment slots \u2014 for $(bold)accessories$(): the things you wear that aren't armour. Rings, belts, charms, pendants, a pack on your back. A handful of mods in Novus quietly hang their gear here instead of cluttering your hotbar, so it's worth knowing the drawer exists.",
+      "title": "Accessory Slots"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Open it.$() There's a small $(italic)button at the top-left corner$() of your inventory screen \u2014 click it to fold out the accessory slots beside your character. (You can also bind a key: $(italic)Open Curios$(), unbound by default.)$(br2)Each accessory knows its own slot \u2014 a ring won't go on your belt. Slots reveal themselves as you collect things that use them, so an empty start fills out as you gather gear.",
+      "title": "Open It"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)What goes where, in Novus:$()$(br)$(li)$(bold)Belt$() \u2014 the Supplementaries $(italic)Quiver$().$(li)$(bold)Back$() \u2014 your $(italic)Backpack$().$(li)$(bold)Ring$(), $(bold)Head$(), $(bold)Necklace$() \u2014 $(italic)Botania$()'s rings, its flight tiara, and pendants.$(li)$(bold)Charm$() / $(bold)Curio$() \u2014 catch-all slots for trinkets and badges from across the pack.$(br2)Worn accessories work $(italic)passively$(): no button to press, they do their job as long as they're slotted.",
+      "title": "What Goes Where"
+    }
+  ]
+}

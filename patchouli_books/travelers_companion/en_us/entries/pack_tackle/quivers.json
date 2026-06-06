@@ -1,0 +1,23 @@
+{
+  "name": "Quivers",
+  "icon": "supplementaries:quiver",
+  "category": "patchouli:pack_tackle",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Supplementaries'$() $(bold)Quiver$() holds your arrows so the bow can find them without filling a hotbar slot. Loaded, it feeds any bow or crossbow automatically \u2014 special arrows first, plain arrows last, so your tipped and spectral shots aren't wasted on skeletons.$(br2)Wear it in the belt/curio slot, or keep it in your inventory; either way the bow draws from it.",
+      "title": "Quivers"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Where they come from.$() Two paths in Novus:$(br)$(li)$(bold)Craft an empty quiver$() and fill it yourself \u2014 the steady route. (See $(italic)EMI$().)$(li)$(bold)Take one off a bowman.$() $(novus)Skeletons$() drop a loaded quiver about $(bold)1 kill in 14$(); the icy-biome $(novus)Stray$() drops one far more often, about $(bold)1 in 7$(), and its quivers come carrying more arrows.",
+      "title": "Where They Come From"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)A note on the drops.$() Only kills $(italic)you$() land count \u2014 a creeper finishing a skeleton for you yields nothing, and neither does an automated farm. $(italic)Looting$() raises the odds. The drop is a shortcut to a pre-loaded quiver, not the only way to own one.",
+      "title": "Earned, Not Farmed"
+    }
+  ]
+}

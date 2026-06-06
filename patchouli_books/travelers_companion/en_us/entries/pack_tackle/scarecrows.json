@@ -1,0 +1,28 @@
+{
+  "name": "Scarecrows",
+  "icon": "scarecrowsterritory:primitive_scarecrow",
+  "category": "patchouli:pack_tackle",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Scarecrow's Territory$() turns its name on its head. A $(bold)Scarecrow$() does not frighten mobs away \u2014 it stands in for $(italic)you$(). Plant one and the ground around it behaves as though a player were standing there, even when the whole base is asleep and you are a thousand blocks off.",
+      "title": "A Stand-In"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)What it keeps awake.$() Within its range the scarecrow:$(br)$(li)keeps $(bold)mob spawners$() ticking and spitting out mobs (range about $(bold)5 blocks$());$(li)lets mobs $(bold)spawn naturally$() as they would near a player (range about $(bold)8 blocks$()).$(br2)$(bold)$(novus)This means a scarecrow is not a safe-light.$()$() Hostiles can and will appear in its territory after dark, exactly as they would around you. Light the area you actually live in.",
+      "title": "What It Keeps Awake"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)What it's for.$() Mob farms and grinders that need a player nearby to run \u2014 a scarecrow runs them for you. A trophy-mob spawner you want producing while you're away. A far-flung outpost you want to feel lived-in.$(br2)Set it where you $(italic)want$() spawning, never where you sleep.",
+      "title": "What It's For"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)$(novus)Two scarecrows, one name.$()$() Novus also has a $(italic)Macaw's Holidays$() $(bold)Scarecrow$() \u2014 and it does $(italic)nothing$() of what this page describes. That one is $(bold)pure decoration$(): a harvest-season ornament for a field or porch, with no effect on spawning at all.$(br2)If you want the working block, reach for the dyed $(italic)Scarecrow's Territory$() scarecrow (this entry's). If you just want the look, the Macaw's one is the prettier post. EMI shows both under \"scarecrow\" \u2014 pick by the tooltip's mod name.",
+      "title": "Two Scarecrows, One Name"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Reading the Weather",
+  "icon": "supplementaries:wind_vane",
+  "category": "patchouli:weather_sky",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Supplementaries'$() $(bold)Wind Vane$() is the one block in Novus that puts the weather onto a wire. Mount it up where the wind can reach it; when a storm rolls over its position it turns, and sends out a $(bold)redstone signal$() \u2014 stronger in a thunderstorm than in plain rain.$(br2)Wire it to a door, a shutter, a bell \u2014 anything you'd like the sky to decide.",
+      "title": "The Wind Vane"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Why the vane, and not a daylight sensor.$() Novus ships $(italic)Simple Clouds Compat$() so the Wind Vane reads Simple Clouds' $(italic)local$() storms at its own position \u2014 the storm actually overhead, not a world-wide flag.$(br2)$(bold)$(novus)A daylight detector will not do this.$()$() It reads the global sky-darkening, which Simple Clouds leaves untouched \u2014 so it ignores the storm above it and only tracks the sun. For sensing rain in Novus, the Wind Vane is the tool; the daylight sensor stays a clock.",
+      "title": "Why the Vane"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)And the sculk?$() A $(italic)Sculk Sensor$() cannot hear rain \u2014 falling rain makes no vibration for it to catch. What it $(italic)can$() catch is a $(bold)lightning strike$(): during a thunderstorm, each bolt that lands is a vibration the sculk will feel. A sensor on a tall mast is a fair lightning-warning, but it is listening for the strike, not the weather.",
+      "title": "And the Sculk"
+    }
+  ]
+}

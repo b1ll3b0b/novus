@@ -2,11 +2,11 @@
   "name": "Mighty Smelting",
   "icon": "tconstruct:mighty_smelting",
   "category": "patchouli:7_catalog",
-  "sortnum": 3,
+  "sortnum": 10,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(italic)Tinkers' Construct$() \u2014 the Smeltery grown larger: seared-stone machinery, fuels, and the heat that tougher metals demand.$(br2)$(bold)To obtain:$() not crafted but $(italic)cast$() \u2014 lay a $(italic)Book$() on a Casting Table and pour molten seared stone over it.",
+      "text": "$(italic)Tinkers' Construct$() — the Smeltery grown larger: seared-stone machinery, fuels, and the heat that tougher metals demand.$(br2)$(bold)To obtain:$() not crafted but $(italic)cast$() — lay a $(italic)Book$() on a Casting Table and pour molten seared stone over it.",
       "title": "Mighty Smelting"
     }
   ]

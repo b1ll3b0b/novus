@@ -1,0 +1,13 @@
+{
+  "name": "The Arborist's Journal",
+  "icon": "patchouli:guide_book{\"patchouli:book\":\"patchouli:arborists_journal\"}",
+  "category": "patchouli:7_catalog",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(novus)A Novus original.$() A field-list of every $(italic)Dynamic Trees$() seed in the pack — each leaf stays blank until you've held that seed, and a progress bar fills as you gather them all.$(br2)It doubles as a seed reference: every page also gives that seed's planting and its $(italic)catalyst → sapling$() recipe.$(br2)$(bold)To craft:$() a $(italic)Book$() + $(italic)any seed$(), shapeless.",
+      "title": "The Arborist's Journal"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Food History Book",
+  "icon": "solclassic:food_history_book",
+  "category": "patchouli:7_catalog",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Spice of Life: Classic$() — your $(bold)food tracker$(). It lists the meals still held against you by the varied-diet rule, so you can see at a glance which foods have worn out and which are fresh again. Read it alongside the value shown on each food's tooltip.$(br2)For the rule itself, see $(l:2_hearth_season/varied_table)A Varied Table$().$(br2)$(bold)To craft:$() a $(italic)Book$() + any $(italic)crop$(), shapeless.",
+      "title": "Food History Book"
+    }
+  ]
+}

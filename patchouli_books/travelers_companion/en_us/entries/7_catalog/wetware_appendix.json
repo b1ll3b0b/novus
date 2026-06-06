@@ -2,11 +2,11 @@
   "name": "Wetware Appendix",
   "icon": "patchouli:guide_book{\"patchouli:book\":\"patchouli:wetware_appendix\"}",
   "category": "patchouli:7_catalog",
-  "sortnum": 9,
+  "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(italic)Novus's$() companion to $(italic)Biomancy$() \u2014 the flesh-and-bile arts, the Primordial Cradle and its tributes, the living machines that grow from them. Biomancy's own guide (the unfinished $(italic)Primordial Index$()) was never completed, so this was written in its place.$(br2)$(bold)To craft:$() a $(italic)Book$() + any $(italic)raw meat$(), shapeless.",
+      "text": "$(italic)Novus's$() companion to $(italic)Biomancy$() — the flesh-and-bile arts, the Primordial Cradle and its tributes, the living machines that grow from them. Biomancy's own guide (the unfinished $(italic)Primordial Index$()) was never completed, so this was written in its place.$(br2)$(bold)To craft:$() a $(italic)Book$() + any $(italic)raw meat$(), shapeless.",
       "title": "Wetware Appendix"
     }
   ]

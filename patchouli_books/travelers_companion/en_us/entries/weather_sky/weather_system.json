@@ -1,0 +1,18 @@
+{
+  "name": "How the Weather Works",
+  "icon": "minecraft:water_bucket",
+  "category": "patchouli:weather_sky",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Novus builds its weather from three mods working at once, replacing the flat grey sheet vanilla calls a storm.$(br2)$(li)$(bold)Simple Clouds$() draws real, volumetric clouds overhead and grows them into $(italic)localized storms$() \u2014 a squall can be raining on your field and not on the hill behind it.$(li)$(bold)Particle Rain$() makes the rain and snow you see fall, and carries the weather's sound \u2014 the hush and gust of it.$(li)$(bold)Serene Seasons$() decides how $(italic)often$() weather comes, by the turning year.",
+      "title": "Three Hands"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Storms are local now.$() Because Simple Clouds runs its weather per-place rather than across the whole world at once, you can watch a storm approach across the landscape and walk out the far side of it. This is the look Novus is after \u2014 sky you can read.$(br2)It also means the old vanilla habit of $(italic)\"is it raining: yes/no\"$() no longer describes the sky. The world's global weather flag stays clear even while a Simple Clouds storm pours on your roof \u2014 which matters for the redstone on the next page.",
+      "title": "Storms Are Local"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Map Atlases",
+  "icon": "map_atlases:atlas",
+  "category": "patchouli:4_wayfaring",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Map Atlases$() is the $(bold)other$() map in Novus, and it works nothing like the Antique Atlas. This one is built from real $(italic)cartographer's maps$() \u2014 the squared, top-down kind \u2014 and bundles them into a single book that fills itself in as you carry it.$(br2)Where the Antique Atlas draws biomes by feel, the Map Atlas shows the true grid: exact coordinates, exact coastlines, the maps you'd otherwise carry a chestful of, gathered into one.",
+      "title": "Map Atlases"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Carry it and it grows.$() Hold the atlas and a $(italic)minimap$() appears in the corner of your screen; walk past the edge of what it knows and it quietly adds a new map tile to cover the ground. No crafting a map per region, no naming, no chest of paper.$(br2)Open the atlas item in hand for the full stitched view. You can place markers, and decorate the map with the usual banners and markers a cartography table allows.",
+      "title": "Carry It and It Grows"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Two atlases, your choice.$() Both are in the pack on purpose. The $(italic)Antique Atlas$() (press $(bold)M$()) is the hand-drawn, explorer's-journal map bound to you; the $(italic)Map Atlas$() is the precise, coordinate-true map you hold in hand. Use the Antique Atlas to wander; reach for the Map Atlas when you want to know exactly $(italic)where$(). $(italic)Crafting is in EMI.$()",
+      "title": "Two Atlases"
+    }
+  ]
+}

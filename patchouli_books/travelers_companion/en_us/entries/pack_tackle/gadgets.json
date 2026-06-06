@@ -1,0 +1,23 @@
+{
+  "name": "Small Gadgets",
+  "icon": "supplementaries:flute",
+  "category": "patchouli:pack_tackle",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Supplementaries$() scatters a handful of practical gadgets through the pack \u2014 small tools that solve one problem each and ask nothing of any tech tree. None are required; each is worth knowing.",
+      "title": "Small Gadgets"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)For getting around and getting up.$()$(br)$(li)$(bold)Rope$() \u2014 string it down a shaft and climb it like a ladder; coil it back up as you go. The fastest way in and out of a cave you dug straight down.$(li)$(bold)Slingshot$() \u2014 a cheap launch upward, or a way to fling a stack of items across a gap.$(li)$(bold)Flute$() \u2014 whistle your tamed pets to your side from across a base.",
+      "title": "Getting Around"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)For the workshop and the shelf.$()$(br)$(li)$(bold)Bubble Blower$() \u2014 fills space with clinging bubble blocks; decorative, and a soft landing.$(li)$(bold)Bombs$() \u2014 a thrown, contained blast for clearing stone without a creeper's mess.$(li)$(bold)Sacks, jars, and shelves$() hold and show off what you've gathered.$(br2)$(italic)This is a sampler, not the catalogue \u2014 open EMI and search $(bold)Supplementaries$() to see the rest, recipes and all.$()",
+      "title": "Workshop & Shelf"
+    }
+  ]
+}

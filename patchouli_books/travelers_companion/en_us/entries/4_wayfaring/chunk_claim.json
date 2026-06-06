@@ -1,0 +1,23 @@
+{
+  "name": "Claiming Land",
+  "icon": "minecraft:white_banner",
+  "category": "patchouli:4_wayfaring",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Cadmus$() lets you $(bold)claim$() the ground you build on. A claimed chunk is yours: other players can't break, place, or steal within it, and \u2014 just as useful in single-player \u2014 you decide what's protected.$(br2)It is the quiet backbone of playing together without fences and locked doors.",
+      "title": "Claiming Land"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)The claim map.$() Press $(bold),$() (comma) to open Cadmus' map. Each square is a chunk; click to claim the ones you stand on and the ones around them, and your claim grows as a coloured patch you can see at a glance.$(br2)Every player has a $(italic)claim budget$() that grows with playtime \u2014 you can't fence off the whole world on day one, but a homestead is well within reach. $(italic)Partly-claimed land can also be set as a softer \"party\" zone for friends.$()",
+      "title": "The Claim Map"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Why it's here.$() Novus is built to be shared (see $(italic)Waystones$(), and the server at large). Claims keep a co-op world friendly: your base stays your base whether or not anyone's watching it. In a solo world it's optional \u2014 claim your build to protect it from your own wandering creepers, or ignore it entirely.",
+      "title": "Why It's Here"
+    }
+  ]
+}

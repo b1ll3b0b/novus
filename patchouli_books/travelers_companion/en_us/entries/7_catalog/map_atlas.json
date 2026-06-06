@@ -1,0 +1,13 @@
+{
+  "name": "Map Atlas",
+  "icon": "map_atlases:atlas",
+  "category": "patchouli:7_catalog",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Map Atlases$() — the coordinate-true map you carry in hand. Hold it for a corner minimap; it stitches real cartographer's maps together as you explore. Press $(bold)N$() to open the minimap.$(br2)The full walkthrough is in $(l:4_wayfaring/map_atlases)Wayfaring & Maps$().$(br2)$(bold)To craft:$() see $(italic)EMI$() — a book bound with the map-making basics.",
+      "title": "Map Atlas"
+    }
+  ]
+}
