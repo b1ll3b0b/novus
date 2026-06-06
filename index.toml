@@ -4986,10 +4986,6 @@ file = "options.txt"
 hash = "710524d8181b53c7df75d7e82dd13a39a4c2a685131e6ca0a289af1ac841ecd1"
 
 [[files]]
-file = "options.txt.bak-mapatlas-2026-06-05"
-hash = "c57cf6f86b5f97a8e2972c7d25f0c062f17c878ec634b64214af18b306b4771c"
-
-[[files]]
 file = "patchouli_books/arborists_journal/book.json"
 hash = "39f51c3924ec641ccb7abbe47d986b50eb81e328e962387182271eb5e4481383"
 
