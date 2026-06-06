@@ -35,13 +35,52 @@ jobs:
           chmod +x build.sh
           PACKWIZ="$(go env GOPATH)/bin/packwiz" ./build.sh --release
 
+      # Build the changelog against the most recent release that STILL EXISTS,
+      # not the immediately-preceding tag. When iffy releases are deleted to save
+      # hosting space, GitHub's default "compare/PREV...THIS" link points at a
+      # version nobody has; this regenerates the notes against the last *published*
+      # release instead, so the span always covers what a downloader actually had.
+      - name: Generate changelog vs. last hosted release
+        id: notes
+        if: github.ref_type == 'tag'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          # highest existing-release tag strictly below the current tag (semver order).
+          # The current release doesn't exist yet at this point, so we append the
+          # current tag, sort, and take whatever sits just before it.
+          prev=""
+          while IFS= read -r t; do
+            [ "$t" = "$GITHUB_REF_NAME" ] && break
+            prev="$t"
+          done < <(
+            gh release list --repo "$GITHUB_REPOSITORY" --limit 200 \
+              --json tagName,isDraft --jq '.[] | select(.isDraft | not) | .tagName' \
+              | { cat; echo "$GITHUB_REF_NAME"; } | sort -V
+          )
+          if [ -n "$prev" ]; then
+            echo "Changelog span: ${prev}...${GITHUB_REF_NAME}"
+            gh api "repos/$GITHUB_REPOSITORY/releases/generate-notes" \
+              -f tag_name="$GITHUB_REF_NAME" -f previous_tag_name="$prev" \
+              --jq .body > release_notes.md
+          else
+            echo "No prior hosted release; generating notes from scratch."
+            gh api "repos/$GITHUB_REPOSITORY/releases/generate-notes" \
+              -f tag_name="$GITHUB_REF_NAME" --jq .body > release_notes.md
+          fi
+          echo "have_notes=true" >> "$GITHUB_OUTPUT"
+
       # novus.zip (the self-updating Prism instance) is NOT attached here. It is
       # static across releases, so it ships once via the Pages publish
       # (publish.yml) and is served at https://b1ll3b0b.github.io/novus/novus.zip.
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          generate_release_notes: true
+          # Use our computed notes when we have them (tag builds); otherwise fall
+          # back to GitHub's auto-generation (e.g. a non-tag workflow_dispatch).
+          body_path: ${{ steps.notes.outputs.have_notes == 'true' && 'release_notes.md' || '' }}
+          generate_release_notes: ${{ steps.notes.outputs.have_notes != 'true' }}
           files: |
             dist/novus-*-complete.zip
             dist/novus-*-server.zip
