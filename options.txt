@@ -149,13 +149,13 @@ key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.ponder.ponder:key.keyboard.w
-key_key.valkyrienskies.ship_down:key.keyboard.apostrophe
-key_key.valkyrienskies.ship_cruise:key.keyboard.semicolon
+key_key.valkyrienskies.ship_down:key.keyboard.page.down
+key_key.valkyrienskies.ship_cruise:key.keyboard.page.up
 key_placebo.toggleTrails:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.unknown
 key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
-key_key.vs_clockwork.aeronaut_goggles_toggle:key.keyboard.enter
+key_key.vs_clockwork.aeronaut_goggles_toggle:key.keyboard.home
 key_key.vs_clockwork.debug_lightning_toggle:key.keyboard.unknown
 key_key.biomancy.item_default:key.keyboard.o
 key_key.backpack:key.keyboard.unknown
