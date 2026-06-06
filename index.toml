@@ -4983,6 +4983,10 @@ hash = "5ecc6535596b5954f6293224be6b35805c64f4d4aedc2b9e32d9508dd529cabd"
 
 [[files]]
 file = "options.txt"
+hash = "710524d8181b53c7df75d7e82dd13a39a4c2a685131e6ca0a289af1ac841ecd1"
+
+[[files]]
+file = "options.txt.bak-mapatlas-2026-06-05"
 hash = "c57cf6f86b5f97a8e2972c7d25f0c062f17c878ec634b64214af18b306b4771c"
 
 [[files]]
@@ -5312,66 +5316,6 @@ hash = "d2a5ee78cf90f595cc210d4be7385a9845779708231f4c4b189f50431e170e1e"
 [[files]]
 file = "patchouli_books/travelers_companion/book.json"
 hash = "575b8ecf2b1faabc65f13c0820a837a75493971606640b94c41d0739bd566678"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/agricultural_journal.json"
-hash = "2b6d24d0311f71b66b2350c75ec0aa736c8932da1fe0b3e30901a0fb92ea6a4e"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/antique_atlas_item.json"
-hash = "90f7ee507891c7f18f494bb700ef063bda037d191796bda8601fd66c86e2a5a5"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/arborists_journal.json"
-hash = "c54e04852ee7b1ff4cdc86d8a0773c4044db17c8f6882d3c54102ad28198e76c"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/companion.json"
-hash = "569281f4f196c21b71673867e990bd6bd22f004da1e2a3ea8d5ac8a4b6adbe34"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/create_compendium.json"
-hash = "ce28f1654b07788df1b516812d9cbdfeffdb376d84f5cbbd594d4ce0742de574"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/encyclopedia.json"
-hash = "82098080413f2dd9d0bce6b8cff53c4338c25c6e51020d2d774b2bdf26f7560d"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/fantastic_foundry.json"
-hash = "aa310909bca9c9b4c0e8f75e9b6f5e8572a3e9ae7c3f255628118e04f9f365a3"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/food_history_book.json"
-hash = "31a354de76dca47e7a18b9e35f4520717400708de8ee98281324da68f5725ff8"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/lexica_botania.json"
-hash = "48f3400c18056ad9fb7768893dc6100bce22fda0da2e0d3e153d237dbb63f53c"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/map_atlas.json"
-hash = "49a6b69e7e8f13af1de2a4f9596dcb6eece00beab45eab36f1101e4dd46a2a7f"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/materials_and_you.json"
-hash = "9e06cfaad05b4a81ca468f2a4dc3fc672dfc0237b754f39060fd940efe5c83aa"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/mighty_smelting.json"
-hash = "b4e824b587ad165c05616d4bff1fb5a29b6d80886814e4c23b665c7e334fdd34"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/puny_smelting.json"
-hash = "23a4477393b2462b438724421b1a5a0dbb4b7cf70167feb872cde555a0a3875c"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/tinkers_gadgetry.json"
-hash = "c54a0effa811d854e4436511fc7ccdccce831bafdb446b01e80f26a5670153e6"
-
-[[files]]
-file = "patchouli_books/travelers_companion/en_us/_backups_7catalog_2026-06-05/wetware_appendix.json"
-hash = "ac157417f481a4421d55160444c16b2203d554bf87cca5870856baca074e35c4"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/categories/0_welcome.json"

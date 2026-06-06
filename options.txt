@@ -164,10 +164,10 @@ key_key.antique_atlas.open:key.keyboard.m
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
 key_key.argonauts.open_party_chat:key.keyboard.left.bracket
 key_key.argonauts.open_guild_chat:key.keyboard.right.bracket
-key_key.map_atlases.open_minimap:key.keyboard.unknown
-key_key.map_atlases.zoom_out_minimap:key.keyboard.keypad.subtract
-key_key.map_atlases.zoom_in_minimap:key.keyboard.keypad.add
-key_key.map_atlases.place_pin:key.keyboard.b
+key_key.map_atlases.open_minimap:key.keyboard.n
+key_key.map_atlases.zoom_out_minimap:key.keyboard.unknown
+key_key.map_atlases.zoom_in_minimap:key.keyboard.unknown
+key_key.map_atlases.place_pin:key.keyboard.unknown
 key_key.map_atlases.increase_slice:key.keyboard.unknown
 key_key.map_atlases.decrease_slice:key.keyboard.unknown
 key_rainbows.key.reload_rainbow_configs:key.keyboard.unknown
