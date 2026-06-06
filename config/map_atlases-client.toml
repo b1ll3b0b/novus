@@ -5,7 +5,7 @@
 	#Shows a background texture for each map, useful to see where each map ends
 	shows_map_background = false
 	#Hide minimap when holding the atlas in hand
-	hide_when_in_hand = true
+	hide_when_in_hand = false
 	#Only display y coordinates if atlas holds some slice maps
 	only_show_y_when_has_slices = true
 	#Global scale of entire minimap HUD. Keep at 1 for pixel perfect consistency
@@ -18,7 +18,7 @@
 	zoom_multiplier = 1.0
 	#Controls anchor position of mini-map
 	#Allowed Values: UPPER_LEFT, UPPER_RIGHT, LOWER_LEFT, LOWER_RIGHT
-	anchoring = "UPPER_LEFT"
+	anchoring = "UPPER_RIGHT"
 	#An integer which will offset the mini-map horizontally
 	#Range: -4000 ~ 4000
 	horizontal_offset = 0

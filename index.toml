@@ -254,7 +254,7 @@ hash = "a7c7c3e7d9eb8b55910a2c5ebfc6fa30ed56c501c150e34c4795d6c01e280fc0"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "73684a4b130fff4fbd8983533b7ed40aa482b195b78d0332c856af4f9a09a73e"
+hash = "e8d637c3a228f85a51ec75053e69aed4322a088986f46df3519244f1a0797b17"
 
 [[files]]
 file = "config/dummmmmmy-client.toml"
@@ -486,7 +486,7 @@ hash = "83a767bf5d96b03174cacef236ef7aebdd3577e184d53a5a1e9d3e7a5256d075"
 
 [[files]]
 file = "config/map_atlases-client.toml"
-hash = "5f036aa48ae41857b3a8c74ed2e3bfd1ef53dd2b4eab649e25f758f07eeed74c"
+hash = "5236e3455946e99cee3bbe7015e8e04923ee1537fbcdda86e87ed58b6f5a735b"
 
 [[files]]
 file = "config/map_atlases-common.toml"
@@ -570,7 +570,7 @@ hash = "592e56cf4c9f4bba6f7c7585003c9b223d73737e9ab3c7d8c5a0273a8a489b8d"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "e0594dff9634cce2ba749c2d5dcc369f773fbb44034b31d3f6e7b6109a6b1b9a"
+hash = "ef3f88a5cdbd73bff3cd2843c68089a204e50e9af791d844678ed46d8484b650"
 
 [[files]]
 file = "config/paxi/resourcepacks/Authentic Shadows_1.20.zip"
@@ -699,10 +699,6 @@ hash = "ae90f2e3b083dbb9051d155dcbdc5735ef2d228cb39c82a9c6ae03aae4b63d6a"
 [[files]]
 file = "config/paxi/resourcepacks/VanillaTweaks_GroovyLevers.zip"
 hash = "b909b39a80b0498d283a84abb040fa0561012fbbf41ca18d7b37f4c8b16b864a"
-
-[[files]]
-file = "config/paxi/resourcepacks/VanillaTweaks_VisualNoteblock.zip"
-hash = "720154dbf4a9fa6242effd655bf1d6ea2eeaf610a18adbb50f7149c1922de0bc"
 
 [[files]]
 file = "config/pehkui-client.toml"
@@ -846,7 +842,7 @@ hash = "22aa58b7712883881928bdee3e189010ea08ec9dc48e57f48a3a4dbb24dfb25d"
 
 [[files]]
 file = "config/subtle_effects/environment.toml"
-hash = "2ee2918575611ae2fca4d3be651b71285fc78484de74d9877f6c33fd84b32dc0"
+hash = "d1bb48019253b3e105752b098a343119f01a714255e0e60e889369508aa38f88"
 
 [[files]]
 file = "config/subtle_effects/general.toml"
@@ -1818,7 +1814,7 @@ hash = "b8ad888d704b433caa46e875706412a47afed509ed96f9c02f9d35f8e9fcc60d"
 
 [[files]]
 file = "kubejs/data/createaddition/recipes/charging/charged_snowball.json"
-hash = "cbb5540afbe3e6861996b13d0b332d1129c532a083064f8515ed8c28bdfb2834"
+hash = "bd3a51d94bd05cd553e125f00a02197451e0019ca8e77c014f8249950419fbb3"
 
 [[files]]
 file = "kubejs/data/diagonalfences/tags/blocks/non_diagonal_fences.json"
@@ -2403,6 +2399,10 @@ hash = "5e18cf1a20afa195ca8a42237f8c6df74825d37f5db045b6c6ec6dd019eaffe7"
 [[files]]
 file = "kubejs/data/novus/advancements/seeds/warped_seed.json"
 hash = "cf37ddb93631720dde358b6d46884a6c394c49872d35f801893d0c53bfec1eae"
+
+[[files]]
+file = "kubejs/data/novus/recipes/charging/wanderlite_crystal.json"
+hash = "ebb824325462ac41e359f48738ce200c62a749c1f8b353cdbd3d71e9d07b9441"
 
 [[files]]
 file = "kubejs/data/novus/recipes/compacting/ancient_seed_to_experience.json"
@@ -4996,7 +4996,7 @@ hash = "5ecc6535596b5954f6293224be6b35805c64f4d4aedc2b9e32d9508dd529cabd"
 
 [[files]]
 file = "options.txt"
-hash = "f9ddb4b0d2e2e4a19edcf9173e3cfa4c8897d68b260a43f2ff68fcee740646d3"
+hash = "e3db7a8d14abf89de1c248d88b300a1ee07719fbf303143963b3d3ed5ab3d76e"
 
 [[files]]
 file = "patchouli_books/arborists_journal/book.json"
@@ -5727,8 +5727,16 @@ file = "resourcepacks/Quark Programmer Art.zip"
 hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
 
 [[files]]
+file = "resourcepacks/VanillaTweaks_ClearerWater.zip"
+hash = "8a2b82677b05aba436086689f37af65db2747446871adfbd7b436727b9d36718"
+
+[[files]]
 file = "resourcepacks/VanillaTweaks_RandomizedTextures.zip"
 hash = "f47b6d9516c6fb02af95993e5b256f41cbd1c5bea07fabdeccf8ce8c04fa892a"
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_VisualNoteblock.zip"
+hash = "720154dbf4a9fa6242effd655bf1d6ea2eeaf610a18adbb50f7149c1922de0bc"
 
 [[files]]
 file = "scripts/deepslate_generator_common.zs"
