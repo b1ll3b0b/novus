@@ -366,7 +366,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "aff20ccda41cde92506a861c7a258a02ac43f20a8e56b4e0f54bc14962524759"
+hash = "e1cd5770aa24399e6521250b32ae43e678844a595d3520fd421f6cb6014700ee"
 
 [[files]]
 file = "config/fape_compat-client.toml"
@@ -538,7 +538,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "131b07fa2cae58ecf9a3dd4bd24065a057db15f166f8ab9fef46293f7a7e2343"
+hash = "c945b7ecf8bd9354a33e4292556962b77a0f0cd403d78f3599cc0f4f81af8ecb"
 
 [[files]]
 file = "config/particlerain.json"
@@ -722,7 +722,7 @@ hash = "7508f3f5ceed80c7c606d01ee2dc93e2c72a8afa199ccb691fc5225c894d5bbd"
 
 [[files]]
 file = "config/powah.json5"
-hash = "bfd577bc10d6cee9d9d28bea1bafbdd426456e72d3e33cbedfd197d2c2f66b10"
+hash = "de5130843ed3f7189f856bba6ec4b61e95de14f4011e58ce30399cf0e664eedb"
 
 [[files]]
 file = "config/quark-common.toml"
