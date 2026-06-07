@@ -12,6 +12,11 @@ hash-format = 'sha512'
 mode = 'url'
 url = 'https://cdn.modrinth.com/data/btq68HMO/versions/b6J7xYnJ/create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar'
 
-[update.modrinth]
-mod-id = 'btq68HMO'
-version = 'b6J7xYnJ'
+# Pinned to 1.4.3b — do not auto-update (2026-06-06)
+# Pin reason: CCK 1.5.0+ is compiled against the FD 1.3.x ModTags refactor
+# (see DECISIONS.md, rejected 2026-06-06); we stay on FD 1.2.11a.
+# Unpin only as part of the FD 1.3.x migration itself.
+# To unpin: restore the [update.modrinth] block:
+#   [update.modrinth]
+#   mod-id = 'btq68HMO'
+#   version = 'b6J7xYnJ'
