@@ -254,7 +254,7 @@ hash = "a7c7c3e7d9eb8b55910a2c5ebfc6fa30ed56c501c150e34c4795d6c01e280fc0"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "e8d637c3a228f85a51ec75053e69aed4322a088986f46df3519244f1a0797b17"
+hash = "a4e77068d16ef0655926730ce7c2b2c8773d6027d3013532b2c95cd341dd0d09"
 
 [[files]]
 file = "config/dummmmmmy-client.toml"
