@@ -31,3 +31,6 @@ mods/.connectorEarly/
 .gitignore
 .packwizignore
 *.bak
+
+# personal dev-environment sync only — players get options via DefaultOptions
+/options.txt
