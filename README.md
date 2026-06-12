@@ -442,7 +442,6 @@ recur throughout the pack or anchor whole systems:
 - **shedaniel** — Architectury API, Cloth Config
 - **BlayTheNinth** — Balm, Waystones, Default Options
 - **Shadows_of_Fire** — Placebo, Toast Control
-- **rubydesic & the Valkyrien Skies team** — Valkyrien Skies, Clockwork, Trackwork
 - **nonamecrackers2** — Simple Clouds
 - **Max Henkel** — Simple Voice Chat (also a Sound Physics Remastered author)
 - **thedarkcolour** — Kotlin for Forge  ·  **the Sinytra team** — Connector
