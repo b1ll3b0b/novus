@@ -2850,7 +2850,7 @@ hash = "f1868b96017b72dbaea53e1c997101409c571238f74148da52211d3bbf6bdac9"
 
 [[files]]
 file = "make-prism-instance.sh"
-hash = "6578f70c36db38a48ce7f138e71d969680e0f4856e5398585d6f81a257624ac4"
+hash = "ff4938d14f8ce83d9b2284c0ba325a150bdae7e4a07350469dc3ab960f88c608"
 
 [[files]]
 file = "mmc-pack.json"

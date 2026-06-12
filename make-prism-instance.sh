@@ -8,10 +8,12 @@
 # update.
 #
 # What gets shipped (deliberately minimal — ALL other tuning stays personal):
-#   - 8 GB min/max heap (testers all have 16 GB+; comfortable headroom over the
-#     pack's ~3.5-4 GB live set)
-#   - only the 4 safe baseline GC flags (UseG1GC, DisableExplicitGC,
-#     PerfDisableSharedMem, AlwaysPreTouch). No JIT/code-cache/node-limit flags,
+#   - 2 GB min / 8 GB max heap (lazy growth; pack's measured steady-state is
+#     ~3.5-3.8 GB post-VS-removal, so the heap settles there and the ceiling
+#     covers worldgen/exploration spikes)
+#   - only the 3 safe baseline GC flags (UseG1GC, DisableExplicitGC,
+#     PerfDisableSharedMem). AlwaysPreTouch dropped 2026-06-12 (pins the floor
+#     resident for no measured benefit). No JIT/code-cache/node-limit flags,
 #     no ConcGCThreads/UseVectorCmov — those are personal/testing tweaks.
 #   - Prism auto-picks Java (no hard-coded JavaPath)
 #   - no options.txt, no other Prism tweaks
