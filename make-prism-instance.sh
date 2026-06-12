@@ -61,10 +61,10 @@ iconKey=default
 OverrideCommands=true
 PreLaunchCommand=\$INST_JAVA -jar packwiz-installer-bootstrap.jar ${PACK_URL}
 OverrideMemory=true
-MinMemAlloc=8192
+MinMemAlloc=2048
 MaxMemAlloc=8192
 OverrideJavaArgs=true
-JvmArgs="-XX:+UseG1GC -XX:+DisableExplicitGC -XX:+PerfDisableSharedMem -XX:+AlwaysPreTouch"
+JvmArgs="-XX:+UseG1GC -XX:+DisableExplicitGC -XX:+PerfDisableSharedMem"
 AutomaticJava=true
 EOF
 
