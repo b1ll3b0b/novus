@@ -1,0 +1,45 @@
+// default_gamerules.js.disabled — apply Novus default gamerules once per world.
+// Added 2026-06-07. SHIPS DISABLED (same pattern as the Serene Seasons
+// alternate server config, seasons.toml.disabled).
+//
+// === Enabling (multiplayer servers only) ===
+//
+// Rename to `default_gamerules.js` on the server and restart once. KubeJS
+// only loads `.js` files, so the `.disabled` copy is inert. After that one
+// boot the gamerule is persisted in the world's level.dat (and the script
+// flag in world persistentData), so it survives pack updates even if the
+// manual update flow restores the `.disabled` name — no need to re-enable.
+//
+// Singleplayer / local worlds intentionally keep vanilla sleep (night skip
+// allowed): tighter, more forgiving balance with player time manipulation.
+// Do not enable this in the client-shipped pack.
+//
+// === Why ===
+//
+// The multiplayer season system (Serene Seasons alternate config:
+// sub_season_duration 168 + progress_season_while_offline) maps 1 season to
+// 1 real week of server uptime. SS 9.x advances its season clock from the
+// world's dayTime delta, so every slept-through night jumps the season clock
+// ~10 real minutes. Setting playersSleepingPercentage above 100 makes the
+// "enough players sleeping" night-skip condition unreachable: dayTime never
+// jumps, the season clock stays wall-clock. Beds still set spawn and reset
+// the phantom timer; thunderstorms also become unskippable (accepted).
+//
+// === Why a once-per-world guard instead of forcing every boot ===
+//
+// A server admin must be able to override the rule in-game without the pack
+// stomping it on next restart. We mark the world via the server's
+// persistentData (stored in world data) and never touch the rule again.
+// To re-apply after a manual change, an admin just reruns the gamerule
+// command — this script won't fight them either way.
+
+ServerEvents.loaded(event => {
+  const server = event.server
+  const FLAG = 'novus_default_gamerules_v1'
+
+  if (server.persistentData.getBoolean(FLAG)) return
+
+  server.runCommandSilent('gamerule playersSleepingPercentage 101')
+  server.persistentData.putBoolean(FLAG, true)
+  console.info('[Novus] Applied default gamerules (playersSleepingPercentage=101)')
+})

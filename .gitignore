@@ -10,6 +10,8 @@ saves
 usercache.json
 usernamecache.json
 /cherishedworlds-favorites.dat
+servers.dat
+servers.dat_old
 
 # Runtime output (regenerated every launch)
 logs

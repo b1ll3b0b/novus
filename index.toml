@@ -2829,6 +2829,10 @@ file = "kubejs/server_scripts/compatdelight_knife_removals.js"
 hash = "ff4f88a02f15475e43f663a254064797328d62bc8af2b0a91fed1b7f2af33bcc"
 
 [[files]]
+file = "kubejs/server_scripts/default_gamerules.js.disabled"
+hash = "bd5b83dfed090da600fa8ec1e78497da40c3d1206e22d6a3eb27be1824580446"
+
+[[files]]
 file = "kubejs/server_scripts/disable_dt_manual.js"
 hash = "c26280924ec4e01e97e798a0a82737a18a05220f3f59a9a584903046ddf104be"
 
