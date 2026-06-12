@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","fabric","plentyplates:main","mod/subtle_effects:resourcepacks/biome_color_water_particles","black_icons","file/VanillaTweaks_VisualNoteblock.zip","file/VanillaTweaks_ClearerWater.zip","Authentic Shadows_1.20.zip","VanillaTweaks_GroovyLevers.zip","VanillaTweaks_CompassLodestone.zip","VanillaTweaks_Age25Kelp.zip","VanillaTweaks_DiscRedstone.zip","Novus_DiscRedstone_CreateConnected.zip","Novus_DiscRedstone_Quark.zip","Novus_DiscRedstone_Supplementaries.zip","Novus_DiscRedstone_VSClockwork.zip","Novus3D_Brewing_v0.8.zip","Novus3D_Crops_v1.10.zip","Novus3D_Rails_v0.1.zip","VanillaTweaks_3D_Amethyst.zip","Novus3D_Corundum_v1.0.zip","Novus3D_SlimeCrystal_v1.0.zip","Novus3D_Plants_v2.0.zip","Novus3D_Doors_v1.0.zip","Novus3D_Ladders_v1.2.zip","Novus3D_Objects_v0.12.zip","Novus3D_Stations_v0.15.zip","VanillaTweaks_3D_Dripstone.zip","VanillaTweaks_3D_RedstoneDust.zip","Novus_BotaniaImprovedFlowers_v0.3.zip","Novus_Glass_v0.1.zip","FreshAnimations_v1.10.4_Novus.zip","FA+Witch_Old_v1.0.zip","FA+AL+Azu_Zombies.zip","FA+Spiders-v2.2.zip","FA+Quivers-v2.2.zip","FA+Emissive-v1.6.zip","FA+Player-v1.0.zip","PA-FA-Compat-v1.1.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/agricraft_resourcepacks_botania","builtin/agricraft_resourcepacks_farmersdelight","fabric","plentyplates:main","mod/subtle_effects:resourcepacks/biome_color_water_particles","black_icons","file/VanillaTweaks_VisualNoteblock.zip","file/VanillaTweaks_ClearerWater.zip","Authentic Shadows_1.20.zip","VanillaTweaks_GroovyLevers.zip","VanillaTweaks_CompassLodestone.zip","VanillaTweaks_Age25Kelp.zip","VanillaTweaks_DiscRedstone.zip","Novus_DiscRedstone_CreateConnected.zip","Novus_DiscRedstone_Quark.zip","Novus_DiscRedstone_Supplementaries.zip","Novus3D_Brewing_v0.8.zip","Novus3D_Crops_v1.10.zip","Novus3D_Rails_v0.1.zip","VanillaTweaks_3D_Amethyst.zip","Novus3D_Corundum_v1.0.zip","Novus3D_SlimeCrystal_v1.0.zip","Novus3D_Plants_v2.0.zip","Novus3D_Doors_v1.0.zip","Novus3D_Ladders_v1.2.zip","Novus3D_Objects_v0.12.zip","Novus3D_Stations_v0.15.zip","VanillaTweaks_3D_Dripstone.zip","VanillaTweaks_3D_RedstoneDust.zip","Novus_BotaniaImprovedFlowers_v0.3.zip","Novus_Glass_v0.1.zip","FreshAnimations_v1.10.4_Novus.zip","FA+Witch_Old_v1.0.zip","FA+AL+Azu_Zombies.zip","FA+Spiders-v2.2.zip","FA+Quivers-v2.2.zip","FA+Emissive-v1.6.zip","FA+Player-v1.0.zip","PA-FA-Compat-v1.1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -149,14 +149,10 @@ key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.ponder.ponder:key.keyboard.w
-key_key.valkyrienskies.ship_down:key.keyboard.page.down
-key_key.valkyrienskies.ship_cruise:key.keyboard.page.up
 key_placebo.toggleTrails:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.unknown
 key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
-key_key.vs_clockwork.aeronaut_goggles_toggle:key.keyboard.home
-key_key.vs_clockwork.debug_lightning_toggle:key.keyboard.unknown
 key_key.biomancy.item_default:key.keyboard.o
 key_key.backpack:key.keyboard.unknown
 key_key.backpacked.open_management:key.keyboard.r
