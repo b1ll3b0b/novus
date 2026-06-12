@@ -18,7 +18,7 @@ hash = "fd762404039b691a2782a4a6f7cbb9d1c388377b50ae842b9b02ad3ff2cb28fa"
 
 [[files]]
 file = "README.md"
-hash = "d340bf1f7c2e0a9be95974d22cb6bac141bacd46c3af95cc605cecf489547ac1"
+hash = "2b5bd6135b4b4f5c211fc6f5ccf8b8fa86bbd77d1d6db5fd94f2636e2eb23ea6"
 
 [[files]]
 file = "build.sh"
