@@ -134,7 +134,7 @@ hash = "f7ebe31b918fc9e8894cb196abcec57e5a6e364e8a49f2c90da8ac815b6455f4"
 
 [[files]]
 file = "config/canary.properties"
-hash = "da226119e66b9f5e89e4973e7f8bf5f72aef5de74bfee5f3df8430b477c09649"
+hash = "7ee345b59f2220498385efe6feca6e290de97db5ec64cd13e9ab424845988127"
 
 [[files]]
 file = "config/chalk-client.toml"
@@ -154,7 +154,7 @@ hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
 
 [[files]]
 file = "config/collective.json5"
-hash = "b6243b955bf123f86c947510d9f8f3a4b5f7b8fe3775d834f458d60a3223847f"
+hash = "c30447673a5a93e9df4d797c5b0ee06ad65ab7a40f364c2fa2150fa02b044a81"
 
 [[files]]
 file = "config/comforts-server.toml"
@@ -246,11 +246,11 @@ hash = "9424ceb580ec8f3f074ebcc0618bfceebb62bb44d64750c7df5964fc7713964c"
 
 [[files]]
 file = "config/defaultoptions/keybindings-dvorak.txt"
-hash = "6946a0f582f53a4f196f26a173ace530dab1179fd55a25deb05a9e35873294e3"
+hash = "f8a2d83f052d8613eb1c52dfb2bbe911226c35e3e41a48fa5a7c1503e513e9b0"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "a7c7c3e7d9eb8b55910a2c5ebfc6fa30ed56c501c150e34c4795d6c01e280fc0"
+hash = "0b4dd79295f03e18feaa1e3b2bdc25ca373fced3299f59c7903bb1f11a0972c6"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -282,7 +282,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "3886ec66693a2ac5157acea7b1ab6e8cda3cfd4c2affadb39b2321af05ca94f9"
+hash = "536ec3c751bfff2a4c009d5d502c7500239a084d31ca75649853fb8908065b8e"
 
 [[files]]
 file = "config/emi.css"
@@ -570,7 +570,7 @@ hash = "592e56cf4c9f4bba6f7c7585003c9b223d73737e9ab3c7d8c5a0273a8a489b8d"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "ef3f88a5cdbd73bff3cd2843c68089a204e50e9af791d844678ed46d8484b650"
+hash = "56904540f6ca5d7fb5aab3c65e58e7e5b053127c9f54814711c35c2092bca397"
 
 [[files]]
 file = "config/paxi/resourcepacks/Authentic Shadows_1.20.zip"
@@ -659,10 +659,6 @@ hash = "239713dd34f9a0b8715b4a7f19ea34bec3b324db7ce4867817e9a4cd51e6139c"
 [[files]]
 file = "config/paxi/resourcepacks/Novus_DiscRedstone_Supplementaries.zip"
 hash = "50a22f330df8e845f215f6220a8ef264e1693b386b8cf684832a2fd68a57ee35"
-
-[[files]]
-file = "config/paxi/resourcepacks/Novus_DiscRedstone_VSClockwork.zip"
-hash = "4606ed7b5bada504686e2de7a094b8113e6833cce4b22b408ae57ce904e7d557"
 
 [[files]]
 file = "config/paxi/resourcepacks/Novus_Glass_v0.1.zip"
@@ -818,7 +814,7 @@ hash = "bc029afc200ba2fba522a27245d65c8e5db0f20cd0eddd5873a316054d962923"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "2507a69b76e4f78671992f050dc9d704ddff88a93d8ae1f7588a8fe15a6a0b44"
+hash = "160602b0ae1ad6cc536b29d7f5ad04d4d2fa5711e001dd86512bc51a9adfda82"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -893,10 +889,6 @@ file = "config/toms_storage-common.toml"
 hash = "facc23f8d9fc85b16d328e567c56628acf6d8f75720938b229b9423b3a9df752"
 
 [[files]]
-file = "config/trackwork-client.toml"
-hash = "f0f6f33ec8bf6ea977a75a950c6ce1665c2a6273859eec703e5860c4802748cc"
-
-[[files]]
 file = "config/tradingpost-server.toml"
 hash = "f8e08cdf664d3e5fa2805eddbdeef0e2b46bbe94cf1e5ef86ed70f29fea54add"
 
@@ -911,18 +903,6 @@ hash = "fe5a6b7611945c20c356f34813150e9893ab1a2ea9694740c3cc5d0367d96ad1"
 [[files]]
 file = "config/trender.json"
 hash = "fe0bed19bd0927b3d519816c73378730689080a8f07e66a6167c266ffde29dd2"
-
-[[files]]
-file = "config/valkyrienskies/clockwork/client.toml"
-hash = "5c63d372f446b3799081f81dde07377a95128a07cb048ae21800e55f57f6cab0"
-
-[[files]]
-file = "config/valkyrienskies/valkyrienskies-client.toml"
-hash = "f002bcce8d27856892757ab4b85fcc6180d198cc7da6304a26dae32effdd5a6a"
-
-[[files]]
-file = "config/valkyrienskies/valkyrienskies-common.toml"
-hash = "0b23797166d41ac0dfd91761a2a3390315ed699820aca833b174da67db92ee67"
 
 [[files]]
 file = "config/villagersplus/villagersplus-3.0-config.json5"
@@ -1745,14 +1725,6 @@ file = "kubejs/assets/tconstruct/atlas/structure/start/sky_slime_island.json"
 hash = "ebcf272250ad3be24a334977c25987ab162b0fade862af47bf97e30d70793975"
 
 [[files]]
-file = "kubejs/assets/vs_clockwork/models/item/triode.json"
-hash = "55f897053b8bb73886fa5e4bc3d046d49c2b9edcf57293f5b8e60af5cfb09024"
-
-[[files]]
-file = "kubejs/assets/vs_clockwork/textures/item/disc_wanderlust.png"
-hash = "2010a68af855122e595a03858749afc7dbf5a094205a88ba3cf19bbd1c0cc5d1"
-
-[[files]]
 file = "kubejs/client_scripts/example.js"
 hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
 
@@ -1790,7 +1762,7 @@ hash = "c2f2c53dbb8e412904468f7a6a9c2bc36e5e9839503ef53e83f113601661d026"
 
 [[files]]
 file = "kubejs/data/c/tags/blocks/hidden_from_recipe_viewers.json"
-hash = "881087b6575ac13d803e473316deac7cdd6059946b139decffd1eaba1899aa5a"
+hash = "a55317fbd88a42825a5776c23866eeb07532c985550b6d6a2d7f6ee48c348b63"
 
 [[files]]
 file = "kubejs/data/c/tags/fluids/hidden_from_recipe_viewers.json"
@@ -1798,7 +1770,7 @@ hash = "c5ce2541800cc98f97f4a094ced6e584c266451a05d8b3bee580f06873bcbd13"
 
 [[files]]
 file = "kubejs/data/c/tags/items/hidden_from_recipe_viewers.json"
-hash = "c60147ffdf34a97a3c9af7a5f37a3fa0b2b8ef8e191a73c89c601e1680a41de0"
+hash = "7453115b10918d9ee85d3bdaed9380470eda45c9cf7ee888c20c70ed1e6ad5dc"
 
 [[files]]
 file = "kubejs/data/c/tags/worldgen/biome/is_void.json"
@@ -2401,10 +2373,6 @@ file = "kubejs/data/novus/advancements/seeds/warped_seed.json"
 hash = "cf37ddb93631720dde358b6d46884a6c394c49872d35f801893d0c53bfec1eae"
 
 [[files]]
-file = "kubejs/data/novus/recipes/charging/wanderlite_crystal.json"
-hash = "ebb824325462ac41e359f48738ce200c62a749c1f8b353cdbd3d71e9d07b9441"
-
-[[files]]
 file = "kubejs/data/novus/recipes/compacting/ancient_seed_to_experience.json"
 hash = "720817dd4908ab5c28c9b2d42d66709d166b53beb096a4424b51d00e82a253dc"
 
@@ -2882,7 +2850,7 @@ hash = "f1868b96017b72dbaea53e1c997101409c571238f74148da52211d3bbf6bdac9"
 
 [[files]]
 file = "make-prism-instance.sh"
-hash = "39b0cf55cdce7242d047f6beceb966fe8db53ed932003bd2bfc5aa8ce0ad2ab2"
+hash = "6578f70c36db38a48ce7f138e71d969680e0f4856e5398585d6f81a257624ac4"
 
 [[files]]
 file = "mmc-pack.json"
@@ -3419,11 +3387,6 @@ metafile = true
 [[files]]
 file = "mods/.index/create-central-kitchen.pw.toml"
 hash = "263640556a4319b7cac5ce26586f9ab30410cd5ff4b6b3293ab72cd62fb3cd59"
-metafile = true
-
-[[files]]
-file = "mods/.index/create-clockwork.pw.toml"
-hash = "d559b0e880e807053f81aa7de685fefea344d732a048b9e67771454909cbb4d3"
 metafile = true
 
 [[files]]
@@ -4157,11 +4120,6 @@ hash = "bef0005e7fc34b19195cf7052764a734ee868727af7f3b8c9194804c70976c70"
 metafile = true
 
 [[files]]
-file = "mods/.index/trackwork.pw.toml"
-hash = "11068eb028bb812d9eb8f1aa81c716b79f0dee0dcfcf107534f3170b217790e8"
-metafile = true
-
-[[files]]
 file = "mods/.index/trading-post.pw.toml"
 hash = "ee62231e881521b6f386baba79cafbdf7bc1c0db3a19fbe7b7dd63692b24356f"
 metafile = true
@@ -4174,11 +4132,6 @@ metafile = true
 [[files]]
 file = "mods/.index/universal-sawmill.pw.toml"
 hash = "e39dbf951e06e48ad1230c206cbc11538a06191d984a37015a7299bcc7f31f75"
-metafile = true
-
-[[files]]
-file = "mods/.index/valkyrien-skies.pw.toml"
-hash = "ff9ffde14497ce63eb96b974064a74b7fd7f779174a23d907634c7aaa0a4800a"
 metafile = true
 
 [[files]]
@@ -4529,10 +4482,6 @@ hash = "c8af30759853f16de8025eaa175526a62fb3c2df705c31f50c7f779942361e00"
 [[files]]
 file = "mods/cherishedworlds-forge-6.1.7+1.20.1.jar"
 hash = "d9717f9a57562784b704764c2b040f14db68f12ef3fa17f66e4a02346f37dddd"
-
-[[files]]
-file = "mods/clockwork-0.5.6.jar"
-hash = "a7a7f946eb9edbe63d281a47b710c8958cd4b6b8dbbb73165fcc73d53fa07093"
 
 [[files]]
 file = "mods/cloth-config-11.1.136-forge.jar"
@@ -4979,16 +4928,8 @@ file = "mods/toomanyrecipeviewers-0.8.1+mc.20.1.jar"
 hash = "3dddc8f933bbaf87cff59d19ec546e799bf8596ab921a8b44e2628f85fad2bc7"
 
 [[files]]
-file = "mods/trackwork-1.20.1-1.2.4.jar"
-hash = "7f6f50a54391af43e9e4590e20ddab9af9fa3388c1b97399be6fbda5b57efca5"
-
-[[files]]
 file = "mods/trashcans-1.0.18b-forge-mc1.20.jar"
 hash = "533c14cfcc5d99e4889d9cdddea2e2ef382febfd5ae5ecb3b0676538a1ccdda4"
-
-[[files]]
-file = "mods/valkyrienskies-120-2.4.11.jar"
-hash = "f99f24de62015451a047f90484cf9d25970cac350105b581c22b2d5247ebfd53"
 
 [[files]]
 file = "mods/voicechat-forge-1.20.1-2.6.18.jar"
