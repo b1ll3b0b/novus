@@ -39,4 +39,6 @@
 	#Custom night length in ticks. Only used if seasonal daylight cycle is disabled.
 	#Range: 0.05 ~ 100.0
 	customNightLength = 1.0
+	#Enable Better Days time-speed compatibility so Serene Seasons Plus can adjust day and night speeds dynamically.
+	enableBetterDaysDynamicTimeCompat = true
 

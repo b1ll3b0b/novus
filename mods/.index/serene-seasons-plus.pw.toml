@@ -1,24 +1,24 @@
-filename = 'Forge-Version-sereneseasonsplus-1.20.1-4.2.4.jar'
+filename = 'Forge-Version-sereneseasonsplus-1.20.1-0.5.1.1.jar'
 name = 'Serene Seasons Plus'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Forge-1.20.1-4.2.4'
+x-prismlauncher-version-number = 'Forge-1.20.1-0.5.1.1'
 
 [download]
-hash = '396353695f9884d357359b26dfa8a5e343e54433e113cd181f8cc3b9647f3b60a9dd2de00a5c0da403a94b575c765cc1615f731d737ffb784b6ae45e0e062559'
+hash = '9d60241507c2696df876916876911d4304976e1d73d724bd9612f7da802c14c81604154c57387d31177493663589390b0906a327d13f3e256b9b6660aa03d59b'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/4Al4H3t9/versions/4sU68ll4/Forge-Version-sereneseasonsplus-1.20.1-4.2.4.jar'
+url = 'https://cdn.modrinth.com/data/4Al4H3t9/versions/q3Xus5OT/Forge-Version-sereneseasonsplus-1.20.1-0.5.1.1.jar'
 
-# Pinned to Forge-1.20.1-4.2.4 — do not auto-update (2026-05-16)
-# Pin reason: user-requested. SS+ is an addon to SereneSeasons and version drift
-# can introduce season-mechanic changes that affect in-progress worlds.
-# To unpin: restore the [update.modrinth] block:
-#   [update.modrinth]
-#   mod-id = '4Al4H3t9'
-#   version = '4sU68ll4'
+[update.modrinth]
+mod-id = '4Al4H3t9'
+version = 'q3Xus5OT'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'N8aGZtvj'
+type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'tPLE214j'
@@ -30,8 +30,4 @@ type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'e0bNACJD'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'N8aGZtvj'
 type = 'REQUIRED'

@@ -3,3 +3,23 @@ displayMutationSoundingPitch = true
 #If true, octave values in goggle tooltips are shown in parentheses.
 showOctaveBrackets = false
 
+[sounds]
+	#Volume multiplier for whistle chiff sounds
+	#Range: 0.0 ~ 2.0
+	whistleChiffVolume = 1.0
+	#How far away you can hear pipes
+	#Range: 1.0 ~ 256.0
+	pipeAttenuationDistance = 64.0
+	#How fast pipe sounds fade out per tick (higher = faster)
+	#Range: 0.01 ~ 0.5
+	pipeFadeSpeed = 0.25
+
+[clipboardAssistedPlacement]
+	#Enable the clipboard-assisted placement mechanic.
+	enabled = true
+	#The default direction for the  clipboard-assisted placement data mutation when placing a block.
+	#Allowed Values: FORWARD, BACKWARD
+	defaultDirection = "FORWARD"
+	#If true, clipboard-assisted placement will copy the block's mode (where applicable, e.g. Receiver/Transmitter for Note Links) when placing.
+	copyMode = true
+

@@ -1,18 +1,18 @@
-filename = 'repurposed_structures-7.1.23+1.20.1-forge.jar'
+filename = 'repurposed_structures-7.1.24+1.20.1-forge.jar'
 name = 'Repurposed Structures'
 side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '7.1.23+1.20.1-forge'
+x-prismlauncher-version-number = '7.1.24+1.20.1-forge'
 
 [download]
-hash = '15f33dc2cac59d9c45a2729a3afeaaf7a22529684ad5b0421219d505b904d8344bf8aead73cce0b97dcef7fea31843dc23999e6154a3495cacb38770338ea119'
+hash = 'a20f963f915c2281a6bf0c7fb300f2dabf644ae7a44c69df7031cb886cf221488439b326ba79b1b5c1f564c324f8ea88df462b0db79c565d074853c8bb8a2528'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/QDNS5oAT/versions/e5BSsmZw/repurposed_structures-7.1.23%2B1.20.1-forge.jar'
+url = 'https://cdn.modrinth.com/data/QDNS5oAT/versions/IOFBvdFx/repurposed_structures-7.1.24%2B1.20.1-forge.jar'
 
 [update.modrinth]
 mod-id = 'QDNS5oAT'
-version = 'e5BSsmZw'
+version = 'IOFBvdFx'
