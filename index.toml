@@ -481,6 +481,82 @@ file = "config/leavesbegone-server.toml"
 hash = "5461ea48b86cd51ac9a218ac6a7ecc32cf4c4fb0acc70c68de4329766027ca15"
 
 [[files]]
+file = "config/lostcities/common.toml"
+hash = "d5b5424d69a8180936e288bbe4fe38bf3895abee19fc41196440e633e02c67fe"
+
+[[files]]
+file = "config/lostcities/profiles/ancient.json"
+hash = "df67f112416e171615b059edd6270b4e80692447e23458721f03d9b675587060"
+
+[[files]]
+file = "config/lostcities/profiles/atlantis.json"
+hash = "9725b9c25fa00ca02000ae1b09b2ecd5c7c33e881d3f8ce449d48a995b958ac5"
+
+[[files]]
+file = "config/lostcities/profiles/bio_wasteland.json"
+hash = "91c7949e7f4800f3f1b41c57f571148896c5eae8dfbe74822a195d519cd7c834"
+
+[[files]]
+file = "config/lostcities/profiles/biosphere.json"
+hash = "a210513b26281e220ba75fb2dbe4fa2f717fef31f91fb3cacdf5c17ef672570e"
+
+[[files]]
+file = "config/lostcities/profiles/biosphere_caves.json"
+hash = "955c62012c8920c98aebb57bf7cac0e74cb50ea3e3b0322a00b4c2fb21813548"
+
+[[files]]
+file = "config/lostcities/profiles/cavern.json"
+hash = "8e64fec26d9f7350832df42852af4f16efa612b4ce185363acb8bbc21cb8604b"
+
+[[files]]
+file = "config/lostcities/profiles/default.json"
+hash = "d4aa45555f9e7a3919bc0e4d8ea213e15e69594c944fc28aa718d922cb0d5cad"
+
+[[files]]
+file = "config/lostcities/profiles/floating.json"
+hash = "2221186244a46f507a5cb04ddccb52b3249641b58b7850d73d6cb2f15451c021"
+
+[[files]]
+file = "config/lostcities/profiles/largecities.json"
+hash = "4a21df9af91ec2d4707322d6aceab26853092fae58c7596757a724036b62a403"
+
+[[files]]
+file = "config/lostcities/profiles/nodamage.json"
+hash = "7608ebec1f811d4c9b4f733ca1ea8daf8b179d21465ac36eda0b4ff8537a8b5d"
+
+[[files]]
+file = "config/lostcities/profiles/novus.json"
+hash = "910e6d712f6f47037549ec001c8e705e0bb547118d1f3cd0aa08cd107d3c24e2"
+
+[[files]]
+file = "config/lostcities/profiles/onlycities.json"
+hash = "6c91febacb5abe85fc98ebea3feb56fcbdbe7515de600f9233cdfad3702218aa"
+
+[[files]]
+file = "config/lostcities/profiles/rarecities.json"
+hash = "8e15f8c761371ea905c1641edb5dd257a3f0153025895a4706b6dc3a61246acd"
+
+[[files]]
+file = "config/lostcities/profiles/safe.json"
+hash = "7ba6b393b56ebf10a61e53559a2d7d431d53711935d78b605eaecaebb593b9f3"
+
+[[files]]
+file = "config/lostcities/profiles/space.json"
+hash = "2e7ae0defdbc2e8a5c3b3b83515da7cfdadd1f9c63612a328c615f6d59ed5534"
+
+[[files]]
+file = "config/lostcities/profiles/tallbuildings.json"
+hash = "3d960c809a8053351fa84e52dbca23a26bad28a249200a2a94025d6808db40b4"
+
+[[files]]
+file = "config/lostcities/profiles/void_outside.json"
+hash = "09fbc173216c7eef38123f0e28737a1ed106c82f41ddc5bfac3d4ba419c6d3f8"
+
+[[files]]
+file = "config/lostcities/profiles/wasteland.json"
+hash = "5a4942d2f297924015d1f02abd65c5051fbd997e68f083630c442dfc99fce085"
+
+[[files]]
 file = "config/mantle-client.toml"
 hash = "83a767bf5d96b03174cacef236ef7aebdd3577e184d53a5a1e9d3e7a5256d075"
 
@@ -794,7 +870,7 @@ hash = "4fa742f19125f078d43ac1633664292735dca722c800793ceb2945b660569c19"
 
 [[files]]
 file = "config/simpleclouds-client.toml"
-hash = "cb540aa77c193d0db2e85fc5d43d4b82a64cdede33e61c87c7dfc729cb9a05f7"
+hash = "929009f41a98b2895e8d6723f2ca2dddfc65bd6b2e54b6243e4e878b4299261f"
 
 [[files]]
 file = "config/simpleclouds-common.toml"
@@ -4085,6 +4161,11 @@ hash = "48b0f0663b17c54d2231db4aa25b9a5e181c6c4751e0cf61c93abe079f62a416"
 metafile = true
 
 [[files]]
+file = "mods/.index/the-lost-cities.pw.toml"
+hash = "e8bd2b35787c65b8f851d48e945d88559de57f9d3ec1858330e270a25b50baef"
+metafile = true
+
+[[files]]
 file = "mods/.index/threatengl.pw.toml"
 hash = "59a44f5ca1aecabc55ec0e08c24e20197d047fa9161ea9cddb3b63cd641dd7f6"
 metafile = true
@@ -4722,6 +4803,10 @@ hash = "33b16742b62209f74d1ce74ab95cc031ec65444951c64ee941fe0267ef344282"
 [[files]]
 file = "mods/lighty-forge-2.1.3+1.20.1.jar"
 hash = "27f73305b6d1e9bcd7c785ade0a8cf2e6f61376d277f74a125bfb13515a03bfa"
+
+[[files]]
+file = "mods/lostcities-1.20-7.4.13.jar"
+hash = "da5ae1b0c0d0c8066f2971c9adb57d18657c4844aad6cba4f9f07f7946e30a95"
 
 [[files]]
 file = "mods/map_atlases-1.20-6.0.20.jar"

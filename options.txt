@@ -35,7 +35,7 @@ renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:2
-particles:0
+particles:1
 maxFps:260
 graphicsMode:1
 ao:true
