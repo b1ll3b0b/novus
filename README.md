@@ -15,7 +15,7 @@ book to grind through, and no tech tree that races past Create. What ties it all
 together is a large set of compatibility mods working quietly in the background
 so these systems understand each other.
 
-`Minecraft 1.20.1` · `Forge 47.4.20` · `Java 17` · **<!-- BEGIN:MODCOUNT -->195<!-- END:MODCOUNT --> mods**
+`Minecraft 1.20.1` · `Forge 47.4.20` · `Java 17` · **<!-- BEGIN:MODCOUNT -->202<!-- END:MODCOUNT --> mods**
 
 ---
 
@@ -95,13 +95,13 @@ normal for a Forge pack, and it's all disclosed here.
 **License mix:**
 
 <!-- BEGIN:LICENSEMIX -->
-Across all 195 mods:
+Across all 202 mods:
 
 | License type | Count |
 |---|---|
-| Open source (MIT, Apache, LGPL/GPL, MPL, BSD, OSL, CC0/CC-BY, etc.) | 133 |
-| All rights reserved | 42 |
-| Custom / source-available (Create, Supplementaries, Botania, PolyForm, etc.) | 13 |
+| Open source (MIT, Apache, LGPL/GPL, MPL, BSD, OSL, CC0/CC-BY, etc.) | 135 |
+| All rights reserved | 43 |
+| Custom / source-available (Create, Supplementaries, Botania, PolyForm, etc.) | 17 |
 | Creative Commons non-commercial (Quark family, Jade, the compasses) | 7 |
 <!-- END:LICENSEMIX -->
 
@@ -110,10 +110,11 @@ Across all 195 mods:
 ## Mods
 
 <!-- BEGIN:MODS -->
-_195 mods. This table is generated from the jars and packwiz metadata by `tools/readme/build_readme_credits.py` — don't edit it by hand._
+_202 mods. This table is generated from the jars and packwiz metadata by `tools/readme/build_readme_credits.py` — don't edit it by hand._
 
 | Mod | Author(s) | License | Source |
 |---|---|---|---|
+| Advancement Plaques | Grend | CC BY-NC-ND 4.0 | [Modrinth](https://modrinth.com/mod/advancementplaques) |
 | AgriCraft | InfinityRaider, Ketheroth | MIT | [Modrinth](https://modrinth.com/mod/agricraft) |
 | Amendments | MehVahdJukaar | Custom — Supplementaries Team License [^1] | [Modrinth](https://modrinth.com/mod/amendments) |
 | Another Furniture | Starfish Studios | Custom [^2] | [Modrinth](https://modrinth.com/mod/another-furniture) |
@@ -207,8 +208,10 @@ _195 mods. This table is generated from the jars and packwiz metadata by `tools/
 | GeckoLib 4 | Gecko, Eliot, AzureDoom, DerToaster, Tslat, Witixin | MIT | [Modrinth](https://modrinth.com/mod/geckolib) |
 | GlitchCore | Adubbz | All Rights Reserved | [Modrinth](https://modrinth.com/mod/glitchcore) |
 | Goblin Traders | MrCrayfish | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/goblin-traders) |
+| Golem Overhaul | Alex Nijjar, Joosh, 3xpl01t | All Rights Reserved | [Modrinth](https://modrinth.com/mod/qEYs2G9A) |
 | Hide Experimental Warning | Rick South | All Rights Reserved | [Modrinth](https://modrinth.com/mod/hide-experimental-warning) |
 | Hyperbox | Commoble | MIT | [Modrinth](https://modrinth.com/mod/hyperbox) |
+| Iceberg | Grend | CC BY-NC-ND 4.0 | [Modrinth](https://modrinth.com/mod/iceberg) |
 | ImmediatelyFast | RK_01 | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/immediatelyfast) |
 | Immersive Gateways | Luke100000 | GPL-3.0 | [Modrinth](https://modrinth.com/mod/immersive-gateways) |
 | Infinity Buttons | LarsMans | MIT | [Modrinth](https://modrinth.com/mod/infinitybuttons) |
@@ -226,7 +229,9 @@ _195 mods. This table is generated from the jars and packwiz metadata by `tools/
 | KubeJS Create | LatvianModder | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/kubejs-create) |
 | KubeJSDelight | QinomeD, Bob Varioa | LGPL-3.0-only | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/kubejs-delight) |
 | Leaves Be Gone | Fuzs | MPL-2.0 | [Modrinth](https://modrinth.com/mod/leaves-be-gone) |
+| Legendary Tooltips | Grend | CC BY-NC-ND 4.0 | [Modrinth](https://modrinth.com/mod/legendary-tooltips) |
 | Lighty | andi_makes, agnor99 | Apache-2.0 | [Modrinth](https://modrinth.com/mod/lighty) |
+| LostCities | McJty | MIT | [Modrinth](https://modrinth.com/mod/8VDCUS3b) |
 | Macaw's Bridges | Sketch Macaw & Peachy Macaw | All Rights Reserved | [Modrinth](https://modrinth.com/mod/macaws-bridges) |
 | Macaw's Doors | Sketch Macaw & Sketch Peachy | MIT | [Modrinth](https://modrinth.com/mod/macaws-doors) |
 | Macaw's Fences and Walls | Sketch Macaw & Peachy Macaw | MIT | [Modrinth](https://modrinth.com/mod/macaws-fences-and-walls) |
@@ -261,10 +266,12 @@ _195 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Polymorph | Illusive Soulworks | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/polymorph) |
 | PonderJS | kotakotik22, AlmostReliable | MIT | [Modrinth](https://modrinth.com/mod/ponder) |
 | Powah | owmii,Technici4n | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/powah) |
+| Prism | Grend | CC BY-NC-ND 4.0 | [Modrinth](https://modrinth.com/mod/prism-lib) |
 | Puzzles Lib | Fuzs | MPL-2.0 | [Modrinth](https://modrinth.com/mod/puzzles-lib) |
 | Quark | Vazkii, WireSegal, MCVinnyq, Sully | CC-BY-NC-SA-3.0 | [Modrinth](https://modrinth.com/mod/quark) |
 | Quark Delight | NoCube | All Rights Reserved | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/quark-delight) |
 | Quark Oddities | Vazkii, WireSegal, MCVinnyq, Sully | CC-BY-NC-SA-3.0 | [Modrinth](https://modrinth.com/mod/quark-oddities) |
+| Rainbow Lamp | LaidBackSloth | MIT | [Modrinth](https://modrinth.com/mod/pCWLDHSQ) |
 | Rainbows | Verph | BSD-2-Clause | [Modrinth](https://modrinth.com/mod/rainboows) |
 | Repurposed Structures | TelepathicGrunt | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/repurposed-structures-forge) |
 | Resourceful Lib | ThatGravyBoat, Epic_Oreo | MIT | [Modrinth](https://modrinth.com/mod/resourceful-lib) |

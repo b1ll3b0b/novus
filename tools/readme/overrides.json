@@ -1,6 +1,14 @@
 {
   "_comment": "Verified license/author/name corrections, keyed by modId. These BEAT both the jar's mods.toml and the Modrinth listing because each was checked against the project's actual LICENSE file (or, for authors, the source repo). 'note' becomes a footnote in the README. Re-verify before changing. Audited 2026-06-05.",
 
+  "iceberg": {"source": {"type": "modrinth", "slug": "iceberg"}},
+  "prism": {"source": {"type": "modrinth", "slug": "prism-lib"}},
+  "advancementplaques": {"source": {"type": "modrinth", "slug": "advancementplaques"}},
+  "legendarytooltips": {"source": {"type": "modrinth", "slug": "legendary-tooltips"}},
+  "golemoverhaul": {"source": {"type": "modrinth", "slug": "qEYs2G9A"}},
+  "rainbowlamp": {"source": {"type": "modrinth", "slug": "pCWLDHSQ"}},
+  "lostcities": {"source": {"type": "modrinth", "slug": "8VDCUS3b"}},
+
   "create": {"license": "Custom — Create Mod License", "license_url": "https://github.com/Creators-of-Create/Create/blob/mc1.20.1/dev/LICENSE.md", "note": "Source-available: code is MIT, art/assets are All Rights Reserved. The jar's bare 'MIT' only covers the code."},
   "another_furniture": {"license": "Custom", "license_url": "https://github.com/starfish-studios/AnotherFurniture/blob/main/LICENSE", "note": "Split license: code MIT, art assets All Rights Reserved (Starfish Studios). The jar's 'MIT' only covers the code."},
   "bettercombat": {"license": "GPL-3.0", "note": "The source LICENSE file is GPL-3.0 and the jar agrees; the Modrinth listing's 'All Rights Reserved' is stale."},
