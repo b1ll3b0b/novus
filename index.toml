@@ -18,7 +18,7 @@ hash = "fd762404039b691a2782a4a6f7cbb9d1c388377b50ae842b9b02ad3ff2cb28fa"
 
 [[files]]
 file = "README.md"
-hash = "a239e8091435249f673c7e40a0bcb37aa6d94bacac1b3a4d1561f8e3598c5fa5"
+hash = "f42cb78fe70a4fee6d19ad4481119f467af75d49d0f6e9e48086eca992a32b6f"
 
 [[files]]
 file = "build.sh"
@@ -5884,7 +5884,7 @@ hash = "da8e146534a1d71214acf0c3b10893039151ae4ecd01212769ae71493d36ec44"
 
 [[files]]
 file = "tools/readme/overrides.json"
-hash = "8323d80880c467924a869eadfbeafd24c9200570f6ad8fb927b36a1a17e8aca1"
+hash = "eebaad24332e0e478742ca9d387d48903290c60e8c11fd0e863829eba6d65181"
 
 [[files]]
 file = "tools/readme/resourcepacks.json"

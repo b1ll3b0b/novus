@@ -19,7 +19,7 @@
   "pipeorgans": {"license": "MIT", "note": "The source LICENSE file is MIT; the jar metadata mislabels it All Rights Reserved."},
   "createdeco": {"license": "CC0-1.0", "note": "The source LICENSE file is CC0-1.0; the jar metadata is a placeholder ('Insert License Here')."},
   "polylib": {"license": "BSD-4-Clause", "note": "From the source LICENSE; the jar metadata is a placeholder ('Insert License Here')."},
-  "create_central_kitchen": {"license": "LGPL-3.0", "note": "The source LICENSE file is LGPL-3.0; the jar mislabels it MIT."},
+  "create_central_kitchen": {"license": "LGPL-3.0", "note": "The source LICENSE file is LGPL-3.0; the jar mislabels it MIT.", "source": {"type": "modrinth", "slug": "btq68HMO"}},
   "create_enchantment_industry": {"license": "LGPL-3.0", "note": "The source LICENSE file is LGPL-3.0; the jar mislabels it MIT."},
   "kambrik": {"authors": "enjarai", "license": "MPL-2.0", "note": "Author from the source repo; the jar lists the author as the placeholder 'Me!'."},
   "kotlinforforge": {"authors": "thedarkcolour", "license": "LGPL-2.1-only", "note": "No Forge mods.toml in the jar; license and author taken from the source repo."},
