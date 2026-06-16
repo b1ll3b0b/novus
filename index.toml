@@ -50,7 +50,7 @@ hash = "9a19f0cb8b3619f13f4e4ada7db831f763fd90f3eda19085d3cff343ca2d3441"
 
 [[files]]
 file = "config/antique-atlas.toml"
-hash = "ab698b18b11f434a70eecfc8617507548ab712919e5b0f80508a9af57efaa62e"
+hash = "4ef36962d0d25b92ce01fb1aa01d41ce2a988669ab01f249cc79c4a17e9520e4"
 
 [[files]]
 file = "config/appleskin-client.toml"
@@ -494,7 +494,7 @@ hash = "26e2ea7f1c4b98599095fd59cefc956af67140036d7659231bdc4de402168e8c"
 
 [[files]]
 file = "config/lostcities/common.toml"
-hash = "2ebbc95b21b556ec3391fff24ec1a8b3bcb0f763c6e8b475ffe115cdfdc7ab3a"
+hash = "d5b5424d69a8180936e288bbe4fe38bf3895abee19fc41196440e633e02c67fe"
 
 [[files]]
 file = "config/lostcities/profiles/ancient.json"
@@ -1051,10 +1051,6 @@ hash = "57d8d8b45fdda396fedd7ff8d20a7e99417f4066a87080438b0b5d6ddf89786e"
 [[files]]
 file = "defaultconfigs/dynamictreesplus-server.toml"
 hash = "9237dfc81edda4e01cff9605cd5f5ac61f81c106b62a17201d8b52c1e7893d8b"
-
-[[files]]
-file = "defaultconfigs/lostcities-server.toml"
-hash = "aa4fb932bea2ec01df0cf5a7144142897be34ab269d8684c2aa9803635883337"
 
 [[files]]
 file = "docs/keybinds.png"
