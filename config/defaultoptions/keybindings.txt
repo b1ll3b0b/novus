@@ -41,6 +41,7 @@ key_key.shetiphiancore.tool.previous:key.keyboard.unknown:NONE
 key_key.botania_corporea_request:key.keyboard.unknown:NONE
 key_key.curios.open.desc:key.keyboard.unknown:NONE
 key_key.createarmory.reload_key:key.keyboard.unknown:NONE
+key_key.golemoverhaul.netherite_golem_summon:key.keyboard.unknown:NONE
 key_iris.keybind.reload:key.keyboard.unknown:NONE
 key_iris.keybind.toggleShaders:key.keyboard.unknown:NONE
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown:NONE

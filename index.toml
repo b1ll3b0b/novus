@@ -18,11 +18,11 @@ hash = "fd762404039b691a2782a4a6f7cbb9d1c388377b50ae842b9b02ad3ff2cb28fa"
 
 [[files]]
 file = "README.md"
-hash = "1112570bece1f5b2c46df4144fa8c3f004d9465ed46c4138fcb51c4939cbf94e"
+hash = "16a738706097c6887435530f8c85587718c5368ecbec1eb46b06471d84369641"
 
 [[files]]
 file = "build.sh"
-hash = "32fb8b7a5bf85c7ea9a9bbf6a17a461d72862d7e321c5bac90556e9ff90d2d6e"
+hash = "67274539a295a744e7a88310edf95ca10766e6379be8cd0fd802bbec0df6e2a2"
 
 [[files]]
 file = "config/ImmersiveAtmosphere.json"
@@ -31,6 +31,10 @@ hash = "7b7a5c2c8b45ef79d3243183945f6573657cb4d597a82562b2b2cf77e05b98f7"
 [[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
+
+[[files]]
+file = "config/advancementplaques-common.toml"
+hash = "44e9102364babb9c34c82dd26b38ba26f6ab938112134d5891aa1c940ed06b06"
 
 [[files]]
 file = "config/agricraft.jsonc"
@@ -250,7 +254,7 @@ hash = "f8a2d83f052d8613eb1c52dfb2bbe911226c35e3e41a48fa5a7c1503e513e9b0"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "0b4dd79295f03e18feaa1e3b2bdc25ca373fced3299f59c7903bb1f11a0972c6"
+hash = "9bb66a4077394913cf3dec65470352792aac255c69ad7933b89062abd18c1eb1"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -429,6 +433,10 @@ file = "config/goblintraders-entities.toml"
 hash = "50bae7d014620a6e8ceca56fc3f7a04792e993f3ce1241f9867057cc372d2a77"
 
 [[files]]
+file = "config/golemoverhaul.jsonc"
+hash = "c1936d6bdb9c5bf80775f48c6a17348ad8a915189738b85c5526d0a75a7ba5c8"
+
+[[files]]
 file = "config/hyperbox-client.toml"
 hash = "03c558ae21466dceee977f486df24a71786d1671c1f09ab9a4eeef96c9be5130"
 
@@ -481,8 +489,12 @@ file = "config/leavesbegone-server.toml"
 hash = "5461ea48b86cd51ac9a218ac6a7ecc32cf4c4fb0acc70c68de4329766027ca15"
 
 [[files]]
+file = "config/legendarytooltips-common.toml"
+hash = "26e2ea7f1c4b98599095fd59cefc956af67140036d7659231bdc4de402168e8c"
+
+[[files]]
 file = "config/lostcities/common.toml"
-hash = "d5b5424d69a8180936e288bbe4fe38bf3895abee19fc41196440e633e02c67fe"
+hash = "2ebbc95b21b556ec3391fff24ec1a8b3bcb0f763c6e8b475ffe115cdfdc7ab3a"
 
 [[files]]
 file = "config/lostcities/profiles/ancient.json"
@@ -849,10 +861,6 @@ file = "config/sereneseasons/seasons.toml"
 hash = "040ebc75bc263c862ebb8d699baeef441555bf81a3671c48ab290a7d7cdff0f2"
 
 [[files]]
-file = "config/sereneseasons/seasons.toml.disabled"
-hash = "9e8f221af252bfde30749ec89ccbd003f3910a829e75cc0b5e31107a98678542"
-
-[[files]]
 file = "config/sereneseasonsplus-common.toml"
 hash = "4c301cf2ce9a4099741feff8d7de33bb525009a1ef26a36fd31c50ce191cbd38"
 
@@ -890,7 +898,7 @@ hash = "bc029afc200ba2fba522a27245d65c8e5db0f20cd0eddd5873a316054d962923"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "683006d78aca8ab11522122c4b6635f033864c7877058107dbfdb78dbb407d2d"
+hash = "32c191ee91a39193af2636811d526090269d19c7d92943e8bb138fb42a376f21"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -1043,6 +1051,10 @@ hash = "57d8d8b45fdda396fedd7ff8d20a7e99417f4066a87080438b0b5d6ddf89786e"
 [[files]]
 file = "defaultconfigs/dynamictreesplus-server.toml"
 hash = "9237dfc81edda4e01cff9605cd5f5ac61f81c106b62a17201d8b52c1e7893d8b"
+
+[[files]]
+file = "defaultconfigs/lostcities-server.toml"
+hash = "aa4fb932bea2ec01df0cf5a7144142897be34ab269d8684c2aa9803635883337"
 
 [[files]]
 file = "docs/keybinds.png"
@@ -2873,10 +2885,6 @@ file = "kubejs/server_scripts/compatdelight_knife_removals.js"
 hash = "ff4f88a02f15475e43f663a254064797328d62bc8af2b0a91fed1b7f2af33bcc"
 
 [[files]]
-file = "kubejs/server_scripts/default_gamerules.js.disabled"
-hash = "bd5b83dfed090da600fa8ec1e78497da40c3d1206e22d6a3eb27be1824580446"
-
-[[files]]
 file = "kubejs/server_scripts/disable_dt_manual.js"
 hash = "c26280924ec4e01e97e798a0a82737a18a05220f3f59a9a584903046ddf104be"
 
@@ -3261,6 +3269,11 @@ file = "modernfix/structureCacheV1/waystones_village_desert_waystone_88488c210f.
 hash = "c699b4f21c8a4568f5f0b9c58e816c39c6d8962abd689df2c20f576e3719bf85"
 
 [[files]]
+file = "mods/.index/advancement-plaques.pw.toml"
+hash = "53d712b403fbad40b1a5a3081d72a97104ca1b68fc4a1537e5e9f7d180c01fa9"
+metafile = true
+
+[[files]]
 file = "mods/.index/agricraft.pw.toml"
 hash = "b41f53af21aae04a08c40d9122329e401d75166ff6a620d4684baf69f46fa884"
 metafile = true
@@ -3507,7 +3520,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/create-sound-of-steam.pw.toml"
-hash = "f60066a21c8a4618ee35ac768ec07a0171ad06edd30f97072725cb632423492d"
+hash = "ba39e5c203205190a0b820d19148a81ec567441856b2c091345af82deae97e7d"
 metafile = true
 
 [[files]]
@@ -3721,6 +3734,11 @@ hash = "11306cd61a65956c8447ec65d5a15e7e42c90fad249d791b52c5bf3b0f60953b"
 metafile = true
 
 [[files]]
+file = "mods/.index/golem-overhaul.pw.toml"
+hash = "f1411b40a12c334768d7d9d2057cbb263a28fc6ed95b707499bb827f42e226d6"
+metafile = true
+
+[[files]]
 file = "mods/.index/hide-experimental-warning.pw.toml"
 hash = "8bea7e6f0aee72106c9d5bef193ee2c63b4afcc043eda1b4cac77cdd7244e1bb"
 metafile = true
@@ -3733,6 +3751,11 @@ metafile = true
 [[files]]
 file = "mods/.index/hypertube.pw.toml"
 hash = "aa890786ab9c83e260d073d58501ec35326270d11275347f7595955e52fa3f16"
+metafile = true
+
+[[files]]
+file = "mods/.index/iceberg.pw.toml"
+hash = "d5b82897e2c366db25bb4a301dd56f09401078fad86b7df379a8cb71abdb22f4"
 metafile = true
 
 [[files]]
@@ -3821,6 +3844,11 @@ hash = "6bd48003a4d2902269806fa35252911208eb0b272d2b1c01e5ad0d87621a9f3a"
 metafile = true
 
 [[files]]
+file = "mods/.index/legendary-tooltips.pw.toml"
+hash = "4b415ed2541c35f2dfc2fe550f76bf36ef143053b5e4ddbb3b7c13e097a71206"
+metafile = true
+
+[[files]]
 file = "mods/.index/lighty.pw.toml"
 hash = "bb8851dd19839b7a58f5e7e551c9d5d712f75d7ab6644de7526009187012dd8a"
 metafile = true
@@ -3897,7 +3925,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/modernfix.pw.toml"
-hash = "97ec97c0b1f1c064f7da2d25d8fe7e303558b031aabaea237e22a0de1da046bd"
+hash = "ef941c096d509f1c23618ebc6e7c2fb002188a6c7592773c3e670f7e746299f7"
 metafile = true
 
 [[files]]
@@ -4006,6 +4034,11 @@ hash = "3c9420cfd7406a5e58c04c6080772db5fc92a2cf73e4d479d6cf1051389f74b2"
 metafile = true
 
 [[files]]
+file = "mods/.index/prism-lib.pw.toml"
+hash = "273f275558d4dd6bcb0b67b4563c7bfa004333db0008f4bb5d4c3a08588fe233"
+metafile = true
+
+[[files]]
 file = "mods/.index/puzzles-lib.pw.toml"
 hash = "cbf5cafa9d8f5c61ea912bc98980b070b57d0ce5948699069cc3138439f40866"
 metafile = true
@@ -4028,6 +4061,11 @@ metafile = true
 [[files]]
 file = "mods/.index/rainboows.pw.toml"
 hash = "a9d80078a39b71e6ea755db73ddc99a39795874b25ff5e4b07b958b621741819"
+metafile = true
+
+[[files]]
+file = "mods/.index/rainbow-lamp.pw.toml"
+hash = "788a8bc4739c33b165e50cdd21f06009ddcbb927b2dea10c7fae638352c045d7"
 metafile = true
 
 [[files]]
@@ -4067,12 +4105,12 @@ metafile = true
 
 [[files]]
 file = "mods/.index/serene-seasons-plus.pw.toml"
-hash = "d3f1c3ce72defc79990be111303fb1be52bdc12ff45c57f8026685d9c7810ea0"
+hash = "6c2030360b8cabea4ab8c8fdfaa28b01607fc9ae0667f4886d733b4fa7989f6d"
 metafile = true
 
 [[files]]
 file = "mods/.index/serene-seasons.pw.toml"
-hash = "17db365a0eea2f4ffb1ec72b935eea604bedca9586c58cf55d2543d08e370012"
+hash = "779a0fbc44f59f1cdd2cf0b67e59aa57e9cb3ca934cfb0f0c77db2ba15836f94"
 metafile = true
 
 [[files]]
@@ -4162,7 +4200,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/the-lost-cities.pw.toml"
-hash = "e8bd2b35787c65b8f851d48e945d88559de57f9d3ec1858330e270a25b50baef"
+hash = "1f0baab2282a945c0cbf28df2766374ec87bc651074eab1cd04b3a9bb0ed462b"
 metafile = true
 
 [[files]]
@@ -4239,6 +4277,10 @@ metafile = true
 file = "mods/.index/zeta.pw.toml"
 hash = "c34dfef31dc354f9c0387c7c9f3a84c83c81c89506b0479c1085f8f77c355be4"
 metafile = true
+
+[[files]]
+file = "mods/AdvancementPlaques-1.20.1-forge-1.6.9.jar"
+hash = "537f84f1153369d61878965846a8ead7c5eae3a6ad917b04c02521ad76182ad2"
 
 [[files]]
 file = "mods/AgriCraft-forge-1.20.1-4.0.6.jar"
@@ -4337,12 +4379,16 @@ file = "mods/FarmersDelightPlus-1.20.1-1.3.1.jar"
 hash = "256d0e11ad27abebce553642ffd2ce79b15351d392b753230fb1d7f59f0c8452"
 
 [[files]]
-file = "mods/Forge-Version-sereneseasonsplus-1.20.1-0.5.1.1.jar"
-hash = "b9e40dea5a1087f4f5571848d00962ddd370bb13e3d92c11c42546c55c20860e"
+file = "mods/Forge-Version-sereneseasonsplus-1.20.1-5.1.2.jar"
+hash = "09ab3838f471ee51ec9f5fdbb329a2a362bb6bdd1d72afebb7510db9e91bf9c1"
 
 [[files]]
 file = "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar"
 hash = "dedd857b1ee356f002471ec97a2174c7d193d6d1aede60782d0bbe2c241b2a7f"
+
+[[files]]
+file = "mods/Iceberg-1.20.1-forge-1.1.25.jar"
+hash = "91ad6b459e0c7a16a9f3dc90230248a696600ceec6646aa23263559b8648dbc3"
 
 [[files]]
 file = "mods/ImmediatelyFast-Forge-1.5.4+1.20.4.jar"
@@ -4375,6 +4421,10 @@ hash = "37d0c2b03a1f3aacb30498d67c35adaca99dc9ecd30f66f383016f4cbc85be8e"
 [[files]]
 file = "mods/LeavesBeGone-v8.0.0-1.20.1-Forge.jar"
 hash = "e621c22e7107dada09298dffc04dc56144ac08e6e41e8b41c200dc939c662ac5"
+
+[[files]]
+file = "mods/LegendaryTooltips-1.20.1-forge-1.4.5.jar"
+hash = "15521ab414b92f60e75bdd49724eb65bb6aa8b3d6f72c157cc261011d58d625e"
 
 [[files]]
 file = "mods/Mantle-1.20.1-1.11.104.jar"
@@ -4413,6 +4463,10 @@ file = "mods/Powah-5.0.11.jar"
 hash = "22f16ac88e8064f4f7fd94fb88fad3c8723dbd6fa5c11b7fd73c078c293184fa"
 
 [[files]]
+file = "mods/Prism-1.20.1-forge-1.0.5.jar"
+hash = "b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240"
+
+[[files]]
 file = "mods/PuzzlesLib-v8.1.33-1.20.1-Forge.jar"
 hash = "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f"
 
@@ -4433,8 +4487,8 @@ file = "mods/Searchables-forge-1.20.1-1.0.3.jar"
 hash = "461add180eb595004d3c9f5ac0ce337752e403077f96b38304800eadf01fb825"
 
 [[files]]
-file = "mods/SereneSeasons-forge-1.20.1-9.1.0.2.jar"
-hash = "7113db048da25c06d157f66d119fc17114f81b68bf47c24ed770a538e1ecee1f"
+file = "mods/SereneSeasons-forge-1.20.1-9.1.0.3.jar"
+hash = "57c99eb15acce34bc768279faa3f1d5fbb29715fa507a7bd50944dc1b0d9e315"
 
 [[files]]
 file = "mods/Steam_Rails-1.7.2+forge-mc1.20.1.jar"
@@ -4757,6 +4811,10 @@ file = "mods/goblintraders-forge-1.20.1-1.11.5.jar"
 hash = "05362605ea68a0b45a12b796a6787f30430bd55e462959f0a43ccd63ca14438a"
 
 [[files]]
+file = "mods/golemoverhaul-forge-1.20.1-1.1.0.jar"
+hash = "87ec512f9c4c06cd372a0c7f5287dd21547016e7f3fe6d1c207ec6074c07d19f"
+
+[[files]]
 file = "mods/hideexperimentalwarning-1.20.1-1.2.jar"
 hash = "881c519b9a9f96da082a725475495587f67a9d312a871666f1323e280e4db368"
 
@@ -4857,8 +4915,8 @@ file = "mods/miners_delight-1.20.1-1.2.3.jar"
 hash = "dd7fda44dba9a9e953e35b36f45e2f30dfc2b1df5141574100c80cd4c2861380"
 
 [[files]]
-file = "mods/modernfix-forge-5.27.50+mc1.20.1.jar"
-hash = "2547ce60f9e8d14050854f44c65461a298f3fe5c36bffa81298852ae793e0196"
+file = "mods/modernfix-forge-5.27.51+mc1.20.1.jar"
+hash = "ec73870ccd4f0f931d7d619a3e8879f32a647b4bf1d4a32fa76c390c6537d111"
 
 [[files]]
 file = "mods/moonlight-1.20-2.16.33-forge.jar"
@@ -4893,8 +4951,8 @@ file = "mods/petrolsparts-1.20.1-1.2.3-all.jar"
 hash = "be37ff8112951cc24463a3fc4c55dee0231b52c7b8583c571b005d1e02045f0a"
 
 [[files]]
-file = "mods/pipeorgans-0.9.0+1.20.1.jar"
-hash = "6e20b3cd426e97cccf0181c9876f3608796f8d8bba87cfb652c598b3afd3e607"
+file = "mods/pipeorgans-0.9.1+1.20.1.jar"
+hash = "1451bcc41da1e1d3e359b0a11110f84f55785c529edcbb8161667042cee85d74"
 
 [[files]]
 file = "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar"
@@ -4915,6 +4973,10 @@ hash = "a3d42dcd63133b7542599b5e12ecb67e0719ea19dc28a1f3e3365a1ad7df5978"
 [[files]]
 file = "mods/quark_delight_1.0.0_forge_1.20.1.jar"
 hash = "1ca98c2776cbb0f4feb226d26adda6e393cb5a393d74b1397f4f2136e563193b"
+
+[[files]]
+file = "mods/rainbowlamp-forge-1.3-1.20.jar"
+hash = "bc04ead4f8cea7d305cd3362f095acff51b78008e2c4fa7b464f53817e50919d"
 
 [[files]]
 file = "mods/repurposed_structures-7.1.24+1.20.1-forge.jar"
