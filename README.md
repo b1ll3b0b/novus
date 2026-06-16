@@ -49,6 +49,23 @@ numpad is reserved for extras, and vanilla controls are left alone.
 
 ---
 
+## Lost Cities (optional)
+
+Novus bundles **The Lost Cities** (by McJty) with a custom **`novus`** profile that
+overlays sprawling abandoned cities onto the ordinary overworld — the vanilla biome
+and terrain layout is untouched, the ruins are laid over the top of it, so vanilla
+seeds and structure locations still hold.
+
+In **singleplayer it's off by default.** To play with it, open the **Lost Cities**
+customization on the world-creation screen and switch the profile from *Disabled* to
+**`novus`** before generating the world. (The menu always starts on *Disabled* — that's
+a Lost Cities quirk, not a missing profile; the `novus` profile ships with the pack.)
+
+On the **dedicated server** the `novus` profile is forced on for everyone, so the
+whole group shares one city-strewn world.
+
+---
+
 ## Licensing & credits — please read
 
 Everything below belongs to its original author and is included under that

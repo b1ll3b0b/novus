@@ -42,6 +42,7 @@ SHIP_DENYLIST=(
   "build.sh" "make-prism-instance.sh"      # build tooling
   ".gitignore" ".gitattributes" ".packwizignore"
   "tools" "dist" "docs" ".githooks"                           # vendored binary / build output
+  "_server_deploy"                         # server-only overrides — overlaid onto the server zip below; never in client/gh-pages
   "options.txt"                            # personal client settings (tracked, but not shipped)
   "mmc-pack.json"                          # Prism instance metadata (for make-prism-instance.sh; not pack content)
 )                                          # ('.github' and 'mods' handled in code)
@@ -196,6 +197,14 @@ if [ "$RELEASE" = 1 ]; then
   # --- server: both+server jars + server overrides + Forge installer + scripts ---
   SRVZ="${DIST}/_server"; rm -rf "$SRVZ"; mkdir -p "$SRVZ"
   for o in "${SERVER_OVERRIDES[@]}"; do [ -e "$PUB/$o" ] && cp -r "$PUB/$o" "$SRVZ/"; done
+  # server-only config overlay (forced LC 'novus' overworld + week-long season balance + sleep gamerule).
+  # _server_deploy is denylisted above so it ships ONLY here, never in the client/gh-pages tree.
+  if [ -d "$PACK_SRC/_server_deploy" ]; then
+    for d in config kubejs; do
+      [ -d "$PACK_SRC/_server_deploy/$d" ] && { mkdir -p "$SRVZ/$d"; cp -r "$PACK_SRC/_server_deploy/$d/." "$SRVZ/$d/"; }
+    done
+    echo "   + server overlay applied from _server_deploy (forced LC novus, season balance, sleep gamerule)"
+  fi
   if ! curl -sfL --max-time 120 -o "$SRVZ/forge-${FORGE_VERSION}-installer.jar" "$FORGE_INSTALLER_URL"; then
     echo "   ! Forge installer download failed; server zip will lack it" >&2
   fi
@@ -228,7 +237,10 @@ Requires Java 17. Steps:
  1) Set eula=true in eula.txt (accepts the Mojang EULA).
  2) Run start.sh (Linux/Mac) or start.bat (Windows).
 First run installs Forge ${FORGE_VERSION}, then launches. Mods = server-side set
-(client-only mods are excluded). Configs match the client pack.
+(client-only mods are excluded). Configs include server-only overrides: Lost Cities
+runs the forced 'novus' overworld profile (no per-player opt-out), plus the
+week-long season balance and the sleep gamerule that keeps the season clock on
+wall-clock time.
 EOR
   SZIP="${DIST}/novus-${VERSION}-server.zip"; rm -f "$SZIP"
   ( cd "$SRVZ" && zip -qr0 "$SZIP" . )

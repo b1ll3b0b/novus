@@ -1,14 +1,12 @@
-// default_gamerules.js.disabled — apply Novus default gamerules once per world.
-// Added 2026-06-07. SHIPS DISABLED (same pattern as the Serene Seasons
-// alternate server config, seasons.toml.disabled).
+// default_gamerules.js — apply Novus default gamerules once per world.
+// Added 2026-06-07. PARKED in _server_deploy/ (server-only; not in the shipped pack).
 //
 // === Enabling (multiplayer servers only) ===
 //
-// Rename to `default_gamerules.js` on the server and restart once. KubeJS
-// only loads `.js` files, so the `.disabled` copy is inert. After that one
-// boot the gamerule is persisted in the world's level.dat (and the script
-// flag in world persistentData), so it survives pack updates even if the
-// manual update flow restores the `.disabled` name — no need to re-enable.
+// Copy this file into the server's `kubejs/server_scripts/` and restart once.
+// After that one boot the gamerule is persisted in the world's level.dat (and
+// the script flag in world persistentData), so it survives pack updates — no
+// need to keep re-applying.
 //
 // Singleplayer / local worlds intentionally keep vanilla sleep (night skip
 // allowed): tighter, more forgiving balance with player time manipulation.
