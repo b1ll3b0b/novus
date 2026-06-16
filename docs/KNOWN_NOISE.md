@@ -1,0 +1,20 @@
+# Novus — Known log noise
+
+Warnings/errors investigated and confirmed harmless. **Check here before flagging anything from logs.** Backfilled 2026-06-06 from session memory; now authoritative.
+
+## General classes
+
+- **"Unable to load model" / "Missing sound" at boot** — frequently fire for assets that work in-game. Verify in-game before treating as real.
+
+## Specific entries
+
+- **rocketitem / chain_link / VanillaTweaks pack_format warnings** — confirmed noise; stop raising.
+- **Dynamic Trees recipe-book load ERRORs** — seed↔sapling recipe IDs; ~100–200 per world-load; cosmetic, gameplay unaffected.
+- **Diagonal Blocks title-screen tag WARNs** — fire pre-world before datapack tags load; list only already-blacklisted blocks; gone in-world.
+- **Kelvin/Architectury particle WARNs** — "register at a later point" + "not realized" stack traces; registration succeeds, gas system works. *(Obsolete since the VS-suite removal 2026-06-11 — Kelvin no longer installed; delete if VS doesn't return.)*
+- **VS-removal world-migration lines (one-time per world)** — first load of any world that previously had the VS suite produces: ForgeHooks "version differences not resolved → MISSING" (valkyrienskies/vs_clockwork/trackwork/kelvin), GameData "Unidentified mapping" ERROR blocks for block/item/entity_type/sound_event, and ~150 ServerRecipeBook "unrecognized recipe … removed now" lines (incl. `novus:charging/wanderlite_crystal`). All self-healing; verified clean boot + shutdown 2026-06-11. Side effect: opening a world strips its VS registry entries permanently — reinstalling won't restore ship data for that world.
+- **ModernFix registerReloadListener ERRORs** (ShetiPhianCore & Sodium Dynamic Lights) — ModernFix neutralizes the race; mitigated, don't flag.
+- **Fusion / PlentyPlates lines** — Embeddium-taint, ID-remap, and recipe-book lines from the 2026-05-30 add are benign.
+- **EveryCompat "Failed to generate the cutting recipe for farmersdelight:recipes/salvaging/oak_furniture|oak_chest_boat" ERRORs** — ~20 per world-load since EC 2.9.23 (2026-06-06). Upstream regression: new `createSalvagingRecipe` in the FD module templates FD 1.21+ `salvaging/` recipes that don't exist in FD 1.20.1 (verified: no `salvaging/` dir in FarmersDelight-1.2.11a jar). Nothing lost; delete this entry when a fixed EC ships.
+- **KubeJS "Error parsing recipe everycomp:fd/createdieselgenerators/cutting/chip_wood_log ... Missing item" WARN** — 1 per world-load since EC 2.9.23. Same regression: refactored `createCuttingRecipe` templates FD `oak_log` (stripped log result), CDG chip wood has no stripped variant → empty `{}` result, recipe rejected. Recipe also wasn't generated under 2.9.21, so in-game recipe set is unchanged. Not from our kubejs scripts (verified clean). Delete with the entry above.
+- **Antique Atlas "No fallback could be found for `terrablender:deferred_placeholder`" WARN** — ×2 per load, client-side. TerraBlender registers an internal placeholder biome (a technical stand-in used during biome-region setup; never generates as terrain). Antique Atlas walks the whole biome registry to build its biome→map-tile lookup, hits that tagless dummy (it's in no conventional/vanilla biome tag because it isn't a real biome), and can't pick a tile → warns. Harmless: the placeholder never appears in-world so the atlas never has to draw it; no missing tiles, no gameplay effect. (Confirmed 2026-06-15.)

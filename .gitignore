@@ -45,3 +45,6 @@ mods/.connectorEarly/
 
 # README credits generator — Python cache
 tools/readme/__pycache__/
+
+/docs/refs/*.jar
+/docs/refs/extracted/

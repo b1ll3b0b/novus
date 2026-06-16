@@ -36,3 +36,10 @@ mods/.connectorEarly/
 
 # personal dev-environment sync only — players get options via DefaultOptions
 /options.txt
+
+# server-only overrides — tracked in repo, never shipped to clients
+/_server_deploy/
+
+# authoritative dev ledgers — tracked in repo, never shipped
+/docs/*.md
+/docs/refs/
