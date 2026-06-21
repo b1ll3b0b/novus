@@ -1,0 +1,11 @@
+{
+  "_comment": "Hand-curated one-line description overrides, keyed by the mod's resolved display NAME (same name shown in the README Mods table). These BEAT the jar's mods.toml/fabric.mod.json description. Use only where the jar description is empty, a placeholder/joke, or has leaked formatting. Everything else is auto-extracted from the jar by build_readme_credits.py and needs no entry here. Verified 2026-06-21.",
+  "Biomantic Delight": "Farmer's Delight addon — dishes themed around Biomancy's flesh ingredients.",
+  "Sinytra Connector": "Runs Fabric mods on Forge; here it loads the pack's Fabric-only map mods.",
+  "Gabou's Libs": "Shared library code for Gabou's mods.",
+  "Kotlin For Forge": "Kotlin language runtime and adapter for Forge mods.",
+  "PolyLib": "Shared library for CreeperHost's mods.",
+  "MmmMmmMmmMmm": "Adds a target dummy for testing weapons, damage, and redstone.",
+  "Placebo": "Shared library for Shadows_of_Fire's mods.",
+  "Player Animator": "Library for playing custom keyframe player animations."
+}

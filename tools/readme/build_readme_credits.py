@@ -42,10 +42,24 @@ OVERRIDES = load("overrides.json")
 MR_CACHE = load("modrinth_cache.json")
 CF_SLUGS = load("cf_slugs.json")
 RP = load("resourcepacks.json")
+DESCRIPTIONS = load("descriptions.json")  # hand-curated one-liners keyed by display name; beat the jar's
+
+# ------------------------------------------------------------ description clean
+def clean_desc(d):
+    """Turn a jar's raw description into one tidy README line."""
+    if not d: return ""
+    d = re.sub(r"§.", "", d)                              # strip MC color codes (e.g. §7)
+    d = re.sub(r"\s+", " ", d).strip().strip('"').strip()
+    # drop leaked attribution / marketing / link tails
+    d = re.split(r"(?i)\s*(?:Attributions?:|Credits?:|Features include|Check out|Join (?:our|the)\b|Discord|https?://)", d, maxsplit=1)[0].strip()
+    if len(d) > 115:                                      # prefer the first sentence, else hard-trim
+        first = re.split(r"(?<=[.!?])\s", d, maxsplit=1)[0]
+        d = first if 25 <= len(first) <= 115 else d[:112].rstrip() + "…"
+    return d.replace("|", "\\|")
 
 # ---------------------------------------------------------------- jar reading
 def read_jar(jar):
-    info = {"jar": os.path.basename(jar), "modid": "", "name": "", "authors": "", "license": ""}
+    info = {"jar": os.path.basename(jar), "modid": "", "name": "", "authors": "", "license": "", "desc": ""}
     try:
         z = zipfile.ZipFile(jar); names = z.namelist()
         tp = next((c for c in ("META-INF/mods.toml", "META-INF/neoforge.mods.toml") if c in names), None)
@@ -57,12 +71,18 @@ def read_jar(jar):
             info["modid"] = g(r'(?m)^\s*modId\s*=\s*"(.*?)"')
             info["name"] = g(r'(?m)^\s*displayName\s*=\s*"(.*?)"')
             info["authors"] = g(r'(?m)^\s*authors\s*=\s*"(.*?)"', re.S)
+            dm = (re.search(r"(?ms)^\s*description\s*=\s*'''(.*?)'''", raw) or
+                  re.search(r'(?ms)^\s*description\s*=\s*"""(.*?)"""', raw) or
+                  re.search(r'(?m)^\s*description\s*=\s*"(.*?)"', raw) or
+                  re.search(r"(?m)^\s*description\s*=\s*'(.*?)'", raw))
+            info["desc"] = dm.group(1) if dm else ""
         elif "fabric.mod.json" in names:
             fj = json.loads(z.read("fabric.mod.json").decode("utf-8", "replace"))
             info["modid"] = fj.get("id", ""); info["name"] = fj.get("name", "")
             info["license"] = str(fj.get("license", ""))
             a = fj.get("authors", [])
             info["authors"] = "; ".join(x if isinstance(x, str) else x.get("name", "") for x in a)
+            info["desc"] = str(fj.get("description", ""))
         z.close()
     except Exception as e:
         info["name"] = f"(error reading jar: {e})"
@@ -161,6 +181,10 @@ def build_rows():
         ov = OVERRIDES.get(j["modid"]) or OVERRIDES.get(p.get("modrinth", ""), {})
         # name
         name = ov.get("name") or j["name"] or p.get("name") or j["jar"]
+        # description: hand-curated override (by name) beats the cleaned jar description
+        desc = DESCRIPTIONS.get(name) or clean_desc(j["desc"])
+        if not desc:
+            warnings.append(f"no description: {name} ({j['modid'] or j['jar']})")
         # authors
         authors = ov.get("authors") or j["authors"] or "—"
         # license precedence
@@ -181,7 +205,7 @@ def build_rows():
             warnings.append(f"no source link: {name} ({j['modid'] or j['jar']})")
         if not lic:
             warnings.append(f"blank license: {name} ({j['modid'] or j['jar']})")
-        rows.append({"name": name, "authors": authors, "license": lic, "fn": fn,
+        rows.append({"name": name, "desc": desc, "authors": authors, "license": lic, "fn": fn,
                      "link": link, "bucket": bucket(lic)})
     rows.sort(key=lambda r: r["name"].lower())
     return rows, warnings, footnotes
@@ -205,11 +229,12 @@ def source_link(modid, p, ov):
 def render_mods(rows, footnotes):
     out = [f"_{len(rows)} mods. This table is generated from the jars and packwiz "
            "metadata by `tools/readme/build_readme_credits.py` — don't edit it by hand._",
-           "", "| Mod | Author(s) | License | Source |", "|---|---|---|---|"]
+           "", "| Mod | Description | Author(s) | License | Source |", "|---|---|---|---|---|"]
     for r in rows:
         lic = r["license"] or "—"
         if r["fn"]: lic += f" [^{r['fn']}]"
-        out.append(f"| {r['name']} | {r['authors']} | {lic} | {r['link']} |")
+        desc = r["desc"] or "—"
+        out.append(f"| {r['name']} | {desc} | {r['authors']} | {lic} | {r['link']} |")
     out.append("")
     if footnotes:
         out.append("Notes on specific licenses:")
