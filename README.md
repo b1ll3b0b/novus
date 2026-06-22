@@ -144,7 +144,7 @@ world on for everyone.
 **Why isn't [some big mod] included?** Novus is deliberately scoped around Create,
 Tinkers, Farmer's Delight, and the building/magic systems. Combat overhauls,
 quest books, and rival tech trees (AE2, Mekanism, Immersive Engineering) are left
-out on purpose — see *What you'll be doing*.
+out on purpose — see [What you'll be doing](#what-youll-be-doing).
 
 ---
 
@@ -162,8 +162,7 @@ author's own license. Three things worth knowing up front:
   pack. Several of them are All Rights Reserved (Waystones, Balm, Quark Delight,
   and others). Credit goes to each author, linked in the table below.
 - **Resource packs are bundled as files too**, and some of their source packs are
-  All Rights Reserved. See the resource-pack section for the details and a
-  release caveat.
+  All Rights Reserved. See the resource-pack section for the per-pack details.
 
 The mod count is **202 jars** (183 from Modrinth + 19 from CurseForge) — that's
 what the table below lists and what the license tallies count. In-game the loader
@@ -431,76 +430,89 @@ A dash in the License column means no license could be confirmed from the jar, t
 ## Resource packs
 
 <!-- BEGIN:RESOURCEPACKS -->
-Novus ships a curated texture and animation stack, applied automatically through Paxi, plus two opt-in packs you can turn on yourself. They come in three groups: third-party packs included whole, Novus packs that merge or adapt third-party work, and the original Novus3D_* / Novus_* packs built for this pack. The original packs pull models and textures directly from the upstream "source packs" listed further down, so those upstream licenses still govern the bundled assets.
-
-> **Please read — resource-pack licensing.** Unlike the mods, which are distributed as download links plus file hashes, the resource packs are shipped as actual files. Several of the source packs below are All Rights Reserved, and a few say outright "no redistribution without permission." Bundling their assets in a publicly distributed pack goes beyond what those licenses grant. For a private group this is low-risk. Before any public release, get permission, switch to permissively-licensed sources, or leave those packs out of the public build. The credits below are given in good faith and to honor attribution-required licenses.
+Novus ships a curated texture and animation stack, applied automatically through Paxi, plus a few opt-in packs you can turn on yourself. They come in three groups: third-party packs included whole, Novus packs that merge or adapt third-party work, and the original Novus3D_* / Novus_* packs built for this pack. The original packs pull models and textures directly from the upstream "source packs" listed further down, so those upstream licenses still govern the bundled assets. Each table below uses the same columns as the Mods list above.
 
 ### Third-party packs, included whole
 
-| Pack(s) | Author | License / terms | Link |
-|---|---|---|---|
-| Authentic Shadows (shipped as `Authentic Shadows_1.20.zip`) | Liahim85 | All Rights Reserved — Bundled with credit; get permission before any public release. | https://modrinth.com/resourcepack/authentic-shadows |
-| Fresh Animations (shipped as `FreshAnimations_v1.10.4_Novus`) | Fresh_LX | Custom — Terms of use in the project description: modpack inclusion allowed with credit; no redistribution of the standalone pack. | https://modrinth.com/resourcepack/fresh-animations |
-| FA Extensions — Emissive, Player, Quivers, Spiders | Fresh_LX | All Rights Reserved — Same Fresh Animations terms. | https://modrinth.com/resourcepack/fresh-animations-extensions |
-| Vanilla Tweaks packs (3D Amethyst/Dripstone/Redstone Dust, Age-25 Kelp, Compass Lodestone, Disc Redstone, Groovy Levers, Visual Noteblock) | Vanilla Tweaks team | Custom — Include only if modified, credited, and kept free; no verbatim re-hosting. | https://vanillatweaks.net |
-| Randomized Textures (opt-in, in `resourcepacks/`) | Vanilla Tweaks team | Custom — Same Vanilla Tweaks terms. | https://vanillatweaks.net |
-| Quark Programmer Art (opt-in, in `resourcepacks/`) | Vazkii / Quark Team | CC-BY-NC-SA-3.0 | https://github.com/VazkiiMods/Quark |
+| Pack | Description | Author(s) | License | Source |
+|---|---|---|---|---|
+| Authentic Shadows (shipped as `Authentic Shadows_1.20.zip`) | Soft contact shadows cast under blocks, plants, and entities. | Liahim85 | All Rights Reserved [^r1] | [Modrinth](https://modrinth.com/resourcepack/authentic-shadows) |
+| Fresh Animations (shipped as `FreshAnimations_v1.10.4_Novus`) | Expressive, fluid animations for vanilla mobs, driven by EMF custom entity models. | Fresh_LX | Custom [^r2] | [Modrinth](https://modrinth.com/resourcepack/fresh-animations) |
+| FA Extensions — Emissive, Player, Quivers, Spiders | Add-on layers for Fresh Animations: glowing eyes, animated player models, visible bow quivers, and reworked spiders. | Fresh_LX | All Rights Reserved [^r2] | [Modrinth](https://modrinth.com/resourcepack/fresh-animations-extensions) |
+| Vanilla Tweaks packs (3D Amethyst/Dripstone/Redstone Dust, Age-25 Kelp, Compass Lodestone, Disc Redstone, Groovy Levers) | Small vanilla-faithful texture and model tweaks, applied automatically through Paxi. | Vanilla Tweaks team | Custom [^r3] | [Vanilla Tweaks](https://vanillatweaks.net) |
+| Randomized Textures (opt-in, in `resourcepacks/`) | Randomizes block textures (stone, planks, and more) for visual variety. | Vanilla Tweaks team | Custom [^r3] | [Vanilla Tweaks](https://vanillatweaks.net) |
+| Clearer Water (opt-in, in `resourcepacks/`) | More transparent water for clearer underwater visibility. | Vanilla Tweaks team | Custom [^r3] | [Vanilla Tweaks](https://vanillatweaks.net) |
+| Visual Noteblock (opt-in, in `resourcepacks/`) | Shows each note block's instrument and pitch on its face. | Vanilla Tweaks team | Custom [^r3] | [Vanilla Tweaks](https://vanillatweaks.net) |
+| Quark Programmer Art (opt-in, in `resourcepacks/`) | Quark's retro programmer-art block and item textures. | Vazkii / Quark Team | CC-BY-NC-SA-3.0 | [GitHub](https://github.com/VazkiiMods/Quark) |
 
 ### Novus packs that merge or adapt third-party work
 
-| Pack | Built from | Upstream authors |
-|---|---|---|
-| `FA+AL+Azu_Zombies` | AL's Zombies Revamped + FA and Azu's Enhanced Zombie Variants FA, merged for 1.20.1 | Fresh_LX · AZUHCK |
-| `FA+Witch_Old` | Vanilla witch CEM extracted from the Fresh Animations base | Fresh_LX (base) · assembled by z0nb1 |
-| `PA-FA-Compat` | FA: Player Extension × PlayerAnimator compatibility patch | AxoLabs · MPL-2.0 |
-| `Novus3D_Corundum`, `Novus3D_SlimeCrystal` | Stridey's Vanilla Tweaks 3D Amethyst crystal template, recolored | Stridey / Vanilla Tweaks |
+| Pack | Description | Author(s) | License | Source |
+|---|---|---|---|---|
+| `FA+AL+Azu_Zombies` | AL's Zombies Revamped merged with Azu's Enhanced Zombie Variants FA and fixed up for 1.20.1. | Fresh_LX · AZUHCK · assembled by z0nb1 | Custom [^r2] | Bundled |
+| `FA+Witch_Old` | The pre-rework vanilla witch CEM, extracted from the Fresh Animations base. | Fresh_LX (base) · assembled by z0nb1 | Custom [^r2] | Bundled |
+| `PA-FA-Compat` | Compatibility patch bridging the FA: Player Extension pack and Player Animator. | AxoLabs · assembled by z0nb1 | MPL-2.0 | Bundled |
+| `Novus3D_Corundum`, `Novus3D_SlimeCrystal` | Recolors of Stridey's Vanilla Tweaks 3D Amethyst crystal template for Tinkers' corundum and slime crystals. | Stridey / Vanilla Tweaks · recolored by z0nb1 | Custom [^r3] | Bundled |
 
 ### Original packs made for Novus
 
-By z0nb1 (b1ll3b0b). Each one assembles or adapts assets from the source packs below rather than drawing new art, so the upstream licenses apply to those assets.
+By z0nb1 (b1ll3b0b). Each one assembles or adapts assets from the source packs below rather than drawing new art, so the upstream licenses apply to those assets. The Description column lists what each pack provides and which source packs it draws from.
 
-| Pack | Draws assets from |
-|---|---|
-| `Novus3D_Objects` | Actually 3D (3D torch geometry applied to the Infinity Buttons mod's lever/button blocks) |
-| `Novus3D_Plants` | Vanilla Tweaks · Actually 3D · Allure 3D Plants · Tinkers' Construct 3D |
-| `Novus3D_Stations` | Actually 3D (crafting) · Heycronus Furnaces 3D + Craft 3D + Barrel 3D (cooking/storage) |
-| `Novus3D_Ladders` | RAY's 3D Ladders · Vanilla Tweaks · Ladder 3D Pack (mega_trainer) |
-| `Novus3D_Rails` | Actually 3D · RAY's 3D Rails · Modded Rail 3D Pack (mega_trainer) |
-| `Novus3D_Brewing` | Actually 3D (+ Amendments tint patch) |
-| `Novus3D_Doors` | Actually 3D · Supplementaries 3D Doors & Trapdoors |
-| `Novus3D_Crops` | crops-3d (base) · Actually 3D · REVIVED Farmer's Delight Crops 3D |
-| `Novus_Glass` | Fusion Connected Glass (base) · Better Stained Glass (panes) |
-| `Novus_BotaniaImprovedFlowers`, `Novus_DiscRedstone_*` | Novus-original / Vanilla Tweaks-style |
+| Pack | Description | Author(s) | License | Source |
+|---|---|---|---|---|
+| `Novus3D_Objects` | 3D torch geometry applied to the Infinity Buttons mod's levers and buttons. Drawn from Actually 3D. | z0nb1 (b1ll3b0b) | CC BY-NC-SA 4.0 [^r4] | Bundled |
+| `Novus3D_Plants` | 3D plants and foliage. Drawn from Vanilla Tweaks, Actually 3D, Allure 3D Plants, and Tinkers' Construct 3D. | z0nb1 (b1ll3b0b) | CC BY-NC-SA 4.0 [^r4] | Bundled |
+| `Novus3D_Stations` | 3D crafting, cooking, and storage stations. Drawn from Actually 3D (crafting) and Heycronus Furnaces 3D + Craft 3D + Barrel 3D. | z0nb1 (b1ll3b0b) | CC BY-NC-SA 4.0 [^r4] | Bundled |
+| `Novus3D_Ladders` | 3D ladders. Drawn from RAY's 3D Ladders, Vanilla Tweaks, and mega_trainer's Ladder 3D Pack. | z0nb1 (b1ll3b0b) | CC BY-NC-SA 4.0 [^r4] | Bundled |
+| `Novus3D_Rails` | 3D rails. Drawn from Actually 3D, RAY's 3D Rails, and mega_trainer's Modded Rail 3D Pack. | z0nb1 (b1ll3b0b) | CC BY-NC-SA 4.0 [^r4] | Bundled |
+| `Novus3D_Brewing` | 3D brewing stand. Drawn from Actually 3D, with an Amendments tint patch. | z0nb1 (b1ll3b0b) | CC BY-NC-SA 4.0 [^r4] | Bundled |
+| `Novus3D_Doors` | 3D doors and trapdoors. Drawn from Actually 3D and Supplementaries 3D Doors & Trapdoors. | z0nb1 (b1ll3b0b) | CC BY-NC-SA 4.0 [^r4] | Bundled |
+| `Novus3D_Crops` | 3D crops. Drawn from crops-3d (base), Actually 3D, and REVIVED Farmer's Delight Crops 3D. | z0nb1 (b1ll3b0b) | CC BY-NC-SA 4.0 [^r4] | Bundled |
+| `Novus_Glass` | Connected glass plus cleaner stained-glass panes. Drawn from Fusion Connected Glass (base) and Better Stained Glass (panes). | z0nb1 (b1ll3b0b) | CC BY-NC-SA 4.0 [^r4] | Bundled |
+| `Novus_BotaniaImprovedFlowers`, `Novus_DiscRedstone_*` | Recolored Botania mystical flowers and per-mod redstone-dust disc textures. Novus-original, Vanilla Tweaks-style. | z0nb1 (b1ll3b0b) | CC BY-NC-SA 4.0 [^r4] | Bundled |
 
 ### Source packs (assets drawn from)
 
-Licenses confirmed from each project's listing or in-file LICENSE on 2026-06-05. A blank License cell means none was stated anywhere — treat it as All Rights Reserved until confirmed.
+These upstream packs are where the Novus-made packs above draw their models and textures. Licenses confirmed from each project's listing or in-file LICENSE on 2026-06-05. A blank License cell means none was stated anywhere — treat it as All Rights Reserved until confirmed.
 
-| Source pack | Author | License | Link |
-|---|---|---|---|
-| Actually 3D — Blocks & Items r1.8 | Matt_Crowberry | CC-BY-4.0 | https://modrinth.com/resourcepack/actually-3d-blocks-and-items |
-| Actually 3D — Flowers & Plants | Chomik_Oto | CC-BY-4.0 | https://modrinth.com/resourcepack/actually-3d-plants |
-| RAY's 3D Ladders / 3D Rails | xR4YM0ND | MIT — LICENSE confirmed inside the pack file. | https://github.com/xR4YM0ND |
-| Vanilla Tweaks (incl. Stridey's 3D Amethyst) | Vanilla Tweaks team | Custom — Modify + credit + keep free. | https://vanillatweaks.net |
-| Heycronus 3D packs — Craft 3D, Barrel 3D, Furnaces 3D, Better 3D Beds | Heycronus | All Rights Reserved — Furnaces 3D replaced the previous Undopia furnaces source. | https://www.curseforge.com/members/heycronus/projects |
-| Allure 3D Plants | P4ncake | All Rights Reserved | https://modrinth.com/resourcepack/allure-3d-plants |
-| AA4 Structure Markers | x7bbbbbbb | CC-BY-NC-SA-4.0 | https://modrinth.com/resourcepack/aa4-structure-markers |
-| Fusion Connected Glass | SuperMartijn642 | All Rights Reserved — Requires the Fusion mod. | https://modrinth.com/resourcepack/fusion-connected-glass |
-| Better Stained Glass | elwood612 | — (No license stated on the listing; treat as All Rights Reserved until confirmed.) | https://www.curseforge.com/minecraft/texture-packs/better-stained-glass |
-| Ladder 3D · Modded Rail 3D | mega_trainer | All Rights Reserved — Listing states "do not repost" — personal use only, no redistribution. | https://www.curseforge.com/members/mega_trainer/projects |
-| Supplementaries 3D Doors & Trapdoors | thricebite | CC-BY-NC-SA-4.0 | https://modrinth.com/resourcepack/supplementaries-3d-doors-and-trapdoors |
-| REVIVED Farmer's Delight Crops 3D | YStheStudio | GPL-3.0-only | https://modrinth.com/resourcepack/revived-farmers-delight-crops-3d |
-| crops-3d (base of Novus3D_Crops) | NinthWorld | — (No license stated on the listing; confirm before public release.) | https://www.curseforge.com/minecraft/texture-packs/crops-3d |
-| Tinkers' Construct (referenced textures) | Slime Knights | MIT — The mod itself. | https://github.com/SlimeKnights/TinkersConstruct |
+| Source pack | Description | Author(s) | License | Source |
+|---|---|---|---|---|
+| Actually 3D — Blocks & Items r1.8 | 3D models for vanilla blocks and items. | Matt_Crowberry | CC-BY-4.0 | [Modrinth](https://modrinth.com/resourcepack/actually-3d-blocks-and-items) |
+| Actually 3D — Flowers & Plants | 3D models for flowers and plants. | Chomik_Oto | CC-BY-4.0 | [Modrinth](https://modrinth.com/resourcepack/actually-3d-plants) |
+| RAY's 3D Ladders / 3D Rails | 3D ladder and rail models. | xR4YM0ND | MIT [^r5] | [GitHub](https://github.com/xR4YM0ND) |
+| Vanilla Tweaks (incl. Stridey's 3D Amethyst) | Vanilla-faithful tweaks; source of the 3D amethyst crystal template. | Vanilla Tweaks team | Custom [^r3] | [Vanilla Tweaks](https://vanillatweaks.net) |
+| Heycronus 3D packs — Craft 3D, Barrel 3D, Furnaces 3D, Better 3D Beds | 3D crafting table, barrel, furnaces, and beds. | Heycronus | All Rights Reserved [^r6] | [CurseForge](https://www.curseforge.com/members/heycronus/projects) |
+| Allure 3D Plants | 3D plant models. | P4ncake | All Rights Reserved | [Modrinth](https://modrinth.com/resourcepack/allure-3d-plants) |
+| AA4 Structure Markers | Antique Atlas 4 structure-marker icons. | x7bbbbbbb | CC-BY-NC-SA-4.0 | [Modrinth](https://modrinth.com/resourcepack/aa4-structure-markers) |
+| Fusion Connected Glass | Connected-texture glass (needs the Fusion mod). | SuperMartijn642 | All Rights Reserved [^r7] | [Modrinth](https://modrinth.com/resourcepack/fusion-connected-glass) |
+| Better Stained Glass | Cleaner stained-glass pane textures. | elwood612 | — [^r8] | [CurseForge](https://www.curseforge.com/minecraft/texture-packs/better-stained-glass) |
+| Ladder 3D · Modded Rail 3D | 3D ladder and modded-rail models. | mega_trainer | All Rights Reserved [^r9] | [CurseForge](https://www.curseforge.com/members/mega_trainer/projects) |
+| Supplementaries 3D Doors & Trapdoors | 3D door and trapdoor models for Supplementaries. | thricebite | CC-BY-NC-SA-4.0 | [Modrinth](https://modrinth.com/resourcepack/supplementaries-3d-doors-and-trapdoors) |
+| REVIVED Farmer's Delight Crops 3D | 3D crop models for Farmer's Delight. | YStheStudio | GPL-3.0-only | [Modrinth](https://modrinth.com/resourcepack/revived-farmers-delight-crops-3d) |
+| crops-3d (base of Novus3D_Crops) | 3D crop models; the base layer of Novus3D_Crops. | NinthWorld | — [^r10] | [CurseForge](https://www.curseforge.com/minecraft/texture-packs/crops-3d) |
+| Tinkers' Construct (referenced textures) | Source of a few referenced 3D textures; the mod itself, not a separate pack. | Slime Knights | MIT | [GitHub](https://github.com/SlimeKnights/TinkersConstruct) |
 
 ### Datapacks
 
 Datapacks bundled in the pack — either applied automatically through Paxi (config/paxi/datapacks/) or merged into the KubeJS data layer (kubejs/data/). Each stays under its author's license.
 
-| Datapack | Author | License | Applied via | Link |
+| Datapack | Description | Author(s) | License | Source |
 |---|---|---|---|---|
-| Repurposed Structures — Chef's Delight, Farmer's Delight & VillagersPlus compat | telepathicgrunt (the Farmer's Delight variant credits pm095) | LGPL-3.0 | Paxi | https://modrinth.com/datapack/repurposed-structures |
-| Respite: There's Ash in My Coffee!! — wild coffee & tea bush worldgen, kettle loot | Myriadh | MIT | merged into kubejs/data/farmersrespite | https://modrinth.com/datapack/ash-in-my-coffee |
+| Repurposed Structures — Chef's Delight, Farmer's Delight & VillagersPlus compat | Adds the compat structure variants for those mods. Applied via Paxi. | telepathicgrunt (the Farmer's Delight variant credits pm095) | LGPL-3.0 | [Modrinth](https://modrinth.com/datapack/repurposed-structures) |
+| Respite: There's Ash in My Coffee!! | Wild coffee and tea-bush worldgen plus kettle loot for Farmer's Respite. Merged into kubejs/data/farmersrespite. | Myriadh | MIT | [Modrinth](https://modrinth.com/datapack/ash-in-my-coffee) |
+
+Notes on resource-pack licenses:
+
+[^r1]: Bundled with credit; get permission before any public release.
+[^r2]: Fresh Animations terms of use: modpack inclusion allowed with credit; no redistribution of the standalone pack.
+[^r3]: Vanilla Tweaks terms: include only if modified, credited, and kept free; no verbatim re-hosting.
+[^r4]: Original Novus pack by z0nb1 (CC BY-NC-SA 4.0). The 3D models and textures it assembles stay under their upstream source-pack licenses, listed below.
+[^r5]: LICENSE confirmed inside the pack file.
+[^r6]: Furnaces 3D replaced the previous Undopia furnaces source.
+[^r7]: Requires the Fusion mod.
+[^r8]: No license stated on the listing; treat as All Rights Reserved until confirmed.
+[^r9]: Listing states "do not repost" — personal use only, no redistribution.
+[^r10]: No license stated on the listing; confirm before public release.
 <!-- END:RESOURCEPACKS -->
 
 ---
@@ -549,6 +561,8 @@ recur throughout the pack or anchor whole systems:
 - **embeddedt** — Embeddium, ModernFix (performance)
 - **Traben** — Entity Model Features, Entity Texture Features
 - **Darkhax** — Bookshelf, Enchantment Descriptions
+- **Grend** — Iceberg, Prism, Legendary Tooltips, Advancement Plaques (the tooltip & UI-polish backbone)
+- **Snownee** — Jade and Jade Addons (the look-at HUD that runs the whole session)
 - **Illusive Soulworks** — Cherished Worlds, Comforts, Polymorph
 - **mortuusars** — Chalk, Exposure, Exposure Polaroid
 - **shedaniel** — Architectury API, Cloth Config

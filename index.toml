@@ -18,7 +18,7 @@ hash = "fd762404039b691a2782a4a6f7cbb9d1c388377b50ae842b9b02ad3ff2cb28fa"
 
 [[files]]
 file = "README.md"
-hash = "edf202b31f3d2b2abdf08441d858195d90f9c987db873990efb9311daa6537a8"
+hash = "a092ee43243b4826378beef8a20dffe60fde558a10462a9240507895b9ddb017"
 
 [[files]]
 file = "build.sh"
@@ -5868,7 +5868,7 @@ hash = "21a9f57051f7842898da9fb1ce596b558a3c51ed94915bfb33fe33978200defb"
 
 [[files]]
 file = "tools/readme/build_readme_credits.py"
-hash = "84e15f753005ec7e1bc6fe4291188a699c8d596eb0751cf91df0ed834ca88c9b"
+hash = "8e46eb70387c22e5edc4057c5fa41df988a80fd52f2fe64223c064722203e7bc"
 
 [[files]]
 file = "tools/readme/cf_slugs.json"
@@ -5888,7 +5888,7 @@ hash = "eebaad24332e0e478742ca9d387d48903290c60e8c11fd0e863829eba6d65181"
 
 [[files]]
 file = "tools/readme/resourcepacks.json"
-hash = "184d6b7de00d938ec7922af2bc45803101cc9859d9ea3c6fa4c3dbfde7b7fe20"
+hash = "fbe50e3de1be91eb95e44aaace342533b20fd4d2597eb5a33bf184ec62e8f565"
 
 [[files]]
 file = "trees/dttconstruct/fruits/blood_slime.json"

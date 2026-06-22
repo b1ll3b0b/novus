@@ -260,45 +260,69 @@ def render_mix(rows):
         lines.append(f"| License not confirmed (shown as a dash above) | {b['unverified']} |")
     return "\n".join(lines)
 
+def rp_source(s):
+    """Render a resource-pack source cell: a labelled link, or plain 'Bundled'."""
+    if not s or s == "Bundled":
+        return "Bundled"
+    host = s.split("//", 1)[-1].split("/", 1)[0].lower()
+    label = ("Modrinth" if "modrinth.com" in host else
+             "CurseForge" if "curseforge.com" in host else
+             "GitHub" if "github.com" in host else
+             "Vanilla Tweaks" if "vanillatweaks.net" in host else "Link")
+    return f"[{label}]({s})"
+
 def render_resourcepacks():
-    o = []
+    """Render every resource-pack group with the same columns as the Mods table
+    (Pack | Description | Author(s) | License | Source). License nuance is pushed
+    into footnotes (`[^rN]`, a separate namespace from the mods' `[^N]`)."""
+    o, fns = [], {}            # fns: note text -> footnote number
+    def fn(note):
+        if not note: return ""
+        fns.setdefault(note, len(fns) + 1)
+        return f" [^r{fns[note]}]"
+    def row(pack, p):
+        lic = (p["license"] or "—") + fn(p.get("note", ""))
+        return (f"| {pack} | {p.get('desc') or '—'} | {p.get('authors') or '—'} | "
+                f"{lic} | {rp_source(p.get('source'))} |")
+    HEAD = ["| Pack | Description | Author(s) | License | Source |", "|---|---|---|---|---|"]
+
     o.append(RP["intro"]); o.append("")
-    o.append("> **Please read — resource-pack licensing.** " + RP["warning"]); o.append("")
+
     o.append("### Third-party packs, included whole"); o.append("")
-    o.append("| Pack(s) | Author | License / terms | Link |"); o.append("|---|---|---|---|")
-    for p in RP["bundled_whole"]:
-        lic = p["license"] or "—"
-        if p.get("note"): lic += f" — {p['note']}"
-        o.append(f"| {p['pack']} | {p['author']} | {lic} | {p['link']} |")
+    o += HEAD
+    for p in RP["bundled_whole"]: o.append(row(p["pack"], p))
     o.append("")
+
     o.append("### Novus packs that merge or adapt third-party work"); o.append("")
-    o.append("| Pack | Built from | Upstream authors |"); o.append("|---|---|---|")
-    for p in RP["derived"]:
-        o.append(f"| {p['pack']} | {p['built_from']} | {p['upstream']} |")
+    o += HEAD
+    for p in RP["derived"]: o.append(row(p["pack"], p))
     o.append("")
+
     o.append("### Original packs made for Novus"); o.append("")
     o.append(RP["original_intro"]); o.append("")
-    o.append("| Pack | Draws assets from |"); o.append("|---|---|")
-    for p in RP["original"]:
-        o.append(f"| {p['pack']} | {p['draws_from']} |")
+    o += HEAD
+    for p in RP["original"]: o.append(row(p["pack"], p))
     o.append("")
+
     o.append("### Source packs (assets drawn from)"); o.append("")
-    o.append("Licenses confirmed from each project's listing or in-file LICENSE on "
-             "2026-06-05. A blank License cell means none was stated anywhere — treat it "
-             "as All Rights Reserved until confirmed."); o.append("")
-    o.append("| Source pack | Author | License | Link |"); o.append("|---|---|---|---|")
-    for p in RP["sources"]:
-        lic = p["license"] or "—"
-        if p.get("note"): lic = (lic + f" — {p['note']}") if p["license"] else (lic + f" ({p['note']})")
-        o.append(f"| {p['name']} | {p['author']} | {lic} | {p['link']} |")
+    o.append(RP["sources_intro"]); o.append("")
+    o.append("| Source pack | Description | Author(s) | License | Source |")
+    o.append("|---|---|---|---|---|")
+    for p in RP["sources"]: o.append(row(p["name"], p))
     o.append("")
+
     o.append("### Datapacks"); o.append("")
     o.append(RP["datapacks_intro"]); o.append("")
-    o.append("| Datapack | Author | License | Applied via | Link |")
+    o.append("| Datapack | Description | Author(s) | License | Source |")
     o.append("|---|---|---|---|---|")
-    for p in RP["datapacks"]:
-        lic = p["license"] or "—"
-        o.append(f"| {p['name']} | {p['author']} | {lic} | {p['applied']} | {p['link']} |")
+    for p in RP["datapacks"]: o.append(row(p["name"], p))
+
+    if fns:
+        o.append("")
+        o.append("Notes on resource-pack licenses:")
+        o.append("")
+        for note, n in sorted(fns.items(), key=lambda kv: kv[1]):
+            o.append(f"[^r{n}]: {note}")
     return "\n".join(o)
 
 # ---------------------------------------------------------------- splice
