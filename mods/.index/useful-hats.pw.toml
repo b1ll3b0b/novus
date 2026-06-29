@@ -1,0 +1,13 @@
+name = "Useful Hats"
+filename = "usefulhats-1.20.1-4.2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OzlEq4Ya/versions/uqhIDxIP/usefulhats-1.20.1-4.2.0.1.jar"
+hash-format = "sha512"
+hash = "ab38fb040ff721aec6861ea6f050e72c32321c1d0c9ea7efe140e4630523ea74b21d962f14f6c6ad4897ba96b1a5645b4c39b78493a003070e552d3942602ea4"
+
+[update]
+[update.modrinth]
+mod-id = "OzlEq4Ya"
+version = "uqhIDxIP"

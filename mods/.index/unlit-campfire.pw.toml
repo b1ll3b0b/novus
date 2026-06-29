@@ -1,0 +1,21 @@
+filename = 'unlitcampfire-forge-1.20.1-1.9.2.1.jar'
+name = 'Unlit Campfire'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'forge-1.20.1-1.9.2.1'
+
+[download]
+hash = '34c532a5990a82d7c660fe64d6266db1115d4f130f8e9982939f73019da47711c61ad82d94fe7b738e6666ea021be517ca3dc344f85772d27e8adae15ab8867c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yENm0xnb/versions/xYG7R9xD/unlitcampfire-forge-1.20.1-1.9.2.1.jar'
+
+[update.modrinth]
+mod-id = 'yENm0xnb'
+version = 'xYG7R9xD'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nvQzSEkH'
+type = 'OPTIONAL'

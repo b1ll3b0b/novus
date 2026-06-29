@@ -1,0 +1,18 @@
+filename = 'FireSticks+V.1.5+[1.20.1][FORGE].jar'
+name = 'Survival Fire Sticks (Wooden Flint and Steel)'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'FireSticks V.1.5 [1.20.1][FORGE]'
+
+[download]
+hash = '8eb97af4bab24b574c2f40ce549b98899384579c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6963532
+project-id = 710998

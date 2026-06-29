@@ -1,0 +1,13 @@
+name = "Ceramic Shears"
+filename = "ceramicshears-1.20.1-1.9.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qaMUpFM4/versions/gzghNUtI/ceramicshears-1.20.1-1.9.0.1.jar"
+hash-format = "sha512"
+hash = "26b4adf4a8df58893352b6120a16bbed61308ae52ed95d0b908c634df751f773fd107828461f69b5effb206d5fe67d7b9a57eceb0217eec4cc6b966750bd4001"
+
+[update]
+[update.modrinth]
+mod-id = "qaMUpFM4"
+version = "gzghNUtI"
