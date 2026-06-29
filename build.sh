@@ -12,8 +12,8 @@
 #   - lays down a tiny metadata-clean server bootstrap
 #
 # Anti-ghost rule: the distributed pack matches your instance. The ONLY
-# divergences are (a) mods shipped as metadata+hash (byte-identical jars), the 3
-# self-hosted CF jars, (b) the EXCLUDE_SLUGS dev-only mods, (c) personal client
+# divergences are (a) mods shipped as metadata+hash (byte-identical jars), the
+# self-hosted CF jars (BUNDLED_SLUGS, auto-derived), (b) the EXCLUDE_SLUGS dev-only mods, (c) personal client
 # settings in the denylist below. Your .gitignore is the single knob for
 # personal-vs-shipped: untracked = not shipped, tracked = shipped.
 #
@@ -52,15 +52,13 @@ SHIP_DENYLIST=(
 # entries (they carry an empty download url), so the self-updating Prism instance
 # crashes on them. Fix: self-host the actual jar inside the pack (served from
 # gh-pages) and drop the un-fetchable metafile; `packwiz refresh` then indexes the
-# jar as a plain file with a direct Pages url that any installer can fetch. This is
-# ALL 20 CurseForge mods (the .mrpack already bundles them as overrides too).
-# List by metafile slug; keep in sync with `grep -l "metadata:curseforge" mods/.index/*`.
-BUNDLED_SLUGS=(
-  backpacked balm catalogue configured controllable
-  create-recycle-everything dynamic-trees-tinkers-construct farmers-respite
-  framework goblin-traders initial-inventory json-things kubejs-delight
-  placebo quark-delight terrablender toast-control trackwork
-  villagers-sell-animals waystones
+# jar as a plain file with a direct Pages url that any installer can fetch. This
+# covers every metadata:curseforge mod (the .mrpack bundles them as overrides too).
+# Auto-derived from the metafiles so the list can never drift: add a CF mod and it
+# gets bundled; move a mod to Modrinth (mode=url) and it drops out — no manual list.
+mapfile -t BUNDLED_SLUGS < <(
+  grep -l 'metadata:curseforge' "$PACK_SRC"/mods/.index/*.pw.toml \
+    | xargs -n1 basename | sed 's/\.pw\.toml$//' | sort
 )
 # Mods to keep in YOUR dev instance but NOT ship (e.g. profilers). Dropped from
 # the published tree + .mrpack, including a matching config/<slug> folder.
@@ -72,8 +70,12 @@ GHPAGES_BRANCH="gh-pages"
 FORGE_VERSION="1.20.1-47.4.20"
 FORGE_INSTALLER_URL="https://maven.minecraftforge.net/net/minecraftforge/forge/${FORGE_VERSION}/forge-${FORGE_VERSION}-installer.jar"
 # Server zip ships these override folders (gameplay/config). Pure-client dirs
-# (resourcepacks, shaderpacks, patchouli_books, controllable_natives, icons) are omitted.
-SERVER_OVERRIDES=(config kubejs defaultconfigs data scripts trees modernfix)
+# (resourcepacks, shaderpacks, controllable_natives, icons) are omitted.
+# patchouli_books IS shipped to the server: Patchouli's BookFolderLoader is
+# common-side, so the dedicated server must have the books to register them and
+# send the open-GUI packet — otherwise guides don't open in multiplayer
+# (datapack registration does NOT work; see docs/PATCHES.md 2026-06-28).
+SERVER_OVERRIDES=(config kubejs defaultconfigs data scripts trees modernfix patchouli_books)
 
 # ---- args -------------------------------------------------------------------
 RELEASE=0; PUBLISH=0
