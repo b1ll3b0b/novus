@@ -1,0 +1,18 @@
+{
+  "name": "Lamps & Lights",
+  "icon": "minecraft:redstone_lamp",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Redstone Lamp$() \u2014 full bright when powered. $(italic)Macaw's Lights$() adds a $(bold)Redstone Lamp Slab$() for the half-height version. $(italic)Supplementaries'$() $(bold)Redstone Illuminator$() is a flush, decorative lamp that toggles with a signal.",
+      "title": "Switched Lights"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Rainbow Lamp.$() Its colour follows the $(italic)strength$() of the redstone signal feeding it \u2014 0 to 15 maps to the sixteen dye colours. A steady signal holds one colour; a $(l:6_reading/comparator)comparator$() or a changing input makes it a live readout in light.",
+      "title": "Rainbow Lamp"
+    }
+  ],
+  "category": "patchouli:5_outputs"
+}

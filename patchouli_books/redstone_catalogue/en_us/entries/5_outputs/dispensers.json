@@ -1,0 +1,13 @@
+{
+  "name": "Dispensers & Droppers",
+  "icon": "minecraft:dispenser",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Dispensers$() $(italic)use$() what they hold \u2014 shoot arrows, place water, shear sheep, fire fireworks. $(bold)Droppers$() simply eject the item. Both fire on a rising edge, so feed them a pulse, not a held signal.",
+      "title": "Dispense vs Drop"
+    }
+  ],
+  "category": "patchouli:5_outputs"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Quark Devices",
+  "icon": "quark:redstone_randomizer",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(bold)Redstone Randomizer$() \u2014 splits a pulse to one of two outputs at random.$(li)$(bold)Metal Buttons$() \u2014 iron and gold buttons that take a heavier trigger (e.g. only arrows / players).$(li)$(bold)Crafter$() \u2014 auto-crafts a set recipe when pulsed (Quark's take on the automation block).",
+      "title": "Quark \u00b7 Logic"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "(Quark's $(bold)Ender Watcher$() is a $(l:2_inputs/watchers)sensor$(); $(bold)Gravisand$() and the $(bold)Iron Rod$() are $(l:5_outputs/pistons)motion$() parts.)",
+      "title": "See Also"
+    }
+  ],
+  "category": "patchouli:7_devices"
+}

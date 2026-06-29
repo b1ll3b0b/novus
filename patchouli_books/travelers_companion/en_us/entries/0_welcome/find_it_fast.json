@@ -1,0 +1,43 @@
+{
+  "name": "Find It Fast",
+  "icon": "minecraft:spyglass",
+  "category": "patchouli:0_welcome",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Looking for one thing?$() This is the map \u2014 each line jumps straight to the page that explains it.$(br2)If you're new, read $(l:1_first_days/first_day)Of First Days$() first; this index is for when you have a specific question.",
+      "title": "Find It Fast"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Getting around$()$(br)$(li)$(l:4_wayfaring/waystones)Waystones$() \u2014 instant travel$(li)$(l:4_wayfaring/compasses)Compasses$() \u2014 find biomes & structures$(li)$(l:4_wayfaring/atlas)Antique Atlas$() and $(l:4_wayfaring/map_atlases)Map Atlases$() \u2014 self-drawing maps$(li)$(l:4_wayfaring/chalk)Chalk$() \u2014 mark a trail$(li)$(l:4_wayfaring/chunk_claim)Claiming land$()$(li)$(l:4_wayfaring/voicechat)Voice chat$()",
+      "title": "Getting Around"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Carrying & gear$()$(br)$(li)$(l:pack_tackle/backpacks)Backpacks$()$(li)$(l:pack_tackle/quivers)Quivers$()$(li)$(l:pack_tackle/curios)Accessory slots$() (Curios)$(li)$(l:pack_tackle/gadgets)Gadgets$() \u2014 rope, slingshot, the small tools$(li)$(l:pack_tackle/jade)Jade$() \u2014 name what you look at$(li)$(l:pack_tackle/scarecrows)Scarecrows$()",
+      "title": "Carrying & Gear"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Food & farming$()$(br)$(li)$(l:2_hearth_season/wild_edibles_hearth)Wild edibles & the cooking pot$()$(li)$(l:2_hearth_season/varied_table)A varied table$()$(li)$(l:2_hearth_season/calendar)The year & seasons$()$(li)$(l:2_hearth_season/trees)Trees & catalysts$()$(li)$(l:2_hearth_season/pressing_seeds)Pressing seeds for oil$()$(li)$(l:2_hearth_season/animal_husbandry)Keeping animals$() \u2014 the feeding trough",
+      "title": "Food & Farming"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Building$()$(br)$(li)$(l:5_builders_hand/ceramics)Clay, ceramics & Ceramic Shears$()$(li)$(l:5_builders_hand/furnishings)Furniture$()$(li)$(l:5_builders_hand/doors_windows)Doors & windows$()$(li)$(l:5_builders_hand/roofs_stairs)Roofs & stairs$()$(li)$(l:5_builders_hand/paths_lights)Paths & lights$()$(li)$(l:5_builders_hand/rainbow_lamp)Rainbow Lamp$()$(li)$(l:5_builders_hand/builders_tools)Builder's tools$() \u2014 the Trowel",
+      "title": "Building"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)World, weather & villages$()$(br)$(li)$(l:3_beyond_world/favorite_worlds)Protecting a world$()$(li)$(l:3_beyond_world/chunky_pregen)Pre-generating terrain$()$(li)$(l:3_beyond_world/light_overlay)Reading light levels$()$(li)$(l:weather_sky/weather_system)How the weather works$()$(li)$(l:weather_sky/wind_vane)Reading the weather$()$(li)$(l:6_villages/trading_basics)Trading$() and $(l:6_villages/new_professions)professions$()",
+      "title": "World, Weather & Villages"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Redstone & other books$()$(br)$(li)$(bold)Redstone$() has its own book \u2014 the $(l:7_catalog/redstone_catalogue)Redstone Catalogue$() (vanilla foundations plus every mod's wiring, sensors, and lamps).$(li)Every mod's own in-game guide is shelved in $(italic)The Library$() (last tab).$(br2)Still stuck? The thing may be a page inside a nearby entry \u2014 or just search the item in $(italic)EMI$().",
+      "title": "Redstone & More"
+    }
+  ]
+}

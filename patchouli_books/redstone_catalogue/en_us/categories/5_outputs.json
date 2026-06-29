@@ -1,0 +1,6 @@
+{
+  "name": "Outputs & Actuators",
+  "description": "Pistons, lamps, doors, ordnance \u2014 signal made physical.",
+  "icon": "minecraft:piston",
+  "sortnum": 5
+}

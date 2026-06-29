@@ -1,0 +1,13 @@
+{
+  "name": "Display Blocks",
+  "icon": "supplementaries:crystal_display",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Supplementaries$() turns items into signals you can see:$(br)$(li)$(bold)Crystal Display$() / $(bold)Item Shelf$() \u2014 show an item on the wall; a comparator reads whether one's present.$(li)$(bold)Notice Board$() \u2014 holds and displays one item or a written page.",
+      "title": "Show & Read"
+    }
+  ],
+  "category": "patchouli:6_reading"
+}

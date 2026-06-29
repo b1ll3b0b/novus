@@ -1,0 +1,18 @@
+{
+  "name": "Repeater",
+  "icon": "minecraft:repeater",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(bold)Repeater$() does three jobs: it $(italic)repeats$() (resets signal to 15 and sends it on), it $(italic)delays$() (one to four ticks, right-click to set), and it's a $(italic)diode$() \u2014 signal passes one way only.",
+      "title": "Repeater"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Locking.$() Drive a repeater's side with another repeater or comparator and its little latch drops \u2014 it $(italic)holds$() its current output, ignoring its input. A one-block memory cell.",
+      "title": "Locking"
+    }
+  ],
+  "category": "patchouli:1_foundations"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Create's Redstone",
+  "icon": "create:redstone_link",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Create$() carries a full redstone toolkit of its own \u2014 documented in depth in the $(bold)Create Compendium$(). The headline parts:$(br)$(li)$(bold)Redstone Link$() + $(bold)Redstone Contact$() \u2014 wireless signal between two points.$(li)$(bold)Linked Controller$() \u2014 handheld control of link frequencies.",
+      "title": "Create \u00b7 Wireless"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(bold)Powered Latch$() / $(bold)Toggle Latch$() \u2014 memory cells.$(li)$(bold)Pulse Repeater$(), $(bold)Pulse Extender$(), $(bold)Pulse Timer$() \u2014 pulse shaping.$(li)$(bold)Smart Observer$(), $(bold)Redstone Requester$() \u2014 content-aware sensing.$(li)$(bold)Desk Bell$() & $(bold)Placard$() \u2014 emit a signal when used.$(br2)All explained, with Ponder scenes, in the Compendium.",
+      "title": "Create \u00b7 Logic"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Create add-ons$() extend it further:$(br)$(li)$(italic)Create Crafts & Additions$() \u2014 $(bold)Redstone Relay$(): gates Forge Energy on a redstone signal.$(li)$(italic)Create Connected$() \u2014 $(bold)Sequenced Pulse Generator$(), $(bold)Redstone Link Wildcard$().$(li)$(italic)Vibrant Vaults$() \u2014 coloured $(bold)Redstone Requesters$().$(li)$(italic)Create Hypertube$() \u2014 a $(bold)Redstone Detector$() attachment.",
+      "title": "Create Add-ons"
+    }
+  ],
+  "category": "patchouli:8_beyond"
+}

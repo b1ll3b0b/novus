@@ -1,0 +1,18 @@
+{
+  "name": "Rainbow Lamp",
+  "icon": "rainbowlamp:rainbow_lamp",
+  "category": "patchouli:5_builders_hand",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Rainbow Lamp$() adds a single full-bright lamp whose $(bold)colour follows the redstone signal$() feeding it \u2014 strengths 0 to 15 map to the sixteen dye colours.$(br2)Feed it a steady signal and it holds that colour; wire it to a changing input \u2014 a comparator, a clock \u2014 and it shifts. Equal parts decoration and a readout you can see across the room.",
+      "title": "Rainbow Lamp"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Crafting$() \u2014 see $(italic)EMI$(). The full wiring side \u2014 and every other lamp and sensor in the pack \u2014 lives in the $(italic)Redstone Catalogue$().",
+      "title": "Wiring It"
+    }
+  ]
+}

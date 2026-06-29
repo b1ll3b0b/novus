@@ -1,0 +1,6 @@
+{
+  "name": "Reading & Displays",
+  "description": "Comparator readouts and blocks that show a value.",
+  "icon": "minecraft:comparator",
+  "sortnum": 6
+}

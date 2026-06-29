@@ -1,0 +1,18 @@
+{
+  "name": "Signal Strength",
+  "icon": "minecraft:redstone",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Redstone carries a number from $(bold)0 to 15$(). Zero is off; fifteen is a torch, a button, a lever fresh-thrown.$(br2)Loose $(bold)dust$() loses one step per block travelled, so a signal dies fifteen blocks from its source unless something boosts it.",
+      "title": "0 to 15"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Repeaters$() reset a signal back to 15 and push it onward \u2014 the classic way to cross distance. $(italic)More Red's$() $(l:3_wiring/red_alloy_wire)Red Alloy Wire$() carries much further before fading, and climbs walls dust can't.$(br2)Many blocks $(italic)read$() the exact number \u2014 a $(l:6_reading/comparator)comparator$() off a chest tells you how full it is, 0 to 15.",
+      "title": "Boosting & Reading"
+    }
+  ],
+  "category": "patchouli:0_foreword"
+}

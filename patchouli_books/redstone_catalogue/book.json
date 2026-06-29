@@ -1,0 +1,10 @@
+{
+  "name": "Redstone Catalogue",
+  "landing_text": "$(bold)The works, wired.$()$(p)A catalogue of redstone in Novus \u2014 vanilla first, then everything the mods add. Signal runs 0 to 15; read $(italic)Foundations$() if that sentence means nothing yet.$(p)Create's own redstone has its own book \u2014 the $(italic)Create Compendium$().",
+  "book_texture": "patchouli:textures/gui/book_red.png",
+  "model": "patchouli:book_red",
+  "creative_tab": "tools",
+  "i18n": false,
+  "show_progress": false,
+  "version": 1
+}

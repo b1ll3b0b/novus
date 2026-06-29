@@ -1,0 +1,6 @@
+{
+  "name": "Inputs & Sensors",
+  "description": "Everything that turns the world into a signal.",
+  "icon": "minecraft:daylight_detector",
+  "sortnum": 2
+}

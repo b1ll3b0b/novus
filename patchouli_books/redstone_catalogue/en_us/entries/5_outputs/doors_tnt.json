@@ -1,0 +1,18 @@
+{
+  "name": "Doors & Ordnance",
+  "icon": "minecraft:tnt",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Iron Doors, Trapdoors, and Fence Gates$() open only on a signal (wood ones can also be clicked). $(bold)TNT$() primes when powered \u2014 the loud actuator.",
+      "title": "Doors & TNT"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Tinkers' Construct$() adds the $(bold)Seared$() and $(bold)Scorched Fluid Cannons$(): point them, power them, and they fire a jet of whatever fluid they hold. Smeltery plumbing meets redstone.",
+      "title": "Fluid Cannons"
+    }
+  ],
+  "category": "patchouli:5_outputs"
+}

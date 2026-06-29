@@ -1,0 +1,18 @@
+{
+  "name": "Network Cables",
+  "icon": "morered:blue_network_cable",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Network Cables$() carry a signal inside an insulated line that $(italic)doesn't$() leak into neighbours \u2014 sixteen dyed colours, so sixteen independent channels can run side by side without crosstalk.",
+      "title": "Coloured Channels"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Match colours to keep circuits apart: red for the door, blue for the lights, green for the farm \u2014 all in the same wall, never touching.",
+      "title": "Keeping Them Apart"
+    }
+  ],
+  "category": "patchouli:3_wiring"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Observers & Targets",
+  "icon": "minecraft:observer",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Observer$() \u2014 pulses when the watched block changes (growth, a piston, a sign edit). $(bold)Target Block$() \u2014 outputs a signal whose strength depends on how close an arrow (or trident) hits the centre. A redstone dartboard.",
+      "title": "Watchers"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Quark's$() $(bold)Ender Watcher$() is the odd one: it fires when a $(italic)player looks at it$(). Hide one in a wall to trip a trap when someone meets its gaze.",
+      "title": "Ender Watcher"
+    }
+  ],
+  "category": "patchouli:2_inputs"
+}

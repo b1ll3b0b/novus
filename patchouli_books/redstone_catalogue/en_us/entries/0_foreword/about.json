@@ -1,0 +1,23 @@
+{
+  "name": "About this Book",
+  "icon": "minecraft:writable_book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This book gathers $(bold)every redstone-relevant block and item$() in Novus and sorts them by what they $(italic)do$() \u2014 sense, wire, decide, act, read \u2014 rather than by which mod they came from.$(br2)Vanilla comes first. If you already know redstone, skim $(italic)Foundations$() and start at $(l:3_wiring/red_alloy_wire)Wiring$().",
+      "title": "About this Book"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)What's not here.$() $(italic)Create$() has so much redstone of its own that it keeps its own book \u2014 the $(italic)Create Compendium$(). This catalogue lists Create's redstone parts in $(l:8_beyond/create)Create & Beyond$() and points you there for the detail.$(br2)$(italic)Botania$() redstone interfaces live in the $(italic)Lexica Botania$(); they're noted here, explained there.",
+      "title": "What's Elsewhere"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Recipes.$() Open $(italic)EMI$() and look an item up \u2014 it shows the recipe and every use. This book explains $(italic)behaviour$(); EMI handles ingredients.",
+      "title": "Recipes & EMI"
+    }
+  ],
+  "category": "patchouli:0_foreword"
+}

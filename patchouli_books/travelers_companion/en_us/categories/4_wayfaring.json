@@ -1,6 +1,6 @@
 {
-  "name": "Wayfaring & Maps",
-  "description": "Two quiet helpers for finding your way \u2014 a map that draws itself, and a piece of chalk that remembers where you've been.",
+  "name": "Travel & Maps",
+  "description": "Finding your way and getting there fast \u2014 waystones, compasses, self-drawing atlases, chalk trails, land claims, and voice chat.",
   "icon": "minecraft:filled_map",
   "sortnum": 4
 }

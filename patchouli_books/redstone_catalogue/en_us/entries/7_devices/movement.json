@@ -1,0 +1,18 @@
+{
+  "name": "Item Movement",
+  "icon": "minecraft:hopper",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Hoppers$() pull and pass items (lock one with a signal to gate flow). $(italic)Quark$() adds the $(bold)Chute$() \u2014 a one-block hopper that simply drops items straight through \u2014 and $(bold)Copper Pipes$() that push items along a line when pulsed, with encased variants to hide the run.",
+      "title": "Moving Items"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For factory-scale logistics \u2014 funnels, belts, the package network \u2014 see the $(italic)Create Compendium$(). For penned-animal automation, the $(italic)Traveler's Companion$() covers the $(bold)Feeding Trough$().",
+      "title": "Bigger Logistics"
+    }
+  ],
+  "category": "patchouli:7_devices"
+}

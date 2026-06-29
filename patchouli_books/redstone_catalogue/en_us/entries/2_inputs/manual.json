@@ -1,0 +1,18 @@
+{
+  "name": "Buttons & Levers",
+  "icon": "minecraft:lever",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Levers$() hold a state; $(bold)buttons$() give a short pulse (stone shorter than wood); $(bold)pressure plates$() fire when something stands on them. The whole manual-input family.",
+      "title": "By Hand"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)InfinityButtons$() adds the same wiring in disguise: a $(bold)Doorbell Button$() that chimes and emits a signal, a $(bold)Lantern Button$() that powers the chain above it, and $(bold)Redstone Torch$() buttons and levers that read as decoration but wire like the real thing.",
+      "title": "InfinityButtons"
+    }
+  ],
+  "category": "patchouli:2_inputs"
+}

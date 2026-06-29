@@ -1,0 +1,18 @@
+{
+  "name": "Comparator",
+  "icon": "minecraft:comparator",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(bold)Comparator$() has two modes (click the front torch):$(br)$(li)$(bold)Compare$() \u2014 output stays on unless a stronger signal comes in the side.$(li)$(bold)Subtract$() \u2014 output equals back input minus the larger side input.",
+      "title": "Comparator"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Its real magic is reading.$() Put a comparator against a chest, barrel, furnace, brewing stand, cake, cauldron, or item frame and it emits a signal $(italic)proportional to the contents$() \u2014 the cornerstone of every storage readout in $(l:6_reading/comparator)Reading & Displays$().",
+      "title": "Reading the World"
+    }
+  ],
+  "category": "patchouli:1_foundations"
+}

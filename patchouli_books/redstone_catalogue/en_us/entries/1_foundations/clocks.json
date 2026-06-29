@@ -1,0 +1,18 @@
+{
+  "name": "Clocks & Pulses",
+  "icon": "minecraft:observer",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(bold)clock$() is anything that toggles on its own \u2014 a repeater loop, a hopper-comparator timer, an $(bold)Observer$() staring at a block it helps move.$(br2)An $(bold)Observer$() emits a one-tick pulse whenever the block it faces $(italic)changes$() \u2014 the simplest, most reliable pulse source in vanilla.",
+      "title": "Clocks"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Need a clean single pulse from a long press? That's a $(bold)pulse shaper$(). Vanilla does it with a torch and a repeater; $(italic)More Red$() packages it as the $(l:4_logic/timing)Pulse Gate$().",
+      "title": "Pulses"
+    }
+  ],
+  "category": "patchouli:1_foundations"
+}

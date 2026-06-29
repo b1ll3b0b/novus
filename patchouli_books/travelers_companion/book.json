@@ -1,6 +1,6 @@
 {
   "name": "Traveler's Companion",
-  "landing_text": "$(bold)Welcome to Novus.$()$(p)A short survival manual for the first few hours, with notes on the systems that have changed. Read $(italic)Of First Days$() in order; skim the rest as you need it.",
+  "landing_text": "$(bold)Welcome to Novus.$()$(p)$(bold)New here?$() Read $(italic)Of First Days$() top to bottom \u2014 the first night, and what's changed from vanilla.$(p)$(bold)Looking for one thing?$() Open $(italic)Find It Fast$() (first page of Welcome) \u2014 it jumps straight to wherever a topic or item lives.$(p)Each mod also ships its own in-game book; see $(italic)The Library$().",
   "book_texture": "patchouli:textures/gui/book_brown.png",
   "model": "patchouli:book_brown",
   "creative_tab": "tools",

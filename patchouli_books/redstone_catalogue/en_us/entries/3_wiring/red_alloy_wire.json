@@ -1,0 +1,18 @@
+{
+  "name": "Red Alloy Wire",
+  "icon": "morered:red_alloy_wire",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)More Red$() begins with the $(bold)Red Alloy Ingot$() (smelt redstone with iron) and the $(bold)Red Alloy Wire$() you draw from it.$(br2)The wire is flat like dust but carries $(bold)much further$() before fading, and runs up walls and across ceilings \u2014 the compact backbone of a tidy build.",
+      "title": "Red Alloy Wire"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Lay it with a $(bold)Redwire Spool$() to string long runs quickly. Where dust would need repeater after repeater, alloy wire just keeps going.",
+      "title": "The Spool"
+    }
+  ],
+  "category": "patchouli:3_wiring"
+}

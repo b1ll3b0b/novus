@@ -1,0 +1,18 @@
+{
+  "name": "Storage Signals",
+  "icon": "storagedrawers:redstone_upgrade",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Storage Drawers$() upgrades emit a comparator-style signal:$(br)$(li)$(bold)Redstone Upgrade$() \u2014 total fullness.$(li)$(bold)Min Redstone Upgrade$() \u2014 the least-full slot.$(li)$(bold)Max Redstone Upgrade$() \u2014 the most-full slot.$(br2)Drop one in a drawer and wire restocking to it.",
+      "title": "Drawer Signals"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Tom's Simple Storage$() adds the $(bold)Level Emitter$() \u2014 it emits a redstone signal based on how much of a chosen item the storage network holds. Network-wide stock control in one block.",
+      "title": "Level Emitter"
+    }
+  ],
+  "category": "patchouli:6_reading"
+}

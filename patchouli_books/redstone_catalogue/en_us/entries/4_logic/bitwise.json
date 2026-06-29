@@ -1,0 +1,13 @@
+{
+  "name": "Bitwise Gates",
+  "icon": "morered:bitwise_and_gate",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(bold)Bitwise$() gates (AND, OR, NOT, XOR, XNOR, plus the $(bold)Bitwise Diode$()) operate on a whole $(l:3_wiring/bundled)bundled cable$() at once \u2014 sixteen channels processed in parallel through one block.$(br2)This is how you do real computation in More Red without a wall of single-line gates.",
+      "title": "Sixteen at Once"
+    }
+  ],
+  "category": "patchouli:4_logic"
+}

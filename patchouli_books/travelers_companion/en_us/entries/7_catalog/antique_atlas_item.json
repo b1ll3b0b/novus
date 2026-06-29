@@ -1,0 +1,13 @@
+{
+  "name": "Antique Atlas",
+  "icon": "minecraft:filled_map",
+  "category": "patchouli:7_catalog",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Antique Atlas$() \u2014 the hand-drawn explorer's map. In Novus it's bound to you and opens with $(bold)M$() (no item needed), but you can carry a $(bold)physical copy$() if you want a separate map per base or dimension.$(br2)The full walkthrough is in $(l:4_wayfaring/atlas)Wayfaring & Maps$().$(br2)$(bold)To make the item:$() take a $(italic)Book$() to an $(italic)Anvil$() and rename it $(bold)Antique Atlas$(), exactly so.",
+      "title": "Antique Atlas"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Light, Sky & Season",
+  "icon": "minecraft:daylight_detector",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Daylight Detector$() outputs by sky light \u2014 right-click to invert it into a night sensor. $(bold)Lightning Rod$() emits when struck. $(bold)Sculk Sensor$() (and the $(bold)Calibrated$() variant) hears vibrations and outputs their type.",
+      "title": "Sky & Sound"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Season Sensor.$() $(italic)Serene Seasons$() adds a daylight-detector cousin that reads the $(bold)season$() instead of the sun \u2014 strongest in its tuned season, tapering toward the others. Wire seasonal farms, doors, or lighting to the calendar itself.",
+      "title": "Season Sensor"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)A note on weather.$() Under Novus' $(italic)Simple Clouds$() weather, the global rain flag a daylight detector watches is frozen \u2014 so it $(italic)won't$() catch a Simple Clouds storm, and Quark's Weather Detector is disabled for the same reason.$(br2)The one block that reads Simple Clouds storms is the $(italic)Supplementaries$() $(bold)Wind Vane$() (via Simple Clouds Compat) \u2014 see the $(italic)Traveler's Companion$().",
+      "title": "Weather \u2192 the Wind Vane"
+    }
+  ],
+  "category": "patchouli:2_inputs"
+}

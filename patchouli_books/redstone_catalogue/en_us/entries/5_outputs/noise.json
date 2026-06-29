@@ -1,0 +1,13 @@
+{
+  "name": "Note Blocks & Bells",
+  "icon": "minecraft:note_block",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Note Blocks$() play a pitch set by right-clicks, timbre set by the block beneath. $(bold)Bells$() ring on a pulse.$(br2)$(italic)Supplementaries'$() $(bold)Speaker Block$() goes further \u2014 type a message and it reads it aloud to nearby players when powered.",
+      "title": "Sound on a Signal"
+    }
+  ],
+  "category": "patchouli:5_outputs"
+}

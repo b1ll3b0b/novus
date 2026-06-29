@@ -1,0 +1,18 @@
+{
+  "name": "Dust & Power",
+  "icon": "minecraft:redstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Redstone Dust$() is wire on the ground. It powers what it touches and carries signal up to fifteen blocks before fading. It climbs the sides of full blocks but not down a sheer drop.$(br2)A $(bold)Block of Redstone$() is a permanent power source \u2014 always on, and pushable by pistons.",
+      "title": "Dust"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Strong vs weak power.$() A powered $(italic)component$() (torch, lever) strongly powers the block it sits on; that block then $(italic)weakly$() powers adjacent dust and devices. Weak power runs machines but won't re-power more dust.$(br2)This is why a lamp lights through a wall but the dust beyond it stays dark \u2014 the wall is weakly powered.",
+      "title": "Strong & Weak"
+    }
+  ],
+  "category": "patchouli:1_foundations"
+}

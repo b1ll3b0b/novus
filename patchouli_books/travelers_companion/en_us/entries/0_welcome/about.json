@@ -2,7 +2,7 @@
   "name": "About this Guide",
   "icon": "minecraft:bookshelf",
   "category": "patchouli:0_welcome",
-  "sortnum": 0,
+  "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
@@ -11,7 +11,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(bold)How to use it:$()$(br)$(li)Read $(italic)Of First Days$() in order \u2014 it's everything you need on day one.$(li)$(italic)Hearth & Season$() is cooking and the year, both relevant by day two or three.$(li)$(italic)Beyond the World$() gathers a few quiet utilities \u2014 favouriting worlds, pre-generation, reading the light.$(li)$(italic)Wayfaring$(), $(italic)Builder's Hand$(), and $(italic)Of Villages$() cover the rest \u2014 maps, decorative blocks, and the people who live in the world.$(li)$(italic)The Library$() lists every other in-game guide book.$(br2)The in-game books each mod ships do the deeper reference work; this guide just gets you started."
+      "text": "$(bold)How to use it:$()$(br)$(li)Read $(italic)Of First Days$() in order \u2014 everything you need on day one.$(li)Need a specific thing? $(l:0_welcome/find_it_fast)Find It Fast$() jumps you straight to it.$(li)$(italic)Food & Seasons$() covers cooking, the year, farming, and animals.$(li)$(italic)Travel & Maps$(), $(italic)Gear & Gadgets$(), $(italic)Builder's Hand$() and $(italic)Of Villages$() cover getting around, what you carry, building, and trade.$(li)$(italic)The Library$() lists every other mod's in-game book.$(br2)The in-game books each mod ships do the deeper reference work; this guide just gets you started."
     }
   ]
 }

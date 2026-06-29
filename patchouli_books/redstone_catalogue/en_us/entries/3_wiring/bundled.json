@@ -1,0 +1,18 @@
+{
+  "name": "Bundled Cable",
+  "icon": "morered:bundled_network_cable",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(bold)Bundled Cable$() carries $(italic)all sixteen colours at once$() in a single line \u2014 one cable for a whole control panel. Break it back out into coloured cables at the far end.",
+      "title": "Sixteen in One"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To see what's flowing inside one, the $(bold)Hexidecrubrometer$() reads a bundled cable and reports its combined value \u2014 your debugger for a tangle of channels.",
+      "title": "Hexidecrubrometer"
+    }
+  ],
+  "category": "patchouli:3_wiring"
+}

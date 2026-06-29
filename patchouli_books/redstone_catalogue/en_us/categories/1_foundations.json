@@ -1,0 +1,6 @@
+{
+  "name": "Foundations",
+  "description": "Vanilla redstone \u2014 dust, torches, repeaters, comparators.",
+  "icon": "minecraft:redstone_torch",
+  "sortnum": 1
+}

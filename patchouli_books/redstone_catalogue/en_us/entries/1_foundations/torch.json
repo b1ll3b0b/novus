@@ -1,0 +1,18 @@
+{
+  "name": "Redstone Torch",
+  "icon": "minecraft:redstone_torch",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(bold)Redstone Torch$() is a power source \u2014 and an $(bold)inverter$(). On its own it's on. Power the block it's attached to and it turns $(italic)off$().$(br2)That flip \u2014 input on, output off \u2014 is a $(bold)NOT$() gate, the seed of all logic. $(italic)More Red$() sells one as a tidy block; see $(l:4_logic/gates)Logic$().",
+      "title": "The Inverter"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Burnout.$() Pulse a torch too fast and it briefly burns out to stop runaway loops. Space your clocks, or use a $(l:4_logic/timing)Pulse Gate$() built for the job.",
+      "title": "Burnout"
+    }
+  ],
+  "category": "patchouli:1_foundations"
+}

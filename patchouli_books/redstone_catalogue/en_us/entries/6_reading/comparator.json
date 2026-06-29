@@ -1,0 +1,13 @@
+{
+  "name": "Comparator Readouts",
+  "icon": "minecraft:comparator",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(l:1_foundations/comparator)comparator$() against a container reads its fullness as a signal 0\u201315 \u2014 the basis of every storage alarm, auto-sorter overflow, and 'is the furnace done?' light.$(br2)Item frames work too: rotate the framed item and the comparator steps through sixteen values \u2014 a hidden combination lock.",
+      "title": "Reading Containers"
+    }
+  ],
+  "category": "patchouli:6_reading"
+}

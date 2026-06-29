@@ -1,0 +1,23 @@
+{
+  "name": "Compasses",
+  "icon": "naturescompass:naturescompass",
+  "category": "patchouli:4_wayfaring",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Two compasses answer the two questions a traveler actually asks \u2014 $(italic)where is the nearest$() biome, and where is the nearest structure. Neither replaces the $(l:4_wayfaring/atlas)Antique Atlas$(): they point, the atlas remembers.",
+      "title": "Compasses"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Nature's Compass$() finds $(italic)biomes$(). Right-click to open a searchable list of every biome in the pack; choose one and the needle turns toward the nearest example, with its distance. The fast way to a cherry grove, a mushroom island, or whatever biome a recipe or a build wants.",
+      "title": "Nature's Compass"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Explorer's Compass$() does the same for $(italic)structures$() \u2014 villages, mansions, monuments, ocean ruins, and the pack's $(italic)Repurposed Structures$() additions. Open it, pick a structure, and follow the needle.$(br2)$(bold)$(novus)On overlap.$()$() $(italic)Quark's$() $(bold)Pathfinder's Quill$() buys single-use $(italic)biome maps$() from a cartographer \u2014 the same job as Nature's Compass, by map instead of needle. Use whichever you have; they don't conflict.",
+      "title": "Explorer's Compass"
+    }
+  ]
+}

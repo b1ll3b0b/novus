@@ -28,7 +28,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(bold)Carry rope.$() $(italic)Supplementaries Rope$() is the canonical rope item in Novus. Use it to climb cliffs by placing and shift-clicking, and as a trellis for tomato vines (they climb rope tagged as rope).",
+      "text": "$(bold)Carry rope.$() $(italic)Supplementaries Rope$() climbs cliffs (place it, then shift-click to descend) and doubles as a trellis for tomato vines. Cheap, and worth a stack on day one \u2014 see $(l:pack_tackle/gadgets)Gadgets$() for the rest of the small tools.",
       "title": "Rope"
     },
     {

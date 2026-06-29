@@ -1,23 +1,53 @@
 {
-  "name": "Small Gadgets",
+  "name": "Gadgets",
   "icon": "supplementaries:flute",
   "category": "patchouli:pack_tackle",
   "sortnum": 4,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(italic)Supplementaries$() scatters a handful of practical gadgets through the pack \u2014 small tools that solve one problem each and ask nothing of any tech tree. None are required; each is worth knowing.",
-      "title": "Small Gadgets"
+      "text": "Half of what makes Novus comfortable isn't a tech tree \u2014 it's a drawer of small tools, mostly from $(italic)Supplementaries$() and $(italic)Quark$(), that each solve one problem and ask nothing in return. This entry sorts them two ways: the things you $(bold)carry$() (survival), and the things you $(bold)wire$() (redstone).$(br2)None are required. For storage proper see $(l:pack_tackle/backpacks)Backpacks$() and $(l:pack_tackle/quivers)Quivers$(); for finding your way, the $(l:4_wayfaring/compasses)Compasses$().",
+      "title": "Gadgets"
     },
     {
       "type": "patchouli:text",
-      "text": "$(bold)For getting around and getting up.$()$(br)$(li)$(bold)Rope$() \u2014 string it down a shaft and climb it like a ladder; coil it back up as you go. The fastest way in and out of a cave you dug straight down.$(li)$(bold)Slingshot$() \u2014 a cheap launch upward, or a way to fling a stack of items across a gap.$(li)$(bold)Flute$() \u2014 whistle your tamed pets to your side from across a base.",
-      "title": "Getting Around"
+      "text": "$(novus)$(bold)Survival \u2014 what you carry.$()$()$(br2)$(bold)Getting around and up.$()$(br)$(li)$(bold)Rope$() \u2014 string it down a shaft and climb it like a ladder; coil it back as you go.$(li)$(bold)Rope Arrow$() \u2014 fire one at a ledge to leave a climbable line where you couldn't reach.$(li)$(bold)Slingshot$() \u2014 a cheap launch upward, or a way to fling a stack across a gap.$(li)$(bold)Bubble Blower$() \u2014 fills space with clinging bubbles; a soft landing, or a slow lift.$(li)$(bold)Cloud in a Bottle$() $(italic)(Quark)$() \u2014 pour out a pocket cloud to stand on, then bottle it back up.",
+      "title": "Getting Around & Up"
     },
     {
       "type": "patchouli:text",
-      "text": "$(bold)For the workshop and the shelf.$()$(br)$(li)$(bold)Bubble Blower$() \u2014 fills space with clinging bubble blocks; decorative, and a soft landing.$(li)$(bold)Bombs$() \u2014 a thrown, contained blast for clearing stone without a creeper's mess.$(li)$(bold)Sacks, jars, and shelves$() hold and show off what you've gathered.$(br2)$(italic)This is a sampler, not the catalogue \u2014 open EMI and search $(bold)Supplementaries$() to see the rest, recipes and all.$()",
-      "title": "Workshop & Shelf"
+      "text": "$(bold)Carrying and keeping.$()$(br)$(li)$(bold)Sack$() \u2014 a soft pouch that holds a jumble of items and keeps them when stowed.$(li)$(bold)Lunch Basket$() \u2014 food only, but a lot of it; eat straight from the basket.$(li)$(bold)Seed Pouch$() $(italic)(Quark)$() \u2014 holds one kind of seed by the stack and plants whole rows in a sweep.$(li)$(bold)Safe$() \u2014 a locked chest bound to a $(bold)Key$(); only the keyholder opens it.$(li)$(bold)Lock Block$() and $(bold)Key$() \u2014 lock a door or container the same way.$(li)$(bold)Cage$() \u2014 scoop up a small mob and carry it home.$(li)$(bold)Jar$() \u2014 store cookies, items, or a captured firefly; a comparator reads how full it is.",
+      "title": "Carrying & Keeping"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Reading, lighting, reckoning.$()$(br)$(li)$(bold)Flute$() \u2014 whistle your tamed pets to your side from across a base.$(li)$(bold)Altimeter$() \u2014 held, it reads your exact $(italic)Y$() height \u2014 for diamond depth or a level bridge.$(li)$(bold)Torch Arrow$() $(italic)(Quark)$() \u2014 shoot light onto a far ledge or down a hole.$(li)$(bold)Abacus$() $(italic)(Quark)$() \u2014 a pocket counter for exact building runs.$(li)$(bold)Color Runes$() $(italic)(Quark)$() \u2014 recolour an item's enchantment glint at an anvil.$(li)$(bold)Antique Ink$() \u2014 write sepia signs and tint globes for an old-map look.",
+      "title": "Light, Read & Reckon"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Ordnance and traps.$()$(br)$(li)$(bold)Bomb$() \u2014 a thrown, contained blast that clears stone without a creeper's mess.$(li)$(bold)Blue Bomb$() \u2014 a gentler cousin that works $(italic)underwater$().$(li)$(bold)Spiky Bomb$() \u2014 shrapnel that shreds mobs rather than terrain.$(li)$(bold)Cannon$() and $(bold)Cannonball$() \u2014 aim, load powder, and fire; a fixed siege piece.$(li)$(bold)Bamboo Spikes$() \u2014 a cheap floor trap; the tipped variant carries a potion's bite.",
+      "title": "Ordnance & Traps"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Worth keeping on you.$()$(br)$(li)$(bold)$(novus)Totem of Holding$()$() $(italic)(Quark)$() \u2014 die with one and your dropped items gather on a floating totem at the spot, instead of scattering to despawn. The best insurance in the pack.$(li)$(bold)Bucket of Slime$() $(italic)(Quark)$() \u2014 carry a slime without a leash.$(li)$(bold)Ancient Tome$() $(italic)(Quark)$() \u2014 upgrades one enchantment a single level past its normal max.$(li)$(bold)Matrix Enchanting$() $(italic)(Quark)$() \u2014 reworks the enchanting table into a placement puzzle, so you choose enchants instead of gambling.$(br2)$(italic)This is the useful half of two large mods \u2014 open EMI and search $(bold)Supplementaries$() or $(bold)Quark$() for the rest, recipes and all.$()",
+      "title": "Worth Keeping"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(novus)$(bold)Redstone \u2014 what you wire.$()$()$(br2)$(bold)Sources and signals.$()$(br)$(li)$(bold)Crank$() $(italic)(Supplementaries)$() \u2014 hand-turn it for a short burst of power; the simplest manual signal.$(li)$(bold)Relayer$() $(italic)(Supplementaries)$() \u2014 passes a redstone line straight through a block, tidying tight wiring.$(li)$(bold)Redstone Randomizer$() $(italic)(Quark)$() \u2014 splits a pulse to one of two outputs at random.$(li)$(bold)Ender Watcher$() $(italic)(Quark)$() \u2014 fires a signal when a player $(italic)looks$() at it.$(li)$(bold)Iron Rod$() $(italic)(Quark)$() \u2014 a sturdy pole pistons can shove; handy in moving contraptions.",
+      "title": "Redstone \u2014 Sources & Signals"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Displays, movers, and motion.$()$(br)$(li)$(bold)Item Shelf$() and $(bold)Crystal Display$() $(italic)(Supplementaries)$() \u2014 show an item on the wall; a comparator reads what's there.$(li)$(bold)Notice Board$() \u2014 holds and displays a single item or written page.$(li)$(bold)Speaker Block$() \u2014 reads a typed message aloud to nearby players when powered.$(li)$(bold)Spring Launcher$() \u2014 a redstone jump-pad that flings whatever stands on it.$(li)$(bold)Enderman Head$() \u2014 a look-triggered oddity for spooky wiring.$(li)$(bold)Dispenser Minecart$() \u2014 a minecart that dispenses as it rolls.",
+      "title": "Redstone \u2014 Displays & Movers"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Moving items.$()$(br)$(li)$(bold)Chute$() $(italic)(Quark)$() \u2014 a one-block hopper that simply drops items through.$(li)$(bold)Copper Pipe$() $(italic)(Quark)$() \u2014 pushes items along a line when pulsed; encased variants hide the run.$(li)$(bold)Gravisand$() $(italic)(Quark)$() \u2014 sand that falls $(italic)up$() or down on a redstone signal.$(br2)$(italic)The $(bold)Redstone Catalogue$() covers the pack's full wiring toolkit \u2014 More Red, every sensor, the lot; this page is just the gadget-sized pieces.$()",
+      "title": "Redstone \u2014 Moving Items"
     }
   ]
 }

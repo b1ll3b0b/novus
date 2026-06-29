@@ -2,7 +2,7 @@
   "name": "The Short Version",
   "icon": "minecraft:writable_book",
   "category": "patchouli:0_welcome",
-  "sortnum": 1,
+  "sortnum": 2,
   "pages": [
     {
       "type": "patchouli:text",

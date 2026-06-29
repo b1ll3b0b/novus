@@ -1,0 +1,18 @@
+{
+  "name": "Botania & Others",
+  "icon": "minecraft:redstone",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Botania$() interfaces with redstone through mana, not wire \u2014 the $(bold)Redstone Root$(), $(bold)Red Stringed Comparator$(), $(bold)Mana Detector$(), and $(bold)Detector Luminizer$(). They're listed here for completeness; the $(italic)Lexica Botania$() explains them in their own terms.",
+      "title": "Botania"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "That's the catalogue. If a block emits, reads, or reacts to a signal and it isn't here, it almost certainly belongs to $(italic)Create$() \u2014 check the Compendium \u2014 or it's brand new to the pack. Tell the pack author and it'll earn a page.",
+      "title": "The End of the Line"
+    }
+  ],
+  "category": "patchouli:8_beyond"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Plates & Tripwire",
+  "icon": "minecraft:tripwire_hook",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Pressure Plates$() (wood = any entity, stone = mobs/players) and $(bold)Weighted Plates$() (output scales with how many items/entities) are the floor sensors. $(bold)Tripwire$() strung between two hooks fires when crossed \u2014 a hidden trigger across a doorway.",
+      "title": "Underfoot & Across"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)More Red's$() $(bold)Stone Plate$() is a sturdier pressure plate that fits its wiring aesthetic \u2014 same idea, matched to the rest of a red-alloy build.",
+      "title": "Stone Plate"
+    }
+  ],
+  "category": "patchouli:2_inputs"
+}

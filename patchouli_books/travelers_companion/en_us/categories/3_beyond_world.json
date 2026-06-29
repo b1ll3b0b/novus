@@ -1,6 +1,6 @@
 {
-  "name": "Beyond the World",
-  "description": "Three quiet utilities for a long game \u2014 guarding a world on the select screen, pre-generating its terrain, and reading the light around you.",
+  "name": "World & Saves",
+  "description": "Looking after a world for the long game \u2014 protecting it on the select screen, pre-generating terrain, and reading light levels.",
   "icon": "minecraft:map",
   "sortnum": 3
 }

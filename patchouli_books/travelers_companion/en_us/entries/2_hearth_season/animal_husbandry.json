@@ -1,0 +1,18 @@
+{
+  "name": "Keeping Animals",
+  "icon": "quark:feeding_trough",
+  "category": "patchouli:2_hearth_season",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Breeding animals in Novus is vanilla \u2014 hold their food, two at a time, hearts and a calf. The one convenience worth knowing is $(italic)Quark's$() $(bold)Feeding Trough$().",
+      "title": "Keeping Animals"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Feeding Trough.$() Fill it with the right food \u2014 wheat, seeds, carrots, whatever the animal eats \u2014 and pen your animals near it. They walk up, eat on their own, and breed without you standing there with a fistful of wheat.$(br2)$(li)Its reach is about $(bold)10 blocks$().$(li)It paces itself, and won't keep breeding a pen that's already crowded \u2014 it eases off once a few dozen animals are nearby.$(br2)The early answer to a meat or leather farm: build the pen, fill the trough, come back to a crowd.",
+      "title": "Feeding Trough"
+    }
+  ]
+}

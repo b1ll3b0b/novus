@@ -1,0 +1,13 @@
+{
+  "name": "Soldering Table",
+  "icon": "morered:soldering_table",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(bold)Soldering Table$() is where More Red's $(l:4_logic/gates)logic gates$() are made and assembled. Think of it as the workbench for the whole logic chapter \u2014 keep one near your control room.",
+      "title": "Soldering Table"
+    }
+  ],
+  "category": "patchouli:3_wiring"
+}

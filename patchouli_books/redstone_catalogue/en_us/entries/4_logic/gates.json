@@ -1,0 +1,18 @@
+{
+  "name": "Logic Gates",
+  "icon": "morered:and_gate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Vanilla logic is built from torches and dust; $(italic)More Red$() sells each gate as a single labelled block, soldered at the table. The basic set:$(br)$(li)$(bold)AND$() \u2014 on only if $(italic)all$() inputs are on.$(li)$(bold)OR$() \u2014 on if $(italic)any$() input is on.$(li)$(bold)NOT$() \u2014 flips its input.",
+      "title": "AND \u00b7 OR \u00b7 NOT"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(bold)NAND$() / $(bold)NOR$() \u2014 AND/OR then inverted.$(li)$(bold)XOR$() \u2014 on if inputs $(italic)differ$().$(li)$(bold)XNOR$() \u2014 on if inputs $(italic)match$().$(br2)$(bold)Two-Input$() variants (AND-2, NAND-2) keep things compact when you only need two lines.",
+      "title": "NAND \u00b7 NOR \u00b7 XOR"
+    }
+  ],
+  "category": "patchouli:4_logic"
+}

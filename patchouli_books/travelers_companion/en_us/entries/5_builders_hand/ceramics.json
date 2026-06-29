@@ -28,6 +28,11 @@
       "type": "patchouli:text",
       "text": "$(bold)Clay plumbing.$() Three blocks, all early-game cheap, all made from clay and a wooden plate:$(br)$(li)$(bold)Clay Cistern$() \u2014 holds a single fluid in vertical layers; stack several and they share what's poured in.$(li)$(bold)Clay Channel$() \u2014 pipes fluid sideways. Connect a row to carry water, lava, milk, anything.$(li)$(bold)Clay Faucet$() \u2014 pours downward. Place beneath a cistern; a redstone pulse drains one layer.$(br2)No iron required. Fluid logistics on day three.",
       "title": "Plumbing"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Ceramic Shears.$() A separate little mod, $(italic)Ceramic Shears$(), carries the same idea over to tools: shears you can make from clay before you ever find iron.$(br2)Craft $(italic)Clay Shears Parts$(), fire them into $(italic)Ceramic Shears Parts$(), then join two parts into the shears. They cut what any shears cut \u2014 wool, leaves, vines, cobweb string \u2014 just with less durability than the iron pair you'll eventually carry.",
+      "title": "Ceramic Shears"
     }
   ]
 }

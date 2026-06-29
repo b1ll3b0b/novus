@@ -1,0 +1,18 @@
+{
+  "name": "Pistons & Motion",
+  "icon": "minecraft:piston",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Pistons$() push; $(bold)Sticky Pistons$() push and pull. $(bold)Slime$() and $(bold)Honey$() blocks drag neighbours along (slime sticks to all, honey won't stick to slime \u2014 the trick behind flying machines).",
+      "title": "Push & Pull"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Quark$() adds $(bold)Gravisand$() \u2014 sand that falls $(italic)up$() or down depending on the redstone signal you give it \u2014 and the $(bold)Iron Rod$(), a sturdy pole pistons can shove through a contraption.",
+      "title": "Quark Motion"
+    }
+  ],
+  "category": "patchouli:5_outputs"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Posts & Relays",
+  "icon": "morered:redwire_post",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Redwire Posts$() and $(bold)Bundled Cable Posts$() carry a line up and over obstacles on a slim pole; the $(bold)Post Plates$() and $(bold)Relay Plates$() let wires branch and hand off cleanly where they meet.",
+      "title": "Routing"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Between posts, plates, and the $(bold)Soldering Table$() (next chapter), More Red lets you wire a base the way an electrician would \u2014 in conduit, not spaghetti.",
+      "title": "Tidy by Design"
+    }
+  ],
+  "category": "patchouli:3_wiring"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Supplementaries Devices",
+  "icon": "supplementaries:relayer",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Sources and signals:$(br)$(li)$(bold)Crank$() \u2014 hand-turn for a short burst of power; the simplest manual source.$(li)$(bold)Relayer$() \u2014 passes a redstone line straight through a block, tidying tight wiring.$(li)$(bold)Spring Launcher$() \u2014 a redstone jump-pad that flings whatever stands on it.",
+      "title": "Supplementaries \u00b7 I"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(bold)Enderman Head$() \u2014 a look-triggered oddity for spooky wiring.$(li)$(bold)Dispenser Minecart$() \u2014 a minecart that dispenses as it rolls a track.$(br2)(Their $(bold)Crystal Display$(), $(bold)Item Shelf$(), $(bold)Notice Board$(), and $(bold)Speaker Block$() live with $(l:6_reading/displays)Displays$() and $(l:5_outputs/noise)Outputs$().)",
+      "title": "Supplementaries \u00b7 II"
+    }
+  ],
+  "category": "patchouli:7_devices"
+}

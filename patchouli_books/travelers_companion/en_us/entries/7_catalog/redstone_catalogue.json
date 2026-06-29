@@ -1,0 +1,13 @@
+{
+  "name": "Redstone Catalogue",
+  "icon": "patchouli:guide_book{\"patchouli:book\":\"patchouli:redstone_catalogue\"}",
+  "category": "patchouli:7_catalog",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)Novus's$() catalogue of redstone \u2014 vanilla foundations, then everything the mods add: $(italic)More Red$() wiring and logic, the $(italic)Supplementaries$() and $(italic)Quark$() gadgets, cross-mod sensors (the $(italic)Serene Seasons$() Season Sensor and more), and a pointer to Create's own redstone.$(br2)$(bold)To craft:$() a $(italic)Book$() + $(italic)Redstone$(), shapeless.",
+      "title": "Redstone Catalogue"
+    }
+  ]
+}

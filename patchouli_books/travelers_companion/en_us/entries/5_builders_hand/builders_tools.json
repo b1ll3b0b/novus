@@ -1,0 +1,13 @@
+{
+  "name": "Builder's Tools",
+  "icon": "quark:trowel",
+  "category": "patchouli:5_builders_hand",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "One building tool earns a mention of its own: $(italic)Quark's$() $(bold)Trowel$().$(br2)Hold it, keep a few related blocks in your hotbar, and place as you normally would \u2014 the Trowel lays blocks pulled from across those slots, so a wall of mixed stone (cobble, mossy, cracked, plain) comes out naturally speckled instead of flat. No swapping slots every third block.$(br2)Cheap to craft, and the fastest way to give a big surface the hand-laid look. For the smaller Quark and Supplementaries tools, see $(l:pack_tackle/gadgets)Gadgets$().",
+      "title": "Builder's Tools"
+    }
+  ]
+}
