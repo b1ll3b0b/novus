@@ -22,7 +22,7 @@ hash = "a092ee43243b4826378beef8a20dffe60fde558a10462a9240507895b9ddb017"
 
 [[files]]
 file = "build.sh"
-hash = "67274539a295a744e7a88310edf95ca10766e6379be8cd0fd802bbec0df6e2a2"
+hash = "2f804c683e58ba9407090359cef397d447cc42c1c3a3105bfaaa148418a642f0"
 
 [[files]]
 file = "config/ImmersiveAtmosphere.json"
@@ -370,7 +370,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "b6a15edee5a9fcb541f7f04f99704f147369e2b51f155c922340ef47d6e25ab1"
+hash = "61a28f541b8fc0ab3cf088ea04998bf3beb1ea21ee1cc7d20d4379c8c6e5c32d"
 
 [[files]]
 file = "config/fape_compat-client.toml"
@@ -470,11 +470,11 @@ hash = "bbe93e8d1c6f3ae3863ab29ed76b7132b3aebd26af91ff679789b957662ee23f"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "19d8e4d6f3d91ccd9529c9b8d108ed1b92dd3dbbe10a35e0f9d920bf62d0c51d"
+hash = "ffbe0739d436eeb3365044bd59d24ab90798c989b457b5a96313803323119d8b"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "1bdb5c074ac5544e9e387dd1bc9261a64daf8435c7350e6170c0f08a2011b2c0"
+hash = "506ead9a12140e77bfac8937aa3576b8142d8cf56f04035015366ab2b10b9ad9"
 
 [[files]]
 file = "config/jeed-client.toml"
@@ -590,7 +590,7 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "f02b0fc56b4200130b29c6927617f85e4bc41ae8799a1aa50b5b00496f02cc5e"
+hash = "a1a0a3c35a63526d82d1d2d1a99d4406d9626e11caf586b553134ab8728f4c9a"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -626,7 +626,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "d542bde385563198fb4ca2876366f2b049e15d996b238d048eb0aacdca7db1de"
+hash = "5c2f862239eff0e72ca66a6f319e22776978730c053b799ce53e5a24760832b6"
 
 [[files]]
 file = "config/particlerain.json"
@@ -806,7 +806,7 @@ hash = "7508f3f5ceed80c7c606d01ee2dc93e2c72a8afa199ccb691fc5225c894d5bbd"
 
 [[files]]
 file = "config/powah.json5"
-hash = "bfd577bc10d6cee9d9d28bea1bafbdd426456e72d3e33cbedfd197d2c2f66b10"
+hash = "76832340209d9ec735923b979a10be5f6724a407981cdf614581c8c5b0fd07e5"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -878,7 +878,7 @@ hash = "4fa742f19125f078d43ac1633664292735dca722c800793ceb2945b660569c19"
 
 [[files]]
 file = "config/simpleclouds-client.toml"
-hash = "929009f41a98b2895e8d6723f2ca2dddfc65bd6b2e54b6243e4e878b4299261f"
+hash = "91135d9de4ae88e204e3cbe2e97035307668280e6f515c5b8cec380296e8054a"
 
 [[files]]
 file = "config/simpleclouds-common.toml"
@@ -886,7 +886,7 @@ hash = "6a83cb501f00963dbe367413c783075a04617fe2dc31c1ba14ab82a0f57d82b6"
 
 [[files]]
 file = "config/sodiumdynamiclights-client.toml"
-hash = "6bf8584810e5e49dafb155bf12b987ecd2300a95702216f1d2b02669aa901660"
+hash = "d7bf6704c9aa53b64b35db60443251520ce405245ccf313b4099ba7bed2576c7"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
@@ -918,7 +918,7 @@ hash = "185f335fc0a7e4aa2b04eaf5086760ade7d3b687e3ded230641d9726ee5c80c6"
 
 [[files]]
 file = "config/subtle_effects/entities.toml"
-hash = "22aa58b7712883881928bdee3e189010ea08ec9dc48e57f48a3a4dbb24dfb25d"
+hash = "910acc06579a8eb9a6e3ada50f1907a37fb4db68f671dcb3f7b059d16aedbbd1"
 
 [[files]]
 file = "config/subtle_effects/environment.toml"
@@ -949,6 +949,10 @@ file = "config/surveyor.toml"
 hash = "326aa30b3fc7a64aa2ca7ab6bf2fbed5e463f87120d157f7e70f78052400e066"
 
 [[files]]
+file = "config/survivalfiresticks_config.txt"
+hash = "255c6a7d033321d01b685a4fa662389fddf93a5ce759e4d0672f3cce31457f27"
+
+[[files]]
 file = "config/tconstruct-client.toml"
 hash = "3c45675117fb9fdca36f825fbc0fd72b1be887ec17895b17f1052c550b7f0e2f"
 
@@ -963,6 +967,10 @@ hash = "70da8cd57cd321ae43ec3774995de812116c67163c0ae8859965a3599e3aeefa"
 [[files]]
 file = "config/tgears-client.toml"
 hash = "9187b27aadfecc6fba61b845cd9a6de056e16167c1b334707b411bcca4eba34b"
+
+[[files]]
+file = "config/tmrv_plugins.json5"
+hash = "35ea0f6185a1a2abbd16a256d6a1b9072efcfe06d2e8f79bdee099bd3eb3852c"
 
 [[files]]
 file = "config/toastcontrol-common.toml"
@@ -987,6 +995,10 @@ hash = "fe5a6b7611945c20c356f34813150e9893ab1a2ea9694740c3cc5d0367d96ad1"
 [[files]]
 file = "config/trender.json"
 hash = "fe0bed19bd0927b3d519816c73378730689080a8f07e66a6167c266ffde29dd2"
+
+[[files]]
+file = "config/usefulhats-common.toml"
+hash = "42fe5826c0df0dab8b2d4a7c885fd129b9403f1dfb7a80f7033b6787f55f4c24"
 
 [[files]]
 file = "config/villagersplus/villagersplus-3.0-config.json5"
@@ -1045,12 +1057,28 @@ file = "data/fabricDefaultResourcePacks.dat"
 hash = "56dcdc36f4d3fe993c688cd6d60c2ef0d83480a63305425e068d171f8fcda7db"
 
 [[files]]
+file = "defaultconfigs/brickfurnace-server.toml"
+hash = "e4945f4508ca013a74a5b39a63afede525d924372fb1686a6b27385180bc580f"
+
+[[files]]
+file = "defaultconfigs/ceramicshears-server.toml"
+hash = "f6698620604d030a5ca99cc833926c069b7779d19be6f9b1147443293cefb7d9"
+
+[[files]]
 file = "defaultconfigs/dynamictrees-server.toml"
 hash = "57d8d8b45fdda396fedd7ff8d20a7e99417f4066a87080438b0b5d6ddf89786e"
 
 [[files]]
 file = "defaultconfigs/dynamictreesplus-server.toml"
 hash = "9237dfc81edda4e01cff9605cd5f5ac61f81c106b62a17201d8b52c1e7893d8b"
+
+[[files]]
+file = "defaultconfigs/unlitcampfire-server.toml"
+hash = "d54725a8f5cf377083c4172dbd5d86ab274127498436a782a0a1873b109b4cb5"
+
+[[files]]
+file = "defaultconfigs/usefulhats-server.toml"
+hash = "29b2d35a1ea8a9c24907246766c638778ed6dbf9894d88872e96b1ac7c17b23d"
 
 [[files]]
 file = "docs/keybinds.png"
@@ -2609,6 +2637,10 @@ file = "kubejs/data/novus/recipes/crafting/energy_hopper_starter.json"
 hash = "92906359335fa003ccaa49855ef5387df4b24d00f618de1fda56cf4d44f26cd0"
 
 [[files]]
+file = "kubejs/data/novus/recipes/crafting/redstone_catalogue.json"
+hash = "c089a9b36b4393848f6f56464a595bc179cfbcd71fc849a5b3168bd4f43c9ec6"
+
+[[files]]
 file = "kubejs/data/novus/recipes/crafting/solar_panel_basic.json"
 hash = "41b89b839a3b1eafd3c18d44556bd64f91587b3e4f3a94bc863348798b1aff9d"
 
@@ -3375,6 +3407,11 @@ hash = "f5a3448404751b42749522aa8e200cdb7b95837f6a7544aa112b2c77b3251609"
 metafile = true
 
 [[files]]
+file = "mods/.index/brick-furnace.pw.toml"
+hash = "a01cc457a3d32b608ab7fd683b8a8a49c0ae2275ef24ec6607ce0a765a9d6520"
+metafile = true
+
+[[files]]
 file = "mods/.index/canary.pw.toml"
 hash = "377fe956302eaeadf26a20ca0eea00b04f2b29efbb87959c21d3a9f00b3109f1"
 metafile = true
@@ -3382,6 +3419,11 @@ metafile = true
 [[files]]
 file = "mods/.index/catalogue.pw.toml"
 hash = "99244fd88a5daa2da89d19b7f7a673fecd080804e00970b99c98552d7fbc5172"
+metafile = true
+
+[[files]]
+file = "mods/.index/ceramic-shears.pw.toml"
+hash = "7f72eb92906be2af351c8aa8e57e563dfc5911fbd828f204191e34d2e7807802"
 metafile = true
 
 [[files]]
@@ -3416,7 +3458,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/collective.pw.toml"
-hash = "57c731b48045adac5a2acd0ee58e1f624f87bdc664783b689d85bdb3a7a1b24d"
+hash = "1f59f4f9e48be628e1b6aaa4618a5caa31aaa0db5e614d541790826b14e02f03"
 metafile = true
 
 [[files]]
@@ -3631,7 +3673,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/every-compat.pw.toml"
-hash = "25cbe2593281b00f4de51fd151f5b714f785afa0c52b5b9f83eaedfe7161b2a5"
+hash = "45cffb43e6f4d37b508b37006b7443bab3d6be434a6790372f3b863c196dd1d3"
 metafile = true
 
 [[files]]
@@ -3670,6 +3712,11 @@ hash = "1ff907582b5116f82b6fd136d1af1e71bb83d8a3a5b98415a0944713b43f8137"
 metafile = true
 
 [[files]]
+file = "mods/.index/fastfurnace.pw.toml"
+hash = "09c546b336e325833617ca135447b827b75f561a794975ec918dea5563a7736b"
+metafile = true
+
+[[files]]
 file = "mods/.index/ferrite-core.pw.toml"
 hash = "614bed57dea16c0141d2911806bd8dfec909ba1924854514310dc6112326a66f"
 metafile = true
@@ -3701,7 +3748,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/fusion-connected-textures.pw.toml"
-hash = "c4cb5b090d842818cba74ff015cabae98d019af8fa8add9ee1c636bf66fbdb2a"
+hash = "8f1d9ffed4c2abb93d1fa5050e27231552206aa7c37401dbef723ff23a4f13b3"
 metafile = true
 
 [[files]]
@@ -3921,7 +3968,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/modernfix.pw.toml"
-hash = "ef941c096d509f1c23618ebc6e7c2fb002188a6c7592773c3e670f7e746299f7"
+hash = "1e47f9b999be27d5d9afc1d7580a32d045ea3c103d10b82b8d75cf6a517b94a3"
 metafile = true
 
 [[files]]
@@ -4185,6 +4232,11 @@ hash = "d0e632914f6d0eab67821c0d752f5f323b018455da7a226bf0a09dc6943dc38d"
 metafile = true
 
 [[files]]
+file = "mods/.index/survival-firestick-wooden-flint-and-steel.pw.toml"
+hash = "82a7702a924b823d81114272c84c1c289cf70c60f038d13cde974e48724ec147"
+metafile = true
+
+[[files]]
 file = "mods/.index/tcintegrations.pw.toml"
 hash = "e17e2234dc2850a46d4af0aef761f079a12fd3e5f24f04d89a03d7609e3b9ece"
 metafile = true
@@ -4221,7 +4273,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/tmrv.pw.toml"
-hash = "2e6dd887b6e9677ee795782561e01dd92a29fc76593192c4ad4c470420152652"
+hash = "f0c10b090480e542001e18b976826050422e9297578e243dd3e27435b6935e96"
 metafile = true
 
 [[files]]
@@ -4247,6 +4299,16 @@ metafile = true
 [[files]]
 file = "mods/.index/universal-sawmill.pw.toml"
 hash = "e39dbf951e06e48ad1230c206cbc11538a06191d984a37015a7299bcc7f31f75"
+metafile = true
+
+[[files]]
+file = "mods/.index/unlit-campfire.pw.toml"
+hash = "f7e548dd9c565f793d212e9c1e4b35a20b211941240032a23ddfa91d8e5bbfc4"
+metafile = true
+
+[[files]]
+file = "mods/.index/useful-hats.pw.toml"
+hash = "e7f8cc87ce5260c9f35ec92569bbf18fde9068839552285cc275961481d8e159"
 metafile = true
 
 [[files]]
@@ -4373,6 +4435,14 @@ hash = "c60d0161a5e38a63dec0f4f468fd757cf8ecfe061634a26b679fa2c5fd8eb1ee"
 [[files]]
 file = "mods/FarmersDelightPlus-1.20.1-1.3.1.jar"
 hash = "256d0e11ad27abebce553642ffd2ce79b15351d392b753230fb1d7f59f0c8452"
+
+[[files]]
+file = "mods/FastFurnace-1.20.1-8.0.2.jar"
+hash = "970c11c090e7a364e2e006aabb5e573f79901e710e97195334ee5802317776e8"
+
+[[files]]
+file = "mods/FireSticks+V.1.5+[1.20.1][FORGE].jar"
+hash = "217a5ad3ea023fd05a5004d7bef6a1b38f48c54bdd13ba94f6a3a72398601396"
 
 [[files]]
 file = "mods/Forge-Version-sereneseasonsplus-1.20.1-5.1.2.jar"
@@ -4591,6 +4661,10 @@ file = "mods/biomancy-forge-1.20.1-2.8.19.0.jar"
 hash = "69c5ea80dba2aaec70a5fdf6b6f29977374eb1d73398e4bd69548d87dd3c4149"
 
 [[files]]
+file = "mods/brickfurnace-1.20.1-2.1.2.0.jar"
+hash = "d3a59e934d29c13e0c09a80babe6277b5b314dad8cc3dce35036962134565ade"
+
+[[files]]
 file = "mods/cadmus-forge-1.20.1-1.0.8.jar"
 hash = "3c362d82aeb4786675c719cf962fa266364df9a934ef6268f54c9ccd7722fb0a"
 
@@ -4601,6 +4675,10 @@ hash = "51f6d78dd6c7874657e5757fd2f5d780aa3cd415052ad071077b8894c6430942"
 [[files]]
 file = "mods/catalogue-forge-1.20.1-1.8.0.jar"
 hash = "58445fc445546ab0db677edb9bf45bb87b99370e6483ee9080d816a9109cb210"
+
+[[files]]
+file = "mods/ceramicshears-1.20.1-1.9.0.1.jar"
+hash = "9bf99fc59c60cf1ead90f85cd53ffa3cfebbe607f42e3f31680e7545a855b7bf"
 
 [[files]]
 file = "mods/chalk-1.20.1-1.6.7.jar"
@@ -4619,8 +4697,8 @@ file = "mods/cloth-config-11.1.136-forge.jar"
 hash = "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
 
 [[files]]
-file = "mods/collective-1.20.1-8.29.jar"
-hash = "593b9098c9e7a81524207cb47a2148f8c39e8082c0f7f8ee1fe777de1108f065"
+file = "mods/collective-1.20.1-8.32.jar"
+hash = "622635674a9b5d6dace2458629b22a86e4b234a104b2e355eae5187b0d0854c2"
 
 [[files]]
 file = "mods/comforts-forge-6.4.0+1.20.1.jar"
@@ -4747,8 +4825,8 @@ file = "mods/escalated-1.2.1-create.6.0.8-mc.1.20.1-forge.jar"
 hash = "3dbae4821d2f57b1cc689f4353ff4d6f7e573252527da53d3ca72dda1fd884e2"
 
 [[files]]
-file = "mods/everycomp-1.20-2.9.23-forge.jar"
-hash = "4b7698780249b29ae0f34ec67660aaa3eb5fc0546cd2f0305b3d30a7595f2a1e"
+file = "mods/everycomp-1.20-2.9.24-forge.jar"
+hash = "f7be6337c47c98ad9aabff5e0657b7a392e158313bcd18f1a2719f6f6df1a2df"
 
 [[files]]
 file = "mods/exposure-forge-1.20.1-1.9.21.jar"
@@ -4787,8 +4865,8 @@ file = "mods/frightsdelight-forge-1.20.1-1.4.6.jar"
 hash = "f3cdda55b44ae67b4001c41bf259a9ee78ce06ca2cd397a5264f292eda39bf75"
 
 [[files]]
-file = "mods/fusion-1.3.2-forge-mc1.20.1.jar"
-hash = "9a9d6bbfb325adbf65dee0f5328d661a72c618263296efafaaf47e091e5bce3b"
+file = "mods/fusion-1.3.4-forge-mc1.20.1.jar"
+hash = "f9c2c14a9f36d94be2e107b255d379e89fd2df81bd74999f50fcc2d057a2f17b"
 
 [[files]]
 file = "mods/fzzy_config-0.7.6+1.20.1+forge.jar"
@@ -4911,8 +4989,8 @@ file = "mods/miners_delight-1.20.1-1.2.3.jar"
 hash = "dd7fda44dba9a9e953e35b36f45e2f30dfc2b1df5141574100c80cd4c2861380"
 
 [[files]]
-file = "mods/modernfix-forge-5.27.51+mc1.20.1.jar"
-hash = "ec73870ccd4f0f931d7d619a3e8879f32a647b4bf1d4a32fa76c390c6537d111"
+file = "mods/modernfix-forge-5.27.58+mc1.20.1.jar"
+hash = "f44b48000387398bae450814c78cb2fb483a5608d50a64d27d944d1797f0637f"
 
 [[files]]
 file = "mods/moonlight-1.20-2.16.34-forge.jar"
@@ -5067,12 +5145,20 @@ file = "mods/toms_storage-1.20-1.7.1.jar"
 hash = "08552be86f960111e501227707dc089c91b8a55f6c1be09baee188338576ff9b"
 
 [[files]]
-file = "mods/toomanyrecipeviewers-0.8.1+mc.20.1.jar"
-hash = "3dddc8f933bbaf87cff59d19ec546e799bf8596ab921a8b44e2628f85fad2bc7"
+file = "mods/toomanyrecipeviewers-0.9.0+mc.20.1.jar"
+hash = "6b303725304189ca2a57df34727c43e4960ee3758ad88c1b0c0486a3775754e7"
 
 [[files]]
 file = "mods/trashcans-1.0.18b-forge-mc1.20.jar"
 hash = "533c14cfcc5d99e4889d9cdddea2e2ef382febfd5ae5ecb3b0676538a1ccdda4"
+
+[[files]]
+file = "mods/unlitcampfire-forge-1.20.1-1.9.2.1.jar"
+hash = "92414804add7ba94c5969a29c6fa054d0d98c073405acbf7622d3ec179ad1b32"
+
+[[files]]
+file = "mods/usefulhats-1.20.1-4.2.0.1.jar"
+hash = "21e0cd93b514717e0f78c832e3fb30fe3879c8d517dc3d550555aafce08f85d8"
 
 [[files]]
 file = "mods/voicechat-forge-1.20.1-2.6.20.jar"
@@ -5224,7 +5310,7 @@ hash = "38b7f50a7dea130b5bd6c518f0acbcaf71c028116bb80579e5d1ee0bea43ac6f"
 
 [[files]]
 file = "patchouli_books/create_compendium/book.json"
-hash = "80fe7d0bd257c40a78c07406055d5f4df0d62488fc808cf276d33b0c963dfbee"
+hash = "78613e267c4e9cfb51bb679bc107331fa56d2fd28089323e59f3f972adcfa057"
 
 [[files]]
 file = "patchouli_books/create_compendium/en_us/categories/0_foreword.json"
@@ -5407,12 +5493,180 @@ file = "patchouli_books/create_compendium/en_us/entries/7_shelf/transport_extras
 hash = "d2a5ee78cf90f595cc210d4be7385a9845779708231f4c4b189f50431e170e1e"
 
 [[files]]
+file = "patchouli_books/redstone_catalogue/book.json"
+hash = "7f2cf34ea66fa749dad2570e52fd6c26d479be88539c9d99d65dd94f70209283"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/categories/0_foreword.json"
+hash = "2c146a73d24898397f9529ace18ecc0326b13f294aef96be84405cd7e25ead8f"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/categories/1_foundations.json"
+hash = "9077541b77f0dff67b576922635b67488f2ffa1ee4bb39968e92e9ef6632286d"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/categories/2_inputs.json"
+hash = "0de9ad0d9c2b39183e82f94696ec3c5c082ad7992a0c4cbe472a305521bebe7d"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/categories/3_wiring.json"
+hash = "816035a43d1cf3087372beb18d8868cd6a37a2701fb2e3eb8185e1d48a2f3b46"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/categories/4_logic.json"
+hash = "0dd9eb4716d3eeb1247a7738e26d1968488942253c1001ff25ec64b7ed91757c"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/categories/5_outputs.json"
+hash = "5f1a62934d3ffc2ddcaa026820d3aaf48b981e492d373d09b03ab10de2576739"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/categories/6_reading.json"
+hash = "960840c36161dceef6303473809bbdb76f243c300b9dfe6d3bf2dfd8d86f1233"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/categories/7_devices.json"
+hash = "9989b2fe9a7fb42fee97e0c3c1c553cdccb19dc3219f17c92ec81fc3011056f0"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/categories/8_beyond.json"
+hash = "af8390169874b5b4d6821d0e38290ec13c0b5979eaebcd72b038ccd1685c8b46"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/0_foreword/about.json"
+hash = "8d80153e0c8608f272579c4956db1764643b429f4c6a7041a114c4b1dfc3bd8e"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/0_foreword/signal.json"
+hash = "8d66328846bea804911b85e899a27c5933f05e7757f59ecbec09eee7d5eb991a"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/1_foundations/clocks.json"
+hash = "1386c20be2f5b4cc9dbd224c2d5eeef825e68a7e2b5f84c5c8fd36e5c9a7bd8b"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/1_foundations/comparator.json"
+hash = "2fa640a9ca42b4f98b48c166118f063b1cf19addbb1d6148f4d3d3ba6bc06de5"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/1_foundations/dust.json"
+hash = "4397e1cf67068c5dfe4fabf7c07ad61ee40e8d28e9c0b329aa999525bc1bd292"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/1_foundations/repeater.json"
+hash = "b7893945fea8cc063be3bd47a8f843f1fb02435c29c7cc7facc0e12670ebf106"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/1_foundations/torch.json"
+hash = "ce4e2ff2fcbe0753c2569dd3f0e1d2617a8ec6ac530e745c548935fa29740b9f"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/2_inputs/environment.json"
+hash = "cba728af983a0542d69755c7bca8ef9edc467951c32c64fde0902a13d1e0ff13"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/2_inputs/manual.json"
+hash = "7c5f3bdad39e68efaac4c462683c4560d26c49e4bfdd2430af7bdfcbaa1dcf0b"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/2_inputs/plates.json"
+hash = "5802b06295b8004fec08fdece5c420a053cf7bb99529467870e0381136fd9817"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/2_inputs/watchers.json"
+hash = "8d871463e9c79018bbc066e35ab563993f5fb13f043fd3512e32c39fdac16d94"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/3_wiring/bundled.json"
+hash = "06c205f285f726dbe5ae3012bbf77da2e854dada37b7a2975e7a9feb70601a42"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/3_wiring/cables.json"
+hash = "e6a289d3dc0f924eef093834be9c2cef00c4d59042696fb5a310b9e6885e6fe3"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/3_wiring/posts.json"
+hash = "aebf5b6e4ebc06ff749e6c8f4366b8ae2d21babbcb50babcb56dd928b1c0d60d"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/3_wiring/red_alloy_wire.json"
+hash = "e35cbf54d8db509a85a0282ba8dbeb7361596dcf4f57be15d4e4501334a76c16"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/3_wiring/soldering.json"
+hash = "87ea165fcb7f763354c2157963223393d2ee273a4a7fac9ca8b51f11f3e8d35b"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/4_logic/bitwise.json"
+hash = "902009c49bae2c9a9136def4b75dc25a6714efb623a22f318af5a518f64174ca"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/4_logic/gates.json"
+hash = "182526160f1eb601d1f070ab1ac4bc51eaf7f93b3c00d2dfff9cee92e86a7e76"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/4_logic/timing.json"
+hash = "d940eb78bb108d4d7017a39abc1bb907275f6845315de4d62039dfec8eb42ee0"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/5_outputs/dispensers.json"
+hash = "8aaf8989865dce22e8a3f0a15332b290e65e1db9a4aa81f6390453c5b22e1f53"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/5_outputs/doors_tnt.json"
+hash = "6b9745237062204f44345b0c86c82c5557b92972f7241884f46f88e32f6c89e9"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/5_outputs/lamps.json"
+hash = "002302282a4cd4cfced368424af669270655dcfbe590b9c1905e0259bf7c2ac6"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/5_outputs/noise.json"
+hash = "393beabc6860decb892c04abbfedefbf20567e0556d3afc96755c4ad814b3a09"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/5_outputs/pistons.json"
+hash = "23dbf1e0e4dfb82f991a077f36dcd071173cdc9e33bb2083a6513b64eb327e4f"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/6_reading/comparator.json"
+hash = "9e3deaec35bf1a448f222ae4dbb409e2856f0ae66ba312bef34cbd143e67a10a"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/6_reading/displays.json"
+hash = "cc95178eed4377efa7c9903b3ba83a79f6eb380a9123b4d1286d253c848096b4"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/6_reading/storage.json"
+hash = "54d2c0e3ef6cda23dcc7fefcf6cc6062efea0b83c086a1e43fa4dca3fc393505"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/7_devices/movement.json"
+hash = "988ad4af5c0b9b52c73731c34bf43558ef102f28f490d683db5f2486ef7f6623"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/7_devices/quark_devices.json"
+hash = "6fe2c1525d60fd4674d32d049141dde1319d0aadfa13fec7e14d4653c4c34336"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/7_devices/supp_devices.json"
+hash = "b7e73b32eba81c5e217d4d63924c78cc68b1d12da9af945bdd3b8934e14b960d"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/8_beyond/botania.json"
+hash = "8b309519e1539c31f3efec35d56568e8d8c200587de84850db59824ea43a4c96"
+
+[[files]]
+file = "patchouli_books/redstone_catalogue/en_us/entries/8_beyond/create.json"
+hash = "38d99628af01bfad7cc41a1fcd67466fa5bc5f9c15efcf1b99fbfa7570511947"
+
+[[files]]
 file = "patchouli_books/travelers_companion/book.json"
-hash = "575b8ecf2b1faabc65f13c0820a837a75493971606640b94c41d0739bd566678"
+hash = "3ee082daa0db2d9a3f0c4ab06e6a5736c63e9828de7f18ee52ca7c78356358be"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/categories/0_welcome.json"
-hash = "16b23d60088c3f2721b77ae71e291f3c5e849319eb79f51b120e535ca46663fc"
+hash = "6ee08380528fa55ab885a3f9921218fa564c91378472ab1a3cb1d089043d04ad"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/categories/1_first_days.json"
@@ -5420,15 +5674,15 @@ hash = "08695892d21348105b5eae3a729a0122edae55edd66311a05cd8177a60e32338"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/categories/2_hearth_season.json"
-hash = "07a8702e101c6b684f83bca2607d0a1ea088a29337c3e1677fb434ab25775b87"
+hash = "d1addbf8f32414717b67e1cf2c531bfcf17df3e1d061c828a0201079d47357dc"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/categories/3_beyond_world.json"
-hash = "dc33a42e4fa749381b5f4c302f446f4eed229a032097e83c1a80115764742e31"
+hash = "fe72e37eae2ac50c623c0cda576099fa711dd0a978d9f74f3b980d064c9e44c3"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/categories/4_wayfaring.json"
-hash = "01b29cc56a60f980693bfa610224d55b60115fe5eb2e57be5d13ecb62f2797bb"
+hash = "36962b56580ae1ad1d2c0721533333475c66c4050b1cc5fa007c3990a7239b6e"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/categories/5_builders_hand.json"
@@ -5440,11 +5694,11 @@ hash = "cf6e3ae45b4560d4dfa8acb3f3ddaedaecacf0c62ab6254363fc04d6fd763820"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/categories/7_catalog.json"
-hash = "c385fa813b39a31cbac8c14cc48736ea38b94cadd2c3f59d1a2d956518738097"
+hash = "182fa8d44b51d7316a70c5dd15bc7a6e814e29c53660725024d9fe730c3bb5ec"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/categories/pack_tackle.json"
-hash = "e56db0500dea511508330a0bf6ccb29584fa9dd7bc06b268ee12922021c0008e"
+hash = "cdc0e3895df9941500fd6278795427d1db767dc0f692e137f73a05c53623d4f2"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/categories/weather_sky.json"
@@ -5452,11 +5706,15 @@ hash = "e0ea638dc489c216cd38c8dfedb3cc2c543a37cb09acea7c66048585d27d6dd1"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/0_welcome/about.json"
-hash = "ef1d244ceca8a98a9571e6c9ffa66049564b26b8e6b51a64c7281a148eddca8d"
+hash = "a27a1d3e362105e8586fa0c7f3f2a6ef5ca9bf33357185187f4d9a9de2fd2c67"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/0_welcome/find_it_fast.json"
+hash = "516275947ca8fffcc6c5c576f8d875d5f7612830ca4f9d02585f70fe43f87760"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/0_welcome/short_version.json"
-hash = "373813d2abb77c6c8c891099fef438728c8f9b133fc6dbe3ed496dcc5d4b68b2"
+hash = "41c96dbae677fd3fc79e499d59a0031a666fca5904d4f1dfc4a9cf8f45485918"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/1_first_days/cobblegen.json"
@@ -5464,7 +5722,7 @@ hash = "371b9688b1bb27ebb9f855cd138fc70d1f792cabd52143ea6c5c671ca68faa0c"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/1_first_days/first_day.json"
-hash = "cbfa89b962ea07ad05430785a38a5622c819de00f4e0aa047540384accbc5797"
+hash = "45f3f5658a072c576e709bb5fadc0c85accff83e63f855e8a62b3bac4605d9b2"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/1_first_days/sleeping.json"
@@ -5473,6 +5731,10 @@ hash = "487222eab402fb416ffb196831928600407297dab06238c49e32172bc65cd3fc"
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/1_first_days/tools_hearth.json"
 hash = "025d66dcf820949983dd6da667e9af7ef28680797b0014f4893010ab785ced01"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/2_hearth_season/animal_husbandry.json"
+hash = "5eb6b22ab5368a1070a9ebb69a4c209ad4b84620c04157e941916931162a81e1"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/2_hearth_season/calendar.json"
@@ -5527,6 +5789,10 @@ file = "patchouli_books/travelers_companion/en_us/entries/4_wayfaring/chunk_clai
 hash = "712c46a0e2f7c38fecb60e5c71a4bfd9d54ceef7cacaabaf33b06963606b0ba5"
 
 [[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/4_wayfaring/compasses.json"
+hash = "018afbf9d71f8594f2134222e00b66dc486edfddf4e26a77f374d3cc158dec5a"
+
+[[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/4_wayfaring/map_atlases.json"
 hash = "442cf323a33b50373df5cb3d371f7ad0c5440bc27ce4d39e19df66fa72b456a9"
 
@@ -5539,8 +5805,12 @@ file = "patchouli_books/travelers_companion/en_us/entries/4_wayfaring/waystones.
 hash = "c31abb12dc2e091d7e37d13db5691d147f8af7a791aa63df26f79018028e2178"
 
 [[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/5_builders_hand/builders_tools.json"
+hash = "5d08df64d56363358a25ce4661d0153186e1cc2a45d30ee98f70c10a6f3d2310"
+
+[[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/5_builders_hand/ceramics.json"
-hash = "0bb11797345809677f89b7457d81830550dfd14a45d52a320a775d9744d6d7bb"
+hash = "1f6c3392582512236c165e66fa2ebac34df54e46340270fc3c6ebfb061d0b8ea"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/5_builders_hand/doors_windows.json"
@@ -5553,6 +5823,10 @@ hash = "32b330e220b6e91b43462ff87feecedec372e1cc4dc84fd47a8616c768d87284"
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/5_builders_hand/paths_lights.json"
 hash = "2b66f7d56011b58a591eb6cfc9268e9136a414fbe2b22c01a003f56bfb935214"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/5_builders_hand/rainbow_lamp.json"
+hash = "eb63281d89d98914a68cb4aab9e09dea9cb82df87b0add4078e72ffc9e74cb2d"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/5_builders_hand/roofs_stairs.json"
@@ -5580,59 +5854,67 @@ hash = "d2ae677dd73edc89d20eeefb735165dee94279b69e6acf0c54019114aae01720"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/agricultural_journal.json"
-hash = "7d48a39e77e2de53ad7233579fb03046cc9c1c0020399d6e78a34e191897b7d4"
+hash = "2b6d24d0311f71b66b2350c75ec0aa736c8932da1fe0b3e30901a0fb92ea6a4e"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/antique_atlas_item.json"
+hash = "e084c1a63f619109273c11c82116d93eaca85f125066ecd435edadd0daac24a0"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/arborists_journal.json"
-hash = "b3637fbeaaa74ffd7267fdcdba4a8858bb6a6dfcc1c84bfad6fc79f8d56c655d"
+hash = "c54e04852ee7b1ff4cdc86d8a0773c4044db17c8f6882d3c54102ad28198e76c"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/companion.json"
-hash = "a4c239287655eed974c7ea3927d0b82157598c7c7c224816135adca9c97bef2e"
+hash = "569281f4f196c21b71673867e990bd6bd22f004da1e2a3ea8d5ac8a4b6adbe34"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/create_compendium.json"
-hash = "287154359823ce2cee6077ba2ac22201e529ad9c8afd6cb782a25339bba9c22c"
+hash = "ce28f1654b07788df1b516812d9cbdfeffdb376d84f5cbbd594d4ce0742de574"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/encyclopedia.json"
-hash = "ed7539463b6245e4e5911d003c4044503047408200d3a1e29fbc44d3f5373f38"
+hash = "82098080413f2dd9d0bce6b8cff53c4338c25c6e51020d2d774b2bdf26f7560d"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/fantastic_foundry.json"
-hash = "6c3c4d15420e639b5e10d575e291edb60efeec7cf14747e5fa0bafc1351a0e44"
+hash = "aa310909bca9c9b4c0e8f75e9b6f5e8572a3e9ae7c3f255628118e04f9f365a3"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/food_history_book.json"
-hash = "83675529c11486710abb5778199ed39dbeb5e3a62ab44fa19669ab659f578f75"
+hash = "31a354de76dca47e7a18b9e35f4520717400708de8ee98281324da68f5725ff8"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/lexica_botania.json"
-hash = "7f219607b5e529f73b291903a3422cdbccfec23d13398db2c99bb923dc0ee188"
+hash = "48f3400c18056ad9fb7768893dc6100bce22fda0da2e0d3e153d237dbb63f53c"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/map_atlas.json"
-hash = "3e00407703e4bd0a51b7419671f687a3e612318d44a0385707283329f97fe876"
+hash = "49a6b69e7e8f13af1de2a4f9596dcb6eece00beab45eab36f1101e4dd46a2a7f"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/materials_and_you.json"
-hash = "d625ae48021eb90efdbbdbe72a7df052cbb672f12065a4bb5efc8f76f8887660"
+hash = "9e06cfaad05b4a81ca468f2a4dc3fc672dfc0237b754f39060fd940efe5c83aa"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/mighty_smelting.json"
-hash = "8d8bc5290079b394f132389e6226efaa72f565a8e11c0574a42d289467e62b24"
+hash = "b4e824b587ad165c05616d4bff1fb5a29b6d80886814e4c23b665c7e334fdd34"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/puny_smelting.json"
-hash = "8b832c05cb738301f955f45227d3dae9eb698cf930dfafb458288343b39a366b"
+hash = "23a4477393b2462b438724421b1a5a0dbb4b7cf70167feb872cde555a0a3875c"
+
+[[files]]
+file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/redstone_catalogue.json"
+hash = "e99160fddaacb7feabbcdc7f12a9543fc056b5f5d1fed0842cb8889b51d317ea"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/tinkers_gadgetry.json"
-hash = "27bb6e3e6d9d8add2b57985b2cb8945c6c85dff57085eb9af80c82c87739c589"
+hash = "c54a0effa811d854e4436511fc7ccdccce831bafdb446b01e80f26a5670153e6"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/7_catalog/wetware_appendix.json"
-hash = "ead47060575cee3c8db626886c7d300c14d89acf2b1784a2248e180ebe6605fe"
+hash = "ac157417f481a4421d55160444c16b2203d554bf87cca5870856baca074e35c4"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/pack_tackle/backpacks.json"
@@ -5644,7 +5926,7 @@ hash = "958cbb495cc99d681e528d541a6faf2a400cf5caff98457a44b25f48f9e1e631"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/pack_tackle/gadgets.json"
-hash = "522df0cab6630f9dfccdb429c4a82ba9131d71dc8b5a5d58de62e574c8695207"
+hash = "ed279ae066bdf81f54d4c740232fdef6faca25b08036ca6689ccdba15a2d8768"
 
 [[files]]
 file = "patchouli_books/travelers_companion/en_us/entries/pack_tackle/jade.json"
@@ -5832,7 +6114,7 @@ hash = "6a206ff072293f2c114fca735b5fba37b6e8494d3c63a4d5b6d0b300514cb1d4"
 
 [[files]]
 file = "scripts/initial_inventory.zs"
-hash = "581a43195ffb9e4ec23648b7cd9e9aa21a0171477d2c16ad6a8ce7faaedeefcb"
+hash = "6fcee60a8598f550c1a56d11c2bdba40c34b109fb0df9c1343e72b887a1defc4"
 
 [[files]]
 file = "scripts/withering_ooze_brewing.zs"
@@ -5851,8 +6133,20 @@ file = "shaderpacks/Sildur's Basic Shaders v2.6 Fancy.zip"
 hash = "f9b4399d637cd0a9c41e5f11b91065ea4cffd9352f0f49d95dd24bf1abf3e0ae"
 
 [[files]]
+file = "shaderpacks/Sildur's Basic Shaders v2.6 Fast.zip"
+hash = "66ea3af4076981eda37089b3919ab130f0bfbf904e3bbeeace18f69099fff0ba"
+
+[[files]]
 file = "shaderpacks/Sildur's Enhanced Default v1.19 Fancy.zip"
 hash = "ba9553818b23169ca1f2e2b9c22e737fdb4417df8bf1749ff359dae783df1893"
+
+[[files]]
+file = "shaderpacks/Sildur's Enhanced Default v1.19 Fast.zip"
+hash = "65969f5c7a381dfdd924cd1a07cfd5cfd9bf184a504ddd678abc147ccb314549"
+
+[[files]]
+file = "shaderpacks/Sildur's Enhanced Default v1.19 Fast.zip.txt"
+hash = "7c1a5260f039d9d96226229fb7e99537f11196adecd6ae95d80d436a44378065"
 
 [[files]]
 file = "shaderpacks/Sildur's Vibrant Shaders v1.56 Extreme-VL.zip"
