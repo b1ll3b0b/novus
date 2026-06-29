@@ -38,6 +38,56 @@ This document lists every datapack override and KubeJS script we ship under `nov
 | RoadWeaver (graves) | 5 datapack overrides (`weight: 0`) | Low — additive overrides; if RoadWeaver renames the structure paths or restructures the schema, overrides silently no-op and graves come back |
 | ~~vs_clockwork (disc_wanderlust)~~ | RETIRED 2026-06-11 — VS suite removed; patch asset preserved in `optional_modules/valkyrien_skies/`, re-apply with the module | — |
 | connector / frightsdelight / FarmersDelight (`mineable/knife`) | 1 (`forge:mineable/knife` rebuilt as the 66-entry cross-mod union, cycle broken) | Medium — hand-built union; must be regenerated if any of the 8 contributing mods adds new knife-mineable blocks |
+| Novus custom Patchouli books (Traveler's Companion, Create Compendium, Wetware Appendix, Arborist's Journal) | 4 `book.json` (datapack) + 178 content files (resource pack), `novus:` namespace | Low — own content; generators emit this layout via `novus_patchouli_kit.py` |
+| Unlit Campfire (config) | 1 config edit (`infiniteCampfireIgnoresRain = true`) | Low — disables a rain-extinguish path that is non-functional under Simple Clouds (frozen vanilla `isRaining`); revisit if `simplecloudscompat` adds campfire support or SC weather mode changes |
+
+---
+
+## Unlit Campfire (forge-1.20.1-1.9.2.1) — rain-extinguish disabled under Simple Clouds *(2026-06-28, Claude-session)*
+
+**What**: Set `infiniteCampfireIgnoresRain = true` in `defaultconfigs/unlitcampfire-server.toml` (and the per-world `saves/<world>/serverconfig/` copies) to disable the rain-extinguish path for normal campfires, because it is **non-functional under Simple Clouds**. The campfires are configured infinite (`campfireLitTime = 0`), so this makes normal campfires permanent and rain-immune — consistent with soul campfires, which already ignore rain (`infiniteSoulCampfireIgnoresRain = true`). `campfireRainUnlitTime = 160` is left in place but is now inert.
+
+**Why it's non-functional (interaction, not a mod bug)**: Unlit Campfire's `CampfireBlockEntityMixin` rain check calls vanilla `level.isRainingAt(pos.above())`, which reads the **global `isRaining` flag**. Simple Clouds runs its own cloud-weather mode on the (integrated) server — `CloudManager.shouldUseVanillaWeather()` is `false` — which freezes that vanilla flag, so `isRainingAt` always returns `false` and the campfire never sees rain. `simplecloudscompat` exists to bridge this, redirecting weather reads to `SCCompat.isRaining()` (SC's per-position cloud weather), but only for a **curated mod list** — Supplementaries (Wind Vane, Flammable) and Cyclic — **not** Unlit Campfire. So the campfire keeps reading the frozen vanilla flag. Same root cause as the documented Wind Vane × Simple Clouds interaction. With the mechanic dead either way, leaving `infiniteCampfireIgnoresRain = false` only pretended the feature worked; `true` makes the config honest.
+
+**Verified path (decompiled `unlitcampfire` + `simplecloudscompat`)**: the tick check is `shouldUnlitByRain = rainUnlitTime >= 0 && (!burnsInfinite() || INFINITE_CAMPFIRE_IGNORES_RAIN == false)`. With `campfireLitTime = 0` → `burnsInfinite()` true, and `infiniteCampfireIgnoresRain = true`, the second clause is `(false || false)` → `shouldUnlitByRain` false → the rain timer is never consulted. `SCCompat.isRaining()` branches on `CloudManager.shouldUseVanillaWeather()`; `simplecloudscompat`'s mixin set covers `cyclic/*` and `supplementaries/{WindVaneBlock,Flammable*}` only.
+
+**On update — check / revisit condition**: re-enable (`infiniteCampfireIgnoresRain = false`, restoring exposed-campfire rain-out) if **any** of these become true — (a) `simplecloudscompat` adds Unlit Campfire to its redirect set, (b) Simple Clouds is switched to vanilla-weather mode (`shouldUseVanillaWeather()` true), or (c) Simple Clouds is removed from the pack. In all three the vanilla `isRaining` flag works again and the campfire's rain path becomes live. This is a **per-world server config**: `defaultconfigs/` seeds new worlds; existing worlds carry their own `serverconfig/` copy (New World (4) updated in place; others regenerate from the template on next load).
+
+**Reversion**: set `infiniteCampfireIgnoresRain = false` in `defaultconfigs/unlitcampfire-server.toml` (and any per-world copies). Pre-change snapshot at `Novus/backups/unlitcampfire_disable_rain_20260628_113230/`.
+
+---
+
+## Novus custom Patchouli books — datapack approach REVERTED, books fixed (2026-06-28, Claude-session)
+
+**Supersedes the 2026-06-22 entry below — that "fix" was wrong.** Patchouli does **not** load books from datapacks. Maintainer-confirmed (VazkiiMods/Patchouli #355: *"Despite the book data going into `data`, it is not actually loaded from datapacks ... There is the `patchouli_books` folder in the instance root. Use that."*) and verified in the `Patchouli-1.20.1-85` jar: `BookRegistry` registers books only from **mod containers** (`XplatModContainer`) and the instance-root `patchouli_books/` folder via `BookFolderLoader`. `novus` is not a loaded mod and `kubejs/data` is a runtime datapack, so the 2026-06-22 move silently de-registered every book — they opened in **neither** singleplayer nor multiplayer (log: `Book novus:arborists_journal ... does not exist`).
+
+**Fix**: reverted all five books (the four above + the new Redstone Catalogue) to the canonical instance-root external layout, owned by the `patchouli` container → IDs back to `patchouli:<id>`:
+- content → `<mc>/patchouli_books/<id>/book.json` + `<id>/en_us/{categories,entries}/`; **no** `use_resource_pack`.
+- recipes stay in `kubejs/data/novus/recipes/crafting/<id>.json` (recipes DO load from datapacks); result NBT + the Arborist's `patchouli:shapeless_book_recipe` `book` field → `patchouli:<id>`.
+- `scripts/initial_inventory.zs` and the Companion's Library shelf cross-links → `patchouli:<id>`.
+- stale `kubejs/{data,assets}/novus/patchouli_books/` trees removed; `packwiz refresh` run.
+
+**Multiplayer**: `BookFolderLoader` is **common-side**, so the dedicated server registers books too **if it has the folder**. `build.sh` previously omitted `patchouli_books` from the server zip (marked "pure-client"); it is now in `SERVER_OVERRIDES`, so the server ships the books and guides open in MP. (PebbleHost server must be re-extracted to pick it up.)
+
+**Generators/kit**: `novus_patchouli_kit.py` rewritten to emit the external layout (`book_dirs` → `patchouli_books/<id>`, strips `use_resource_pack`, `remove_legacy_external` now purges the stale kubejs copies). Each generator's `BOOK_NAMESPACE` / kit `DEFAULT_NAMESPACE` = `patchouli`. Pre-revert backups: `Novus/backups/*.20260628-191926.bak`.
+
+**Verify in-game**: a full **restart** (not just `/reload` — external books register at startup via `BookFolderLoader`), then right-click each guide. Items crafted/given before this become inert (old `novus:` NBT) — re-craft, `/give`, or rejoin for the initial-inventory grant.
+
+---
+
+## Novus custom Patchouli books — dedicated-server open fix (2026-06-22, Claude-session) — ⚠ SUPERSEDED 2026-06-28 (the datapack approach below does NOT work; see entry above)
+
+**What**: The four custom guide books (Traveler's Companion, Create Compendium, Wetware Appendix, Arborist's Journal) — `patchouli:<id>` at the time, now `novus:<id>` — were authored as Patchouli **external books** in the instance-root `patchouli_books/<id>/` folder. External-book loading is **client-only** (`vazkii.patchouli.client.book.BookContentExternalLoader`), so the books registered on the client but never on a **dedicated server**. Right-clicking a guide in multiplayer ran `ItemModBook.use` server-side → `BookRegistry.get(id)` returned null → no open-GUI packet was sent → **nothing happened**. It worked in singleplayer only because the integrated server shares the client's registry.
+
+**Patch shape**: converted each book to the standard datapack-registration + resource-pack-content split (the same `use_resource_pack: true` pattern the Dynamic Trees manual uses), and moved the books into the pack's own **`novus:`** namespace:
+- `book.json` → `kubejs/data/novus/patchouli_books/<id>/book.json`, with `"use_resource_pack": true`.
+- `en_us/` content (categories + entries) → `kubejs/assets/novus/patchouli_books/<id>/en_us/`.
+- Book IDs are now `novus:<id>` (migrated from `patchouli:<id>` — beta, so the breaking change to already-crafted books / saved reading progress was accepted). Every reference was updated to match: the four craft recipes, the Traveler's Companion catalog cross-links to the other three books, and `scripts/initial_inventory.zs` (grants the Companion on spawn). The Patchouli-owned `patchouli:guide_book` item, `patchouli:book` NBT key, and `patchouli:shapeless_book_recipe` serializer are unchanged.
+- old instance-root `patchouli_books/` and `kubejs/{data,assets}/patchouli/patchouli_books/` trees removed; `packwiz refresh` run (index tracks 182 files: 4 `book.json` + 178 content, 0 stale refs).
+
+**Deploy**: clients self-update via packwiz; the **PebbleHost dedicated server must be re-extracted** so it picks up `kubejs/data/novus/patchouli_books/...` — that is what registers the books server-side. Verify in-game: right-click each guide on the server → book opens. (Books crafted before the migration become inert — re-craft or `/give`.)
+
+**Generators**: the four `build_*.py` generators (Novus project folder) emit this canonical `novus:` layout through the shared helper `novus_patchouli_kit.py` (book.json → `kubejs/data/<ns>/patchouli_books`, content → `kubejs/assets/<ns>/patchouli_books`, `use_resource_pack` injected, stale `<mc>/patchouli_books/` external copy purged). New books start from `build_new_book_template.py` (canonical, `novus:` by default). `NOVUS_MC_DIR` overrides the base dir for safe testing.
 
 ---
 
