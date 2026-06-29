@@ -40,14 +40,14 @@ snowGolemStepSounds = true
 [sleeping]
 playerSnoreChance = 0.0
 playerSnoreSoundVolume = 1.0
-playersHaveSleepingZs = true
+playersHaveSleepingZs = false
 villagerSnoreChance = 0.0
 villagerSnoreSoundVolume = 1.0
-villagersHaveSleepingZs = true
-foxesHaveSleepingZs = true
-batsHaveSleepingZs = true
-catsHaveSleepingZs = true
-otherMobsHaveSleepingZs = true
+villagersHaveSleepingZs = false
+foxesHaveSleepingZs = false
+batsHaveSleepingZs = false
+catsHaveSleepingZs = false
+otherMobsHaveSleepingZs = false
 displaySleepingZsOnlyWhenSnoring = false
 adjustNameTagWhenSleeping = true
 

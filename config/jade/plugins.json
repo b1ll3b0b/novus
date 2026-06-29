@@ -82,6 +82,9 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "unlitcampfire": {
+    "campfireinfo": true
+  },
   "infinitybuttons": {
     "hide_secret_buttons": true,
     "hide_lantern_buttons": true,

@@ -32,7 +32,7 @@ damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
 renderDistance:12
-simulationDistance:12
+simulationDistance:10
 entityDistanceScaling:1.0
 guiScale:2
 particles:1
@@ -227,7 +227,7 @@ key_key.freecam.toggle:key.keyboard.f4
 key_key.freecam.playerControl:key.keyboard.unknown
 key_key.freecam.tripodReset:key.keyboard.unknown
 key_key.freecam.configGui:key.keyboard.unknown
-soundCategory_master:1.0
+soundCategory_master:0.10158683136554811
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

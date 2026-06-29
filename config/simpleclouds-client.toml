@@ -64,7 +64,7 @@ showVivecraftNotice = false
 	transparency = false
 	#Specifies if a purely visual 2D atmospheric cloud layer should render.
 	#Default: true
-	atmosphericClouds = true
+	atmosphericClouds = false
 
 #Seed
 [seed]
