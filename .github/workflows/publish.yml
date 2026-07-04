@@ -13,6 +13,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  actions: write          # allow pruning a stale github-pages artifact left by a re-run
 
 # Only one publish at a time; a newer push supersedes an in-flight one.
 concurrency:
@@ -30,6 +31,7 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: stable
+          cache: false          # no go.sum in the repo; skip the module cache (silences its warning)
 
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
@@ -46,6 +48,22 @@ jobs:
         run: |
           chmod +x make-prism-instance.sh
           ./make-prism-instance.sh dist/pack
+
+      # Re-running a workflow run keeps the previous attempt's "github-pages"
+      # artifact, so deploy-pages then finds two and fails ("Multiple artifacts
+      # named github-pages ... count is 2"). Prune any pre-existing one first, so
+      # exactly one artifact exists no matter how the run was triggered.
+      - name: Prune stale github-pages artifact (guards re-runs)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" \
+            --jq '.artifacts[] | select(.name == "github-pages") | .id' \
+          | while read -r id; do
+              echo "Deleting stale github-pages artifact $id"
+              gh api -X DELETE "repos/$GITHUB_REPOSITORY/actions/artifacts/$id" || true
+            done
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

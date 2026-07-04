@@ -6,7 +6,7 @@ hash = "b3becfb1f05afe8c0f5b245eff515e40ca0fbd50d0a2444b2efe91edc512444b"
 
 [[files]]
 file = ".github/workflows/publish.yml"
-hash = "be82cbf2fc7ea2532d3dba951ef2e26f62aeded50739942c17bda2d694f994ed"
+hash = "e86c5e506d27b87560b943f56b4d4a16e59216ff51be942f11bc4069e93cd360"
 
 [[files]]
 file = ".github/workflows/release.yml"
