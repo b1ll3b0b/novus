@@ -118,11 +118,6 @@ whole group shares one city-strewn world.
   optimization stack — Embeddium, ImmediatelyFast, EntityCulling, FerriteCore,
   ModernFix, Saturn, and Canary — that keeps it serviceable on integrated
   graphics. **An Intel Iris Xe-class iGPU or better runs it cleanly.**
-- **Shaders are optional.** Oculus (an Iris fork) is included, so shaderpacks
-  work if you add one; none ship enabled.
-- **One harmless quirk:** Simple Clouds needs OpenGL 4.3. On older Intel iGPUs
-  that only expose GL 3.2 to 1.20.1 it quietly disables itself — no crash, just no
-  custom clouds.
 
 ---
 
