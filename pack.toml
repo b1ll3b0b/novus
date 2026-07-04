@@ -1,12 +1,12 @@
 name = "Novus"
 author = "bill3bob"
-version = "1.1.4"
+version = "1.1.5"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "de960ad4535da7a33c74f4c8f64a87b6432eb80444c1d2aba46a15d3373d98f6"
+hash = "0f133f7c7cbce29aae0f41abc379f0b7b882ce622e6a2511ed1225ab80bf821f"
 
 [versions]
 forge = "47.4.20"

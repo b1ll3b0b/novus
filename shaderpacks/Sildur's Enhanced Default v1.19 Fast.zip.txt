@@ -1,0 +1,8 @@
+#Sat Jul 04 13:46:56 EDT 2026
+SSAO=true
+Waving_Grass=false
+Waving_Lanterns=false
+Waving_Entities=false
+Waving_Leaves=false
+Waving_Tallgrass=false
+Waving_Vines=false

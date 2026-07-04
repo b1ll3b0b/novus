@@ -2,6 +2,10 @@
 
 **A Create-focused progression pack for Minecraft 1.20.1 (Forge).**
 
+[![Download novus.zip](https://img.shields.io/badge/Download-novus.zip-2ea44f?style=for-the-badge)](https://b1ll3b0b.github.io/novus/novus.zip) &nbsp; [![Releases](https://img.shields.io/badge/Releases-fixed%20versions-30363d?style=for-the-badge)](https://github.com/b1ll3b0b/novus/releases)
+
+**[⬇ Download `novus.zip`](https://b1ll3b0b.github.io/novus/novus.zip)** — the self-updating install. Import once into Prism/MultiMC; it stays current on every launch. Prefer a frozen version? See [Releases](https://github.com/b1ll3b0b/novus/releases). Full steps under [Install](#install).
+
 Novus builds one connected playthrough out of a handful of big mods rather than
 throwing everything at you at once. Create runs the machines and automation.
 Tinkers' Construct handles tools and materials. Farmer's Delight turns cooking
@@ -15,7 +19,7 @@ book to grind through, and no tech tree that races past Create. What ties it all
 together is a large set of compatibility mods working quietly in the background
 so these systems understand each other.
 
-`Minecraft 1.20.1` · `Forge 47.4.20` · `Java 17` · **<!-- BEGIN:MODCOUNT -->202<!-- END:MODCOUNT --> mods**
+`Minecraft 1.20.1` · `Forge 47.4.20` · `Java 17` · **<!-- BEGIN:MODCOUNT -->208<!-- END:MODCOUNT --> mods**
 
 ---
 
@@ -153,20 +157,20 @@ out on purpose — see [What you'll be doing](#what-youll-be-doing).
 Everything below belongs to its original author and is included under that
 author's own license. Three things worth knowing up front:
 
-- **Most mods are included as metadata, not files.** For the 183 mods hosted on
+- **Most mods are included as metadata, not files.** For the 188 mods hosted on
   Modrinth, Novus ships only a download link and a file hash. Installing the pack
   fetches each one from its official source, so the pack itself re-hosts nothing
   for those mods.
-- **The 19 CurseForge mods are bundled as actual jars.** Automated installers
+- **The 20 CurseForge mods are bundled as actual jars.** Automated installers
   can't fetch CurseForge by metadata, so those jars are included directly in the
   pack. Several of them are All Rights Reserved (Waystones, Balm, Quark Delight,
   and others). Credit goes to each author, linked in the table below.
 - **Resource packs are bundled as files too**, and some of their source packs are
   All Rights Reserved. See the resource-pack section for the per-pack details.
 
-The mod count is **202 jars** (183 from Modrinth + 19 from CurseForge) — that's
+The mod count is **208 jars** (188 from Modrinth + 20 from CurseForge) — that's
 what the table below lists and what the license tallies count. In-game the loader
-reports more (around 264), because a number of those jars bundle their own library
+reports more (around 270), because a number of those jars bundle their own library
 dependencies inside them (Jar-in-Jar); the nested libraries ride along under their
 parent mod and aren't listed separately here.
 
@@ -182,12 +186,12 @@ normal for a Forge pack, and it's all disclosed here.
 **License mix:**
 
 <!-- BEGIN:LICENSEMIX -->
-Across all 202 mods:
+Across all 208 mods:
 
 | License type | Count |
 |---|---|
-| Open source (MIT, Apache, LGPL/GPL, MPL, BSD, OSL, CC0/CC-BY, etc.) | 135 |
-| All rights reserved | 43 |
+| Open source (MIT, Apache, LGPL/GPL, MPL, BSD, OSL, CC0/CC-BY, etc.) | 140 |
+| All rights reserved | 44 |
 | Custom / source-available (Create, Supplementaries, Botania, PolyForm, etc.) | 17 |
 | Creative Commons non-commercial (Quark family, Jade, the compasses) | 7 |
 <!-- END:LICENSEMIX -->
@@ -197,7 +201,7 @@ Across all 202 mods:
 ## Mods
 
 <!-- BEGIN:MODS -->
-_202 mods. This table is generated from the jars and packwiz metadata by `tools/readme/build_readme_credits.py` — don't edit it by hand._
+_208 mods. This table is generated from the jars and packwiz metadata by `tools/readme/build_readme_credits.py` — don't edit it by hand._
 
 | Mod | Description | Author(s) | License | Source |
 |---|---|---|---|---|
@@ -220,12 +224,14 @@ _202 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Biomancy 2 | Biopunk and Flesh Magic inspired tech-magic mod that has a fleshy art theme. | Elenterius, RhinoW | MIT | [Modrinth](https://modrinth.com/mod/biomancy) |
 | Biomantic Delight | Farmer's Delight addon — dishes themed around Biomancy's flesh ingredients. | thesh, MCreator | All Rights Reserved | [Modrinth](https://modrinth.com/mod/bio-delight) |
 | Bookshelf | A library for building other mods. | Darkhax | LGPL-2.1-only | [Modrinth](https://modrinth.com/mod/bookshelf-lib) |
-| Botania | Botania is a mod that adds nature magic to Minecraft. | Vazkii, wiiv, williewillus, dylan4ever, Hubry, Alwinfy, artemisSystem, Falkory220 | Custom — Botania License | [Modrinth](https://modrinth.com/mod/botania) |
+| Botania | Botania is a mod that adds nature magic to Minecraft. | Vazkii, wiiv, williewillus, dylan4ever, Hubry, Alwinfy, artemisSystem, Falkory220, Wormbo | Custom — Botania License | [Modrinth](https://modrinth.com/mod/botania) |
 | Bountiful | Bountiful adds bounty boards to the world. | Ejektaflex | GPL-3.0 [^4] | [Modrinth](https://modrinth.com/mod/bountiful) |
 | Brewin' And Chewin' | Fermenting addon for Farmer's Delight. | Probleyes, Umpaz, MerchantPug | MIT | [Modrinth](https://modrinth.com/mod/brewin-and-chewin) |
+| Brick Furnace | A mod which adds Brick Furnaces. | Cech12 | MIT | [Modrinth](https://modrinth.com/mod/brick-furnace) |
 | Cadmus | A land claiming mod that allows users to claim land to protect your home from thieves, bandits and monsters, and… | Alex Nijjar, ThatGravyBoat | MIT | [Modrinth](https://modrinth.com/mod/cadmus) |
 | Canary | A performance mod designed to optimize Minecraft's general performance and unofficial fork of Lithium mod for Mi… | AbdElAziz | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/canary) |
 | Catalogue | A new and improved mod list with a modern design | MrCrayfish | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/catalogue) |
+| Ceramic Shears | A mod which adds Ceramic Shears. | Cech12 | MIT | [Modrinth](https://modrinth.com/mod/ceramic-shears) |
 | Ceramics | Mod adding additional early game and vanilla-like tools made of clay. | KnightMiner | MIT | [Modrinth](https://modrinth.com/mod/ceramics) |
 | Chalk | Leave the mark. | mortuusars | MIT | [Modrinth](https://modrinth.com/mod/chalk-mod) |
 | Chefs Delight | Add-on for Farmer's Delight Mod. Adds 2 new professions to villagers. Chef and Cook. | Redstone Games | MIT | [Modrinth](https://modrinth.com/mod/chefs-delight) |
@@ -255,7 +261,7 @@ _202 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Create: Diesel Generators | A mod that adds Diesel Generators, Crude Oil, Chemical Weapons, Lighters, Decorative Blocks and more... | George VI | MIT | [Modrinth](https://modrinth.com/mod/create-diesel-generators) |
 | Create: Escalated | Bringing you to higher places in your Create mod builds | rbasamoyai | MIT | [Modrinth](https://modrinth.com/mod/escalated) |
 | Create: Power Loader | Mechanical chunk loaders for Create. | Lysine | MIT | [Modrinth](https://modrinth.com/mod/create-power-loader) |
-| Create: Sound of Steam | Adds pipe organs to Create. | FinchyMcFinch, Deanosaur75 | MIT [^12] | [Modrinth](https://modrinth.com/mod/create-sound-of-steam) |
+| Create: Sound of Steam | Adds pipe organs to Create. | FinchyMcFinch, Deanosaur75 | MIT [^13] | [Modrinth](https://modrinth.com/mod/create-sound-of-steam) |
 | Create: Steam 'n' Rails | Customization and extension of Create rail systems and steam system | The Railways Team | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/create-steam-n-rails) |
 | Create: Vibrant Vaults | Adds more item vaults to Create. | ZLT | MIT | [Modrinth](https://modrinth.com/mod/create-vibrant-vaults) |
 | CreateArmory | Create Armory adds new weapons based on real life and ficitonal firearams | dcchill | All Rights Reserved | [Modrinth](https://modrinth.com/mod/create-armory) |
@@ -284,6 +290,7 @@ _202 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Farmer's Delight | A cozy farming and cooking expansion for Minecraft! | vectorwing | MIT | [Modrinth](https://modrinth.com/mod/farmers-delight) |
 | Farmer's Delight: Plus | Farmer's Delight addon, that adds a lot of new delicious meals in a vanilla style | Johnyele | MIT | [Modrinth](https://modrinth.com/mod/farmers-delight-plus) |
 | Farmer's Respite | An addon for the Farmer's Delight mod centered around brewing tea and coffee in the kettle | Umpaz, Probleyes | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/farmers-respite) |
+| FastFurnace | Furnacing things faster, performance-wise | Shadows_of_Fire | MIT | [Modrinth](https://modrinth.com/mod/fastfurnace) |
 | Ferrite Core | Reduces memory usage. | malte0811 | MIT | [Modrinth](https://modrinth.com/mod/ferrite-core) |
 | Forgified Fabric API | Core API module providing key hooks and intercompatibility features. | FabricMC, Sinytra | Apache-2.0 | [Modrinth](https://modrinth.com/mod/forgified-fabric-api) |
 | Framework | A library providing powerful utilities for developers | MrCrayfish | LGPL-2.1-only | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/framework) |
@@ -309,10 +316,10 @@ _202 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Just Enough Breeding | JEI/REI/EMI plugin that displays breeding information | Christofmeg | MIT | [Modrinth](https://modrinth.com/mod/justenoughbreeding) |
 | Just Enough Effects Descriptions | REI/JEI addon that shows effects and their descriptions | MehVahdJukaar | All Rights Reserved | [Modrinth](https://modrinth.com/mod/just-enough-effect-descriptions-jeed) |
 | Just Enough Professions (JEP) | Adds info about professions to JEI | Mrbysco, ShyNieke | MIT | [Modrinth](https://modrinth.com/mod/just-enough-professions-jep) |
-| Kambrik | A Light-weight Kotlin Library Mod! | enjarai | MPL-2.0 [^10] | [Modrinth](https://modrinth.com/mod/kambrik) |
+| Kambrik | A Light-weight Kotlin Library Mod! | enjarai | MPL-2.0 [^11] | [Modrinth](https://modrinth.com/mod/kambrik) |
 | Kotlin For Forge | Kotlin language runtime and adapter for Forge mods. | — | LGPL-2.1-only | [Modrinth](https://modrinth.com/mod/kotlin-for-forge) |
 | KubeJS | Customize your modpack or server with JavaScript! | LatvianModder | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/kubejs) |
-| KubeJS Addditions (Forge) | A mod that adds a bunch of additional features to KubeJS. | ILIKEPIEFOO2 | All Rights Reserved [^11] | [Modrinth](https://modrinth.com/mod/kubejs-additions) |
+| KubeJS Addditions (Forge) | A mod that adds a bunch of additional features to KubeJS. | ILIKEPIEFOO2 | All Rights Reserved [^12] | [Modrinth](https://modrinth.com/mod/kubejs-additions) |
 | KubeJS Create | KubeJS Create integration | LatvianModder | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/kubejs-create) |
 | KubeJSDelight | FD integration for KubeJS | QinomeD, Bob Varioa | LGPL-3.0-only | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/kubejs-delight) |
 | Leaves Be Gone | Quick leaf decay from cutting down trees. Built for great performance and mod compat! | Fuzs | MPL-2.0 | [Modrinth](https://modrinth.com/mod/leaves-be-gone) |
@@ -349,7 +356,7 @@ _202 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Placebo | Shared library for Shadows_of_Fire's mods. | Shadows_of_Fire | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/placebo) |
 | Player Animator | Library for playing custom keyframe player animations. | KosmX | MIT | [Modrinth](https://modrinth.com/mod/playeranimator) |
 | Plenty Plates | Many new pressure plates for all your redstone needs. Greatly customizable! | Fuzs | MPL-2.0 | [Modrinth](https://modrinth.com/mod/plenty-plates) |
-| PolyLib | Shared library for CreeperHost's mods. | CreeperHost | BSD-4-Clause [^13] | [Modrinth](https://modrinth.com/mod/polylib) |
+| PolyLib | Shared library for CreeperHost's mods. | CreeperHost | BSD-4-Clause [^14] | [Modrinth](https://modrinth.com/mod/polylib) |
 | Polymorph | No more recipe conflicts! Adds an option to choose the crafting result if more than one is available. | Illusive Soulworks | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/polymorph) |
 | PonderJS | Allows creating ponder scenes and tags with KubeJS. | kotakotik22, AlmostReliable | MIT | [Modrinth](https://modrinth.com/mod/ponder) |
 | Powah | Various ways to generate, store and transmit FE power. | owmii,Technici4n | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/powah) |
@@ -362,7 +369,7 @@ _202 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Rainbows | Adding magnificent rainbows to the world! | Verph | BSD-2-Clause | [Modrinth](https://modrinth.com/mod/rainboows) |
 | Repurposed Structures | Adds more variations of vanilla structures and features! | TelepathicGrunt | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/repurposed-structures-forge) |
 | Resourceful Lib | Team Resourceful Library | ThatGravyBoat, Epic_Oreo | MIT | [Modrinth](https://modrinth.com/mod/resourceful-lib) |
-| Resourcefulconfig | A library for creating config files for your mod across multiple platforms. | ThatGravyBoat, Epic_Oreo | MIT [^14] | [Modrinth](https://modrinth.com/mod/resourceful-config) |
+| Resourcefulconfig | A library for creating config files for your mod across multiple platforms. | ThatGravyBoat, Epic_Oreo | MIT [^15] | [Modrinth](https://modrinth.com/mod/resourceful-config) |
 | Rhino | A fork of Mozilla's Rhino library, modified for use in mods | latvian.dev, Mozilla | MPL-2.0 | [Modrinth](https://modrinth.com/mod/rhino) |
 | Saturn | A performance optimization mod designed to optimize Minecraft's memory usage. | AbdElAziz | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/saturn) |
 | Scarecrows' Territory | Scarecrows' Territory keeps spawners activated! | SuperMartijn642 | All Rights Reserved | [Modrinth](https://modrinth.com/mod/scarecrows-territory) |
@@ -386,20 +393,23 @@ _202 mods. This table is generated from the jars and packwiz metadata by `tools/
 | Supplementaries Squared | Additional blocks for Supplementaries | MehVahdJukaar, Plantkillable | Custom — Supplementaries Team License [^1] | [Modrinth](https://modrinth.com/mod/supplementaries-squared) |
 | Surveyor Map Framework | Unified API, networking, and save data for map mods. | Sisby folk. Contributions by Ampflower, falkreon, jaskarth, Garden System | LGPL-3.0-or-later | [Modrinth](https://modrinth.com/mod/surveyor) |
 | Surveystones | Adds surveyor landmarks for discovered waystones | Sisby folk. Contributions by lack | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/surveystones) |
+| Survival Fire Sticks | An early-game wooden alternative to flint and steel — craft two sticks to make fire. | LBM0915 | All Rights Reserved [^10] | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/survival-firestick-wooden-flint-and-steel) |
 | TCIntegrations | Tinkers' Construct Mod Integraions and Tweaks. | wendall911 | MIT | [Modrinth](https://modrinth.com/mod/tcintegrations) |
 | TerraBlender | A library mod for adding biomes in a simple and compatible manner with Minecraft's new biome/terrain system. | Adubbz | LGPL-3.0-only | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/terrablender) |
 | ThreatenGL | Threatens Minecraft to use a different version of OpenGL. | Richy Z. | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/threatengl) |
 | Tinkers' Construct | A little of this, a little of that, a lot of tinkering, and a lot of tools | Slime Knights | MIT | [Modrinth](https://modrinth.com/mod/tinkers-construct) |
 | Tinkers' Delight | Tinkers' Construct & Farmer's Delight compat. | NoCube | All Rights Reserved | [Modrinth](https://modrinth.com/mod/tinkers-construct-delight) |
-| Tinkers' Things | A fully playable example Thing Pack for Tinkers' Construct. Includes example tools, weapon, and material. | KnightMiner | MIT [^14] | [Modrinth](https://modrinth.com/mod/tinkers-things) |
+| Tinkers' Things | A fully playable example Thing Pack for Tinkers' Construct. Includes example tools, weapon, and material. | KnightMiner | MIT [^15] | [Modrinth](https://modrinth.com/mod/tinkers-things) |
 | Toast Control | Blocking annoying popups since 1.12 | Shadows_of_Fire | MIT | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/toast-control) |
 | Tom's Simple Storage Mod | Simple vanilla style storage mod. | tom5454 | MIT | [Modrinth](https://modrinth.com/mod/toms-storage) |
 | TooManyRecipeViewers | A compatibility layer for running JEI plugins with EMI written by Nolij | Nolij (@xdMatthewbx#1337) & the Craftoria team | OSL-3.0 | [Modrinth](https://modrinth.com/mod/tmrv) |
 | Trading Post | Rule the village! Trade with every villager at once! | Fuzs | MPL-2.0 | [Modrinth](https://modrinth.com/mod/trading-post) |
 | Trash Cans | Trash Cans adds Trash Cans which can be used to void items, liquids and energy! | SuperMartijn642 | All Rights Reserved | [Modrinth](https://modrinth.com/mod/trash-cans) |
 | Universal Sawmill | Simple, Elegant, Universal Sawmill | MehVahdJukaar | Custom — Supplementaries Team License [^1] | [Modrinth](https://modrinth.com/mod/universal-sawmill) |
+| Unlit Campfire | A mod where placed campfires are unlit. | Cech12 | MIT | [Modrinth](https://modrinth.com/mod/unlit-campfire) |
+| Useful Hats | A mod which adds some useful hats. | Cech12 | MIT | [Modrinth](https://modrinth.com/mod/useful-hats) |
 | Villagers Sell Animals | Makes villagers sell different farm animals. | NoCube | All Rights Reserved | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/villagers-sell-animals) |
-| VillagersPlus | New villagers, new trades and new beautiful and useful workstations. | Lion | GPL-3.0 [^15] | [Modrinth](https://modrinth.com/mod/villagersplus) |
+| VillagersPlus | New villagers, new trades and new beautiful and useful workstations. | Lion | GPL-3.0 [^16] | [Modrinth](https://modrinth.com/mod/villagersplus) |
 | Waystones | Teleport back to activated waystones. For Survival, Adventure or Servers. | BlayTheNinth | All Rights Reserved | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/waystones) |
 | YUNG's API | API Library for YUNG's minecraft mods. | YUNGNICKYOUNG | LGPL-3.0-only | [Modrinth](https://modrinth.com/mod/yungs-api) |
 | Zeta | A fully featured Library designed around loading highly configurable, agile developed. modular mods | Vazkii, quat, IThundxr, siuol, wiresegal, MehVahdJukaar | CC-BY-NC-SA-3.0 | [Modrinth](https://modrinth.com/mod/zeta) |
@@ -415,12 +425,13 @@ Notes on specific licenses:
 [^7]: The source LICENSE file is LGPL-3.0; the jar mislabels it MIT.
 [^8]: Custom source-available license; the jar stores the license as a bare URL.
 [^9]: The source LICENSE file is CC0-1.0; the jar metadata is a placeholder ('Insert License Here').
-[^10]: Author from the source repo; the jar lists the author as the placeholder 'Me!'.
-[^11]: The source LICENSE file states All Rights Reserved; the Modrinth listing mislabels it MIT.
-[^12]: The source LICENSE file is MIT; the jar metadata mislabels it All Rights Reserved.
-[^13]: From the source LICENSE; the jar metadata is a placeholder ('Insert License Here').
-[^14]: Author from the project page; the jar leaves the authors field blank.
-[^15]: The source LICENSE file is GPL-3.0; the jar metadata mislabels it CC0.
+[^10]: CurseForge listing states All Rights Reserved, by LBM0915; the jar's 'Academic Free License v3.0' and 'nanap, MCreator' fields are MCreator default boilerplate.
+[^11]: Author from the source repo; the jar lists the author as the placeholder 'Me!'.
+[^12]: The source LICENSE file states All Rights Reserved; the Modrinth listing mislabels it MIT.
+[^13]: The source LICENSE file is MIT; the jar metadata mislabels it All Rights Reserved.
+[^14]: From the source LICENSE; the jar metadata is a placeholder ('Insert License Here').
+[^15]: Author from the project page; the jar leaves the authors field blank.
+[^16]: The source LICENSE file is GPL-3.0; the jar metadata mislabels it CC0.
 
 A dash in the License column means no license could be confirmed from the jar, the project's listing, or its source repository. Treat those as All Rights Reserved unless and until the author states otherwise.
 <!-- END:MODS -->

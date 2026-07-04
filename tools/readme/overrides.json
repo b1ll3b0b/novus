@@ -1,6 +1,11 @@
 {
   "_comment": "Verified license/author/name corrections, keyed by modId. These BEAT both the jar's mods.toml and the Modrinth listing because each was checked against the project's actual LICENSE file (or, for authors, the source repo). 'note' becomes a footnote in the README. Re-verify before changing. Audited 2026-06-05.",
 
+  "survival_firesticks": {"name": "Survival Fire Sticks", "authors": "LBM0915", "license": "All Rights Reserved", "note": "CurseForge listing states All Rights Reserved, by LBM0915; the jar's 'Academic Free License v3.0' and 'nanap, MCreator' fields are MCreator default boilerplate.", "source": {"type": "curseforge", "slug": "survival-firestick-wooden-flint-and-steel"}},
+  "brickfurnace": {"license": "MIT", "source": {"type": "modrinth", "slug": "brick-furnace"}},
+  "ceramicshears": {"license": "MIT", "source": {"type": "modrinth", "slug": "ceramic-shears"}},
+  "usefulhats": {"license": "MIT", "source": {"type": "modrinth", "slug": "useful-hats"}},
+
   "iceberg": {"source": {"type": "modrinth", "slug": "iceberg"}},
   "prism": {"source": {"type": "modrinth", "slug": "prism-lib"}},
   "advancementplaques": {"source": {"type": "modrinth", "slug": "advancementplaques"}},
